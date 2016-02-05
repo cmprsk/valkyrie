@@ -4,7 +4,7 @@
 
 Título público do projeto: Ensaio Clínico de Ácido Valpróico com Quimioterapia e Radioterapia para Pacientes com Glioma Intrínseco Difuso de Ponte na Infância e Adolescência - VALQUIRIA
 
-Projeto aprovado pelo Cimitê de Ética em Pesquisa do Hospital Infantil Albert Sabin em 16/01/2016
+Projeto aprovado pelo Comitê de Ética em Pesquisa do Hospital Infantil Albert Sabin em 16/01/2016
 
 Número do parecer: 1.386.007
 
