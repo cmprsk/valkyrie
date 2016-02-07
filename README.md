@@ -23,3 +23,5 @@ Project approved by the Institutional Review Board of Hospital Infantil Albert S
 Approval number: 1.386.007
 
 Registered number in Plataforma Brasil (brazillian national institutional boards registry): CAAE 30166714.8.0000.5042
+
+![logo]:https://github.com/cmprsk/valkyrie/blob/master/opennsSCI.png
