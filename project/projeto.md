@@ -1,117 +1,86 @@
-**Centro Pediátrico do Câncer – Hospital Infantil Albert Sabin –
-CPC-HIAS**
+#PROJETO DE PESQUISA
 
-> PROJETO DE PESQUISA
+##TÍTULO:
 
-TÍTULO:
+##Ensaio Fase IIa (prova de conceito) de Ácido **Val**próico com **Qui**mioterapia e **R**adioterapia para Pacientes com Glioma **I**ntrínseco Difuso de Ponte na Infância e **A**dolescência - VALQUIRIA
 
-Ensaio Fase IIa (prova de conceito) de Ácido **Val**próico com
-**Qui**mioterapia e **R**adioterapia para Pacientes com Glioma
-**I**ntrínseco Difuso de Ponte na Infância e **A**dolescência -
-VALQUIRIA
+###SECRETARIA DE SAÚDE DO ESTADO DO CEARÁ
 
-SECRETARIA DE SAÚDE DO ESTADO DO CEARÁ
+###HOSPITAL INFANTIL ALBERT SABIN
 
-HOSPITAL INFANTIL ALBERT SABIN
+###CENTRO PEDIÁTRICO DO CÂNCER
 
-CENTRO PEDIÁTRICO DO CÂNCER
 
-ÍNDICE
+#ÍNDICE
 
-**Checklist i**
+- Checklist i
+- Índice    vi
+- Apresentação                                                              vii
+- Abreviações                                                               viii
+- Resumo                                                                    x
+- Summary                                                                   xi
+- Anteprojeto                                                               1
 
-**Índice vi**
+1. Introdução                                                               1
+2. Apresentação do problema e fundamentação teórica                         2
+3. Justificativa                                                            6
+4. Objetivos                                                                6
+  1. Objetivo principal                                                     6
+  2. Objetivos secundários                                                  6
+5. Metodologia                                                              7
+  1. Caracterização da pesquisa                                             7
+  2. Local e participantes                                                  7
+  3. Critérios de inclusão e exclusão                                       8
+  4. Procedimentos                                                          8
+  5. Intervenção                                                            10
+  6. Análise estatística dos resultados                                     15
+  7. Tamanho da amostra                                                     17
+  8. Coleta retrospectiva de dados para compor o grupo controle histórico   18
+6. Cronograma de execução do projeto                                        19
+7. Recursos disponíveis                                                     19
+8. Orçamento                                                                19
+9. Ressarcimento e desistência                                              21
+10. Referências bibliográficas                      21
 
-**Apresentação vii**
+Anexos                                                                  I 
 
-**Abreviações viii**
+Termo de consentimento livre e esclarecido                              II 
 
-**Resumo x**
+Termo de Consentimento – Publicação em periódico científico de 
+circulação nacional/internacional                            III 
 
-**Summary xi**
+Avaliação sócio-demográfica - Protocolo da OMS              IV 
 
-**Anteprojeto 1**
+Questionário para coleta de dados específicos sobre a doença
+oncológica                                                                  VI
 
-**1. Introdução 1**
+Questionário para coleta de dados sequenciais                               VII
 
-**2. Apresentação do problema e fundamentação teórica 2**
+Escores/escalas de performance status                                       VIII
 
-**3. Justificativa 6**
+Fichas de quimioterapia                                                     IX
 
-**4. Objetivos 6**
+Declaração de riscos e benefícios envolvidos                                XV
 
-**4.1 Objetivo principal 6**
+Autorização do Chefe de Serviço                                             XVI
 
-**4.2 Objetivos secundários 6**
+Termo de compromisso do pesquisador                                         XVII
 
-**5. Metodologia 7**
+Currículos dos Pesquisadores                                                XVIII
 
-**5.1 Caracterização da pesquisa 7**
+#APRESENTAÇÃO
 
-**5.2 Local e participantes 7**
+##GRANDE ÁREA DO CONHECIMENTO: Ciências da Saúde
 
-**5.3 Critérios de inclusão e exclusão 8**
+##ÁREA DO CONHECIMENTO: Medicina
 
-**5.4 Procedimentos 8**
+##SUB-ÁREA DO CONHECIMENTO: Pediatria
 
-**5.5 Intervenção 10**
+##ESPECIALIDADE DO CONHECIMENTO: Cancerologia pediátrica
 
-**5.6 Análise estatística dos resultados 15**
+#EQUIPE EXECUTORA E ATRIBUIÇÕES:
 
-**5.7 Tamanho da amostra 17**
-
-**5.8 Coleta retrospectiva de dados para compor o grupo controle
-histórico 18**
-
-**6. Cronograma de execução do projeto 19**
-
-**7. Recursos disponíveis 19**
-
-**8. Orçamento 19**
-
-**9. Ressarcimento e desistência 21**
-
-**10. Referências bibliográficas 21**
-
-**Anexos I**
-
-**Termo de consentimento livre e esclarecido II**
-
-**Termo de Consentimento – Publicação em periódico científico de
-circulação nacional/internacional III**
-
-**Avaliação sócio-demográfica - Protocolo da OMS IV**
-
-**Questionário para coleta de dados específicos sobre a doença
-oncológica VI**
-
-**Questionário para coleta de dados sequenciais VII**
-
-**Escores/escalas de performance status VIII**
-
-**Fichas de quimioterapia IX**
-
-**Declaração de riscos e benefícios envolvidos XV**
-
-**Autorização do Chefe de Serviço XVI**
-
-**Termo de compromisso do pesquisador XVII**
-
-**Currículos dos Pesquisadores XVIII**
-
-APRESENTAÇÃO
-
-**GRANDE ÁREA DO CONHECIMENTO: Ciências da Saúde**
-
-**ÁREA DO CONHECIMENTO: Medicina**
-
-**SUB-ÁREA DO CONHECIMENTO: Pediatria**
-
-**ESPECIALIDADE DO CONHECIMENTO: Cancerologia pediátrica**
-
-**EQUIPE EXECUTORA E ATRIBUIÇÕES:**
-
-Francisco Hélder Cavalcante Félix
+###Francisco Hélder Cavalcante Félix
 
 Médico Cancerologista Pediátrico do CPC-HIAS – Centro pediátrico do
 Câncer do Hospital Infantil Albert Sabin, Mestre em Farmacologia pela
@@ -120,7 +89,7 @@ Universidade Federal do Ceará
 Coordenador do estudo, desenho do estudo, médico assistente dos
 pacientes, análise estatística
 
-Juvenia Bezerra Fontenele
+###Juvenia Bezerra Fontenele
 
 Professora da Faculdade de Farmácia, Odontologia e Enfermagem da
 Universidade Federal do Ceará, Doutora em Farmacologia pela Universidade
@@ -128,7 +97,7 @@ Federal do Ceará
 
 Desenho do estudo, revisão bibliográfica, farmacologia do tratamento
 
-ABREVIAÇÕES
+#ABREVIAÇÕES
 
 AFT - modelo de tempo de falha acelerado
 
@@ -241,7 +210,7 @@ VP-16 - fosfato de etopósido
 
 VPA - ácido valpróico; valproato de sódio
 
-RESUMO
+#RESUMO
 
 O tratamento de pacientes pediátricos com gliomas intrínsecos difusos da
 ponte (DIPG) ainda associa-se com resultados insatisfatórios.
@@ -275,7 +244,7 @@ número mínimo necessário de pacientes para o grupo experimental (num
 desenho 1:2) será de 16 pacientes. Espera-se que sejam necessários 2
 anos para recrutar esta amostra.
 
-SUMMARY
+#SUMMARY
 
 The treatment of pediatric patients with diffuse intrinsic pontine
 gliomas (DIPG) is still associated with unsatisfactory results.
@@ -307,10 +276,9 @@ DIPG. Using the prior information available, the required minimum number
 of patients for the experimental group (1:2 design) is 16 patients. It
 is expected that 2 years will be required to recruit this sample.
 
-Anteprojeto para Pesquisa em Cancerologia Pediátrica envolvendo Seres
-Humanos
+#Anteprojeto para Pesquisa em Cancerologia Pediátrica envolvendo Seres Humanos
 
-**1.Introdução**
+##1.Introdução
 
 O tratamento de pacientes pediátricos com gliomas intrínsecos difusos da
 ponte (DIPG) ainda associa-se com resultados insatisfatórios. Apesar de
@@ -381,7 +349,7 @@ influência do valproato na sobrevida destes pacientes for confirmada,
 será a primeira vez em 40 anos que um tratamento farmacológico demonstra
 eficácia no tratamento de pacientes com DIPG.
 
-**2. Apresentação do problema e fundamentação teórica**
+##2. Apresentação do problema e fundamentação teórica
 
 A sobrevida livre de progressão (SLP) e global de pacientes com DIPG
 tratados com estratégias padrão e mesmo drogas investigacionais tem sido
@@ -515,7 +483,7 @@ diagnosticados no HIAS entre 2000 e 2013. Em vermelho: pacientes
 tratados com esquemas de quimioterapia do COG. Em azul: pacientes
 tratados com protocolo adaptado do HIT.
 
-**3.Justificativa**
+##3.Justificativa
 
 O resultado dos protocolos HIT-GBM-C e HIT-GBM-D, do Gesellschaft für
 Pädiatrische Onkologie und Hämatologie (Sociedade de Oncologia e
@@ -541,15 +509,15 @@ aberto, não controlado, utilizando a combinação entre a
 radioquimioterapia adaptada a partir do protocolo HIT-GBM-D e ácido
 valpróico oral.
 
-**4.Objetivos**
+##4.Objetivos
 
-**4.1.Objetivo principal: **
+###4.1.Objetivo principal: 
 
 Avaliar a sobreviva global em 12 e 24 meses de pacientes com diagnóstico
 de glioma pontino intrínseco difuso tratados com uma combinação de
 radioquimioterapia e ácido valpróico.
 
-**4.2.Objetivos secundários:**
+###4.2.Objetivos secundários:
 
 Comparar a SG em 12 e 24 meses com os valores relatados pelo GPOH no
 ensaio HIT-GBM-C para tumores pontinos.
@@ -573,16 +541,16 @@ Avaliar a qualidade de vida ao final do tratamento da doença.
 Avaliar a toxicidade do tratamento, de acordo com os critérios comuns de
 toxicidade \[Saad, 2002\].
 
-**5.Metodologia**
+##5.Metodologia
 
-**5.1.Caracterização da pesquisa:**
+###5.1.Caracterização da pesquisa:
 
 Será realizado um estudo experimental, prospectivo, não randomizado,
 aberto, fase II piloto, para avaliar inicialmente a resposta de
 pacientes pediátricos portadores de gliomas pontinos intrínsecos difusos
 ao tratamento com radioquimioterapia associada a ácido valpróico oral.
 
-**5.2 Local e participantes:**
+###5.2 Local e participantes:
 
 A pesquisa será desenvolvida no Hospital Infantil Albert Sabin e em seu
 anexo Centro Pediátrico do Câncer, especialmente no setor de atendimento
@@ -612,9 +580,9 @@ aos pacientes se dará preferencialmente no CPC (ambulatório, enfermaria,
 UTIP), exceto se o paciente estiver internado em outra unidade do HIAS e
 não puder ser transferido de leito.
 
-**5.3.Critérios de inclusão e exclusão: **
+###5.3.Critérios de inclusão e exclusão: 
 
-*Critérios de inclusão.*
+####Critérios de inclusão.
 
 A. Pacientes entre 0 e 18 anos que receberam diagnóstico de DIPG
 comprovado por imagem.
@@ -624,7 +592,7 @@ sangramento intraparenquimatoso e subaracnóideo.
 
 C. Ausência de tratamento anterior por quimioterapia ou radioterapia.
 
-*Critérios de exclusão.*
+####Critérios de exclusão.
 
 A. História de trauma craniano recente.
 
@@ -636,7 +604,7 @@ D. Uso anterior recente de ácido valpróico.
 
 E. Uso de outras drogas anticonvulsivantes.
 
-**5.4.Procedimentos**
+###5.4.Procedimentos
 
 Os participantes serão informados sobre o protocolo de estudo e
 esclarecidos sobre o objetivo do trabalho. Todos os responsáveis legais
@@ -734,9 +702,10 @@ compreendem:
     com o necessário para o protocolo de quimioterapia ou a
     critério médico.
 
-**5.5.Intervenção: **
+###5.5.Intervenção: 
 
-**Droga oral:** ácido valpróico (valproato de sódio, ácido
+####Droga oral:
+Ácido valpróico (valproato de sódio, ácido
 2-propilpentanóico, ATC N03AG01, CAS 99-66-1, fármaco com efeito
 GABAérgico indireto usado como antiepiléptico (com registro na ANVISA
 para uso em adultos e crianças). Apresentação: xarope contendo 250mg em
@@ -749,13 +718,14 @@ quimioluminescência (CLIA), uma, duas e três semanas após o início do
 tratamento com VPA e a dose será modificada, entre 10 e 20 mg/kg/dia, a
 fim de atingir uma concentração sérica entre 75 e 100 mcg/ml.
 
-**Protocolo de quimioterapia:** adaptado do HIT-GBM-D do GPOH. O texto a
+####Protocolo de quimioterapia:
+Adaptado do HIT-GBM-D do GPOH. O texto a
 seguir baseia-se parcialmente na livre tradução, com adaptações, para o
 português do texto do protocolo HIT-GBM-D \[Wolff, 2010c\].
 
-**Radioquimioterapia simultânea.**
+####Radioquimioterapia simultânea.
 
-Resumo geral: a radioterapia fracionada convencional deve iniciar em 14
+*Resumo geral*: a radioterapia fracionada convencional deve iniciar em 14
 dias até no máximo quatro semanas após o diagnóstico radiológico,.
 Simultaneamente à radioterapia convencional dois ciclos de quimioterapia
 são administrados.
@@ -939,7 +909,8 @@ ciclo seguinte por uma semana.
 Glicosúria com Poliúria: reduzir a prednisona em 20% a cada dois dias
 até resolução.
 
-**Radioterapia:** seguindo as especificações do HIT-GBM-D.
+####Radioterapia: 
+seguindo as especificações do HIT-GBM-D.
 
 Todos os pacientes que tenham completado o seu terceiro ano de vida
 (após o terceiro aniversário) devem receber irradiação local. É
@@ -1000,7 +971,7 @@ de suporte máximos, a radioterapia deve ser interrompida. No entanto,
 devem ser envidados todos os esforços para continuar a irradiação, uma
 vez que é, sem dúvida, o principal componente do tratamento antitumoral.
 
-**5.6. Análise estatística dos resultados: **
+###5.6. Análise estatística dos resultados: 
 
 O desenho do estudo é unicêntrico, aberto, não randomizado, não
 controlado e prospectivo. O principal objetivo do estudo é a avaliação
@@ -1012,7 +983,7 @@ clínicos fase II em oncologia, desenvolvido pela Clinical Trials
 Research Unit da University of Leeds \[Brown, 2010\] foi utilizado para
 escolher o desenho experimental mais adequado.
 
-**Definições:**
+####Definições:
 
 Evento:, a recaída, a progressão do tumor, óbito do paciente e segunda
 neoplasia são resumidos no presente protocolo, como "Evento".
@@ -1071,7 +1042,7 @@ radioterapia? Qual a sobrevida livre de progressão 6 meses após o início
 do tratamento? Qual a qualidade de vida dos pacientes após o fim do
 tratamento? Qual a incidência de toxicidade grave neste tratamento?
 
-**Avaliação:**
+####Avaliação:
 
 Objetivo principal, pergunta de partida: a resposta à pergunta de
 partida será avaliada ao final do período de observação. O recrutamento
@@ -1084,7 +1055,7 @@ avaliadas 2 meses após o fim da radioterapia (resposta radiológica), 6
 meses após o início do tratamento (SLP) e ao fim do tratamento
 (qualidade de vida e toxicidade).
 
-**Modificações do projeto:**
+####Modificações do projeto:
 
 O desenho deste estudo pode ser alterado, se necessário, no caso de
 novas informações importantes. Modificações do protocolo serão feitas
@@ -1111,7 +1082,7 @@ Kaplan-Meier pelo método de Kalbfleisch e Prentice. As comparações serão
 feitas por regressão pelo modelo de riscos proporcionais de Cox, usando
 a abordagem de Andersen e Gill.
 
-**5.7. Tamanho da amostra: **
+###5.7. Tamanho da amostra: 
 
 O tamanho da amostra não depende da pergunta de partida, a qual não é
 comparativa. No entanto, a fim de responder às questões secundárias, foi
@@ -1127,8 +1098,7 @@ outros esquemas que não o HIT (número de pacientes 31, adequado para o
 desenho experimental). O pacote powerSurvEpi da linguagem R foi usado
 para calcular o tamanho da amostra (R Development Core Team, 2012).
 
-**5.8. Coleta retrospectiva de dados para compor o grupo controle
-histórico: **
+###5.8. Coleta retrospectiva de dados para compor o grupo controle histórico: 
 
 Os dados coletados para dois outros projetos anteriores, "PERFIL
 EPIDEMIOLÓGICO DOS PACIENTES PEDIÁTRICOS COM TUMOR CEREBRAL TRATADOS NO
@@ -1161,7 +1131,7 @@ do grupo experimental.*" Sua aplicação ocorre naqeulas situações nas
 quais um grupo controle convencional não pode ser utilizado ou não é
 eticamente recomendado, como no caso deste ensaio.
 
-**6. Cronograma de execução do projeto**
+##6. Cronograma de execução do projeto
 
   ------------------------------------------------------------------------- ---------- ---------- ---------- ------------- --------- --------- --------- --------- --------- --------- ---------
                                                                             **2014**   **2016**   **2017**   **2018-19**
@@ -1177,14 +1147,14 @@ eticamente recomendado, como no caso deste ensaio.
   Reuniões com o grupo de pesquisa para discussão e avaliação das ações                                      
   ------------------------------------------------------------------------- ---------- ---------- ---------- ------------- --------- --------- --------- --------- --------- --------- ---------
 
-**7.Recursos disponíveis**
+##7.Recursos disponíveis
 
 Este estudo está sendo proposto pelo em colaboração com o Grupo de
 Pesquisa em Farmacologia Vascular e Endotelial da Universidade Federal
 do Ceará. O grupo de pesquisa tem outros projetos em andamento na área,
 sem financiamento específico.
 
-**8.Orçamento**
+##8.Orçamento
 
 As previsões de custos orçadas abaixo são preliminares. O pesquisador
 principal, coordenador do projeto, é funcionário da Secretaria de Saúde
@@ -1210,14 +1180,14 @@ remuneração específica pelo projeto.
   **Total**                                                                                                                                                 -                R\$ 15617,00
   --------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------- --------------
 
-> **9.Ressarcimento e desistência**
+##9.Ressarcimento e desistência
 
 Não será feito nenhum pagamento para participar da pesquisa. A
 participação será de livre e espontânea vontade, não sendo previsto
 ressarcimento de custos. Qualquer um pode desistir em qualquer momento
 de participar da pesquisa sem nenhuma penalidade.
 
-> **10.Referências Bibliográficas**
+##10.Referências Bibliográficas
 
 1\. Jenkin RD, Boesel C, Ertel I, et al. Brain-stem tumors in childhood:
 a prospective randomized trial of irradiation with and without adjuvant
