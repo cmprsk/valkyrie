@@ -725,7 +725,7 @@ português do texto do protocolo HIT-GBM-D \[Wolff, 2010c\].
 
 ####Radioquimioterapia simultânea.
 
-*Resumo geral*: a radioterapia fracionada convencional deve iniciar em 14
+**Resumo geral**: a radioterapia fracionada convencional deve iniciar em 14
 dias até no máximo quatro semanas após o diagnóstico radiológico,.
 Simultaneamente à radioterapia convencional dois ciclos de quimioterapia
 são administrados.
@@ -735,7 +735,7 @@ mg/m<sup>2</sup> , máximo 2 mg, uma vez por semana) deve ser administrada. O
 número total de seis doses de vincristina não deve ser ultrapassado até
 terminar radioterapia.
 
-*Ciclo 1* : PEV (dia 1-5)
+**Ciclo 1** : PEV (dia 1-5)
 
 Cisplatina (CDDP), perfusão durante 1 hora, 20 mg/m<sup>2</sup>/dia, nos dias
 D1-5.
@@ -745,12 +745,12 @@ D1-3.
 
 Vincristina (VCR), injeção IV, 1,5 mg/m<sup>2</sup> (máximo de 2 mg), dia D5.
 
-*Intervalo*:
+**Intervalo**:
 
 Vincristina semanal durante a irradiação até o 2 º ciclo: injecção IV de
 1,5 mg/m<sup>2</sup> (max. 2 mg), nos dias D12, 19, 26, (33).
 
-*Ciclo 2*: PEIV (Inicia sete dias antes de terminar a radioterapia )
+**Ciclo 2**: PEIV (Inicia sete dias antes de terminar a radioterapia )
 
 Ifosfamida (IFO), perfusão durante 1 hora, 1,5 g/m<sup>2</sup>/dia, dias D1-5.
 
@@ -776,23 +776,17 @@ de pneumonia por *Pneumocystis* *carinii*.
 os critérios especificados (tabela 1).
 
   ----------------------------------- ------------------------------------------------------------
-  **Critérios**                       **Recomendação**
-
-  leucócitos &gt; 2 000/μl e          Radioquimioterapia simultânea
-                                      
-  trombócitos &gt; 100 000/μl         
-
-  leucócitos 1 500/μl - 2 000/μl ou   100% da dose de radioterapia, 66% da dose de quimioterapia
-                                      
-  trombócitos 50 000 - 100 000/μl     
-
-  leucócitos 1 000/μl - 1 500/μl      100% da dose de quimioterapia
-                                      
-  trombócitos 30 000 - 50 000/μl      radioterapia: começar uma semana mais tarde
-
-  leucócitos &lt; 1000/μl ou          Adiar a radioterapia e a quimioterapia por uma semana
-                                      
-  trombócitos &lt; 30 000/μl          
+  **Critérios**|                       **Recomendação**
+--------------|--------------
+  leucócitos &gt; 2 X 10<sup>3</sup>/μl e  trombócitos &gt; 10<sup>5</sup>/μl   |        radioquimioterapia simultânea
+ |        
+leucócitos 1.5 X 10<sup>3</sup>/μl - 2 X 10<sup>3</sup>/μl ou trombócitos 5 X 10<sup>4</sup> - 10<sup>5</sup>/μl     | 100% da dose de radioterapia, 66% da dose de quimioterapia
+ |
+leucócitos 10<sup>3</sup>/μl - 1.5 X 10<sup>3</sup>/μl     | 100% da dose de quimioterapia
+  |  
+trombócitos 3 X 10<sup>4</sup> - 5 X 10<sup>4</sup>/μl    |  radioterapia: começar uma semana mais tarde
+leucócitos &lt; 10<sup>3</sup>/μl ou   trombócitos &lt; 3 X 10<sup>4</sup>/μl           |   adiar a radioterapia e a quimioterapia por uma semana
+  | 
   ----------------------------------- ------------------------------------------------------------
 
 Tabela 1: critérios para iniciar a radioquimioterapia.
@@ -820,32 +814,28 @@ em caso de sintomas graves.
 **Antes do 2 º ciclo (PEIV):** somente iniciar se preencher os critérios
 (tabela 2).
 
-  ------------------------------------------------------------------- -------------------------------------------------------------------------------------------
-  **Critérios**                                                       **Recomendação**
-
-  leucócitos &gt; 2 000/μl e                                          100 % da dose de quimioterapia
-                                                                      
-  trombócitos &gt; 100 000/μl                                         
-
-  leucócitos 1 500/μl - 2 000/μl ou                                   Dose de etoposido 50%, de ifosfamida 50%, de cisplatina 100%
-                                                                      
-  trombócitos 50 000 - 100 000/μl                                     
-
-  Perda de &gt; 25 dB a 6000 Hz após o primeiro ciclo de cisplatina   Substituir a cisplatina por carboplatina 200 mg/m<sup>2</sup>/d nos dias 1-3 (infusão mais de 1 h)
-
-  Perda de &gt; 40 dB a 4000 Hz                                       Nenhuma platina.
-
-  Clearance de creatinina - 80-50 ml/min/1,73 m<sup>2</sup>                    Substituir a cisplatina por carboplatina 200 mg/m<sup>2</sup>/d nos dias 1-3 (infusão mais de 1 h)
-
-  Clearance de creatinina &lt; 50 ml/min/1,73 m<sup>2</sup>                    Nenhuma platina. Reduzir a ifosfamida em 30%
-
-  Hematúria grave.                                                    Sem ifosfamida.
-  ------------------------------------------------------------------- -------------------------------------------------------------------------------------------
+  ------------------------------------------------------------------- --------------------------------------------------------------
+**Critérios**                 |                                      **Recomendação**
+  -----|------
+leucócitos &gt; 2 X 10<sup>3</sup>/μl e  trombócitos &gt; 10<sup>5</sup>/μl              |      100 % da dose de quimioterapia
+    |     
+leucócitos 1 500/μl - 2 X 10<sup>3</sup>/μl ou trombócitos 5 X 10<sup>4</sup> - 10<sup>5</sup>/μl  |  Dose de etoposido 50%, de ifosfamida 50%, de cisplatina 100%
+   |   
+Perda de &gt; 25 dB a 6000 Hz após o primeiro ciclo de cisplatina nos dias 1-3 (infusão mais de 1 h) | Substituir a cisplatina por carboplatina 200 mg/m<sup>2</sup>/d 
+   |   
+Perda de &gt; 40 dB a 4000 Hz                     |                  Nenhuma platina.
+   |   
+Clearance de creatinina - 80-50 ml/min/1,73 m<sup>2</sup> mg/m<sup>2</sup>/d nos dias 1-3 (infusão mais de 1 h)                |   Substituir a cisplatina por carboplatina 200 
+  |   
+Clearance de creatinina &lt; 50 ml/min/1,73 m<sup>2</sup>            |        Nenhuma platina. Reduzir a ifosfamida em 30%
+   |   
+  Hematúria grave.                            |                        Sem ifosfamida.
+  ------------------------------------------------------------------- --------------------------------------------------------------
 
 Tabela 2: Diretrizes para o segundo ciclo de quimioterapia durante a
 irradiação
 
-*Etoposido - conduta na hipersensibilidade*:
+#####Etoposido - conduta na hipersensibilidade:
 
 Na situação de emergência aguda, pare a infusão.
 
@@ -859,7 +849,7 @@ Antes da dose seguinte, administrar anti-histamínicos e infundir com a
 metade da velocidade Se as reações alérgicas continuarem, suspender o
 etoposido.
 
-**Consolidação**.
+####Consolidação.
 
 Antes de iniciar a consolidação, um exame de RNM deve ser feito e o FMH
 (questionário de estado de Saúde) deve ser preenchido, a fim de obter
@@ -879,7 +869,7 @@ Vincristina: 1,5 mg/m<sup>2</sup> IV (dose máxima, 2mg) dias 1, 8 e 15 do ciclo
 Prednisona: 40 mg/m<sup>2</sup> VO dias 1 a 11, 10 mg/m<sup>2</sup> VO, dias 12 a 14 e 5
 mg/m<sup>2</sup> VO, dias 15 a 17 do ciclo.
 
-**Cuidados de suporte :**
+####Cuidados de suporte :
 
 Antiemético : ondansetrona ou um agente antiemético comparável.
 
@@ -893,7 +883,7 @@ deve estar com bom estado geral, sem febre, leucócitos &gt; 2000/ul,
 trombócitos &gt; 80000/ul, sem glicosúria, TGO (AST) e TGP (ALT) abaixo
 do dobro do limite superior .
 
-**Modificações de dosagem para novos ciclos:**
+####Modificações de dosagem para novos ciclos:
 
 Polineuropatia Grau III ou IV: parar a vincristina até melhora,
 reiniciar com 50% da dose. Para a continuação do tratamento, adaptar
@@ -1133,20 +1123,18 @@ eticamente recomendado, como no caso deste ensaio.
 
 ##6. Cronograma de execução do projeto
 
-  ------------------------------------------------------------------------- ---------- ---------- ---------- ------------- --------- --------- --------- --------- --------- --------- ---------
-                                                                            **2014**   **2016**   **2017**   **2018-19**
-                                                                            **Mar**    **Nov**    **Mar**    **Mai**
-  Submissão do Estudo à apreciação do Comitê de Ética e Pesquisa do HIAS.                                    
-  Planejamento                                                                                               
-  Impressão e editoração dos instrumentos de coleta de dados                                                 
-  Recrutamento dos pacientes                                                                                 
-  Follow-up                                                                                                  
-  Coleta de dados                                                                                            
-  Análise de dados                                                                                           
-  Apresentação dos resultados (tese, monografia, publicação, etc)                                            
-  Reuniões com o grupo de pesquisa para discussão e avaliação das ações                                      
-  ------------------------------------------------------------------------- ---------- ---------- ---------- ------------- --------- --------- --------- --------- --------- --------- ---------
-
+                                                                           | **2014** |  **2016** |  **2017** |  **2018-19**
+  ------------------------------------------------------------------------ | :------ | :----------: | :---------- | :-------------:
+  Submissão do Estudo à apreciação do Comitê de Ética e Pesquisa do HIAS.  | X         |        |          |    
+  Planejamento   |     X    X     |        |           |    
+  Impressão e editoração dos instrumentos de coleta de dados  |     X    X     |        |           |    
+  Recrutamento dos pacientes      |          |  X    X      |   X        |    
+  Follow-up     |          |        |   X    X        |    X    X       
+  Coleta de dados   |          |  X    X      |   X    X        |    X    X
+  Análise de dados    |          |        |  X    X         |     X    X     
+  Apresentação dos resultados (tese, monografia, publicação, etc) |          |        |           |    X    X
+  Reuniões com o grupo de pesquisa para discussão e avaliação das ações     |      X    |    X    |      X     |    X
+  ------------------------------------------------------------------------- ---------- ---------- ---------- ------------- --------- 
 ##7.Recursos disponíveis
 
 Este estudo está sendo proposto pelo em colaboração com o Grupo de
@@ -1165,21 +1153,21 @@ funcionária da Universidade Federal do Ceará, cargo de Professora
 Adjunta I, no Departamento de Farmácia, e também não receberá
 remuneração específica pelo projeto.
 
-  --------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------- --------------
-  **Material**                                                                                                                                              **Quantidade**   **Valor**
-  **Instrumentos PedsQL**                                                                                                                                   01               R\$ 3170,00
-  **Ultrabook 13’ Intel i5 dual core 1,3GHz, 256 Gb flash, 4Gb RAM**                                                                                        01               R\$ 5399,00
-  **Tablets 7,9’ com res 2048x1536, chipset A7, com 4G, 64 Gb **                                                                                            02               R\$ 2998,00
-  **Impressora jato de tinta portátil**                                                                                                                     01               R\$ 1700,00
-  **Máquina fotográfica 15 megapixels**                                                                                                                     01               R\$ 1000,00
-  **Material de consumo de papelaria**                                                                                                                                       
-  **Papel 75g/m<sup>2</sup> tamanho A4 500 folhas**                                                                                                                  10               R\$ 250,00
-  **Papel fotográfico para impressora jato de tinta tamanho A4 50 folhas**                                                                                  02               R\$ 100,00
-  **Cartuchos de tinta para impressora jato de tinta (colorido + preto)**                                                                                   04               R\$ 600,00
-  **Prancheta, crachás de identificação, canetas, lápis, pastas para papel, organizadores, arquivos para os docume ntos, outros materiais de escritório**   -                R\$ 400,00
-  **Total**                                                                                                                                                 -                R\$ 15617,00
-  --------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------- --------------
-
+  -------------------------------------------------------------------------------------------------------------------------------------
+  **Material**    | **Quantidade**  | **Valor**
+--- | :---: | ---:
+  **Instrumentos PedsQL**       | 01        |       R$ 3170,00
+  **Ultrabook 13’ Intel i5 dual core 1,3GHz, 256 Gb flash, 4Gb RAM**        |  01 |              R$ 5399,00
+  **Tablets 7,9’ com res 2048x1536, chipset A7, com 4G, 64 Gb**            |  02 |              R$ 2998,00
+  **Impressora jato de tinta portátil**                                     |  01 |              R$ 1700,00
+  **Máquina fotográfica 15 megapixels**                                     |  01 |              R$ 1000,00
+  **Material de consumo de papelaria**                                     |   |                          
+  **Papel 75g/m<sup>2</sup> tamanho A4 500 folhas**                        |   10  |             R$ 250,00
+  **Papel fotográfico para impressora jato de tinta tamanho A4 50 folhas**  |  02 |              R$ 100,00
+  **Cartuchos de tinta para impressora jato de tinta (colorido + preto)**   |   04  |             R$ 600,00
+  **Prancheta, crachás de identificação, canetas, lápis, pastas para papel, organizadores, arquivos para os documentos, outros materiais de escritório**  | -    |            R$ 400,00
+  **Total**               |   -   |             R$ 15617,00
+  -------------------------------------------------------------------------------------------------------------------------------------
 ##9.Ressarcimento e desistência
 
 Não será feito nenhum pagamento para participar da pesquisa. A
@@ -1337,17 +1325,15 @@ assessment of outcome in trials of diffuse low-grade gliomas. Lancet
 Oncol. 2011;12(6):583-93.
 
 34\. Brannath W., Bauer P, Posch M. On the efficiency of adaptive designs
-for flexible interim decisions in clinical trials. J Statistical
-Planning Inference 2006; 136: 1956-61
+for flexible interim decisions in clinical trials. J Statistical Planning Inference 2006; 136: 1956-61
 
-Ensaio Fase IIa (prova de conceito) de Ácido **Val**próico com
-**Qui**mioterapia e **R**adioterapia para Pacientes com Glioma
-**I**ntrínseco Difuso de Ponte na Infância e **A**dolescência -
-VALQUIRIA
+-------------------------
+Ensaio Fase IIa (prova de conceito) de Ácido **Val**próico com **Qui**mioterapia e **R**adioterapia para Pacientes com Glioma **I**ntrínseco Difuso de Ponte na Infância e **A**dolescência - VALQUIRIA
+-------------------------
 
-ANEXOS
+#ANEXOS
 
-**TERMO DE CONSENTIMENTO LIVRE E ESCLARECIDO**
+##TERMO DE CONSENTIMENTO LIVRE E ESCLARECIDO
 
 **APRESENTAÇÃO**: Este termo de consentimento pode apresentar palavras
 ou frases não conhecidas para o Senhor(a). Caso isso aconteça, por
@@ -1360,8 +1346,7 @@ Sabin.
 
 **TÍTULO DA PESQUISA**: Ensaio Fase IIa (prova de conceito) de Ácido
 **Val**próico com **Qui**mioterapia e **R**adioterapia para Pacientes
-com Glioma **I**ntrínseco Difuso de Ponte na Infância e **A**dolescência
-- VALQUIRIA
+com Glioma **I**ntrínseco Difuso de Ponte na Infância e **A**dolescência - VALQUIRIA
 
 **OBJETIVOS**: Essa pesquisa se propõe a verificar os efeitos do remédio
 ÁCIDO VALPRÓICO em crianças com tumores cerebrais difusos, intrínsecos à
@@ -1417,19 +1402,17 @@ efetuado; foi explicada a finalidade do tratamento, bem como a
 possibilidade de interromper sua utilização em pesquisas subseqüentes;
 conseqüentemente autoriza e dá consentimento:
 
-Local e data: Fortaleza, \_\_\_\_ de \_\_\_\_\_\_\_\_\_\_\_\_\_\_ de
-20\_\_\_
+Local e data: Fortaleza, \_\_\_\_ de \_\_\_\_\_\_\_\_\_\_\_\_\_\_ de 20\_\_\_
 
 Nome do paciente:
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-Assinatura do responsável legal Polegar Direito
+Assinatura do responsável legal  - Polegar Direito
 
-**Termo de Consentimento – Publicação em periódico científico de
-circulação nacional/internacional**\
-\
+##Termo de Consentimento – Publicação em periódico científico de circulação nacional/internacional
+
 Para consentimento do paciente ou de seus representantes legais para a
 publicação de informações e/ou material fotográfico ou de outra natureza
 sobre eles em periódicos científicos de circulação
@@ -1439,21 +1422,24 @@ Nome da pessoa descrita no artigo ou mostrado na publicação:
 
 Matérias da(s) fotografia(s) ou artigo:
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 Periódico para onde foi submetido:
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 Editora:
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
 Número do manuscrito:
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
 Título do artigo:
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
 Autor correspondente:
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 Eu,
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
@@ -1500,82 +1486,81 @@ contexto.
 
 \(7) Posso cancelar o meu consentimento a qualquer momento antes da
 publicação, mas uma vez que a informação tenha sido publicada ("ido à
-imprensa") não será possível a revogar o consentimento.\
+imprensa") não será possível a revogar o consentimento.
+
 Assinado
-:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
 Data: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-**AVALIAÇÃO SÓCIO-DEMOGRÁFICA – PROTOCOLO DA OMS**
+##AVALIAÇÃO SÓCIO-DEMOGRÁFICA – PROTOCOLO DA OMS
 
-**Identificação e Características do Paciente**
+###Identificação e Características do Paciente
+```
+(1) Código do Entrevistador           [    ] [    ] [    ]
 
-(1)Código do Entrevistador \[ \] \[ \] \[ \]
+(2) Data de aplicação do instrumento  [    ] [    ] / [    ] [    ] / [    ] [    ] [    ] [    ] 
 
-(2)Data de aplicação do instrumento \[ \] \[ \] / \[ \] \[ \] / \[ \] \[
-\] \[ \] \[ \]
+                                      dia             mês             ano
+```
+###Registros individuais do Paciente
+```
+(3) Nome do paciente [________________________________________________________________________________]
 
-dia mês ano
+Inclua todos os nomes.
 
-**Registros individuais do Paciente**
+(4) Telefone de contato [______________________________]
 
-(3)Nome do paciente
-\[\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\]
+Coloque códigos de área (opcional).
 
-*Inclua todos os nomes.*
+(5) Endereço de contato [____________________________________________________________________________]
 
-\[\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\]
+Para questionários subseqüentes (opcional)
 
-\(4) Telefone de contato
-\[\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\]
+(6) Data de nascimento  [    ] [    ] / [    ] [    ] / [    ] [    ] [    ] [    ]
 
-*Coloque códigos de área (opcional).*
+                        dia             mês             ano
 
-\(5) Endereço de contato
-\[\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\]
+Se a data de nascimento é desconhecida, coloque a idade: [    ] [    ] [    ]
 
-*Para questionários subseqüentes (opcional)*
+(7) Sexo: Masculino (1) [    ] Feminino (2) [    ]
 
-\[\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\]
+Selecione uma opção 
+```
 
-\[\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\]
+###Informação do caso de sangramento agudo (AVCH)
+```
+(8) Data do AVCH  [    ] [    ] / [    ] [    ] / [    ] [    ] [    ] [    ]
 
-\(6) Data de nascimento \[ \] \[ \] / \[ \] \[ \] / \[ \] \[ \] \[ \] \[
-\]
+                  dia             mês             ano
 
-dia mês ano
+Coloque a data do início dos sintomas, ou primeiro sinal.
 
-*Se a data de nascimento é desconhecida, coloque a idade* \[ \] \[ \] \[
-\]
+(9) AVCH definido   Sim (1) [    ]
 
-\(7) Sexo Masculino (1) \[ \]
+                    Não (2) [    ]
 
-*\[selecione uma opção\]* Feminino (2) \[ \]
+                    Dados insuficientes (3) [    ]
 
-**Informação do caso de sangramento agudo (AVCH)**
+Selecione uma opção
 
-\(8) Data do AVCH \[ \] \[ \] / \[ \] \[ \] / \[ \] \[ \] \[ \] \[ \]
+(10) Se apresenta AVCH definido, o paciente já teve AVCH anteriormente?
 
-*Coloque a data do início dos sintomas, ou primeiro sinal.* dia mês ano
+Sim, registros examinados     (1) [    ]
 
-\(9) AVCH definido Sim (1) \[ \]
+Sim, registros não examinados (2) [    ]
 
-*\[selecione uma opção\]* Não (2) \[ \]
+Não, registros examinados     (3) [    ]
 
-Dados insuficientes (3) \[ \]
+Não, registros não examinados (4) [    ]
 
-\(10) Se apresenta AVCH definido, o paciente já teve Sim, registros
-examinados (1) \[ \]
+Dados insuficientes           (5) [    ]
 
-AVCH anteriormente? Sim, registros não examinados (2) \[ \]
+Selecione uma opção
 
-*\[selecione uma opção\]* Não, registros examinados (3) \[ \]
-
-*Assegure um diagnóstico de AVCH correto ao invés de casos* Não,
-registros não examinados (4) \[ \]
-
-*prévios de AVCH.* Dados insuficientes (5) \[ \]
-
-**Condição Socioeconômica**
+Assegure um diagnóstico de AVCH correto ao invés de casos prévios de AVCH.
+```
+###Condição Socioeconômica
 
 \(11) Qual o nível de educação que a pessoa completou? Nenhuma educação
 escolar regular (1) \[ \]
@@ -1620,7 +1605,7 @@ Desempregado (8) \[ \]
 
 > Desconhecido (9) \[ \]
 
-**Admissão hospitalar**
+###Admissão hospitalar
 
 \(13) Data de admissão no hospital \[ \] \[ \] / \[ \] \[ \] / \[ \] \[
 \] \[ \] \[ \]
@@ -1651,15 +1636,15 @@ geral* (0) \[ \]
 
 *Incapacidade leve* (2) \[ \] *Incapacidade moderada, mas *
 
-> *é capaz de andar sem ajuda* (3) \[ \]
->
-> *Incapacidade moderada, mas *
->
-> *é incapaz de andar sem ajuda* (4) \[ \]
->
-> *Incapacidade grave* (5) \[ \]
->
-> *Desconhecida* (9) \[ \]
+ *é capaz de andar sem ajuda* (3) \[ \]
+
+ *Incapacidade moderada, mas *
+
+ *é incapaz de andar sem ajuda* (4) \[ \]
+
+ *Incapacidade grave* (5) \[ \]
+
+ *Desconhecida* (9) \[ \]
 
 \(16) Escala de coma de Glasgow pediátrica: \[ \] (nota final, soma das 3
 notas abaixo)
@@ -1681,8 +1666,7 @@ Se a criança estiver entubada/sedada, usar a escala de Ramsay: \[ \]
 comandos; \[4\] dormindo, responde ao estímulo glabelar/sonoro; \[5\]
 dormindo, responde pouco ao estímulo glabelar/sonoro; \[6\] sem resposta
 
-**Questionário para coleta de dados específicos sobre a doença
-oncológica:**
+##Questionário para coleta de dados específicos sobre a doença oncológica:
 
 1.Exames de imagem ao diagnóstico (normal ou conclusão sucinta):
 
