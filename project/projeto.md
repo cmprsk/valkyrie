@@ -1536,9 +1536,9 @@ Selecione uma opção
 
 Coloque a data do início dos sintomas, ou primeiro sinal.
 
-(9) AVCH definido   Sim (1) [    ]
+(9) AVCH definido   Sim             (1) [    ]
 
-                    Não (2) [    ]
+                    Não             (2) [    ]
 
                     Dados insuficientes (3) [    ]
 
@@ -1546,129 +1546,133 @@ Selecione uma opção
 
 (10) Se apresenta AVCH definido, o paciente já teve AVCH anteriormente?
 
-Sim, registros examinados     (1) [    ]
+Sim, registros examinados           (1) [    ]
 
-Sim, registros não examinados (2) [    ]
+Sim, registros não examinados       (2) [    ]
 
-Não, registros examinados     (3) [    ]
+Não, registros examinados           (3) [    ]
 
-Não, registros não examinados (4) [    ]
+Não, registros não examinados       (4) [    ]
 
-Dados insuficientes           (5) [    ]
+Dados insuficientes                 (5) [    ]
 
 Selecione uma opção
 
 Assegure um diagnóstico de AVCH correto ao invés de casos prévios de AVCH.
 ```
 ###Condição Socioeconômica
+```
+(11) Qual o nível de educação que a pessoa completou? 
 
-\(11) Qual o nível de educação que a pessoa completou? Nenhuma educação
-escolar regular (1) \[ \]
+Nenhuma educação escolar regular    (1) [    ]
 
-*\[selecione uma opção\]* Menos do que a escola primária (2) \[ \]
+Menos do que a escola primária      (2) [    ]
 
-*Se uma pessoa freqüentou poucos meses do primeiro ano da escola* Escola
-primária completa (3) \[ \]
+Escola primária completa            (3) [    ]
 
-*secundária, mas não completou o ano, registre “escola primária* Escola
-secundária completa (4) \[ \]
+Escola secundária completa          (4) [    ]
 
-*completa”.* Escola superior completa (5) \[ \]
+Escola superior completa            (5) [    ]
 
-*Se uma pessoa somente freqüentou poucos anos da escola primária*
-Universidade completa (6) \[ \]
+Universidade completa               (6) [    ]
 
-*ou nunca foi à escola, registre “nenhuma educação escolar regular”.*
-Pós-graduação (7) \[ \]
+Pós-graduação                       (7) [    ]
 
-Desconhecido (9) \[ \]
+Desconhecido                        (9) [    ]
 
-\(12) Qual das seguintes opções melhor descreve o Funcionário do governo
-(1) \[ \]
+Selecione uma opção
 
-principal cargo de trabalho do chefe de Funcionário não-governamental
-(2) \[ \]
+Se uma pessoa freqüentou poucos meses do primeiro ano da escola secundária, mas não completou o ano, registre “escola primária completa”. Se uma pessoa somente freqüentou poucos anos da escola primária ou nunca foi à escola, registre “nenhuma educação escolar regular”.
 
-família nos últimos 12 meses? Empregado autônomo (3) \[ \]
+(12) Qual das seguintes opções melhor descreve o principal cargo de trabalho do chefe de família nos últimos 12 meses? 
 
-*\[selecione uma opção\]* Não remunerado (4) \[ \]
+Funcionário do governo              (1) [    ]
 
-*O propósito desta questão é ajudar a responder outras questões,*
-Estudante (5) \[ \]
+Funcionário não-governamental       (2) [    ]
 
-*como por exemplo, se o tratamento, a sobrevivência e a reabilitação* Do
-lar (6) \[ \]
+Empregado autônomo                  (3) [    ]
 
-*podem diferenciar de acordo com a ocupação.* Aposentado (7) \[ \]
+Não remunerado                      (4) [    ]
 
-Desempregado (8) \[ \]
+Estudante                           (5) [    ]
 
-> Desconhecido (9) \[ \]
+Do lar                              (6) [    ]
 
+Aposentado                          (7) [    ]
+
+Desempregado                        (8) [    ]
+
+Desconhecido                        (9) [    ]
+
+Selecione uma opção
+
+O propósito desta questão é ajudar a responder outras questões, como por exemplo, se o tratamento, a sobrevivência e a reabilitação podem diferenciar de acordo com a ocupação. 
+```
 ###Admissão hospitalar
+```
+(13) Data de admissão no hospital [    ] [    ] / [    ] [    ] / [    ] [    ] [    ] [    ]
 
-\(13) Data de admissão no hospital \[ \] \[ \] / \[ \] \[ \] / \[ \] \[
-\] \[ \] \[ \]
+                                  dia             mês             ano
 
-*Se o AVCH ocorreu no hospital, coloque o dia da hospitalização* dia mês
-ano
+Se o AVCH ocorreu no hospital, coloque o dia da hospitalização por doença primária.
 
-*por doença primária.*
+(14) Qual era a condição de moradia do paciente antes do AVCH? 
 
-\(14) Qual era a condição de moradia do paciente antes do Independente em
-casa (1) \[ \]
+Independente em casa                (1) [    ]
 
-AVCH? *\[selecione uma opção\]* Dependente em casa (2) \[ \]
+Dependente em casa                  (2) [    ]
 
-*Se o AVC ocorreu no hospital, coloque a condição de moradia prévia à*
-Centro comunitário (3) \[ \]
+Centro comunitário                  (3) [    ]
 
-*hospitalização.*
+Selecione uma opção
 
-\(15) Escala de Rankin modificada antes do AVCH. *Nenhum sintoma em
-geral* (0) \[ \]
+Se o AVC ocorreu no hospital, coloque a condição de moradia prévia à hospitalização.
 
-*\[selecione uma opção\] Nenhuma incapacidade *
+(15) Escala de Rankin modificada antes do AVCH. 
 
-*significativa apesar dos*
+Nenhum sintoma em geral             (0) [    ]
 
-*sintomas* (1) \[ \]
+Nenhuma incapacidade significativa
+apesar dos sintomas                 (1) [    ]
 
-*Incapacidade leve* (2) \[ \] *Incapacidade moderada, mas *
+Incapacidade leve                   (2) [    ] 
 
- *é capaz de andar sem ajuda* (3) \[ \]
+Incapacidade moderada, mas é capaz 
+de andar sem ajuda                  (3) [    ]
 
- *Incapacidade moderada, mas *
+Incapacidade moderada, mas é incapaz 
+de andar sem ajuda                  (4) [    ]
 
- *é incapaz de andar sem ajuda* (4) \[ \]
+Incapacidade grave                  (5) [    ]
 
- *Incapacidade grave* (5) \[ \]
+Desconhecida                        (9) [    ]
 
- *Desconhecida* (9) \[ \]
+(16) Escala de coma de Glasgow pediátrica: 
 
-\(16) Escala de coma de Glasgow pediátrica: \[ \] (nota final, soma das 3
-notas abaixo)
+[    ] (nota final, soma das 3 notas abaixo)
 
-Melhor resposta ocular: \[1\] Nenhuma; \[2\] Com a dor; \[3\] Com a
-fala; \[4\] Espontâneo
+Melhor resposta ocular: [1] Nenhuma; [2] Com a dor; [3] Com a
+fala; [4] Espontâneo
 
-Melhor resposta verbal: \[1\] Sem resposta; \[2\] Agitado; \[3\]
-Gemente; \[4\] Choro consolável; \[5\] Normal
+Melhor resposta verbal: [1] Sem resposta; [2] Agitado; [3]
+Gemente; [4] Choro consolável; [5] Normal
 
-Melhor resposta motora: \[1\] Nenhuma; \[2\] Descerebração; \[3\]
-Decorticação; \[4\] Afasta-se da dor; \[5\] Localiza a dor; \[6\]
+Melhor resposta motora: [1] Nenhuma; [2] Descerebração; [3]
+Decorticação; [4] Afasta-se da dor; [5] Localiza a dor; [6]
 Espontâneo
 
-Se a criança estiver entubada/sedada, usar a escala de Ramsay: \[ \]
-(nota)
+Se a criança estiver entubada/sedada, usar a escala de Ramsay: 
 
-\[1\] Agitado; \[2\] tranqüilo, cooperativo; \[3\] sonolento, atende
-comandos; \[4\] dormindo, responde ao estímulo glabelar/sonoro; \[5\]
-dormindo, responde pouco ao estímulo glabelar/sonoro; \[6\] sem resposta
+[    ] (nota)
+
+[1] Agitado; [2] tranqüilo, cooperativo; [3] sonolento, atende
+comandos; [4] dormindo, responde ao estímulo glabelar/sonoro; [5]
+dormindo, responde pouco ao estímulo glabelar/sonoro; [6] sem resposta
+```
 
 ##Questionário para coleta de dados específicos sobre a doença oncológica:
 
-1.Exames de imagem ao diagnóstico (normal ou conclusão sucinta):
+###1. Exames de imagem ao diagnóstico (normal ou conclusão sucinta):
 
 TC de cranio:
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_Data:
@@ -1682,7 +1686,7 @@ Outros exames de imagem:
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-2\. Diagnóstico:
+###2. Diagnóstico:
 
 Topografia:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_Data:
 \_\_\_\_\_\_\_\_\_
@@ -1694,7 +1698,7 @@ Dimensões pela imagem:
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 Data: \_\_\_\_\_\_\_\_\_
 
-3.Tratamento (droga, duração, dose, paraefeitos):
+###3. Tratamento (droga, duração, dose, paraefeitos):
 
 Corticoterapia :
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
@@ -1711,7 +1715,7 @@ Outros:
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-4.Desfechos: estado ao final do tratamento:
+###4. Desfechos: estado ao final do tratamento:
 
 Tratamento:
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
@@ -1758,43 +1762,46 @@ Doença Progressiva \[DP\] (&gt;125% tumor inicial, reaparecimento):
 Melhor resposta obtida (anotar quando):
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-**Questionário para coleta de dados sequenciais – 1 folha para cada data
-de coleta**
+##Questionário para coleta de dados sequenciais – 1 folha para cada data de coleta
 
 Data da coleta de dados: \_\_\_/\_\_\_/\_\_\_\_\_\_
 
-  ------ --- --- ---- ---- ---- ----- ------ ----- ------
-  Data   P   E   PC   Hb   Ht   Leu   Gran   Lin   Plaq
-                                                   
-                                                   
-                                                   
-                                                   
-                                                   
-                                                   
-                                                   
-  ------ --- --- ---- ---- ---- ----- ------ ----- ------
+  Data |  P |  E  | PC  | Hb  | Ht |   Leu  | Gran  | Lin |  Plaq
+  :------ | --- | --- |---- | ---- | ---- | ----- | ------ | ----- | ------
+  [ |   |    |   |   |  |     |   |  |  
+  [ |   |    |   |   |  |     |   |  |  
+  [ |   |    |   |   |  |     |   |  |  
+  [ |   |    |   |   |  |     |   |  |  
+  [ |   |    |   |   |  |     |   |  |  
+  [ |   |    |   |   |  |     |   |  |  
+  [ |   |    |   |   |  |     |   |  |  
+  [ |   |    |   |   |  |     |   |  |  
+  [ |   |    |   |   |  |     |   |  |  
 
-  ------ --- ---- ----- ----- ---- --- ----- ---- -----
-  Data   U   Cr   AST   ALT   Na   K   Gli   PT   Alb
-                                                  
-                                                  
-                                                  
-                                                  
-                                                  
-                                                  
-                                                  
-  ------ --- ---- ----- ----- ---- --- ----- ---- -----
+  Data |  U |  Cr |  AST  | ALT |  Na |  K  | Gli |  PT |  Alb
+  :------ | --- | --- |---- | ---- | ---- | ----- | ------ | ----- | ------
+  [ |   |    |   |   |  |     |   |  |  
+  [ |   |    |   |   |  |     |   |  |  
+  [ |   |    |   |   |  |     |   |  |  
+  [ |   |    |   |   |  |     |   |  |  
+  [ |   |    |   |   |  |     |   |  |  
+  [ |   |    |   |   |  |     |   |  |  
+  [ |   |    |   |   |  |     |   |  |  
+  [ |   |    |   |   |  |     |   |  |  
+  [ |   |    |   |   |  |     |   |  |  
 
-  ------ ----- ----- ----- ---- -- -- -- -- --
-  Data   INR   PAS   PAD   FC               
-                                            
-                                            
-                                            
-                                            
-                                            
-                                            
-                                            
-  ------ ----- ----- ----- ---- -- -- -- -- --
+  Data |  INR |  PAS  | PAD |  FC               
+  :------ | --- | --- |---- | ---- 
+  [ |   |    |   |   
+  [ |   |    |   |   
+  [ |   |    |   |   
+  [ |   |    |   |   
+  [ |   |    |   |   
+  [ |   |    |   |   
+  [ |   |    |   |   
+  [ |   |    |   |   
+  [ |   |    |   |   
+  [ |   |    |   |   
 
 Outros exames:
 
@@ -1804,15 +1811,14 @@ Outros exames de imagem:
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![](media/image5.png){width="6.680555555555555in"
-height="6.116969597550306in"}
+![](https://github.com/cmprsk/valkyrie/blob/master/project/files/Anteprojeto_VALQUIRIA_HIAS.pages/Data/image-26.png)
 
 Critérios comuns de toxicidade do Instituto Nacional de Câncer dos
 Estados Unidos. Saad, Everardo D., et al. "Critérios comuns de
 toxicidade do Instituto Nacional de Câncer dos Estados Unidos." *Rev
 Bras Cancerol* 48.10 (2002): 63-96.
 
-**GLIOBLASTOMA, GLIOMA DE ALTO GRAU, DIPG – adaptado do HIT-GBM-D**
+##GLIOBLASTOMA, GLIOMA DE ALTO GRAU, DIPG – adaptado do HIT-GBM-D
 
 **Racional:** no estudo fase II do GPOH, a manutenção simplificada com
 prednisona, vincristina e lomustina foi tão eficaz quanto a manutenção
