@@ -1,86 +1,3 @@
-**CHECKLIST**
-
-**DOCUMENTOS PARA ANÁLISE DE PROJETO DE PESQUISA**
-
-**Reg. CEP: \_\_\_\_\_\_\_\_\_\_/HIAS Data da Reunião:
-\_\_\_\_\_/\_\_\_\_\_/\_\_\_\_\_\_**
-
-**Nível da Pesquisa:
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_Instituição:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
-
-**Reg. CONEP \_\_\_\_\_\_\_\_\_\_\_**
-
-**Se aprovado por outro CEP nº Reg: \_\_\_\_\_\_\_ Instituição:
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
-
-  --------- --------- -------------------------------------------------------------------------------------------------------------- -- -- -- -- --
-  **SIM**   **NÃO**   **ESPECIFICAÇÃO**                                                                                                          
-  X                   **FOLHA DE ROSTO – FR**                                                                                        
-  **X**               **PROJETO DE PESQUISA EM PORTUGUÊS**                                                                           
-  **X**               **Antecedentes e justificativa, registro no país de origem, em caso de drogas e dispositivos para a saúde.**               
-  X                   **Descrição de material e métodos, casuística, resultados esperados e bibliografia.**                                      
-  X                   **Análise crítica de risco e benefícios**                                                                                  
-  **X**               **Responsabilidade do pesquisador, da instituição, do patrocinador.**                                                      
-  **X**               **Critérios para suspender ou encerrar**                                                                                   
-  X                   **Local de realização das várias etapas**                                                                                  
-  **X**               **Infra estrutura necessária e concordância da instituição (Folha de Rosto)**                                  
-  X                   **CRONOGRAMA DE EXECUÇÃO**                                                                                     
-  **X**               **FOLHA DE AUTORIZAÇÃO**                                                                                       
-  **X**               **TERMO COMPROMSSO DO PESQUISADOR**                                                                            
-            X         **TERMO FIEL DEPOSITÁRIO**                                                                                     
-  X                   **ORÇAMENTO FINANCEIRO DETALHADO**                                                                             
-            X         **Propriedade das informações **                                                                                           
-  X                   **Características da população (FR campo 10), justificativa de uso de grupos vulneráveis**                                 
-  **X**               **Número de sujeitos no local e global (multicêtricos – FR campo 9) **                                                     
-  X                   **Descrição de métodos que afetem os sujeitos da pesquisa**                                                                
-  **X**               **Fontes de material, coleta específica.**                                                                                 
-  X                   **Planos de recrutamento, critérios de inclusão e exclusão**                                                               
-  **X**               **TERMO DE CONSENTIMENTO LIVRE E ESCLARECIDO**                                                                 
-  X                   **Como e quem irá obtê-lo**                                                                                                
-  **X**               **Descrição de riscos com avaliação de gravidade**                                                                         
-  X                   **Medidas de proteção de riscos e à confidencialidade**                                                                    
-  **X**               **Previsão de ressarcimento de gastos**                                                                                    
-  X                   **Linguagem acessível**                                                                                                    
-  **X**               **Justificativa, objetivos e procedimentos**                                                                               
-  X                   **Desconfortos e riscos**                                                                                                  
-  X                   **Benefícios esperados**                                                                                                   
-  X                   **Métodos alternativos existentes**                                                                                        
-  X                   **Forma de assistência e responsável (nome e telefone do pesquisador e do CEP)**                                           
-  **X**               **Esclarecimentos antes e durante a pesquisa sobre a metodologia**                                                         
-            X         **Possibilidade de inclusão em grupo controle ou placebo**                                                                 
-  **X**               **Liberdade de recuar ou retirar o consentimento sem penalização**                                                         
-  **X**               **Garantia de sigilo e privacidade**                                                                                       
-  **X**               **Formas de ressarcimento**                                                                                                
-  **X**               **Formas de indenização**                                                                                                  
-  **X**               **CURRÍCULO DO PESQUISADOR PRINCIPAL E ORIENTADOR**
-            X         **PESQUISAS CONDUZIDAS DO EXTERIOR OU COM COOPERAÇÃO ESTRANGEIRA**
-            X         **Compromisso e vantagens para os sujeitos da pesquisa**                                                       
-            X         **Compromisso e vantagens para o País**                                                                        
-            X         **Identificação do pesquisador e instituição nacionais co-responsáveis (Folha de Rosto)**                      
-            X         Documento de aprovação por Comitê de Ética no país de origem ou justificativa                                  
-            X         **Resposta à necessidade de treinamento de pessoal no Brasil **                                                
-            X         Lista dos centros participantes no exterior e no Brasil                                                        
-  **X**               **PESQUISA COM NOVOS FÁMACOS, VACINAS E TESTES DIAGNÓSTICOS**
-  X                   **Fase atual e demonstração de cumprimento de fases anteriores**                                               
-  **X**               **Substância farmacológica – registro no país de origem e situação das pesquisas**                             
-            X         Informação pré-clínica – brochura do pesquisador (BPPFC\*\*)                                                   
-  **X**               **Informação clínica de fases anteriores**                                                                     
-            X         **Justificativa para uso de placebo ou wash out**                                                              
-  **X**               **Acesso ao medicamento, se comprovada sua superioridade.**                                                    
-  X                   **Declaração do pesquisador de que concorda e seguirá (Folha de Rosto)**                                       
-            X         **Justificativa de inclusão de sujeitos sadios**                                                               
-  X                   **Formas de recrutamento**                                                                                     
-  --------- --------- -------------------------------------------------------------------------------------------------------------- -- -- -- -- --
-
-Enviar o protocolo a CONEP para apreciação, acrescentar:
-
-**SIM NÃO**
-
-  -- -- ------------------------------------------------------------------
-        **Carta de encaminhamento do CEP institucional**
-        **Documento de aprovação pelo CEP, com parecer consubstanciado**
-  -- -- ------------------------------------------------------------------
-
 **Centro Pediátrico do Câncer – Hospital Infantil Albert Sabin –
 CPC-HIAS**
 
@@ -287,7 +204,7 @@ NCIC - National Cancer Institute of Canada
 
 OMS - Organização Mundial de Saúde
 
-PedsQL^TM^ - *Pediatric Quality of Life* (Qualidade de Vida em
+PedsQL<sup>TM</sup> - *Pediatric Quality of Life* (Qualidade de Vida em
 Pediatria)
 
 RANO - *Response Assessment in Neuro-oncology* (avaliação de resposta em
@@ -563,14 +480,7 @@ Entre setembro de 2002 e novembro de 2013, 57 pacientes foram
 diagnosticados com DIPG em nosso centro hospitalar. A mediana de
 sobreviva global (10 meses, IC95% 7,3-13,8) e livre de progressão (7
 meses, IC95% 6,2-9,5) de todo o grupo estão dentro dos valores
-encontrados na
-
-Figura 1: curvas de sobrevida global de pacientes com DIPG
-diagnosticados no HIAS entre 2000 e 2013. Em vermelho: pacientes
-tratados com esquemas de quimioterapia do COG. Em azul: pacientes
-tratados com protocolo adaptado do HIT.
-
-literatura científica. Destes pacientes, 42 fizeram radioterapia (SG =
+encontrados na literatura científica. Destes pacientes, 42 fizeram radioterapia (SG =
 12 m e SLP = 9 m), enquanto 53 receberam quimioterapia (SG = 10 m e SLP
 = 7 m). Do total, 40 pacientes receberam ácido valpróico profilático
 desde o diagnóstico (SG = 12 m e SLP = 9 m). Uma comparação univariada
@@ -598,6 +508,13 @@ SG. Uma vez que quase todos os pacientes que receberam o protocolo
 adaptado do HIT também receberam VPA, torna-se impossível separar os
 efeitos dos dois componentes do tratamento na sobrevida.
 
+![fig1](https://github.com/cmprsk/valkyrie/blob/master/project/files/Anteprojeto_VALQUIRIA_HIAS.pages/Data/pasted-image-small-31.png)
+
+Figura 1: curvas de sobrevida global de pacientes com DIPG
+diagnosticados no HIAS entre 2000 e 2013. Em vermelho: pacientes
+tratados com esquemas de quimioterapia do COG. Em azul: pacientes
+tratados com protocolo adaptado do HIT.
+
 **3.Justificativa**
 
 O resultado dos protocolos HIT-GBM-C e HIT-GBM-D, do Gesellschaft für
@@ -609,7 +526,7 @@ de SG de 13,6 meses (IC95% 10-16,7) e mediana de SLP de 5 meses (IC95%
 3-6,4). No protocolo HIT-GBM-C, os pacientes receberiam valproato após o
 final da radioquimioterapia, porém não durante \[Wolff, 2010a\]. No
 entanto, a maioria dos pacientes (27 de 37) não chegou
-a![](media/image3.png){width="6.25in" height="6.25in"}o fim do
+ao fim do
 protocolo, devido à progressão da doença. Já no piloto do HIT-GBM-D, 7
 de 30 pacientes tinham tumores pontinos, e estes tiveram uma SLP algo
 superior (7 meses), porém ainda dentro dos relatos da literatura
@@ -713,7 +630,7 @@ A. História de trauma craniano recente.
 
 B. Coma com sinais de herniação.
 
-C. Coagulopatia (plaquetas &lt; 50000/mm^3^, INR&gt;1,8).
+C. Coagulopatia (plaquetas &lt; 50000/mm<sup>3</sup>, INR&gt;1,8).
 
 D. Uso anterior recente de ácido valpróico.
 
@@ -752,8 +669,8 @@ compreendem:
 <!-- -->
 
 -   Avaliação Clínica Inicial: Os pacientes serão submetidos a uma
-    avaliação inicial através da “Pediatric Quality of Life^TM^
-    (PedsQL^TM^) Brain Tumor Module”, a qual consiste em um instrumento
+    avaliação inicial através da “Pediatric Quality of Life<sup>TM</sup>
+    (PedsQL<sup>TM</sup>) Brain Tumor Module”, a qual consiste em um instrumento
     multidimensional, desenvolvido por Varni et al. \[Palmer, 2007\]
     para avaliar o impacto da doença e do tratamento na qualidade de
     vida de indivíduos acometidos por neoplasias infantis. Foi elaborado
@@ -797,14 +714,14 @@ compreendem:
     foi utilizado para medir a qualidade de vida em um ensaio clínico
     que incluiu pacientes com DIPG (Wolff, 2010b). Será usada a partir
     de uma livre tradução da equipe deste ensaio, como complementação da
-    PedsQL^TM^.
+    PedsQL<sup>TM</sup>.
 
 <!-- -->
 
 -   Avaliação Clínica Sequencial: Os pacientes serão submetidos a uma
     avaliação neurológica posterior através da escala LPPS ou Karnofsky,
     a cada 30 dias após o início do tratamento. A pontuação da escala
-    PedsQL^TM^ e FMH será obtida 6, 12 e 24 meses após o diagnóstico.
+    PedsQL<sup>TM</sup> e FMH será obtida 6, 12 e 24 meses após o diagnóstico.
 
 -   Avaliação por Imagem: imagens por ressonância nuclear
     magnética (RNM) de crãnio contrastadas serão realizadas na entrada
@@ -844,42 +761,42 @@ Simultaneamente à radioterapia convencional dois ciclos de quimioterapia
 são administrados.
 
 Se existir atraso no início da irradiação, vincristina semanal (1,5
-mg/m^2^ , máximo 2 mg, uma vez por semana) deve ser administrada. O
+mg/m<sup>2</sup> , máximo 2 mg, uma vez por semana) deve ser administrada. O
 número total de seis doses de vincristina não deve ser ultrapassado até
 terminar radioterapia.
 
 *Ciclo 1* : PEV (dia 1-5)
 
-Cisplatina (CDDP), perfusão durante 1 hora, 20 mg/m^2^/dia, nos dias
+Cisplatina (CDDP), perfusão durante 1 hora, 20 mg/m<sup>2</sup>/dia, nos dias
 D1-5.
 
-Etoposido (VP16), infusão em 2 h ou mais, 100 mg/m^2^/dia, nos dias
+Etoposido (VP16), infusão em 2 h ou mais, 100 mg/m<sup>2</sup>/dia, nos dias
 D1-3.
 
-Vincristina (VCR), injeção IV, 1,5 mg/m^2^ (máximo de 2 mg), dia D5.
+Vincristina (VCR), injeção IV, 1,5 mg/m<sup>2</sup> (máximo de 2 mg), dia D5.
 
 *Intervalo*:
 
 Vincristina semanal durante a irradiação até o 2 º ciclo: injecção IV de
-1,5 mg/m^2^ (max. 2 mg), nos dias D12, 19, 26, (33).
+1,5 mg/m<sup>2</sup> (max. 2 mg), nos dias D12, 19, 26, (33).
 
 *Ciclo 2*: PEIV (Inicia sete dias antes de terminar a radioterapia )
 
-Ifosfamida (IFO), perfusão durante 1 hora, 1,5 g/m^2^/dia, dias D1-5.
+Ifosfamida (IFO), perfusão durante 1 hora, 1,5 g/m<sup>2</sup>/dia, dias D1-5.
 
-Cisplatina (CDDP), infusão por 1h, 20 mg/m2/dia, dias D1-5.
+Cisplatina (CDDP), infusão por 1h, 20 mg/m<sup>2</sup>/dia, dias D1-5.
 
-Etoposido (VP16), infusão em 2 h ou mais, 100 mg/m^2^/dia, nos dias
+Etoposido (VP16), infusão em 2 h ou mais, 100 mg/m<sup>2</sup>/dia, nos dias
 D1-3.
 
-Vincristina (VCR), injeção IV, 1,5 mg/m^2^ (máximo de 2 mg), dia D5.
+Vincristina (VCR), injeção IV, 1,5 mg/m<sup>2</sup> (máximo de 2 mg), dia D5.
 
 Para evitar a interacção entre a cisplatina e o mesna, o segundo ciclo
 deve começar com cisplatina e continuar com etoposido. Isto deve
 maximizar o intervalo entre a infusão de cisplatina, e a infusão de
 ifosfamida e o primeiro bolus de mesna. Dois outros bolus de mesna
 seguem-se após 4 e 8 horas. A cisplatina é administrada com uma dose de
-20 mg/m^2^ em combinação com manitol para forçar a diurese como uma
+20 mg/m<sup>2</sup> em combinação com manitol para forçar a diurese como uma
 infusão ao longo de uma hora.
 
 Durante toda a quimioterapia, é recomendado cotrimoxazol como profilaxia
@@ -944,13 +861,13 @@ em caso de sintomas graves.
                                                                       
   trombócitos 50 000 - 100 000/μl                                     
 
-  Perda de &gt; 25 dB a 6000 Hz após o primeiro ciclo de cisplatina   Substituir a cisplatina por carboplatina 200 mg/m^2^/d nos dias 1-3 (infusão mais de 1 h)
+  Perda de &gt; 25 dB a 6000 Hz após o primeiro ciclo de cisplatina   Substituir a cisplatina por carboplatina 200 mg/m<sup>2</sup>/d nos dias 1-3 (infusão mais de 1 h)
 
   Perda de &gt; 40 dB a 4000 Hz                                       Nenhuma platina.
 
-  Clearance de creatinina - 80-50 ml/min/1,73 m^2^                    Substituir a cisplatina por carboplatina 200 mg/m^2^/d nos dias 1-3 (infusão mais de 1 h)
+  Clearance de creatinina - 80-50 ml/min/1,73 m<sup>2</sup>                    Substituir a cisplatina por carboplatina 200 mg/m<sup>2</sup>/d nos dias 1-3 (infusão mais de 1 h)
 
-  Clearance de creatinina &lt; 50 ml/min/1,73 m^2^                    Nenhuma platina. Reduzir a ifosfamida em 30%
+  Clearance de creatinina &lt; 50 ml/min/1,73 m<sup>2</sup>                    Nenhuma platina. Reduzir a ifosfamida em 30%
 
   Hematúria grave.                                                    Sem ifosfamida.
   ------------------------------------------------------------------- -------------------------------------------------------------------------------------------
@@ -986,11 +903,11 @@ semanas. No HIT-GBM-D, estes ciclos incluíam CCNU. Devido à toxicidade
 desta droga, ela foi retirada do esquema no presente projeto. As doses
 são:
 
-Vincristina: 1,5 mg/m^2^ IV (dose máxima, 2mg) dias 1, 8 e 15 do ciclo
+Vincristina: 1,5 mg/m<sup>2</sup> IV (dose máxima, 2mg) dias 1, 8 e 15 do ciclo
 (atenção: nunca administrar VCR intratecal ou intraventricular!)
 
-Prednisona: 40 mg/m^2^ VO dias 1 a 11, 10 mg/m^2^ VO, dias 12 a 14 e 5
-mg/m^2^ VO, dias 15 a 17 do ciclo.
+Prednisona: 40 mg/m<sup>2</sup> VO dias 1 a 11, 10 mg/m<sup>2</sup> VO, dias 12 a 14 e 5
+mg/m<sup>2</sup> VO, dias 15 a 17 do ciclo.
 
 **Cuidados de suporte :**
 
@@ -1052,7 +969,7 @@ Para garantir a segmentação exata e reprodutível, o paciente deve estar
 em decúbito dorsal. A fixação flexível da cabeça é necessária, usando
 uma máscara facial. Durante a irradiação pode ocorrer síndrome de
 aumento da pressão intracraniana com dor de cabeça, náusea, vômito. Este
-pode ser tratada com dexametasona (1 mg/m^2^/dia, cada 8h). No entanto,
+pode ser tratada com dexametasona (1 mg/m<sup>2</sup>/dia, cada 8h). No entanto,
 durante a radioquimioterapia simultânea, a dexametasona deve ser evitada
 uma vez que o efeito dos agentes citotóxicos pode ser reduzida \[Wolff ,
 2011\]. Uma semana antes da quimioterapia, deve-se tentar substituir os
@@ -1230,8 +1147,9 @@ diagnosticados entre 2000 e 2013, um período de 14 anos. Como já
 relatado acima, neste período, 57 pacientes foram diagnosticados com
 DIPG. Destes, 31 pacientes foram tratados com radioterapia e algum outro
 esquema de tratamento diferente do HIT (figura 2). Estes pacientes serão
-os incluídos ![](media/image4.png){width="3.5366754155730535in"
-height="3.5366754155730535in"}no grupo histórico comparativo.
+os incluídos no grupo histórico comparativo.
+
+![fig2](https://github.com/cmprsk/valkyrie/blob/master/project/files/Anteprojeto_VALQUIRIA_HIAS.pages/Data/pasted-image-small-33.png)
 
 De acordo com o Manual Operacional para Comitês de Ética em Pesquisa
 (Série A. Normas e Manuais Técnicos. Série CNS - Cadernos Técnicos. Ed.
@@ -1285,7 +1203,7 @@ remuneração específica pelo projeto.
   **Impressora jato de tinta portátil**                                                                                                                     01               R\$ 1700,00
   **Máquina fotográfica 15 megapixels**                                                                                                                     01               R\$ 1000,00
   **Material de consumo de papelaria**                                                                                                                                       
-  **Papel 75g/m^2^ tamanho A4 500 folhas**                                                                                                                  10               R\$ 250,00
+  **Papel 75g/m<sup>2</sup> tamanho A4 500 folhas**                                                                                                                  10               R\$ 250,00
   **Papel fotográfico para impressora jato de tinta tamanho A4 50 folhas**                                                                                  02               R\$ 100,00
   **Cartuchos de tinta para impressora jato de tinta (colorido + preto)**                                                                                   04               R\$ 600,00
   **Prancheta, crachás de identificação, canetas, lápis, pastas para papel, organizadores, arquivos para os docume ntos, outros materiais de escritório**   -                R\$ 400,00
@@ -1435,7 +1353,7 @@ tumors--experience of the HIT-GBM-C protocol. Pediatr Blood Cancer.
 
 31\. Wolff, JE. HIT-GBM-D Protocol: Treatment of Children and Adolescents
 with Diffuse Intrinsic Pontine Glioma and High Grade Glioma (English),
-2^nd^ edition, Wolff Publishing, 2010.
+2<sup>nd</sup> edition, Wolff Publishing, 2010.
 
 32\. Brown SR, Brown J, Buyse M, Twelves C, Parmar M, Seymour M and
 Gregory W. Choosing your phase II trial design: a practical guide for
@@ -1958,13 +1876,13 @@ cirurgia (máximo 72h após), citologia do líquor 10-14 dias pós-op.
 partir de 6 anos. DIPG: dose máxima 54 Gy.
 
 **Evitar dexametasona** durante a radioquimioterapia. Se necessário, na
-fase de RT apenas (entre PEI e PEV), usar 1 mg/m^2^/dia cada 8h.
+fase de RT apenas (entre PEI e PEV), usar 1 mg/m<sup>2</sup>/dia cada 8h.
 
 Sonolência, fadiga e alterações do EEG podem ocorrer semanas a meses
 após a RT. Trata-se de uma síndrome reversível, o tratamento não deve
 ser modificado.
 
-Atraso no início da RT: janela de vincristina semanal 1,5 mg/m^2^,
+Atraso no início da RT: janela de vincristina semanal 1,5 mg/m<sup>2</sup>,
 máximo 2mg, até iniciar RT.
 
 **Profilaxia *P. carinii*:** sulfametoxazol + trimetoprima durante todo
@@ -1975,47 +1893,47 @@ o tratamento.
 
   **DIA**    **DROGA**                                                                            **OBSERVAÇÃO**
 
-  **SEM1**   **Cisplatina 20mg/m^2^**                                                             INICIAR RT 54-60 Gy – 30 frações
+  **SEM1**   **Cisplatina 20mg/m<sup>2</sup>**                                                             INICIAR RT 54-60 Gy – 30 frações
                                                                                                   
-  **D1**     HV 24h: 2,4L/m^2\\ –^ Dividir em 3 fases e fazer primeira fase antes da cisplatina   L = \_\_\_\_\_\_\_ (&gt;2000)
+  **D1**     HV 24h: 2,4L/m<sup>2\\ –</sup> Dividir em 3 fases e fazer primeira fase antes da cisplatina   L = \_\_\_\_\_\_\_ (&gt;2000)
                                                                                                   
-             **Vepesid 100mg/m^2\\ ^**                                                            P = \_\_\_\_\_\_\_ (&gt;100000)
+             **Vepesid 100mg/m<sup>2\\ </sup>**                                                            P = \_\_\_\_\_\_\_ (&gt;100000)
 
-  **D2**     **Cisplatina 20mg/m^2^**                                                             
+  **D2**     **Cisplatina 20mg/m<sup>2</sup>**                                                             
                                                                                                   
-             HV 24h: 2,4L/m^2^                                                                    
+             HV 24h: 2,4L/m<sup>2</sup>                                                                    
                                                                                                   
-             **Vepesid 100mg/^2^**                                                                
+             **Vepesid 100mg/<sup>2</sup>**                                                                
 
-  **D3**     **Cisplatina 20mg/m^2\\ ^**                                                          
+  **D3**     **Cisplatina 20mg/m<sup>2\\ </sup>**                                                          
                                                                                                   
-             HV 24h: 2,4L/m^2^                                                                    
+             HV 24h: 2,4L/m<sup>2</sup>                                                                    
                                                                                                   
-             **Vepesid 100mg/^2^**                                                                
+             **Vepesid 100mg/<sup>2</sup>**                                                                
 
-  **D4**     **Cisplatina 20mg/m^2^**                                                             
+  **D4**     **Cisplatina 20mg/m<sup>2</sup>**                                                             
                                                                                                   
-             HV 24h:2,4L/m^2^                                                                     
+             HV 24h:2,4L/m<sup>2</sup>                                                                     
 
-  **D5**     **Cisplatina 20mg/m^2^**                                                             
+  **D5**     **Cisplatina 20mg/m<sup>2</sup>**                                                             
                                                                                                   
-             HV 24h: 2,4L/m^2^                                                                    
+             HV 24h: 2,4L/m<sup>2</sup>                                                                    
                                                                                                   
-             **VCR 1,5mg/m^2^**                                                                   
+             **VCR 1,5mg/m<sup>2</sup>**                                                                   
   ---------- ------------------------------------------------------------------------------------ ----------------------------------
 
   ---------- -------------------- ----------------
   **DIA**    **DROGA**            **OBSERVAÇÃO**
 
-  **SEM2**   **VCR 1,5mg/m^2^**   
+  **SEM2**   **VCR 1,5mg/m<sup>2</sup>**   
                                   
   **D12**                         
 
-  **SEM3**   **VCR 1,5mg/m^2^**   
+  **SEM3**   **VCR 1,5mg/m<sup>2</sup>**   
                                   
   **D19**                         
 
-  **SEM4**   **VCR 1,5mg/m^2^**   
+  **SEM4**   **VCR 1,5mg/m<sup>2</sup>**   
                                   
   **D26**                         
   ---------- -------------------- ----------------
@@ -2023,49 +1941,49 @@ o tratamento.
   ---------- ---------------------------------------------------------------------------------- --------------------------------------------
   **DIA**    **DROGA**                                                                          **OBSERVAÇÃO**
 
-  **SEM6**   **Cisplatina 20mg/m^2^**                                                           Última semana de RT – se atrasar, adiar QT
+  **SEM6**   **Cisplatina 20mg/m<sup>2</sup>**                                                           Última semana de RT – se atrasar, adiar QT
                                                                                                 
-  **D35**    HV 24h: 2,4L/m^2^ – Dividir em 3 fases e fazer primeira fase antes da cisplatina   L = \_\_\_\_\_\_\_ (&gt;2000)
+  **D35**    HV 24h: 2,4L/m<sup>2</sup> – Dividir em 3 fases e fazer primeira fase antes da cisplatina   L = \_\_\_\_\_\_\_ (&gt;2000)
                                                                                                 
-             **Vepesid 100mg/^2\\ ^**                                                           P = \_\_\_\_\_\_\_ (&gt;100000)
+             **Vepesid 100mg/<sup>2\\ </sup>**                                                           P = \_\_\_\_\_\_\_ (&gt;100000)
                                                                                                 
-             **Ifosfamida 1.500mg/m^2^**                                                        ClCreat=\_\_\_\_\_\_ (&gt;80)
+             **Ifosfamida 1.500mg/m<sup>2</sup>**                                                        ClCreat=\_\_\_\_\_\_ (&gt;80)
                                                                                                 
-             **Mesna 500mg/m^2^/dose 0, 4 e 8h após ifosfamida**                                
+             **Mesna 500mg/m<sup>2</sup>/dose 0, 4 e 8h após ifosfamida**                                
 
-  **D36**    **Cisplatina 20mg/m^2^**                                                           
+  **D36**    **Cisplatina 20mg/m<sup>2</sup>**                                                           
                                                                                                 
-             HV 24h: 2,4L/m^2^                                                                  
+             HV 24h: 2,4L/m<sup>2</sup>                                                                  
                                                                                                 
-             **Vepesid 100mg/^2^**                                                              
+             **Vepesid 100mg/<sup>2</sup>**                                                              
                                                                                                 
-             **Ifosfamida 1.500mg/m^2^**                                                        
+             **Ifosfamida 1.500mg/m<sup>2</sup>**                                                        
                                                                                                 
              **Mesna – dose acima**                                                             
 
-  **D37**    **Cisplatina 20mg/m^2\\ ^**                                                        
+  **D37**    **Cisplatina 20mg/m<sup>2\\ </sup>**                                                        
                                                                                                 
-             HV 24h: 2,4L/m^2^                                                                  
+             HV 24h: 2,4L/m<sup>2</sup>                                                                  
                                                                                                 
-             **Vepesid 100mg/^2^**                                                              
+             **Vepesid 100mg/<sup>2</sup>**                                                              
                                                                                                 
-             **Ifosfamida 1.500mg/m^2^**                                                        
-                                                                                                
-             **Mesna – dose acima**                                                             
-
-  **D38**    **Cisplatina 20mg/m^2^**                                                           
-                                                                                                
-             HV 24h: 2,4L/m^2^                                                                  
-                                                                                                
-             **Ifosfamida 1.500mg/m^2^**                                                        
+             **Ifosfamida 1.500mg/m<sup>2</sup>**                                                        
                                                                                                 
              **Mesna – dose acima**                                                             
 
-  **D39**    **Cisplatina 20mg/m^2^**                                                           
+  **D38**    **Cisplatina 20mg/m<sup>2</sup>**                                                           
                                                                                                 
-             HV 24h: 2,4L/m^2^                                                                  
+             HV 24h: 2,4L/m<sup>2</sup>                                                                  
                                                                                                 
-             **Ifosfamida 1.500mg/m^2^**                                                        
+             **Ifosfamida 1.500mg/m<sup>2</sup>**                                                        
+                                                                                                
+             **Mesna – dose acima**                                                             
+
+  **D39**    **Cisplatina 20mg/m<sup>2</sup>**                                                           
+                                                                                                
+             HV 24h: 2,4L/m<sup>2</sup>                                                                  
+                                                                                                
+             **Ifosfamida 1.500mg/m<sup>2</sup>**                                                        
                                                                                                 
              **Mesna – dose acima**                                                             
   ---------- ---------------------------------------------------------------------------------- --------------------------------------------
@@ -2081,19 +1999,19 @@ o tratamento.
   ----------- ------------------------------------------------------ ---------------------------------
   **DIA**     **DROGA**                                              **OBSERVAÇÃO**
 
-  **SEM10**   **Prednisona 40mg/m^2^/dia por 11 dias (D63 – D74)**   L = \_\_\_\_\_\_\_ (&gt;2000)
+  **SEM10**   **Prednisona 40mg/m<sup>2</sup>/dia por 11 dias (D63 – D74)**   L = \_\_\_\_\_\_\_ (&gt;2000)
                                                                      
-  **D63**     **Prednisona 20mg/m^2^/dia por 3 dias (D75-D77)**      P = \_\_\_\_\_\_\_ (&gt;100000)
+  **D63**     **Prednisona 20mg/m<sup>2</sup>/dia por 3 dias (D75-D77)**      P = \_\_\_\_\_\_\_ (&gt;100000)
                                                                      
-              **Prednisona 10mg/m^2^/dia por 3 dias (D78-D80)**      ClCreat=\_\_\_\_\_\_ (&gt;80)
+              **Prednisona 10mg/m<sup>2</sup>/dia por 3 dias (D78-D80)**      ClCreat=\_\_\_\_\_\_ (&gt;80)
 
-  **D63**     **VCR 1,5mg/m^2^**                                     
+  **D63**     **VCR 1,5mg/m<sup>2</sup>**                                     
 
-  **SEM11**   **VCR 1,5mg/m^2^**                                     
+  **SEM11**   **VCR 1,5mg/m<sup>2</sup>**                                     
                                                                      
   **D70**                                                            
 
-  **SEM12**   **VCR 1,5mg/m^2^**                                     
+  **SEM12**   **VCR 1,5mg/m<sup>2</sup>**                                     
                                                                      
   **D77**                                                            
   ----------- ------------------------------------------------------ ---------------------------------
@@ -2101,19 +2019,19 @@ o tratamento.
   ----------- ------------------------------------------------------ ---------------------------------
   **DIA**     **DROGA**                                              **OBSERVAÇÃO**
 
-  **SEM15**   **Prednisona 40mg/m^2^/dia por 11 dias (D63 – D74)**   L = \_\_\_\_\_\_\_ (&gt;2000)
+  **SEM15**   **Prednisona 40mg/m<sup>2</sup>/dia por 11 dias (D63 – D74)**   L = \_\_\_\_\_\_\_ (&gt;2000)
                                                                      
-  **D98**     **Prednisona 20mg/m^2^/dia por 3 dias (D75-D77)**      P = \_\_\_\_\_\_\_ (&gt;100000)
+  **D98**     **Prednisona 20mg/m<sup>2</sup>/dia por 3 dias (D75-D77)**      P = \_\_\_\_\_\_\_ (&gt;100000)
                                                                      
-              **Prednisona 10mg/m^2^/dia por 3 dias (D78-D80)**      ClCreat=\_\_\_\_\_\_ (&gt;80)
+              **Prednisona 10mg/m<sup>2</sup>/dia por 3 dias (D78-D80)**      ClCreat=\_\_\_\_\_\_ (&gt;80)
 
-  **D98**     **VCR 1,5mg/m^2^**                                     
+  **D98**     **VCR 1,5mg/m<sup>2</sup>**                                     
 
-  **SEM16**   **VCR 1,5mg/m^2^**                                     
+  **SEM16**   **VCR 1,5mg/m<sup>2</sup>**                                     
                                                                      
   **D105**                                                           
 
-  **SEM17**   **VCR 1,5mg/m^2^**                                     
+  **SEM17**   **VCR 1,5mg/m<sup>2</sup>**                                     
                                                                      
   **D106**                                                           
   ----------- ------------------------------------------------------ ---------------------------------
@@ -2123,19 +2041,19 @@ o tratamento.
   ----------- ------------------------------------------------------ ---------------------------------
   **DIA**     **DROGA**                                              **OBSERVAÇÃO**
 
-  **SEM20**   **Prednisona 40mg/m^2^/dia por 11 dias (D63 – D74)**   L = \_\_\_\_\_\_\_ (&gt;2000)
+  **SEM20**   **Prednisona 40mg/m<sup>2</sup>/dia por 11 dias (D63 – D74)**   L = \_\_\_\_\_\_\_ (&gt;2000)
                                                                      
-  **D127**    **Prednisona 20mg/m^2^/dia por 3 dias (D75-D77)**      P = \_\_\_\_\_\_\_ (&gt;100000)
+  **D127**    **Prednisona 20mg/m<sup>2</sup>/dia por 3 dias (D75-D77)**      P = \_\_\_\_\_\_\_ (&gt;100000)
                                                                      
-              **Prednisona 10mg/m^2^/dia por 3 dias (D78-D80)**      ClCreat=\_\_\_\_\_\_ (&gt;80)
+              **Prednisona 10mg/m<sup>2</sup>/dia por 3 dias (D78-D80)**      ClCreat=\_\_\_\_\_\_ (&gt;80)
 
-  **D127**    **VCR 1,5mg/m^2^**                                     
+  **D127**    **VCR 1,5mg/m<sup>2</sup>**                                     
 
-  **SEM21**   **VCR 1,5mg/m^2^**                                     
+  **SEM21**   **VCR 1,5mg/m<sup>2</sup>**                                     
                                                                      
   **D135**                                                           
 
-  **SEM22**   **VCR 1,5mg/m^2^**                                     
+  **SEM22**   **VCR 1,5mg/m<sup>2</sup>**                                     
                                                                      
   **D142**                                                           
   ----------- ------------------------------------------------------ ---------------------------------
@@ -2143,19 +2061,19 @@ o tratamento.
   ----------- ------------------------------------------------------ ---------------------------------
   **DIA**     **DROGA**                                              **OBSERVAÇÃO**
 
-  **SEM25**   **Prednisona 40mg/m^2^/dia por 11 dias (D63 – D74)**   L = \_\_\_\_\_\_\_ (&gt;2000)
+  **SEM25**   **Prednisona 40mg/m<sup>2</sup>/dia por 11 dias (D63 – D74)**   L = \_\_\_\_\_\_\_ (&gt;2000)
                                                                      
-  **D163**    **Prednisona 20mg/m^2^/dia por 3 dias (D75-D77)**      P = \_\_\_\_\_\_\_ (&gt;100000)
+  **D163**    **Prednisona 20mg/m<sup>2</sup>/dia por 3 dias (D75-D77)**      P = \_\_\_\_\_\_\_ (&gt;100000)
                                                                      
-              **Prednisona 10mg/m^2^/dia por 3 dias (D78-D80)**      ClCreat=\_\_\_\_\_\_ (&gt;80)
+              **Prednisona 10mg/m<sup>2</sup>/dia por 3 dias (D78-D80)**      ClCreat=\_\_\_\_\_\_ (&gt;80)
 
-  **D163**    **VCR 1,5mg/m^2^**                                     
+  **D163**    **VCR 1,5mg/m<sup>2</sup>**                                     
 
-  **SEM26**   **VCR 1,5mg/m^2^**                                     
+  **SEM26**   **VCR 1,5mg/m<sup>2</sup>**                                     
                                                                      
   **D170**                                                           
 
-  **SEM27**   **VCR 1,5mg/m^2^**                                     
+  **SEM27**   **VCR 1,5mg/m<sup>2</sup>**                                     
                                                                      
   **D177**                                                           
   ----------- ------------------------------------------------------ ---------------------------------
@@ -2174,19 +2092,19 @@ o tratamento.
   ----------- ------------------------------------------------------ ---------------------------------
   **DIA**     **DROGA**                                              **OBSERVAÇÃO**
 
-  **SEM30**   **Prednisona 40mg/m^2^/dia por 11 dias (D63 – D74)**   L = \_\_\_\_\_\_\_ (&gt;2000)
+  **SEM30**   **Prednisona 40mg/m<sup>2</sup>/dia por 11 dias (D63 – D74)**   L = \_\_\_\_\_\_\_ (&gt;2000)
                                                                      
-  **D198**    **Prednisona 20mg/m^2^/dia por 3 dias (D75-D77)**      P = \_\_\_\_\_\_\_ (&gt;100000)
+  **D198**    **Prednisona 20mg/m<sup>2</sup>/dia por 3 dias (D75-D77)**      P = \_\_\_\_\_\_\_ (&gt;100000)
                                                                      
-              **Prednisona 10mg/m^2^/dia por 3 dias (D78-D80)**      ClCreat=\_\_\_\_\_\_ (&gt;80)
+              **Prednisona 10mg/m<sup>2</sup>/dia por 3 dias (D78-D80)**      ClCreat=\_\_\_\_\_\_ (&gt;80)
 
-  **D198**    **VCR 1,5mg/m^2^**                                     
+  **D198**    **VCR 1,5mg/m<sup>2</sup>**                                     
 
-  **SEM31**   **VCR 1,5mg/m^2^**                                     
+  **SEM31**   **VCR 1,5mg/m<sup>2</sup>**                                     
                                                                      
   **D205**                                                           
 
-  **SEM32**   **VCR 1,5mg/m^2^**                                     
+  **SEM32**   **VCR 1,5mg/m<sup>2</sup>**                                     
                                                                      
   **D212**                                                           
   ----------- ------------------------------------------------------ ---------------------------------
@@ -2194,19 +2112,19 @@ o tratamento.
   ----------- ------------------------------------------------------ ---------------------------------
   **DIA**     **DROGA**                                              **OBSERVAÇÃO**
 
-  **SEM35**   **Prednisona 40mg/m^2^/dia por 11 dias (D63 – D74)**   L = \_\_\_\_\_\_\_ (&gt;2000)
+  **SEM35**   **Prednisona 40mg/m<sup>2</sup>/dia por 11 dias (D63 – D74)**   L = \_\_\_\_\_\_\_ (&gt;2000)
                                                                      
-  **D233**    **Prednisona 20mg/m^2^/dia por 3 dias (D75-D77)**      P = \_\_\_\_\_\_\_ (&gt;100000)
+  **D233**    **Prednisona 20mg/m<sup>2</sup>/dia por 3 dias (D75-D77)**      P = \_\_\_\_\_\_\_ (&gt;100000)
                                                                      
-              **Prednisona 10mg/m^2^/dia por 3 dias (D78-D80)**      ClCreat=\_\_\_\_\_\_ (&gt;80)
+              **Prednisona 10mg/m<sup>2</sup>/dia por 3 dias (D78-D80)**      ClCreat=\_\_\_\_\_\_ (&gt;80)
 
-  **D233**    **VCR 1,5mg/m^2^**                                     
+  **D233**    **VCR 1,5mg/m<sup>2</sup>**                                     
 
-  **SEM36**   **VCR 1,5mg/m^2^**                                     
+  **SEM36**   **VCR 1,5mg/m<sup>2</sup>**                                     
                                                                      
   **D240**                                                           
 
-  **SEM37**   **VCR 1,5mg/m^2^**                                     
+  **SEM37**   **VCR 1,5mg/m<sup>2</sup>**                                     
                                                                      
   **D247**                                                           
   ----------- ------------------------------------------------------ ---------------------------------
@@ -2219,19 +2137,19 @@ o tratamento.
   ----------- ------------------------------------------------------ ---------------------------------
   **DIA**     **DROGA**                                              **OBSERVAÇÃO**
 
-  **SEM40**   **Prednisona 40mg/m^2^/dia por 11 dias (D63 – D74)**   L = \_\_\_\_\_\_\_ (&gt;2000)
+  **SEM40**   **Prednisona 40mg/m<sup>2</sup>/dia por 11 dias (D63 – D74)**   L = \_\_\_\_\_\_\_ (&gt;2000)
                                                                      
-  **D268**    **Prednisona 20mg/m^2^/dia por 3 dias (D75-D77)**      P = \_\_\_\_\_\_\_ (&gt;100000)
+  **D268**    **Prednisona 20mg/m<sup>2</sup>/dia por 3 dias (D75-D77)**      P = \_\_\_\_\_\_\_ (&gt;100000)
                                                                      
-              **Prednisona 10mg/m^2^/dia por 3 dias (D78-D80)**      ClCreat=\_\_\_\_\_\_ (&gt;80)
+              **Prednisona 10mg/m<sup>2</sup>/dia por 3 dias (D78-D80)**      ClCreat=\_\_\_\_\_\_ (&gt;80)
 
-  **D268**    **VCR 1,5mg/m^2^**                                     
+  **D268**    **VCR 1,5mg/m<sup>2</sup>**                                     
 
-  **SEM41**   **VCR 1,5mg/m^2^**                                     
+  **SEM41**   **VCR 1,5mg/m<sup>2</sup>**                                     
                                                                      
   **D275**                                                           
 
-  **SEM42**   **VCR 1,5mg/m^2^**                                     
+  **SEM42**   **VCR 1,5mg/m<sup>2</sup>**                                     
                                                                      
   **D282**                                                           
   ----------- ------------------------------------------------------ ---------------------------------
@@ -2239,19 +2157,19 @@ o tratamento.
   ----------- ------------------------------------------------------ ---------------------------------
   **DIA**     **DROGA**                                              **OBSERVAÇÃO**
 
-  **SEM45**   **Prednisona 40mg/m^2^/dia por 11 dias (D63 – D74)**   L = \_\_\_\_\_\_\_ (&gt;2000)
+  **SEM45**   **Prednisona 40mg/m<sup>2</sup>/dia por 11 dias (D63 – D74)**   L = \_\_\_\_\_\_\_ (&gt;2000)
                                                                      
-  **D303**    **Prednisona 20mg/m^2^/dia por 3 dias (D75-D77)**      P = \_\_\_\_\_\_\_ (&gt;100000)
+  **D303**    **Prednisona 20mg/m<sup>2</sup>/dia por 3 dias (D75-D77)**      P = \_\_\_\_\_\_\_ (&gt;100000)
                                                                      
-              **Prednisona 10mg/m^2^/dia por 3 dias (D78-D80)**      ClCreat=\_\_\_\_\_\_ (&gt;80)
+              **Prednisona 10mg/m<sup>2</sup>/dia por 3 dias (D78-D80)**      ClCreat=\_\_\_\_\_\_ (&gt;80)
 
-  **D303**    **VCR 1,5mg/m^2^**                                     
+  **D303**    **VCR 1,5mg/m<sup>2</sup>**                                     
 
-  **SEM46**   **VCR 1,5mg/m^2^**                                     
+  **SEM46**   **VCR 1,5mg/m<sup>2</sup>**                                     
                                                                      
   **D310**                                                           
 
-  **SEM47**   **VCR 1,5mg/m^2^**                                     
+  **SEM47**   **VCR 1,5mg/m<sup>2</sup>**                                     
                                                                      
   **D317**                                                           
   ----------- ------------------------------------------------------ ---------------------------------
