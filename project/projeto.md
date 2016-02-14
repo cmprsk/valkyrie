@@ -14,45 +14,45 @@
 
 # ÍNDICE
 
-- [Apresentação](#apresentaÇÃo)                                             vii
-- [Abreviações](#abreviaÇÕes)                                               viii
-- [Resumo](#resumo)                                                         x
-- [Summary](#summary)                                                       xi
-- Anteprojeto                                                               1
+- [Apresentação](#apresentaÇÃo)                                            
+- [Abreviações](#abreviaÇÕes)                                              
+- [Resumo](#resumo)                                                         
+- [Summary](#summary)                                                      
+- Anteprojeto                                                              
 
-1. [Introdução](#1introcução)                                               1
-2. Apresentação do problema e fundamentação teórica                         2
-3. [Justificativa](#3justificativa)                                         6
-4. [Objetivos](#4objetivos)                                                 6
-  1. Objetivo principal                                                     6
-  2. Objetivos secundários                                                  6
-5. [Metodologia](#5metodologia)                                             7
-  1. Caracterização da pesquisa                                             7
-  2. Local e participantes                                                  7
-  3. [Critérios de inclusão e exclusão](#53critérios-de-inclusão-e-exclusão) 8
-  4. [Procedimentos](#54procedimentos)                                      8
-  5. [Intervenção](#55intervenção)                                          10
-  6. [Análise estatística dos resultados](#56análise-estatística-dos-resultados)    15
-  7. [Tamanho da amostra](#57tamanho-da-amostra)                            17
-  8. Coleta retrospectiva de dados para compor o grupo controle histórico   18
-6. [Cronograma de execução do projeto](#6cronograma-de-execução-do-projeto) 19
-7. Recursos disponíveis                                                     19
-8. Orçamento                                                                19
-9. [Ressarcimento e desistência](#9ressarcimento-e-desistência)             21
-10. [Referências bibliográficas](#10referências-bibliográficas)             21
+1. [Introdução](#1introcução)                                               
+2. [Apresentação do problema e fundamentação teórica](#2apresentação-do-problema-e-fundamentação-teórica)                         
+3. [Justificativa](#3justificativa)                                         
+4. [Objetivos](#4objetivos)                                                 
+  1. Objetivo principal                                                     
+  2. Objetivos secundários                                                  
+5. [Metodologia](#5metodologia)                                            
+  1. [Caracterização da pesquisa](#51caracterização-da-pesquisa)                                            
+  2. [Local e participantes](#52local-e-participantes)                                                 
+  3. [Critérios de inclusão e exclusão](#53critérios-de-inclusão-e-exclusão)
+  4. [Procedimentos](#54procedimentos)                                      
+  5. [Intervenção](#55intervenção)                                          
+  6. [Análise estatística dos resultados](#56análise-estatística-dos-resultados)    
+  7. [Tamanho da amostra](#57tamanho-da-amostra)                            
+  8. [Coleta retrospectiva de dados para compor o grupo controle histórico](#58coleta-retrospectiva-de-dados-para-compor-o-grupo-controle-histórico)   
+6. [Cronograma de execução do projeto](#6cronograma-de-execução-do-projeto) 
+7. [Recursos disponíveis](#7recursos-disponíveis)                                                    
+8. [Orçamento](#8orçamento)                                                               
+9. [Ressarcimento e desistência](#9ressarcimento-e-desistência)           
+10. [Referências bibliográficas](#10referências-bibliográficas)           
 
-- Anexos                                                                  I 
-    - [Termo de consentimento livre e esclarecido](#termo-de-consentimento-livre-e-esclarecido) II 
-    - [Termo de Consentimento – Publicação em periódico científico de circulação nacional/internacional](#termo-de-consentimento--publicação-em-periódico-científico-de-circulação-nacionalinternacional) III 
-    - [Avaliação sócio-demográfica - Protocolo da OMS](#avaliaÇÃo-sÓcio-demogrÁfica--protocolo-da-oms)              IV 
-    - [Questionário para coleta de dados específicos sobre a doença oncológica](#questionário-para-coleta-de-dados-específicos-sobre-a-doença-oncológica)                                     VI
-    - [Questionário para coleta de dados sequenciais](#questionário-para-coleta-de-dados-sequenciais)                   VII
-    - [Escores/escalas de performance status](#escoresescalas-de-performance-status)                            VIII
-    - [Fichas de quimioterapia](#fichas-de-quimioterapia)                                                     IX
-    - [Declaração de riscos e benefícios envolvidos](#declaração-de-riscos-e-benefícios-envolvidos)               XV
-    - Autorização do Chefe de Serviço                                             XVI
-    - [Termo de compromisso do pesquisador](#termo-de-compromisso-do-pesquisador)                       XVII
-    - [Currículos dos Pesquisadores](#currÍculos-dos-pesquisadores)                                                XVIII
+- Anexos                                                                 
+    - [Termo de consentimento livre e esclarecido](#termo-de-consentimento-livre-e-esclarecido)  
+    - [Termo de Consentimento – Publicação em periódico científico de circulação nacional/internacional](#termo-de-consentimento--publicação-em-periódico-científico-de-circulação-nacionalinternacional)  
+    - [Avaliação sócio-demográfica - Protocolo da OMS](#avaliaÇÃo-sÓcio-demogrÁfica--protocolo-da-oms)             
+    - [Questionário para coleta de dados específicos sobre a doença oncológica](#questionário-para-coleta-de-dados-específicos-sobre-a-doença-oncológica)                                    
+    - [Questionário para coleta de dados sequenciais](#questionário-para-coleta-de-dados-sequenciais)                  
+    - [Escores/escalas de performance status](#escoresescalas-de-performance-status)                           
+    - [Fichas de quimioterapia](#fichas-de-quimioterapia)                                                    
+    - [Declaração de riscos e benefícios envolvidos](#declaraÇÃo-de-riscos-e-benefÍcios-envolvidos)              
+    - Autorização do Chefe de Serviço                                            
+    - [Termo de compromisso do pesquisador](#termo-de-compromisso-do-pesquisador)                      
+    - [Currículos dos Pesquisadores](#currÍculos-dos-pesquisadores)                                               
 
 ----
 
@@ -345,7 +345,7 @@ influência do valproato na sobrevida destes pacientes for confirmada,
 será a primeira vez em 40 anos que um tratamento farmacológico demonstra
 eficácia no tratamento de pacientes com DIPG.
 
-## 2. Apresentação do problema e fundamentação teórica
+## 2.Apresentação do problema e fundamentação teórica
 
 A sobrevida livre de progressão (SLP) e global de pacientes com DIPG
 tratados com estratégias padrão e mesmo drogas investigacionais tem sido
