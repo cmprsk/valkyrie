@@ -1818,7 +1818,7 @@ Outros exames de imagem:
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 ----
-## Escores/escalas de eprformance status
+## Escores/escalas de performance status
 
 ![](https://github.com/cmprsk/valkyrie/blob/master/project/files/Anteprojeto_VALQUIRIA_HIAS.pages/Data/image-26.png)
 
