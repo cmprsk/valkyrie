@@ -1,18 +1,18 @@
-#PROJETO DE PESQUISA
+# PROJETO DE PESQUISA
 
-##TÍTULO:
+## TÍTULO:
 
-##Ensaio Fase IIa (prova de conceito) de Ácido **Val**próico com **Qui**mioterapia e **R**adioterapia para Pacientes com Glioma **I**ntrínseco Difuso de Ponte na Infância e **A**dolescência - VALQUIRIA
+## Ensaio Fase IIa (prova de conceito) de Ácido **Val**próico com **Qui**mioterapia e **R**adioterapia para Pacientes com Glioma **I**ntrínseco Difuso de Ponte na Infância e **A**dolescência - VALQUIRIA
 
-###SECRETARIA DE SAÚDE DO ESTADO DO CEARÁ
+### SECRETARIA DE SAÚDE DO ESTADO DO CEARÁ
 
-###HOSPITAL INFANTIL ALBERT SABIN
+### HOSPITAL INFANTIL ALBERT SABIN
 
-###CENTRO PEDIÁTRICO DO CÂNCER
+### CENTRO PEDIÁTRICO DO CÂNCER
 
 ----
 
-#ÍNDICE
+# ÍNDICE
 
 - Checklist i
 - Índice    vi
@@ -71,19 +71,19 @@ Currículos dos Pesquisadores                                                XVI
 
 ----
 
-#APRESENTAÇÃO
+# APRESENTAÇÃO
 
-##GRANDE ÁREA DO CONHECIMENTO: Ciências da Saúde
+## GRANDE ÁREA DO CONHECIMENTO: Ciências da Saúde
 
-##ÁREA DO CONHECIMENTO: Medicina
+## ÁREA DO CONHECIMENTO: Medicina
 
-##SUB-ÁREA DO CONHECIMENTO: Pediatria
+## SUB-ÁREA DO CONHECIMENTO: Pediatria
 
-##ESPECIALIDADE DO CONHECIMENTO: Cancerologia pediátrica
+## ESPECIALIDADE DO CONHECIMENTO: Cancerologia pediátrica
 
-#EQUIPE EXECUTORA E ATRIBUIÇÕES:
+# EQUIPE EXECUTORA E ATRIBUIÇÕES:
 
-###Francisco Hélder Cavalcante Félix
+### Francisco Hélder Cavalcante Félix
 
 Médico Cancerologista Pediátrico do CPC-HIAS – Centro pediátrico do
 Câncer do Hospital Infantil Albert Sabin, Mestre em Farmacologia pela
@@ -92,7 +92,7 @@ Universidade Federal do Ceará
 Coordenador do estudo, desenho do estudo, médico assistente dos
 pacientes, análise estatística
 
-###Juvenia Bezerra Fontenele
+### Juvenia Bezerra Fontenele
 
 Professora da Faculdade de Farmácia, Odontologia e Enfermagem da
 Universidade Federal do Ceará, Doutora em Farmacologia pela Universidade
@@ -102,7 +102,7 @@ Desenho do estudo, revisão bibliográfica, farmacologia do tratamento
 
 ----
 
-#ABREVIAÇÕES
+# ABREVIAÇÕES
 
 AFT - modelo de tempo de falha acelerado
 
@@ -217,7 +217,7 @@ VPA - ácido valpróico; valproato de sódio
 
 ----
 
-#RESUMO
+# RESUMO
 
 O tratamento de pacientes pediátricos com gliomas intrínsecos difusos da
 ponte (DIPG) ainda associa-se com resultados insatisfatórios.
@@ -253,7 +253,7 @@ anos para recrutar esta amostra.
 
 ----
 
-#SUMMARY
+# SUMMARY
 
 The treatment of pediatric patients with diffuse intrinsic pontine
 gliomas (DIPG) is still associated with unsatisfactory results.
@@ -287,9 +287,9 @@ is expected that 2 years will be required to recruit this sample.
 
 ----
 
-#Anteprojeto para Pesquisa em Cancerologia Pediátrica envolvendo Seres Humanos
+# Anteprojeto para Pesquisa em Cancerologia Pediátrica envolvendo Seres Humanos
 
-##1.Introdução
+## 1.Introdução
 
 O tratamento de pacientes pediátricos com gliomas intrínsecos difusos da
 ponte (DIPG) ainda associa-se com resultados insatisfatórios. Apesar de
@@ -360,7 +360,7 @@ influência do valproato na sobrevida destes pacientes for confirmada,
 será a primeira vez em 40 anos que um tratamento farmacológico demonstra
 eficácia no tratamento de pacientes com DIPG.
 
-##2. Apresentação do problema e fundamentação teórica
+## 2. Apresentação do problema e fundamentação teórica
 
 A sobrevida livre de progressão (SLP) e global de pacientes com DIPG
 tratados com estratégias padrão e mesmo drogas investigacionais tem sido
@@ -494,7 +494,7 @@ diagnosticados no HIAS entre 2000 e 2013. Em vermelho: pacientes
 tratados com esquemas de quimioterapia do COG. Em azul: pacientes
 tratados com protocolo adaptado do HIT.
 
-##3.Justificativa
+## 3.Justificativa
 
 O resultado dos protocolos HIT-GBM-C e HIT-GBM-D, do Gesellschaft für
 Pädiatrische Onkologie und Hämatologie (Sociedade de Oncologia e
@@ -520,15 +520,15 @@ aberto, não controlado, utilizando a combinação entre a
 radioquimioterapia adaptada a partir do protocolo HIT-GBM-D e ácido
 valpróico oral.
 
-##4.Objetivos
+## 4.Objetivos
 
-###4.1.Objetivo principal: 
+### 4.1.Objetivo principal: 
 
 Avaliar a sobreviva global em 12 e 24 meses de pacientes com diagnóstico
 de glioma pontino intrínseco difuso tratados com uma combinação de
 radioquimioterapia e ácido valpróico.
 
-###4.2.Objetivos secundários:
+### 4.2.Objetivos secundários:
 
 Comparar a SG em 12 e 24 meses com os valores relatados pelo GPOH no
 ensaio HIT-GBM-C para tumores pontinos.
@@ -552,9 +552,9 @@ Avaliar a qualidade de vida ao final do tratamento da doença.
 Avaliar a toxicidade do tratamento, de acordo com os critérios comuns de
 toxicidade \[Saad, 2002\].
 
-##5.Metodologia
+## 5.Metodologia
 
-###5.1.Caracterização da pesquisa:
+### 5.1.Caracterização da pesquisa:
 
 Será realizado um estudo experimental, prospectivo, não randomizado,
 aberto, fase II piloto, para avaliar inicialmente a resposta de
@@ -591,9 +591,9 @@ aos pacientes se dará preferencialmente no CPC (ambulatório, enfermaria,
 UTIP), exceto se o paciente estiver internado em outra unidade do HIAS e
 não puder ser transferido de leito.
 
-###5.3.Critérios de inclusão e exclusão: 
+### 5.3.Critérios de inclusão e exclusão: 
 
-####Critérios de inclusão.
+#### Critérios de inclusão.
 
 A. Pacientes entre 0 e 18 anos que receberam diagnóstico de DIPG
 comprovado por imagem.
@@ -603,7 +603,7 @@ sangramento intraparenquimatoso e subaracnóideo.
 
 C. Ausência de tratamento anterior por quimioterapia ou radioterapia.
 
-####Critérios de exclusão.
+#### Critérios de exclusão.
 
 A. História de trauma craniano recente.
 
@@ -615,7 +615,7 @@ D. Uso anterior recente de ácido valpróico.
 
 E. Uso de outras drogas anticonvulsivantes.
 
-###5.4.Procedimentos
+### 5.4.Procedimentos
 
 Os participantes serão informados sobre o protocolo de estudo e
 esclarecidos sobre o objetivo do trabalho. Todos os responsáveis legais
@@ -713,9 +713,9 @@ compreendem:
     com o necessário para o protocolo de quimioterapia ou a
     critério médico.
 
-###5.5.Intervenção: 
+### 5.5.Intervenção: 
 
-####Droga oral:
+#### Droga oral:
 Ácido valpróico (valproato de sódio, ácido
 2-propilpentanóico, ATC N03AG01, CAS 99-66-1, fármaco com efeito
 GABAérgico indireto usado como antiepiléptico (com registro na ANVISA
@@ -729,12 +729,12 @@ quimioluminescência (CLIA), uma, duas e três semanas após o início do
 tratamento com VPA e a dose será modificada, entre 10 e 20 mg/kg/dia, a
 fim de atingir uma concentração sérica entre 75 e 100 mcg/ml.
 
-####Protocolo de quimioterapia:
+#### Protocolo de quimioterapia:
 Adaptado do HIT-GBM-D do GPOH. O texto a
 seguir baseia-se parcialmente na livre tradução, com adaptações, para o
 português do texto do protocolo HIT-GBM-D \[Wolff, 2010c\].
 
-####Radioquimioterapia simultânea.
+#### Radioquimioterapia simultânea.
 
 **Resumo geral**: a radioterapia fracionada convencional deve iniciar em 14
 dias até no máximo quatro semanas após o diagnóstico radiológico,.
@@ -842,7 +842,7 @@ Clearance de creatinina &lt; 50 ml/min/1,73 m<sup>2</sup>            |        Ne
 Tabela 2: Diretrizes para o segundo ciclo de quimioterapia durante a
 irradiação
 
-#####Etoposido - conduta na hipersensibilidade:
+##### Etoposido - conduta na hipersensibilidade:
 
 Na situação de emergência aguda, pare a infusão.
 
@@ -856,7 +856,7 @@ Antes da dose seguinte, administrar anti-histamínicos e infundir com a
 metade da velocidade Se as reações alérgicas continuarem, suspender o
 etoposido.
 
-####Consolidação.
+#### Consolidação.
 
 Antes de iniciar a consolidação, um exame de RNM deve ser feito e o FMH
 (questionário de estado de Saúde) deve ser preenchido, a fim de obter
@@ -876,7 +876,7 @@ Vincristina: 1,5 mg/m<sup>2</sup> IV (dose máxima, 2mg) dias 1, 8 e 15 do ciclo
 Prednisona: 40 mg/m<sup>2</sup> VO dias 1 a 11, 10 mg/m<sup>2</sup> VO, dias 12 a 14 e 5
 mg/m<sup>2</sup> VO, dias 15 a 17 do ciclo.
 
-####Cuidados de suporte :
+#### Cuidados de suporte :
 
 Antiemético : ondansetrona ou um agente antiemético comparável.
 
@@ -890,7 +890,7 @@ deve estar com bom estado geral, sem febre, leucócitos &gt; 2000/ul,
 trombócitos &gt; 80000/ul, sem glicosúria, TGO (AST) e TGP (ALT) abaixo
 do dobro do limite superior .
 
-####Modificações de dosagem para novos ciclos:
+#### Modificações de dosagem para novos ciclos:
 
 Polineuropatia Grau III ou IV: parar a vincristina até melhora,
 reiniciar com 50% da dose. Para a continuação do tratamento, adaptar
@@ -906,7 +906,7 @@ ciclo seguinte por uma semana.
 Glicosúria com Poliúria: reduzir a prednisona em 20% a cada dois dias
 até resolução.
 
-####Radioterapia: 
+#### Radioterapia: 
 seguindo as especificações do HIT-GBM-D.
 
 Todos os pacientes que tenham completado o seu terceiro ano de vida
@@ -968,7 +968,7 @@ de suporte máximos, a radioterapia deve ser interrompida. No entanto,
 devem ser envidados todos os esforços para continuar a irradiação, uma
 vez que é, sem dúvida, o principal componente do tratamento antitumoral.
 
-###5.6. Análise estatística dos resultados: 
+### 5.6. Análise estatística dos resultados: 
 
 O desenho do estudo é unicêntrico, aberto, não randomizado, não
 controlado e prospectivo. O principal objetivo do estudo é a avaliação
@@ -980,7 +980,7 @@ clínicos fase II em oncologia, desenvolvido pela Clinical Trials
 Research Unit da University of Leeds \[Brown, 2010\] foi utilizado para
 escolher o desenho experimental mais adequado.
 
-####Definições:
+#### Definições:
 
 Evento:, a recaída, a progressão do tumor, óbito do paciente e segunda
 neoplasia são resumidos no presente protocolo, como "Evento".
@@ -1039,7 +1039,7 @@ radioterapia? Qual a sobrevida livre de progressão 6 meses após o início
 do tratamento? Qual a qualidade de vida dos pacientes após o fim do
 tratamento? Qual a incidência de toxicidade grave neste tratamento?
 
-####Avaliação:
+#### Avaliação:
 
 Objetivo principal, pergunta de partida: a resposta à pergunta de
 partida será avaliada ao final do período de observação. O recrutamento
@@ -1052,7 +1052,7 @@ avaliadas 2 meses após o fim da radioterapia (resposta radiológica), 6
 meses após o início do tratamento (SLP) e ao fim do tratamento
 (qualidade de vida e toxicidade).
 
-####Modificações do projeto:
+#### Modificações do projeto:
 
 O desenho deste estudo pode ser alterado, se necessário, no caso de
 novas informações importantes. Modificações do protocolo serão feitas
@@ -1079,7 +1079,7 @@ Kaplan-Meier pelo método de Kalbfleisch e Prentice. As comparações serão
 feitas por regressão pelo modelo de riscos proporcionais de Cox, usando
 a abordagem de Andersen e Gill.
 
-###5.7. Tamanho da amostra: 
+### 5.7. Tamanho da amostra: 
 
 O tamanho da amostra não depende da pergunta de partida, a qual não é
 comparativa. No entanto, a fim de responder às questões secundárias, foi
@@ -1095,7 +1095,7 @@ outros esquemas que não o HIT (número de pacientes 31, adequado para o
 desenho experimental). O pacote powerSurvEpi da linguagem R foi usado
 para calcular o tamanho da amostra (R Development Core Team, 2012).
 
-###5.8. Coleta retrospectiva de dados para compor o grupo controle histórico: 
+### 5.8. Coleta retrospectiva de dados para compor o grupo controle histórico: 
 
 Os dados coletados para dois outros projetos anteriores, "PERFIL
 EPIDEMIOLÓGICO DOS PACIENTES PEDIÁTRICOS COM TUMOR CEREBRAL TRATADOS NO
@@ -1128,10 +1128,9 @@ do grupo experimental.*" Sua aplicação ocorre naqeulas situações nas
 quais um grupo controle convencional não pode ser utilizado ou não é
 eticamente recomendado, como no caso deste ensaio.
 
-##6. Cronograma de execução do projeto
-
-                                                                           | **2014** |  **2016** |  **2017** |  **2018-19**
-  ------------------------------------------------------------------------ | :------ | :----------: | :---------- | :-------------:
+## 6. Cronograma de execução do projeto
+   | **2014** |  **2016** |  **2017** |  **2018-19**
+  ---- | :------ | :----------: | :---------- | :--------:
   Submissão do Estudo à apreciação do Comitê de Ética e Pesquisa do HIAS.  | X         |        |          |    
   Planejamento   |     X    X     |        |           |    
   Impressão e editoração dos instrumentos de coleta de dados  |     X    X     |        |           |    
@@ -1142,14 +1141,14 @@ eticamente recomendado, como no caso deste ensaio.
   Apresentação dos resultados (tese, monografia, publicação, etc) |          |        |           |    X    X
   Reuniões com o grupo de pesquisa para discussão e avaliação das ações     |      X    |    X    |      X     |    X
 
-##7.Recursos disponíveis
+## 7.Recursos disponíveis
 
 Este estudo está sendo proposto pelo em colaboração com o Grupo de
 Pesquisa em Farmacologia Vascular e Endotelial da Universidade Federal
 do Ceará. O grupo de pesquisa tem outros projetos em andamento na área,
 sem financiamento específico.
 
-##8.Orçamento
+## 8.Orçamento
 
 As previsões de custos orçadas abaixo são preliminares. O pesquisador
 principal, coordenador do projeto, é funcionário da Secretaria de Saúde
@@ -1174,14 +1173,14 @@ remuneração específica pelo projeto.
   **Prancheta, crachás de identificação, canetas, lápis, pastas para papel, organizadores, arquivos para os documentos, outros materiais de escritório**  | -    |            R$ 400,00
   **Total**               |   -   |             R$ 15617,00
 
-##9.Ressarcimento e desistência
+## 9.Ressarcimento e desistência
 
 Não será feito nenhum pagamento para participar da pesquisa. A
 participação será de livre e espontânea vontade, não sendo previsto
 ressarcimento de custos. Qualquer um pode desistir em qualquer momento
 de participar da pesquisa sem nenhuma penalidade.
 
-##10.Referências Bibliográficas
+## 10.Referências Bibliográficas
 
 1\. Jenkin RD, Boesel C, Ertel I, et al. Brain-stem tumors in childhood:
 a prospective randomized trial of irradiation with and without adjuvant
@@ -1335,13 +1334,13 @@ for flexible interim decisions in clinical trials. J Statistical Planning Infere
 
 ----
 
-##Ensaio Fase IIa (prova de conceito) de Ácido **Val**próico com **Qui**mioterapia e **R**adioterapia para Pacientes com Glioma **I**ntrínseco Difuso de Ponte na Infância e **A**dolescência - VALQUIRIA
+## Ensaio Fase IIa (prova de conceito) de Ácido **Val**próico com **Qui**mioterapia e **R**adioterapia para Pacientes com Glioma **I**ntrínseco Difuso de Ponte na Infância e **A**dolescência - VALQUIRIA
 
-#ANEXOS
+# ANEXOS
 
 ----
 
-##TERMO DE CONSENTIMENTO LIVRE E ESCLARECIDO
+## TERMO DE CONSENTIMENTO LIVRE E ESCLARECIDO
 
 **APRESENTAÇÃO**: Este termo de consentimento pode apresentar palavras
 ou frases não conhecidas para o Senhor(a). Caso isso aconteça, por
@@ -1421,7 +1420,7 @@ Assinatura do responsável legal  - Polegar Direito
 
 ----
 
-##Termo de Consentimento – Publicação em periódico científico de circulação nacional/internacional
+## Termo de Consentimento – Publicação em periódico científico de circulação nacional/internacional
 
 Para consentimento do paciente ou de seus representantes legais para a
 publicação de informações e/ou material fotográfico ou de outra natureza
@@ -1505,9 +1504,9 @@ Data: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 ----
 
-##AVALIAÇÃO SÓCIO-DEMOGRÁFICA – PROTOCOLO DA OMS
+## AVALIAÇÃO SÓCIO-DEMOGRÁFICA – PROTOCOLO DA OMS
 
-###Identificação e Características do Paciente
+### Identificação e Características do Paciente
 ```
 (1) Código do Entrevistador           [    ] [    ] [    ]
 
@@ -1515,7 +1514,7 @@ Data: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
                                       dia             mês             ano
 ```
-###Registros individuais do Paciente
+### Registros individuais do Paciente
 ```
 (3) Nome do paciente [________________________________________________________________________________]
 
@@ -1540,7 +1539,7 @@ Se a data de nascimento é desconhecida, coloque a idade: [    ] [    ] [    ]
 Selecione uma opção 
 ```
 
-###Informação do caso de sangramento agudo (AVCH)
+### Informação do caso de sangramento agudo (AVCH)
 ```
 (8) Data do AVCH  [    ] [    ] / [    ] [    ] / [    ] [    ] [    ] [    ]
 
@@ -1572,7 +1571,7 @@ Selecione uma opção
 
 Assegure um diagnóstico de AVCH correto ao invés de casos prévios de AVCH.
 ```
-###Condição Socioeconômica
+### Condição Socioeconômica
 ```
 (11) Qual o nível de educação que a pessoa completou? 
 
@@ -1624,7 +1623,7 @@ Selecione uma opção
 O propósito desta questão é ajudar a responder outras questões, como por exemplo, se o tratamento, 
 a sobrevivência e a reabilitação podem diferenciar de acordo com a ocupação. 
 ```
-###Admissão hospitalar
+### Admissão hospitalar
 ```
 (13) Data de admissão no hospital [    ] [    ] / [    ] [    ] / [    ] [    ] [    ] [    ]
 
@@ -1688,9 +1687,9 @@ dormindo, responde pouco ao estímulo glabelar/sonoro; [6] sem resposta
 
 ----
 
-##Questionário para coleta de dados específicos sobre a doença oncológica:
+## Questionário para coleta de dados específicos sobre a doença oncológica:
 
-###1. Exames de imagem ao diagnóstico (normal ou conclusão sucinta):
+### 1. Exames de imagem ao diagnóstico (normal ou conclusão sucinta):
 
 TC de cranio:
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_Data:
@@ -1704,7 +1703,7 @@ Outros exames de imagem:
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-###2. Diagnóstico:
+### 2. Diagnóstico:
 
 Topografia:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_Data:
 \_\_\_\_\_\_\_\_\_
@@ -1716,7 +1715,7 @@ Dimensões pela imagem:
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 Data: \_\_\_\_\_\_\_\_\_
 
-###3. Tratamento (droga, duração, dose, paraefeitos):
+### 3. Tratamento (droga, duração, dose, paraefeitos):
 
 Corticoterapia :
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
@@ -1733,7 +1732,7 @@ Outros:
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-###4. Desfechos: estado ao final do tratamento:
+### 4. Desfechos: estado ao final do tratamento:
 
 Tratamento:
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
@@ -1782,7 +1781,7 @@ Melhor resposta obtida (anotar quando):
 
 ----
 
-##Questionário para coleta de dados sequenciais – 1 folha para cada data de coleta
+## Questionário para coleta de dados sequenciais – 1 folha para cada data de coleta
 
 Data da coleta de dados: \_\_\_/\_\_\_/\_\_\_\_\_\_
 
@@ -1840,7 +1839,7 @@ Bras Cancerol* 48.10 (2002): 63-96.
 
 ----
 
-##GLIOBLASTOMA, GLIOMA DE ALTO GRAU, DIPG – adaptado do HIT-GBM-D
+## GLIOBLASTOMA, GLIOMA DE ALTO GRAU, DIPG – adaptado do HIT-GBM-D
 
 > **Racional:** no estudo fase II do GPOH, a manutenção simplificada com prednisona, vincristina e lomustina foi tão eficaz quanto a manutenção intensiva do HIT-GBM-C (Wolff et al, 2011). Optamos por não usar a lomustina, apenas a manutenção com prednisona e VCR.
 
@@ -1928,7 +1927,7 @@ o tratamento.
 
 ----
 
-##GLIOBLASTOMA, GLIOMA DE ALTO GRAU, DIPG – adaptado do HIT-GBM-D
+## GLIOBLASTOMA, GLIOMA DE ALTO GRAU, DIPG – adaptado do HIT-GBM-D
 
 ```
 Nome: ______________________________________________________________
@@ -1990,7 +1989,7 @@ Peso: ________ kg Estatura: _______ cm
 
 ----
 
-##GLIOBLASTOMA, GLIOMA DE ALTO GRAU, DIPG – adaptado do HIT-GBM-D
+## GLIOBLASTOMA, GLIOMA DE ALTO GRAU, DIPG – adaptado do HIT-GBM-D
 
 ```
 Nome: ______________________________________________________________
@@ -2053,24 +2052,24 @@ Peso: ________ kg Estatura: _______ cm
 
 ----
 
-##DECLARAÇÃO DE RISCOS E BENEFÍCIOS ENVOLVIDOS
+## DECLARAÇÃO DE RISCOS E BENEFÍCIOS ENVOLVIDOS
 
-###Título da Pesquisa
+### Título da Pesquisa
 
 Ensaio Fase IIa (prova de conceito) de Ácido **Val**próico com
 **Qui**mioterapia e **R**adioterapia para Pacientes com Glioma
 **I**ntrínseco Difuso de Ponte na Infância e **A**dolescência -
 VALQUIRIA
 
-###Pesquisador responsável / orientador
+### Pesquisador responsável / orientador
 
 Francisco Hélder Cavalcante Félix
 
-###Especificação dos riscos envolvidos:
+### Especificação dos riscos envolvidos:
 
 Coagulopatia, plaquetopenia, sangramento cerebral, hepatopatia.
 
-###Especificação dos benefícios envolvidos:
+### Especificação dos benefícios envolvidos:
 
 Melhora da resposta radiológica, prolongamento da sobrevida livre de
 progressão e sobrevida global.
@@ -2085,7 +2084,7 @@ Assinatura do Pesquisador Responsável / orientador
 
 ----
 
-##TERMO DE COMPROMISSO DO PESQUISADOR
+## TERMO DE COMPROMISSO DO PESQUISADOR
 
 Eu, Francisco Hélder Cavalcante Félix, RG 992166988, pesquisador (a)
 responsável do projeto de pesquisa intitulado “Ensaio Fase IIa (prova de
@@ -2112,7 +2111,7 @@ Assinatura Pesquisador (a) Responsável
 
 ----
 
-##CURRÍCULOS DOS PESQUISADORES
+## CURRÍCULOS DOS PESQUISADORES
 
 Ensaio Fase IIa (prova de conceito) de Ácido **Val**próico com
 **Qui**mioterapia e **R**adioterapia para Pacientes com Glioma
