@@ -14,60 +14,45 @@
 
 # ÍNDICE
 
-- Checklist i
-- Índice    vi
-- Apresentação                                                              vii
-- Abreviações                                                               viii
-- Resumo                                                                    x
-- Summary                                                                   xi
+- [Apresentação](#apresentaÇÃo)                                             vii
+- [Abreviações](#abreviaÇÕes)                                               viii
+- [Resumo](#resumo)                                                         x
+- [Summary](#summary)                                                       xi
 - Anteprojeto                                                               1
 
-1. Introdução                                                               1
+1. [Introdução](#1introcução)                                               1
 2. Apresentação do problema e fundamentação teórica                         2
-3. Justificativa                                                            6
-4. Objetivos                                                                6
+3. [Justificativa](#3justificativa)                                         6
+4. [Objetivos](#4objetivos)                                                 6
   1. Objetivo principal                                                     6
   2. Objetivos secundários                                                  6
-5. Metodologia                                                              7
+5. [Metodologia](#5metodologia)                                             7
   1. Caracterização da pesquisa                                             7
   2. Local e participantes                                                  7
-  3. Critérios de inclusão e exclusão                                       8
-  4. Procedimentos                                                          8
-  5. Intervenção                                                            10
-  6. Análise estatística dos resultados                                     15
-  7. Tamanho da amostra                                                     17
+  3. [Critérios de inclusão e exclusão](#53critérios-de-inclusão-e-exclusão) 8
+  4. [Procedimentos](#54procedimentos)                                      8
+  5. [Intervenção](#55intervenção)                                          10
+  6. [Análise estatística dos resultados](#56análise-estatística-dos-resultados)    15
+  7. [Tamanho da amostra](#57tamanho-da-amostra)                            17
   8. Coleta retrospectiva de dados para compor o grupo controle histórico   18
-6. Cronograma de execução do projeto                                        19
+6. [Cronograma de execução do projeto](#6cronograma-de-execução-do-projeto) 19
 7. Recursos disponíveis                                                     19
 8. Orçamento                                                                19
-9. Ressarcimento e desistência                                              21
-10. Referências bibliográficas                      21
+9. [Ressarcimento e desistência](#9ressarcimento-e-desistência)             21
+10. [Referências bibliográficas](#10referências-bibliográficas)             21
 
-Anexos                                                                  I 
-
-Termo de consentimento livre e esclarecido                              II 
-
-Termo de Consentimento – Publicação em periódico científico de 
-circulação nacional/internacional                            III 
-
-Avaliação sócio-demográfica - Protocolo da OMS              IV 
-
-Questionário para coleta de dados específicos sobre a doença
-oncológica                                                                  VI
-
-Questionário para coleta de dados sequenciais                               VII
-
-Escores/escalas de performance status                                       VIII
-
-Fichas de quimioterapia                                                     IX
-
-Declaração de riscos e benefícios envolvidos                                XV
-
-Autorização do Chefe de Serviço                                             XVI
-
-Termo de compromisso do pesquisador                                         XVII
-
-Currículos dos Pesquisadores                                                XVIII
+- Anexos                                                                  I 
+    - [Termo de consentimento livre e esclarecido](#termo-de-consentimento-livre-e-esclarecido) II 
+    - [Termo de Consentimento – Publicação em periódico científico de circulação nacional/internacional](#termo-de-consentimento--publicação-em-periódico-científico-de-circulação-nacionalinternacional) III 
+    - [Avaliação sócio-demográfica - Protocolo da OMS](#avaliaÇÃo-sÓcio-demogrÁfica--protocolo-da-oms)              IV 
+    - [Questionário para coleta de dados específicos sobre a doença oncológica](#questionário-para-coleta-de-dados-específicos-sobre-a-doença-oncológica)                                     VI
+    - [Questionário para coleta de dados sequenciais](#questionário-para-coleta-de-dados-sequenciais)                   VII
+    - [Escores/escalas de performance status](#escoresescalas-de-performance-status)                            VIII
+    - [Fichas de quimioterapia](#fichas-de-quimioterapia)                                                     IX
+    - [Declaração de riscos e benefícios envolvidos](#declaração-de-riscos-e-benefícios-envolvidos)               XV
+    - Autorização do Chefe de Serviço                                             XVI
+    - [Termo de compromisso do pesquisador](#termo-de-compromisso-do-pesquisador)                       XVII
+    - [CurrÍculos dos Pesquisadores](#currículos-dos-pesquisadores)                                                XVIII
 
 ----
 
@@ -81,7 +66,7 @@ Currículos dos Pesquisadores                                                XVI
 
 ## ESPECIALIDADE DO CONHECIMENTO: Cancerologia pediátrica
 
-# EQUIPE EXECUTORA E ATRIBUIÇÕES:
+## EQUIPE EXECUTORA E ATRIBUIÇÕES:
 
 ### Francisco Hélder Cavalcante Félix
 
@@ -561,7 +546,7 @@ aberto, fase II piloto, para avaliar inicialmente a resposta de
 pacientes pediátricos portadores de gliomas pontinos intrínsecos difusos
 ao tratamento com radioquimioterapia associada a ácido valpróico oral.
 
-###5.2 Local e participantes:
+###5.2.Local e participantes:
 
 A pesquisa será desenvolvida no Hospital Infantil Albert Sabin e em seu
 anexo Centro Pediátrico do Câncer, especialmente no setor de atendimento
@@ -968,7 +953,7 @@ de suporte máximos, a radioterapia deve ser interrompida. No entanto,
 devem ser envidados todos os esforços para continuar a irradiação, uma
 vez que é, sem dúvida, o principal componente do tratamento antitumoral.
 
-### 5.6. Análise estatística dos resultados: 
+### 5.6.Análise estatística dos resultados: 
 
 O desenho do estudo é unicêntrico, aberto, não randomizado, não
 controlado e prospectivo. O principal objetivo do estudo é a avaliação
@@ -1079,7 +1064,7 @@ Kaplan-Meier pelo método de Kalbfleisch e Prentice. As comparações serão
 feitas por regressão pelo modelo de riscos proporcionais de Cox, usando
 a abordagem de Andersen e Gill.
 
-### 5.7. Tamanho da amostra: 
+### 5.7.Tamanho da amostra: 
 
 O tamanho da amostra não depende da pergunta de partida, a qual não é
 comparativa. No entanto, a fim de responder às questões secundárias, foi
@@ -1095,7 +1080,7 @@ outros esquemas que não o HIT (número de pacientes 31, adequado para o
 desenho experimental). O pacote powerSurvEpi da linguagem R foi usado
 para calcular o tamanho da amostra (R Development Core Team, 2012).
 
-### 5.8. Coleta retrospectiva de dados para compor o grupo controle histórico: 
+### 5.8.Coleta retrospectiva de dados para compor o grupo controle histórico: 
 
 Os dados coletados para dois outros projetos anteriores, "PERFIL
 EPIDEMIOLÓGICO DOS PACIENTES PEDIÁTRICOS COM TUMOR CEREBRAL TRATADOS NO
@@ -1128,7 +1113,7 @@ do grupo experimental.*" Sua aplicação ocorre naqeulas situações nas
 quais um grupo controle convencional não pode ser utilizado ou não é
 eticamente recomendado, como no caso deste ensaio.
 
-## 6. Cronograma de execução do projeto
+## 6.Cronograma de execução do projeto
    | **2014** |  **2016** |  **2017** |  **2018-19**
   ---- | :------ | :----------: | :---------- | :--------:
   Submissão do Estudo à apreciação do Comitê de Ética e Pesquisa do HIAS.  | X         |        |          |    
@@ -1781,7 +1766,9 @@ Melhor resposta obtida (anotar quando):
 
 ----
 
-## Questionário para coleta de dados sequenciais – 1 folha para cada data de coleta
+## Questionário para coleta de dados sequenciais
+
+**1 folha para cada data de coleta**
 
 Data da coleta de dados: \_\_\_/\_\_\_/\_\_\_\_\_\_
 
@@ -1830,6 +1817,9 @@ Outros exames de imagem:
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
+----
+## Escores/escalas de eprformance status
+
 ![](https://github.com/cmprsk/valkyrie/blob/master/project/files/Anteprojeto_VALQUIRIA_HIAS.pages/Data/image-26.png)
 
 Critérios comuns de toxicidade do Instituto Nacional de Câncer dos
@@ -1839,7 +1829,8 @@ Bras Cancerol* 48.10 (2002): 63-96.
 
 ----
 
-## GLIOBLASTOMA, GLIOMA DE ALTO GRAU, DIPG – adaptado do HIT-GBM-D
+## Fichas de quimioterapia
+### GLIOBLASTOMA, GLIOMA DE ALTO GRAU, DIPG – adaptado do HIT-GBM-D
 
 > **Racional:** no estudo fase II do GPOH, a manutenção simplificada com prednisona, vincristina e lomustina foi tão eficaz quanto a manutenção intensiva do HIT-GBM-C (Wolff et al, 2011). Optamos por não usar a lomustina, apenas a manutenção com prednisona e VCR.
 
@@ -1927,7 +1918,7 @@ o tratamento.
 
 ----
 
-## GLIOBLASTOMA, GLIOMA DE ALTO GRAU, DIPG – adaptado do HIT-GBM-D
+### GLIOBLASTOMA, GLIOMA DE ALTO GRAU, DIPG – adaptado do HIT-GBM-D
 
 ```
 Nome: ______________________________________________________________
@@ -1989,7 +1980,7 @@ Peso: ________ kg Estatura: _______ cm
 
 ----
 
-## GLIOBLASTOMA, GLIOMA DE ALTO GRAU, DIPG – adaptado do HIT-GBM-D
+### GLIOBLASTOMA, GLIOMA DE ALTO GRAU, DIPG – adaptado do HIT-GBM-D
 
 ```
 Nome: ______________________________________________________________
