@@ -52,7 +52,7 @@
     - [Declaração de riscos e benefícios envolvidos](#declaração-de-riscos-e-benefícios-envolvidos)               XV
     - Autorização do Chefe de Serviço                                             XVI
     - [Termo de compromisso do pesquisador](#termo-de-compromisso-do-pesquisador)                       XVII
-    - [CurrÍculos dos Pesquisadores](#currículos-dos-pesquisadores)                                                XVIII
+    - [Currículos dos Pesquisadores](#currÍculos-dos-pesquisadores)                                                XVIII
 
 ----
 
