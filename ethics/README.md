@@ -2,7 +2,7 @@
 
 Esta pasta contém os arquivos relacionados à aprovação do projeto pelo Comitê de Ética em pesquisa (CEP) do Hospital Infantil Albert Sabin (HIAS).
 
-[Folha de rosto](folhaDeRostoAss.pdf) apresentada juntamente com o anteprojeto à CEP.
+[Folha de rosto](scanned_20140328-1306.pdf) apresentada juntamente com o anteprojeto à CEP.
 
 [Resumo](PB_INFORMAÇÕES_BÁSICAS_DO_PROJETO_266529.pdf) do projeto com as principais informações.
 
