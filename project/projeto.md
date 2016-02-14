@@ -1594,9 +1594,9 @@ Desconhecido                        (9) [    ]
 
 Selecione uma opção
 
-Se uma pessoa freqüentou poucos meses do primeiro ano da escola secundária, mas não completou o ano, registre 
-“escola primária completa”. Se uma pessoa somente freqüentou poucos anos da escola primária ou nunca foi à escola, 
-registre “nenhuma educação escolar regular”.
+Se uma pessoa freqüentou poucos meses do primeiro ano da escola secundária, mas não completou o ano,  
+registre “escola primária completa”. Se uma pessoa somente freqüentou poucos anos da escola primária 
+ou nunca foi à escola, registre “nenhuma educação escolar regular”.
 
 (12) Qual das seguintes opções melhor descreve o principal cargo de trabalho do chefe de família 
 nos últimos 12 meses? 
