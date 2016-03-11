@@ -1,6 +1,6 @@
 # valkyrie (valquiria)
 
-Este repositório vai abrigar os arquivos do primeiro *open clinical trial*, um [**open lab notebook**](https://en.wikipedia.org/wiki/Open_notebook_science) que descreverá e apresentará os resultados de um ensaio clínico em tempo real (enquanto os dados são coletados). A fim de proteger a identidade e confidencialidade dos pacientes, os dados não serão apresentados de forma completa, porém serão anotados de forma [*desidentificada*](https://en.wikipedia.org/wiki/De-identification).
+Este repositório vai abrigar os arquivos do primeiro *open science clinical trial*, um [**open lab notebook**](https://en.wikipedia.org/wiki/Open_notebook_science) que descreverá e apresentará os resultados de um ensaio clínico em tempo real (enquanto os dados são coletados). A fim de proteger a identidade e confidencialidade dos pacientes, os dados não serão apresentados de forma completa, porém serão anotados de forma [*desidentificada*](https://en.wikipedia.org/wiki/De-identification).
 
 Acrônimo: Ácido **VAL**próico, **QUI**mioterapia e **R**adioterapia para pacientes com DIPG na **I**nfância e **A**dolescência
 
@@ -12,7 +12,7 @@ Número do parecer: 1.386.007
 
 Registro na Plataforma Brasil: CAAE 30166714.8.0000.5042
 
-This repository will harbor the files of the first *open clinical trial*, an [**open lab notebook**](https://en.wikipedia.org/wiki/Open_notebook_science) project that will describe and present the results of a clinical trial in real time (as data is registered). In order to protect the identity and confidentiality of the patients, data will not be shown in raw format, but [*de-identified*](https://en.wikipedia.org/wiki/De-identification).
+This repository will harbor the files of the first *open science clinical trial*, an [**open lab notebook**](https://en.wikipedia.org/wiki/Open_notebook_science) project that will describe and present the results of a clinical trial in real time (as data is registered). In order to protect the identity and confidentiality of the patients, data will not be shown in raw format, but [*de-identified*](https://en.wikipedia.org/wiki/De-identification).
 
 Acronim: VALKYRIE - **VAL**proic acid with radio**CH(K)**emothe**R**apy for D**I**PG
 
