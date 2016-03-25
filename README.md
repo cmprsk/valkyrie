@@ -24,4 +24,18 @@ Approval number: 1.386.007
 
 Registered number in Plataforma Brasil (brazillian national institutional boards registry): CAAE 30166714.8.0000.5042
 
+### Responsável: 
+> Francisco Helder Cavalcante Felix,
+> Médico cancerologista pediátrico
+> atuando desde 2008 (ingresso por concurso público) no [Hospital Infantil Albert Sabin](http://www.hias.ce.gov.br), Fortaleza - CE, Brasil
+
+> Membro da Sociedade Brasileira de Pediatria - [SBP](http://www.sbp.com.br) desde 2002,
+> Membro da Sociedade Brasileira de Oncología Pediátrica - [SOBOPE](http://www.sobope.org.br) desde 2013,
+> Membro da Society for Neuroncology - [SNO](http://soc-neuro-onc.org) desde 2015
+
+> Título de especialista em pediatria em 2012,
+> Título de especialista em cancerologia pediátrica em 2014
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">valkyrie</span> de <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Francisco H C Felix</span> está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons - Atribuição-NãoComercial 4.0 Internacional</a>
+
 ![logo](https://github.com/cmprsk/valkyrie/blob/master/opennsSCI.png)
