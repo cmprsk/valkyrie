@@ -36,6 +36,8 @@ Registered number in Plataforma Brasil (brazillian national institutional boards
 > Título de especialista em pediatria em 2012,
 > Título de especialista em cancerologia pediátrica em 2014
 
+> Contato: heldercfelix@gmail.com - twitter: @cmprsk
+
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">valkyrie</span> de <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Francisco H C Felix</span> está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons - Atribuição-NãoComercial 4.0 Internacional</a>
 
 ![logo](https://github.com/cmprsk/valkyrie/blob/master/opennsSCI.png)
