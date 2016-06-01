@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "VALQUIRIA está ativo desde hoje!"
+title:  "VALQUIRIA ativo desde hoje!"
 date:   2016-06-01 16:03:45 -0300
 categories: valquiria
 ---
