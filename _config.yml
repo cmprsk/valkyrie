@@ -11,18 +11,9 @@ email: heldercfelix@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   VALQUIRIA é um ensaio clínico que estuda o tratamento de crianças e adoles
   centes com tumores difusos da ponte (tronco cerebral), uma doença grave de
-  difícil tratamento e, atualmente, sem terapia curativa estabelecida.  Este
-  estudo avalia a possibilidade de melhora dos resultados do tratamento (qua
-  lidade de vida e sobrevida dos pacientes) com o uso do ácido valpróico, um
-  anti-epiléptico já usado há anos em crianças e adolescentes. Recentemente,
-  novas descobertas mostraram que a maior parte dos pacientes com tumores di
-  fusos da ponte têm uma mutação genética que causa uma alteração no modo co
-  mo os genes são 'lidos' pelas células.  Essa alteração pode ser  revertida
-  pelo ácido valpróico, e isso talvez torne as células tumorais menos resis-
-  tentes ao tratamento.
-  - Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto) 
+  difícil tratamento e sem terapia curativa estabelecida.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://fhcflx.github.io/pharmakon/" # the base hostname & protocol for your site
+url: "http://fhcflx.github.io/valkyrie/" # the base hostname & protocol for your site
 twitter_username: fhcflx
 github_username:  fhcflx
 

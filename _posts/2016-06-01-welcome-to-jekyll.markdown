@@ -1,25 +1,10 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "VALQUIRIA está ativo desde hoje!"
 date:   2016-06-01 16:03:45 -0300
-categories: jekyll update
+categories: valquiria
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+VALQUIRIA é um ensaio clínico que estuda o tratamento de crianças e adolescentes com tumores difusos da ponte (tronco cerebral), uma doença grave de difícil tratamento e, atualmente, sem terapia curativa estabelecida. Este estudo avalia a possibilidade de melhora dos resultados do tratamento (qualidade de vida e sobrevida dos pacientes) com o uso do ácido valpróico, um anti-epiléptico já usado há anos em crianças e adolescentes. Recentemente, novas descobertas mostraram que a maior parte dos pacientes com tumores difusos da ponte têm uma mutação genética que causa uma alteração no modo como os genes são 'lidos' pelas células. Essa alteração pode ser revertida pelo ácido valpróico, e isso talvez torne as células tumorais menos resistentes ao tratamento.
+VALQUIRIA foi aprovado pelo Comitê de Ética em Pesquisa do Hospital Infantil Albert Sabin e registrado na Plataforma Brasil e na Rede Brasileira de Ensaios Clínicos (ReBEC). O ensaio clínico está ativo desde hoje e esta é a página da internet onde todas as informações sobre seu andamento serão postadas. Ao longo do projeto, resultados parciais poderão ser acompanhados nesta página, tornando este um ensaio clínico baseado na *ciência aberta*, uma forma pública e transparente de pesquisa científica. Mais sobre ciência aberta e sobre a proposta do trabalho, cópias do projeto em vários formatos e outras informações podem ser acessadas no repositório oficial do projeto, [aqui](https://github.com/fhcflx/valkyrie).
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+- Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)
