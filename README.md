@@ -9,9 +9,9 @@ Acrônimo: Ácido **VAL**próico, **QUI**mioterapia e **R**adioterapia para paci
 
 Título público do projeto: Ensaio Clínico de Ácido Valpróico com Quimioterapia e Radioterapia para Pacientes com Glioma Intrínseco Difuso de Ponte na Infância e Adolescência - VALQUIRIA
 
-Projeto aprovado pelo Comitê de Ética em Pesquisa do Hospital Infantil Albert Sabin em 16/01/2016. Submetido em 28/03/2014.
+[Projeto](project/README.md) aprovado pelo Comitê de Ética em Pesquisa do Hospital Infantil Albert Sabin em 16/01/2016. Submetido em 28/03/2014.
 
-Número do parecer: 1.386.007
+Número do [parecer](ethics/README.md): 1.386.007
 
 Registro na Plataforma Brasil: CAAE 30166714.8.0000.5042
 
@@ -44,9 +44,9 @@ Acronim: VALKYRIE - **VAL**proic acid with radio**CH(K)**emothe**R**apy for D**I
 
 Public title: Clinical trial of valproic acid with radiochemotherapy for diffuse pontine intrinsic glioma patients - VALQUIRIA (VALKYRIE)
 
-Project approved by the Institutional Review Board of Hospital Infantil Albert Sabin in 01/16/2016. Submitted in 03/28/2014.
+[Project](project/README.md) approved by the Institutional Review Board of Hospital Infantil Albert Sabin in 01/16/2016. Submitted in 03/28/2014.
 
-Approval number: 1.386.007
+[Approval](ethics/README.md) number: 1.386.007
 
 Registered number in Plataforma Brasil (brazillian national institutional boards registry): CAAE 30166714.8.0000.5042
 
@@ -72,6 +72,7 @@ Active 06/01/2016.
 
 [The crew](crew/README.md).
 
+---------------------------------
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">valkyrie</span> de <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Francisco H C Felix</span> está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons - Atribuição-NãoComercial 4.0 Internacional</a>
 
 ![logo](https://github.com/fhcflx/valkyrie/blob/master/opennsSCI.png)
