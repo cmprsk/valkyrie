@@ -9,13 +9,13 @@ Trata-se de um ensaio clínico de pequena escala, cujo objetivo primário é det
 
 Assim, podemos sintetizar os elementos básicos padrão deste ensaio clínico:
 
-**P**opulação estudada: crianças e adolescentes portadores de glioma pontino intrínseco difuso (em inglês, *diffuse intrinsic pontine glioma - DIPG*).
+> **P**opulação estudada: crianças e adolescentes portadores de glioma pontino intrínseco difuso (em inglês, *diffuse intrinsic pontine glioma - DIPG*).
 
-**I**ntervenção: adição de ácido valpróico à radioquioterapia.
+> **I**ntervenção: adição de ácido valpróico à radioquioterapia.
 
-**C**omparação: controle histórico (sem comparação dentro do ensaio).
+> **C**omparação: controle histórico (sem comparação dentro do ensaio).
 
-**O**utcome (desfecho): sobrevida e qualidade de vida.
+> **O**utcome (desfecho): sobrevida e qualidade de vida.
 
 O estudo foi concebido por Francisco Helder Cavalcante Felix, médico pediatra cancerologista atuando desde 2008 no Hospital Infantil Albert Sabin, no Centro Pediátrico do Câncer (Peter Pan). Ele será desenvolvido completamente nesta instituição, a qual é um hospital da rede pública do Estado do Ceará, referência exclusiva para tratamento de crianças e adolescentes com as mais variadas doenças.
 
