@@ -1,15 +1,20 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Sobre
+permalink: /sobre/
 ---
+**VALQUIRIA** é o acrônimo de Ensaio Clínico de Ácido **Val**próico com **Qui**mioterapia e **R**adioterapia para Pacientes com Glioma Intrínseco Difuso de Ponte na **I**nfância e **A**dolescência.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Trata-se de um ensaio clínico de pequena escala, cujo objetivo primário é determinar se a adição de ácido valpróico a um tratamento já conhecido (radioquimioterapia) melhora os resultados do tratamento, em termos de sobrevida e qualidade de vida dos pacientes.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+Assim, podemos sintetizar os elementos básicos padrão deste ensaio clínico:
+**P**opulação estudada: crianças e adolescentes portadores de glioma pontino intrínseco difuso (em inglês, *diffuse intrinsic pontine glioma - DIPG*).
+**I**ntervenção: adição de ácido valpróico à radioquioterapia.
+**C**omparação: controle histórico (sem comparação dentro do ensaio).
+**O**utcome (desfecho): sobrevida e qualidade de vida.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+O estudo foi concebido por Francisco Helder Cavalcante Felix, médico pediatra cancerologista atuando desde 2008 no Hospital Infantil Albert Sabin, no Centro Pediátrico do Câncer (Peter Pan). Ele será desenvolvido completamente nesta instituição, a qual é um hospital da rede pública do Estado do Ceará, referência exclusiva para tratamento de crianças e adolescentes com as mais variadas doenças.
+
+A documentação completa do projeto pode ser encontrada no repositório criado para o estudo, disponível publicamente [aqui](http://github.com/fhcflx/valkyrie/).
+
+O projeto foi ativado em 01/06/2016.
