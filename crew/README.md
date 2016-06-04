@@ -10,6 +10,7 @@
 4. Nádia Mendonça Trompieri | Cancerologista Pediátrica do Hospital Infantil Albert Sabin |  **Orientação clínica**|
 5. Orlandira Leite de Araújo | Cancerologista Pediátrica do Hospital Infantil Albert Sabin  | **Avaliação clínica dos pacientes**|
 6. Sara Lívia Fernandes Rodrigues Silva| Enfermeira oncohematológica do Hospital Infantil Albert Sabin |  **Acompanhamento do tratamento dos pacientes**|
+7. Igor Moreira Veras | Médico Radioterapeuta do Centro Integrado de Oncología - CRIO | **Tratamento radioterápico dos pacientes**|
 
 # The Crew
 
@@ -23,3 +24,4 @@
 4. Nádia Mendonça Trompieri | Pediatric cancerologist, Albert Sabin Children's Hospital |  **Senior clinical advisor**|
 5. Orlandira Leite de Araújo | Pediatric cancerologist, Albert Sabin Children's Hospital  | **Clinical evaluation of patients**|
 6. Sara Lívia Fernandes Rodrigues Silva| Oncohematologic nurse, Albert Sabin Children's Hospital |  **Patients therapy management**|
+7. Igor Moreira Veras | Radiation Therapy Specialist, Centro Integrado de Oncología - CRIO | **Radiation therapy of patients**|
