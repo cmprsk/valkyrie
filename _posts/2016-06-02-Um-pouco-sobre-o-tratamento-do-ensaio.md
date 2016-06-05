@@ -20,7 +20,7 @@ A acetilação de histonas é regulada por enzimas, como qualquer reação orgâ
 <!--- ![image](/assets/posts/2016-06-02-Um-pouco-sobre-o-tratamento-do-ensaio/figure2.png)
 *Figura do trabalho publicado pelo nosso grupo, mostrando alguns pacientes com DIPG (A,B,C) e a resposta ao tratamento de um dos pacientes (D).* --->
 
-{% include image name="figure2.png" caption="Figura do trabalho publicado pelo nosso grupo, mostrando alguns pacientes com DIPG (A,B,C) e a resposta ao tratamento de um dos pacientes (D)."
+{% include image name="figure2.png" caption="Figura do trabalho publicado pelo nosso grupo, mostrando alguns pacientes com DIPG (A,B,C) e a resposta ao tratamento de um dos pacientes (D)." %}
 
 VALQUIRIA é um ensaio clínico pequeno, que incluirá um número limitado de pacientes (16). Seu objetivo não é o de comprovar o efeito do ácido valpróico em pacientes com DIPG. Para esse fim, seria necessário realizar um ensaio clínico bem maior, com a participação de vários centros de pesquisa. O objetivo do VALQUIRIA é explorar se a possibilidade de efeito do ácido valpróico é forte o suficiente para justificar um ensaio clínico maior, que demandará muito mais recursos e teria que incluir um grande número de pacientes. Para esse teste, faremos uma comparação com um grupo *histórico*, pacientes tratados anteriormente em nosso serviço hospitalar e também outros tratados em um ensaio clínico brasileiro [anterior](http://jco.ascopubs.org/content/18/6/1246.abstract). Se os resultados forem favoráveis, isso significaria o primeiro avanço real no tratamento desta doença em mais de 40 anos.
 
