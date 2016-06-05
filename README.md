@@ -7,7 +7,7 @@ Este repositório vai abrigar os arquivos do primeiro *open science clinical tri
 
 Acrônimo: Ácido **VAL**próico, **QUI**mioterapia e **R**adioterapia para pacientes com DIPG na **I**nfância e **A**dolescência
 
-Título público do projeto: Ensaio Clínico de Ácido Valpróico com Quimioterapia e Radioterapia para Pacientes com Glioma Intrínseco Difuso de Ponte na Infância e Adolescência - VALQUIRIA
+Título público do projeto: Estudo do tratamento de crianças e adolescentes portadores de tumores difusos de tronco cerebral usando Ácido Valpróico com Quimioterapia e Radioterapia
 
 [Projeto](project/README.md) aprovado pelo Comitê de Ética em Pesquisa do Hospital Infantil Albert Sabin em 16/01/2016. Submetido em 28/03/2014.
 
@@ -42,7 +42,7 @@ This repository will harbor the files of the first *open science clinical trial*
 
 Acronim: VALKYRIE - **VAL**proic acid with radio**CH(K)**emothe**R**apy for D**I**PG
 
-Public title: Clinical trial of valproic acid with radiochemotherapy for diffuse pontine intrinsic glioma patients - VALQUIRIA (VALKYRIE)
+Public title: Study of the treatment of children and adolescents with diffuse brainstem tumors using Valproic Acid with Chemotherapy and Radiation Therapy
 
 [Project](project/README.md) approved by the Institutional Review Board of Hospital Infantil Albert Sabin in 01/16/2016. Submitted in 03/28/2014.
 
