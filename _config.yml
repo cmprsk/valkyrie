@@ -7,15 +7,15 @@
 
 # Site settings
 title: VALQUIRIA - Tratamento de tumores difusos do tronco cerebral
-email: heldercfelix@gmail.com
+email: valkyr.ie@outlook.com
 description: > # this means to ignore newlines until "baseurl:"
   VALQUIRIA é um ensaio clínico que estuda o tratamento de crianças e adolescentes
   com tumores difusos da ponte (tronco cerebral), uma doença grave de
   difícil tratamento e sem terapia curativa estabelecida.
 baseurl: "/valkyrie" # the subpath of your site, e.g. /blog
 url: "http://fhcflx.github.io" # the base hostname & protocol for your site
-twitter_username: fhcflx
-github_username:  fhcflx
+twitter_username: valkyrie_trial
+github_username:  fhcflx/valkyrie
 
 # Build settings
 markdown: kramdown
