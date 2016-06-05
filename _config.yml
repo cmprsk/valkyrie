@@ -16,6 +16,7 @@ baseurl: "/valkyrie" # the subpath of your site, e.g. /blog
 url: "http://fhcflx.github.io" # the base hostname & protocol for your site
 twitter_username: valkyrie_trial
 github_username:  fhcflx/valkyrie
+gems: ['jekyll-twitter-plugin']
 
 # Build settings
 markdown: kramdown
