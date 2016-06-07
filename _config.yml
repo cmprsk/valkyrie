@@ -16,6 +16,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://fhcflx.github.io" # the base hostname & protocol for your site
 twitter_username: valkyrie_trial
 github_username:  fhcflx/valkyrie
+twitter:
+  consumer_key: zqU2B8FlUCc6HmHJyoP2pbn7k
+  consumer_secret: 3u08pwR4WTrCiTipHvQzo4OZoV3Z6p7QLXbo8pkgWw2LeiQKkI
+  access_token: 739525629746548737-JXA04QzF2BJrzGX7xgexxsPiULVLL5S
+  access_token_secret: Js2QJ9yaLjlJw6MJOuuJdl50XAT38XklksiiEh0M7EG1G
 
 # Build settings
 markdown: kramdown
