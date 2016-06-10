@@ -90,7 +90,7 @@ SG. Uma vez que quase todos os pacientes que receberam o protocolo
 adaptado do HIT também receberam VPA, torna-se impossível separar os
 efeitos dos dois componentes do tratamento na sobrevida.
 
-![](https://github.com/fhcflx/valkyrie/blob/gh-pages/assets/posts/2016-06-08-Cálculo-do-número-de-pacientes/pasted-image-30.png)
+![](https://github.com/fhcflx/valkyrie/blob/gh-pages/assets/posts/2016-06-08-Cálculo-do-número-de-pacientes/pasted-image-30.png?raw=true)
 *Gráfico da introdução do projeto, mostrando a curva de sobrevida dos pacientes com DIPG tratados em nosso serviço entre 2000-2013, diferenciados pelo tratamento realizado.*
 
 - Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)
