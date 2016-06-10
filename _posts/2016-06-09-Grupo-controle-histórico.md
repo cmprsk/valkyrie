@@ -10,7 +10,7 @@ O grupo controle histórico, como definido no projeto e na postagem de ontem, co
 Tabela: características dos pacientes no grupo controle histórico:
 
 | || *Valor* || *Dispersão*|
-|:---|:---|:---:||-------:|
+|:--- |:--- |:---:| --- | -------:|
 |Sexo|| ||  |
 | |Masc| 12 || - |
 |Idade || 7.3 || 0.1 - 13.5 |
