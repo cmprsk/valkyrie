@@ -18,8 +18,8 @@ Tabela: características dos pacientes no grupo controle histórico:
 |  |COG-A9952 | 25 || -|
 |  |ACNS0126 | 4 || - |
 |Sobrevida|| 10.4 || 3.8 - 46.2 |
-|Tempo || 7 || 2.2 - 26.3|
-|para progressão || || |
+|Tempo para|| 7 || 2.2 - 26.3|
+|progressão || || |
 |Segunda QT|| 18 || - |
 |  |Temozolomida | 7 || - |
 |  |Vimblastina | 5 || - |
@@ -27,6 +27,6 @@ Tabela: características dos pacientes no grupo controle histórico:
 |  |Intensiva | 2 || - |
 |  |Carbo-VCR | 1 || - |
 |Segunda RT|| 3 || -  |
-
+----
 
 - Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)
