@@ -9,8 +9,13 @@ O grupo controle histórico, como definido no projeto e na postagem de ontem, co
 
 Tabela: características dos pacientes no grupo controle histórico:
 
+<<<<<<< HEAD
 | || *Valor* | *Dispersão*|
 |:---|:---|: --- :| ------- :|
+=======
+| || valor | dispersão|
+|---| --- |: --- :| ------- |
+>>>>>>> 2fb0e313d81025b380e7d2212c44b6145af4b9a1
 |Sexo|| |  |
 | |Masc| 12 | - |
 |Idade || 7.3 | 0.1 - 13.5 |
@@ -27,6 +32,9 @@ Tabela: características dos pacientes no grupo controle histórico:
 |  |Intensiva | 2 | - |
 |  |Carbo-VCR | 1 | - |
 |Segunda RT|| 3 | -  |
+<<<<<<< HEAD
 ------------------------
+=======
+>>>>>>> 2fb0e313d81025b380e7d2212c44b6145af4b9a1
 
 - Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)
