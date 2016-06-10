@@ -27,6 +27,5 @@ Tabela: características dos pacientes no grupo controle histórico:
 |  |Intensiva | 2 || - |
 |  |Carbo-VCR | 1 || - |
 |Segunda RT|| 3 || -  |
-----
 
 - Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)
