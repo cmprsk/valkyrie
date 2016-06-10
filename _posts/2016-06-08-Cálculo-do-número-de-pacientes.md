@@ -81,16 +81,16 @@ durante a RT e manutenção com prednisona, adaptado do HIT-GBM-C/D
 pacientes tratados com o segundo esquema tenha sido muito pequeno,
 prejudicando o poder estatístico de qualquer comparação, foi possível
 identificar uma grande vantagem de sobrevida nos pacientes que
-utilizaram o HIT adaptado (SG em 12 meses de 86%, contra 37% dos outros
+utilizaram o HIT adaptado (SG em 12 meses de ```86%```, contra ```37%``` dos outros
 pacientes combinados, p&lt;0,005, figura 1). Ajustando um modelo de
 regressão de riscos proporcionais de Cox, tanto a radioterapia (HR =
 0,1; IC95% = 0,04-0,3; p&lt;0,001) quanto a quimioterapia adaptada do
-HIT (HR = 0,05; IC95% = 0,006-0,36; p&lt;0,005) mostraram prolongar a
+HIT (HR = ```0,05```; IC95% = 0,006-0,36; p&lt;0,005) mostraram prolongar a
 SG. Uma vez que quase todos os pacientes que receberam o protocolo
 adaptado do HIT também receberam VPA, torna-se impossível separar os
 efeitos dos dois componentes do tratamento na sobrevida.
 
 ![](https://github.com/fhcflx/valkyrie/blob/gh-pages/assets/posts/2016-06-08-Cálculo-do-número-de-pacientes/pasted-image-30.png?raw=true)
-*Gráfico da introdução do projeto, mostrando a curva de sobrevida dos pacientes com DIPG tratados em nosso serviço entre 2000-2013, diferenciados pelo tratamento realizado.*
+*Gráfico da introdução do projeto, mostrando a curva de sobrevida dos pacientes com DIPG tratados em nosso serviço entre 2000-2013, diferenciados pelo tratamento realizado (em azul, protocolos do HIT com ácido valpróico).*
 
 - Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)
