@@ -21,9 +21,7 @@ A admissão dos pacientes para o ensaio se dará seguindo estes passos:
 * Comunicação da revisão do diagnóstico para a Dra Sandra Albuquerque.
 * Se confirmado o diagnóstico, encaminhamento do paciente para a unidade de Oncologia para iniciar o tratamento, após consentimento.
 
-A seguir, um exemplo de exame armazenado na DICOM Library, que pode ser analisado online.
-
-<object data="http://www.dicomlibrary.com/?study=1.2.826.0.1.3680043.8.1055.1.20111102150758591.92402465.76095170" type="text/html" width="600" height="400" id="imagens hepaticas"></object>
+No fim desta postagem, um exemplo de exame armazenado na DICOM Library, que pode ser analisado online.
 
 #### Critérios para diagnóstico dos gliomas pontinos intrínsecos difusos:
 
@@ -38,7 +36,7 @@ Embora não existam critérios diagnósticos definidos na literatura, nós utili
   clinical history of less than 6 month. The diagnoses can be made
   radiologically without histological verification.
 
-Ou seja, tumor __centrado na ponte__, hipointenso em T1, hiperintenso em T2, hipodenso em TC, __difuso__ (sem bordas nítidas), extensão para __mais que metade do diâmetro do tronco cerebral__. O estudo de ressonância magnética abaixo ilustra um caso de paciente atendido em nosso serviço hospitalar, com diagnóstico de DIPG. Observando as sequências ponderadas em T1, T2 e FLAIR, pode-se observar uma lesão infiltrando e "insuflando" toda a extensão da ponte, com iso-hipointensidade em T1, pouca ou nenhuma captação de contraste e alteração de sinal em T2/FLAIR, sem demarcação nítida de bordos.
+Ou seja, tumor __centrado na ponte__, hipointenso em T1, hiperintenso em T2, hipodenso em TC, __difuso__ (sem bordas nítidas), extensão para __mais que metade do diâmetro do tronco cerebral__. O estudo de ressonância magnética abaixo ilustra um caso de paciente atendido em nosso serviço hospitalar, com diagnóstico de DIPG. Observando as sequências ponderadas em T1, T2 e FLAIR, pode-se observar uma lesão infiltrando e "insuflando" toda a extensão da ponte, com iso-hipointensidade em T1, pouca ou nenhuma captação de contraste e alteração de sinal em T2/FLAIR, sem demarcação nítida de bordas.
 
 <object data="http://www.dicomlibrary.com/?study=1.2.826.0.1.3680043.8.1055.1.20160527173203565.394564447.7838299" type="text/html" width="600" height="400" id="DIPG"></object>
 
