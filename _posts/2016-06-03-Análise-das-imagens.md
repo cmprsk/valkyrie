@@ -26,9 +26,10 @@ No fim desta postagem, um exemplo de exame armazenado na DICOM Library, que pode
 #### Critérios para diagnóstico dos gliomas pontinos intrínsecos difusos:
 
 Embora não existam critérios diagnósticos definidos na literatura, nós utilizamos uma definição semelhante àquela encontrada no protocolo do ensaio clínico HIT-GBM-D:
+
 > diffuse intrinsic pontine glioma:  
-  center: pons, tumor T1: hypointens, T2: hyperintens, CT: mostly
-  hypodens, when compared to normal pontine tissue. Diffuse tumor with margins
+  center: pons, tumor T1: hypointense, T2: hyperintense, CT: mostly
+  hypodense, when compared to normal pontine tissue. Diffuse tumor with margins
   and extension to more than half of the brainstem cross diameter. The normal
   pontine tissue might either been missing in the level of the maximal tumor
   extension or might have been reduced to a small rim, but is not simply
@@ -40,5 +41,6 @@ Ou seja, tumor __centrado na ponte__, hipointenso em T1, hiperintenso em T2, hip
 
 <object data="http://www.dicomlibrary.com/?study=1.2.826.0.1.3680043.8.1055.1.20160527173203565.394564447.7838299" type="text/html" width="600" height="400" id="DIPG"></object>
 
+---
 
 ``` Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)```
