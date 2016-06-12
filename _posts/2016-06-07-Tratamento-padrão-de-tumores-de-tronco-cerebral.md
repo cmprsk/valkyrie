@@ -15,4 +15,4 @@ Em nosso serviço, 87% dos pacientes receberam quimioterapia (QT). O uso de QT d
 ![imagem1](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4483042/bin/nou10402.jpg)
 *Curva de sobrevida dos pacientes avaliados no estudo de Jansen et al, 2015. Imagem protegida por [direitos autorais](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4483042/figure/NOU104F2/#).*
 
-- Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)
+``` Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)```

@@ -25,4 +25,4 @@ A seguir, um exemplo de exame armazenado na DICOM Library, que pode ser analisad
 
 <object data="http://www.dicomlibrary.com/?study=1.2.826.0.1.3680043.8.1055.1.20111102150758591.92402465.76095170" type="text/html" width="600" height="400"></object>
 
-- Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)
+``` Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)```
