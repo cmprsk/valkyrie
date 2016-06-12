@@ -11,4 +11,4 @@ categories: valquiria
 <div class="embed twitter"><blockquote class="twitter-tweet"><p lang="pt" dir="ltr">Criada a conta de twitter do Ensaio Clínico VALQUIRIA. Visite a homepage: <a href="https://t.co/wtBv8WdXVV">https://t.co/wtBv8WdXVV</a></p>&mdash; Ensaio VALQUIRIA (@valkyrie_trial) <a href="https://twitter.com/valkyrie_trial/status/739538914764029952">June 5, 2016</a></blockquote>
 <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
 
-- Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)
+``` Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)```
