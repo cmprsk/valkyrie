@@ -5,7 +5,7 @@ date:   2016-06-08 16:03:45 -0300
 categories: valquiria
 ---
 
-Quando estávamos concebendo o ensaio VALQUÌRIA, várias considerações diferentes foram feitas sobre a froma de calcular o número de pacientes a ser recrutado para o ensaio. No final, a decisão recaiu sobre a forma como está descrito na metodologia do projeto:
+Quando estávamos concebendo o ensaio VALQUÌRIA, várias considerações diferentes foram feitas sobre a forma de calcular o número de pacientes a ser recrutado para o ensaio. No final, a decisão recaiu sobre a forma como está descrito na metodologia do projeto:
 
   - #### 5.7.Tamanho da amostra:
 
