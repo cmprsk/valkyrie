@@ -88,5 +88,6 @@ ciclos: número de ciclos de quimioterapia realizados
 RT: cGy  
 Tempo para RT: dias  
 TTP: meses  
+O arquivo completo deste banco de dados, contendo as informações sobre todos os pacientes diagnosticados com DIPG em nosso serviço entre 2000-2013 (desidentificado) está disponível em formato [.csv](https://github.com/fhcflx/valkyrie/blob/gh-pages/assets/stat/dipg.csv).
 
 ``` Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)```

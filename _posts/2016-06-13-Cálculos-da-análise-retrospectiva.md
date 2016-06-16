@@ -8,7 +8,7 @@ categories: metodologia
 ## Curva de sobrevida da análise retrospectiva:
 
 Esta postagem usa o pacote [_knitr_](http://yihui.name/knitr/) para calcular os resultados ao mesmo tempo em que compila a página em html com [_jekyll_](https://jekyllrb.com/).
-Utilizei, como guia, o excelente exemplo de [_yihui_](https://github.com/yihui/knitr).
+Utilizei, como guia, o excelente [exemplo](http://yihui.name/knitr-jekyll//2014/09/jekyll-with-knitr.html) de [_Yihui Xie_](https://github.com/yihui). Cheque o arquivo [.Rmd](https://github.com/fhcflx/valkyrie/blob/gh-pages/_source/2016-06-13-Cálculos-da-análise-retrospectiva.Rmd).
 
 
 ```r

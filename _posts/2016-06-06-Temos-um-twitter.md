@@ -11,4 +11,6 @@ categories: valquiria
 <div class="embed twitter"><blockquote class="twitter-tweet"><p lang="pt" dir="ltr">Criada a conta de twitter do Ensaio Clínico VALQUIRIA. Visite a homepage: <a href="https://t.co/wtBv8WdXVV">https://t.co/wtBv8WdXVV</a></p>&mdash; Ensaio VALQUIRIA (@valkyrie_trial) <a href="https://twitter.com/valkyrie_trial/status/739538914764029952">June 5, 2016</a></blockquote>
 <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
 
+Integração entre [_Jekyll_](https://jekyllrb.com) e Twitter através do [_jekyll-twitter-plugin_](https://github.com/rob-murray/jekyll-twitter-plugin) criado por [_Robert Murray_](https://github.com/rob-murray). Infelizmente, o Github não permite este plugin, mas isso foi contornado gerando o arquivo localmente em html - _voilà_!
+
 ``` Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)```
