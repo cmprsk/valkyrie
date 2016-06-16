@@ -16,19 +16,18 @@ A tabela abaixo mostra as características dos pacientes incluídos no grupo his
 |Sexo||||||||||
 ||Masculino| 12 || - || - || - || *n* |
 ||Feminino| 19 || - || - || - || *n* |
-|Idade || 7.3 || anos || 0.1 - 13.5 || min - max || mediana |
+|Idade || 7.4 || anos || 2.8 - 15.8 || min - max || mediana |
 |QT|| 29 || - || - || - || *n* |
 ||COG-A9952 | 25 || - || - || - || *n* |
 ||ACNS0126 | 4 || - || - || - || *n* |
-|Sobrevida|| 10.4 || meses || 3.8 - 46.2 || min - max || mediana |
-|Tempo para <br> progressão || 7 || meses || 2.2 - 26.3 || min - max || mediana |
+|Sobrevida|| 11.4 || meses || 8.1 - 15.6 || IC95% || mediana |
+|Tempo para <br> progressão || 8.2 || meses || 6.9 - 10.6 || IC95% || mediana |
 |Segunda QT|| 18 || - || - || - || *n* |
 ||Temozolomida | 7 || - || - || - || *n* |
-||Vimblastina | 5 || - || - || - || *n* |
-||Nimotuzumabe | 3 || - || - || - || *n* |
-||Intensiva | 2 || - || - || - || *n* |
+||ICE/IE | 7 || - || - || - || *n* |
+||Vimblastina | 3 || - || - || - || *n* |
 ||Carbo-VCR | 1 || - || - || - || *n* |
-|Segunda RT|| 3 || -  || - || - || *n* |
+|Segunda RT|| 2 || -  || - || - || *n* |
 
 ---
 
