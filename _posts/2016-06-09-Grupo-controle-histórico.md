@@ -21,13 +21,14 @@ A tabela abaixo mostra as características dos pacientes incluídos no grupo his
 ||COG-A9952 | 25 || - || - || - || *n* |
 ||ACNS0126 | 4 || - || - || - || *n* |
 |Sobrevida|| 11.4 || meses || 8.1 - 15.6 || IC95% || mediana |
-|Tempo para <br> progressão || 8.2 || meses || 6.9 - 10.6 || IC95% || mediana |
+|Tempo para <br> progressão || 7.9 || meses || 6.9 - 10.3 || IC95% || mediana |
 |Segunda QT|| 18 || - || - || - || *n* |
 ||Temozolomida | 7 || - || - || - || *n* |
 ||ICE/IE | 7 || - || - || - || *n* |
 ||Vimblastina | 3 || - || - || - || *n* |
 ||Carbo-VCR | 1 || - || - || - || *n* |
 |Segunda RT|| 2 || -  || - || - || *n* |
+|Sobrevida após <br> progressão || 84 || dias || 63 - 128 || IC95% || mediana |
 
 ---
 
