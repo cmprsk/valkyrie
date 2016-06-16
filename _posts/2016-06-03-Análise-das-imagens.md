@@ -37,10 +37,28 @@ Embora não existam critérios diagnósticos definidos na literatura, nós utili
   clinical history of less than 6 month. The diagnoses can be made
   radiologically without histological verification.
 
-Ou seja, tumor __centrado na ponte__, hipointenso em T1, hiperintenso em T2, hipodenso em TC, __difuso__ (sem bordas nítidas), extensão para __mais que metade do diâmetro do tronco cerebral__. O estudo de ressonância magnética abaixo ilustra um caso de paciente atendido em nosso serviço hospitalar, com diagnóstico de DIPG. Observando as sequências ponderadas em T1, T2 e FLAIR, pode-se observar uma lesão infiltrando e "insuflando" toda a extensão da ponte, com iso-hipointensidade em T1, pouca ou nenhuma captação de contraste e alteração de sinal em T2/FLAIR, sem demarcação nítida de bordas.
-
+Ou seja, tumor __centrado na ponte__, hipointenso em T1, hiperintenso em T2, hipodenso em TC, __difuso__ (sem bordas nítidas), extensão para __mais que metade do diâmetro do tronco cerebral__. O estudo de ressonância magnética (RM) abaixo ilustra um caso de paciente atendido em nosso serviço hospitalar, com diagnóstico de DIPG. Observando as sequências ponderadas em T1, T2 e FLAIR, pode-se observar uma lesão infiltrando e "insuflando" toda a extensão da ponte, com iso-hipointensidade em T1, pouca ou nenhuma captação de contraste e alteração de sinal em T2/FLAIR, sem demarcação nítida de bordas.
+<p>
 <object data="http://www.dicomlibrary.com/?study=1.2.826.0.1.3680043.8.1055.1.20160527173203565.394564447.7838299" type="text/html" width="600" height="400" id="DIPG"></object>
-
+</p>
 ---
 
+Um estudo publicado por Hankinson _et al_ no Journal of Neurosurgery avaliou a reproducibilidade da avaliação por imagem de ressonância magnética, realizada por neurocirurgiões experientes, do diagnóstico de DIPG. Os autores mostraram inconsistência no diagnóstico e conduta dos casos avaliados. Uma imagem representativa dos diferentes padrões encontrados foi publicada:
+
+![hankinsonetal](http://thejns.org/na101/home/literatum/publisher/jns/journals/content/ped.1/2011/ped.1.2011.8.issue-1/2011.4.peds1180/production/images/large/0080097f1.jpeg)
+*Imagens representativas de casos típico (A), intermediário (B) e atípico (C). As imagens são protegidas por [direitos autorais](https://thejns.org/action/permissions) e não devem ser copiadas, nem reproduzidas.*
+
+ Os critérios de diagnóstico sugeridos neste trabalho são:
+ > 1) an intrinsic, central location involving more than 50% of the axial diameter of the pons;
+ 2) indistinct tumor margins;
+ 3) T1 hypointensity;
+ 4) T2 hyperintensity;
+ 5) irregular, if any, enhancement following Gd administration; and
+ 6) the absence of cystic or exophytic components.
+ Encasement of the basilar artery is another, less consistently referenced characteristic.
+
+Mais um estudo de RM de paciente atendido em nosso centro hospitalar, mostrando, desta vez, uma imagem com características consideradas "atípicas" no estudo de Hankinson _et al_.
+<p>
+<object data="http://www.dicomlibrary.com/?study=1.2.826.0.1.3680043.8.1055.1.20160526131915112.278387539.3166873" type="text/html" width="600" height="400"></object>
+</p>
 ``` Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)```
