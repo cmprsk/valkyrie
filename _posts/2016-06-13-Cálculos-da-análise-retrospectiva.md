@@ -14,7 +14,7 @@ categories: metodologia
 plot(survfit(Surv(surv,status)~1,dipg),xlab="Meses")
 {% endhighlight %}
 
-![Sobrevida de pacientes com DIPG](https://github.com/fhcflx/valkyrie/blob/gh-pages/figure/source/2016-06-13-Cálculos-da-análise-retrospectiva/Sobrevida-1.png?raw=True)
+![Sobrevida de pacientes com DIPG](https://github.com/fhcflx/valkyrie/blob/gh-pages/figure/source/2016-06-13-C%C3%A1lculos-da-an%C3%A1lise-retrospectiva/Sobrevida-1.png?raw=True)
 
 Grupo de pacientes com diagnóstico de DIPG tratados em nosso serviço, entre 2000 e 2013. O gráfico mostra a estimativa de probabilidade de sobrevida, calculada pelo método de Kaplan-Meier, usando a linguagem de programação R, pacote *survival*. O pacote *RCurl* foi adicionalmente utilizado para capturar os dados a partir do arquivo [.csv](https://github.com/fhcflx/valkyrie/blob/gh-pages/assets/stat/dipg.csv) armazenado no repositório do github. O gráfico mostra também o intervalo de confiança 95%.
 Este é o resumo da variável de sobrevida, além da sobrevida em 12 meses e tempo de follow-up:
@@ -66,7 +66,7 @@ Aqui, o gráfico comparativo entre os pacientes que fizeram QT segundo um esquem
 plot(survfit(Surv(surv,status)~ifelse(QT1<10,0,1),dipg),xlab="Meses")
 {% endhighlight %}
 
-![Sobrevida de pacientes com DIPG, divididos por tratamento](https://github.com/fhcflx/valkyrie/blob/gh-pages/figure/source/2016-06-13-Cálculos-da-análise-retrospectiva/Sobrevida2-1.png?raw=True)
+![Sobrevida de pacientes com DIPG, divididos por tratamento](https://github.com/fhcflx/valkyrie/blob/gh-pages/figure/source/2016-06-13-C%C3%A1lculos-da-an%C3%A1lise-retrospectiva/Sobrevida2-1.png?raw=True)  
 E o resumo da sobrevida nos 2 grupos, com sobrevida aos 12 meses:
 
 {% highlight r %}
