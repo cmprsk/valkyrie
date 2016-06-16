@@ -57,8 +57,6 @@ Um estudo publicado por Hankinson _et al_ no Journal of Neurosurgery avaliou a r
  6) the absence of cystic or exophytic components.
  Encasement of the basilar artery is another, less consistently referenced characteristic.
 
-Mais um estudo de RM de paciente atendido em nosso centro hospitalar, mostrando, desta vez, uma imagem com características consideradas "atípicas" no estudo de Hankinson _et al_.
-<p>
-<object data="http://www.dicomlibrary.com/?study=1.2.826.0.1.3680043.8.1055.1.20160526131915112.278387539.3166873" type="text/html" width="600" height="400"></object>
-</p>
+---
+
 ``` Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)```
