@@ -25,7 +25,7 @@ dipg<-read.csv(text = getURL("https://raw.githubusercontent.com/fhcflx/valkyrie/
 plot(survfit(Surv(surv,status)~1,dipg),xlab="Meses")
 ```
 
-![Sobrevida de pacientes com DIPG](/figure/source/2016-06-13-Cálculos-da-análise-retrospectiva/Sobrevida-1.png)
+![Sobrevida de pacientes com DIPG](https://github.com/fhcflx/valkyrie/blob/gh-pages/figure/source/2016-06-13-Cálculos-da-análise-retrospectiva/Sobrevida-1.png)
 
 Grupo de pacientes com diagnóstico de DIPG tratados em nosso serviço, entre 2000 e 2013. O gráfico mostra a estimativa de probabilidade de sobrevida, calculada pelo método de Kaplan-Meier, usando a linguagem de programação R, pacote *survival*. O pacote *RCurl* foi adicionalmente utilizado para capturar os dados a partir do arquivo [.csv](https://github.com/fhcflx/valkyrie/blob/gh-pages/assets/stat/dipg.csv) armazenado no repositório do github. O gráfico mostra também o intervalo de confiança 95%.
 Este é o resumo da variável de sobrevida, além da sobrevida em 12 meses e tempo de follow-up:
@@ -33,26 +33,26 @@ Este é o resumo da variável de sobrevida, além da sobrevida em 12 meses e tem
 
 ```
 ## Call: survfit(formula = Surv(surv, status) ~ 1, data = dipg)
-## 
-##       n  events  median 0.95LCL 0.95UCL 
+##
+##       n  events  median 0.95LCL 0.95UCL
 ##    56.0    42.0     9.5     7.3    13.8
 ```
 
 
 ```
 ## Call: survfit(formula = Surv(surv, status) ~ 1, data = dipg)
-## 
+##
 ##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
 ##    12     17      30    0.395  0.0705        0.279        0.561
 ```
 
-Mostrando uma mediana de sobrevida de 12.7180495 meses e sobrevida em 12 meses de 39.5 %.
+Mostrando uma mediana de sobrevida de 12.7 meses e sobrevida em 12 meses de 39.5 %.
 
 
 ```
 ## Call: survfit(formula = Surv(surv, ifelse(status < 1, 1, 0)) ~ 1, data = dipg)
-## 
-##       n  events  median 0.95LCL 0.95UCL 
+##
+##       n  events  median 0.95LCL 0.95UCL
 ##    56.0    14.0    25.0    15.8      NA
 ```
 
@@ -65,32 +65,32 @@ Aqui, o gráfico comparativo entre os pacientes que fizeram QT segundo um esquem
 plot(survfit(Surv(surv,status)~ifelse(QT1<10,0,1),dipg),xlab="Meses")
 ```
 
-![Sobrevida de pacientes com DIPG, divididos por tratamento](/figure/source/2016-06-13-Cálculos-da-análise-retrospectiva/Sobrevida2-1.png)
+![Sobrevida de pacientes com DIPG, divididos por tratamento](https://github.com/fhcflx/valkyrie/blob/gh-pages/figure/source/2016-06-13-Cálculos-da-análise-retrospectiva/Sobrevida2-1.png)
 E o resumo da sobrevida nos 2 grupos, com sobrevida aos 12 meses:
 
 ```
-## Call: survfit(formula = Surv(surv, status) ~ ifelse(QT1 < 10, 0, 1), 
+## Call: survfit(formula = Surv(surv, status) ~ ifelse(QT1 < 10, 0, 1),
 ##     data = dipg)
-## 
+##
 ##                           n events median 0.95LCL 0.95UCL
 ## ifelse(QT1 < 10, 0, 1)=0 44     41      8     6.5    11.9
 ## ifelse(QT1 < 10, 0, 1)=1 12      1     NA      NA      NA
 ```
 
 ```
-## Call: survfit(formula = Surv(surv, status) ~ ifelse(QT1 < 10, 0, 1), 
+## Call: survfit(formula = Surv(surv, status) ~ ifelse(QT1 < 10, 0, 1),
 ##     data = dipg)
-## 
-##                 ifelse(QT1 < 10, 0, 1)=0 
-##         time       n.risk      n.event     survival      std.err 
-##      12.0000      13.0000      29.0000       0.3234       0.0719 
-## lower 95% CI upper 95% CI 
-##       0.2093       0.4999 
-## 
-##                 ifelse(QT1 < 10, 0, 1)=1 
-##         time       n.risk      n.event     survival      std.err 
-##       12.000        4.000        1.000        0.875        0.117 
-## lower 95% CI upper 95% CI 
+##
+##                 ifelse(QT1 < 10, 0, 1)=0
+##         time       n.risk      n.event     survival      std.err
+##      12.0000      13.0000      29.0000       0.3234       0.0719
+## lower 95% CI upper 95% CI
+##       0.2093       0.4999
+##
+##                 ifelse(QT1 < 10, 0, 1)=1
+##         time       n.risk      n.event     survival      std.err
+##       12.000        4.000        1.000        0.875        0.117
+## lower 95% CI upper 95% CI
 ##        0.673        1.000
 ```
 
@@ -100,32 +100,32 @@ Comparando os dois grupos com um teste não paramétrico que utiliza o estimador
 
 ```
 ## Call:
-## survdiff(formula = Surv(surv, status) ~ ifelse(QT1 < 10, 0, 1), 
+## survdiff(formula = Surv(surv, status) ~ ifelse(QT1 < 10, 0, 1),
 ##     data = dipg)
-## 
+##
 ##                           N Observed Expected (O-E)^2/E (O-E)^2/V
 ## ifelse(QT1 < 10, 0, 1)=0 44       41    33.81      1.53      8.04
 ## ifelse(QT1 < 10, 0, 1)=1 12        1     8.19      6.31      8.04
-## 
+##
 ##  Chisq= 8  on 1 degrees of freedom, p= 0.00459
 ```
 Comparando os dois grupos com um teste semiparamétrico, o modelo de riscos proporcionais de Cox (vide documentação do pacote [_survival_](https://cran.r-project.org/web/packages/survival/survival.pdf)).
 
 ```
 ## Call:
-## coxph(formula = Surv(surv, status) ~ ifelse(QT1 < 10, 0, 1), 
+## coxph(formula = Surv(surv, status) ~ ifelse(QT1 < 10, 0, 1),
 ##     data = dipg)
-## 
-##   n= 56, number of events= 42 
-## 
+##
+##   n= 56, number of events= 42
+##
 ##                           coef exp(coef) se(coef)      z Pr(>|z|)  
 ## ifelse(QT1 < 10, 0, 1) -2.3147    0.0988   1.0131 -2.285   0.0223 *
 ## ---
 ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-## 
+##
 ##                        exp(coef) exp(-coef) lower .95 upper .95
 ## ifelse(QT1 < 10, 0, 1)    0.0988      10.12   0.01356    0.7197
-## 
+##
 ## Concordance= 0.585  (se = 0.036 )
 ## Rsquare= 0.189   (max possible= 0.99 )
 ## Likelihood ratio test= 11.76  on 1 df,   p=0.0006042
