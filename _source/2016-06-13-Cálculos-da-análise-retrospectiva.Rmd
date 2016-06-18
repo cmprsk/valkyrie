@@ -7,6 +7,8 @@ categories: metodologia
 
 ## Curva de sobrevida da análise retrospectiva:
 
+Os cálculos mostrados aqui usam o banco de dados de pacientes diagnosticados com DIPG entre 2000-2013, atualizados até 2014. O follow-up dos pacientes neste banco de dados é um pouco mais longo que nos dados originalmente usados para os cálculos do projeto e, portanto, terão algumas diferenças numéricas. Esta postagem ilustra como usar os dados obtidos de uma pesquisa clínica de forma transparente e totalmente reprodutível aos leitores. Incluindo tanto os dados de pacientes individuais (sem identificá-los) como o _script_ usado para realizar a análise dos dados, este é um exemplo das possibilidades do modelo de _open lab notebook_ e do paradigma de _open science_. Quando os dados do ensaio prospectivo forem coletados, serão igualmente publicados da mesma forma transparente, ficando permanentemente disponíveis para análise e crítica pelos interessados. Discuti a inspiração para esta abordagem nesta [postagem](http://fhcflx.github.io/pharmakon/jekyll/update/2016/05/01/Migrando-meu-blog-para-Github-Pages-usando-Jekyll.html) em outro blog.
+
 Esta postagem usa o pacote [_knitr_](http://yihui.name/knitr/) para calcular os resultados ao mesmo tempo em que compila a página em html com [_jekyll_](https://jekyllrb.com/).
 Utilizei, como guia, o excelente exemplo de [_yihui_](https://github.com/yihui/knitr).
 
@@ -54,3 +56,12 @@ summary(survfit(Surv(surv,status)~ifelse(QT1<10,0,1),dipg),time=12)
 ```
 
 Mostrando uma sobrevida aos 12 meses de `r round(summary(survfit(Surv(surv,status)~ifelse(QT1<10,0,1),dipg),time=12)$surv[2],3)*100` % para o grupo tratado com protocolo _as per_ HIT (n = `r summary(survfit(Surv(surv,status)~ifelse(QT1<10,0,1),dipg),time=12)$n[2]` ) e de `r round(summary(survfit(Surv(surv,status)~ifelse(QT1<10,0,1),dipg),time=12)$surv[1],3)*100` % para os demais (n = `r summary(survfit(Surv(surv,status)~ifelse(QT1<10,0,1),dipg),time=12)$n[1]` ).
+
+Comparando os dois grupos com um teste não paramétrico que utiliza o estimador de Kaplan-Meier, o teste de log-rank, ou de Mantel-Haenszel (vide documentação do pacote [_survival_](https://cran.r-project.org/web/packages/survival/survival.pdf)).
+```{r echo=F}
+survdiff(Surv(surv,status)~ifelse(QT1<10,0,1),dipg)
+```
+Comparando os dois grupos com um teste semiparamétrico, o modelo de riscos proporcionais de Cox (vide documentação do pacote [_survival_](https://cran.r-project.org/web/packages/survival/survival.pdf)).
+```{r echo=F}
+summary(coxph(Surv(surv,status)~ifelse(QT1<10,0,1),dipg))
+```
