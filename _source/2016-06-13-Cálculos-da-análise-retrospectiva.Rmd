@@ -34,7 +34,7 @@ survfit(Surv(surv,status)~1,dipg)
 summary(survfit(Surv(surv,status)~1,dipg),time=12)
 ```
 
-Mostrando uma mediana de sobrevida de `r summary(survfit(Surv(surv,status)~1,dipg))$table[5]` meses e sobrevida em 12 meses de `r round(summary(survfit(Surv(surv,status)~1,dipg),time=12)$surv,3)*100` %.
+Mostrando uma mediana de sobrevida de `r round(summary(survfit(Surv(surv,status)~1,dipg))$table[5],1)` meses e sobrevida em 12 meses de `r round(summary(survfit(Surv(surv,status)~1,dipg),time=12)$surv,3)*100` %.
 
 ```{r echo=F}
 survfit(Surv(surv,ifelse(status<1,1,0))~1,dipg)
