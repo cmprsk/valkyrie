@@ -35,7 +35,7 @@ Este é o resumo da variável de sobrevida, além da sobrevida em 12 meses e tem
 ## Call: survfit(formula = Surv(surv, status) ~ 1, data = dipg)
 ## 
 ##       n  events  median 0.95LCL 0.95UCL 
-##    55.0    42.0     9.0     7.3    13.8
+##    56.0    42.0     9.5     7.3    13.8
 ```
 
 
@@ -43,20 +43,20 @@ Este é o resumo da variável de sobrevida, além da sobrevida em 12 meses e tem
 ## Call: survfit(formula = Surv(surv, status) ~ 1, data = dipg)
 ## 
 ##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
-##    12     16      30    0.383  0.0709        0.266         0.55
+##    12     17      30    0.395  0.0705        0.279        0.561
 ```
 
-Mostrando uma mediana de sobrevida de 11.9929296 meses e sobrevida em 12 meses de 38.3 %.
+Mostrando uma mediana de sobrevida de 12.7180495 meses e sobrevida em 12 meses de 39.5 %.
 
 
 ```
 ## Call: survfit(formula = Surv(surv, ifelse(status < 1, 1, 0)) ~ 1, data = dipg)
 ## 
 ##       n  events  median 0.95LCL 0.95UCL 
-##    55.0    13.0    19.6    13.8      NA
+##    56.0    14.0    25.0    15.8      NA
 ```
 
-Mostrando uma mediana de follow-up de 27.961267 meses.
+Mostrando uma mediana de follow-up de 25.5 meses.
 
 Aqui, o gráfico comparativo entre os pacientes que fizeram QT segundo um esquema HIT e os outros pacientes:
 
@@ -74,7 +74,7 @@ E o resumo da sobrevida nos 2 grupos, com sobrevida aos 12 meses:
 ## 
 ##                           n events median 0.95LCL 0.95UCL
 ## ifelse(QT1 < 10, 0, 1)=0 44     41      8     6.5    11.9
-## ifelse(QT1 < 10, 0, 1)=1 11      1     NA      NA      NA
+## ifelse(QT1 < 10, 0, 1)=1 12      1     NA      NA      NA
 ```
 
 ```
@@ -89,12 +89,12 @@ E o resumo da sobrevida nos 2 grupos, com sobrevida aos 12 meses:
 ## 
 ##                 ifelse(QT1 < 10, 0, 1)=1 
 ##         time       n.risk      n.event     survival      std.err 
-##       12.000        3.000        1.000        0.857        0.132 
+##       12.000        4.000        1.000        0.875        0.117 
 ## lower 95% CI upper 95% CI 
-##        0.633        1.000
+##        0.673        1.000
 ```
 
-Mostrando uma sobrevida aos 12 meses de 85.7 % para o grupo tratado com protocolo _as per_ HIT (n = 11 ) e de 32.3 % para os demais (n = 44 ).
+Mostrando uma sobrevida aos 12 meses de 87.5 % para o grupo tratado com protocolo _as per_ HIT (n = 12 ) e de 32.3 % para os demais (n = 44 ).
 
 Comparando os dois grupos com um teste não paramétrico que utiliza o estimador de Kaplan-Meier, o teste de log-rank, ou de Mantel-Haenszel (vide documentação do pacote [_survival_](https://cran.r-project.org/web/packages/survival/survival.pdf)).
 
@@ -104,10 +104,10 @@ Comparando os dois grupos com um teste não paramétrico que utiliza o estimador
 ##     data = dipg)
 ## 
 ##                           N Observed Expected (O-E)^2/E (O-E)^2/V
-## ifelse(QT1 < 10, 0, 1)=0 44       41    35.65     0.804      5.48
-## ifelse(QT1 < 10, 0, 1)=1 11        1     6.35     4.512      5.48
+## ifelse(QT1 < 10, 0, 1)=0 44       41    33.81      1.53      8.04
+## ifelse(QT1 < 10, 0, 1)=1 12        1     8.19      6.31      8.04
 ## 
-##  Chisq= 5.5  on 1 degrees of freedom, p= 0.0193
+##  Chisq= 8  on 1 degrees of freedom, p= 0.00459
 ```
 Comparando os dois grupos com um teste semiparamétrico, o modelo de riscos proporcionais de Cox (vide documentação do pacote [_survival_](https://cran.r-project.org/web/packages/survival/survival.pdf)).
 
@@ -116,19 +116,20 @@ Comparando os dois grupos com um teste semiparamétrico, o modelo de riscos prop
 ## coxph(formula = Surv(surv, status) ~ ifelse(QT1 < 10, 0, 1), 
 ##     data = dipg)
 ## 
-##   n= 55, number of events= 42 
+##   n= 56, number of events= 42 
 ## 
 ##                           coef exp(coef) se(coef)      z Pr(>|z|)  
-## ifelse(QT1 < 10, 0, 1) -2.0106    0.1339   1.0137 -1.983   0.0473 *
+## ifelse(QT1 < 10, 0, 1) -2.3147    0.0988   1.0131 -2.285   0.0223 *
 ## ---
 ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 ## 
 ##                        exp(coef) exp(-coef) lower .95 upper .95
-## ifelse(QT1 < 10, 0, 1)    0.1339      7.468   0.01836    0.9765
+## ifelse(QT1 < 10, 0, 1)    0.0988      10.12   0.01356    0.7197
 ## 
-## Concordance= 0.57  (se = 0.035 )
-## Rsquare= 0.134   (max possible= 0.99 )
-## Likelihood ratio test= 7.91  on 1 df,   p=0.004916
-## Wald test            = 3.93  on 1 df,   p=0.04732
-## Score (logrank) test = 5.45  on 1 df,   p=0.01957
+## Concordance= 0.585  (se = 0.036 )
+## Rsquare= 0.189   (max possible= 0.99 )
+## Likelihood ratio test= 11.76  on 1 df,   p=0.0006042
+## Wald test            = 5.22  on 1 df,   p=0.02233
+## Score (logrank) test = 8  on 1 df,   p=0.004679
 ```
+Este resultado indica que existe a possibilidade de haver alguma diferença de sobrevida quando os pacientes recebem ácido valpróico juntamente com o tratamento.

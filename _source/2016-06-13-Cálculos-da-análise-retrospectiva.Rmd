@@ -40,7 +40,7 @@ Mostrando uma mediana de sobrevida de `r summary(survfit(Surv(surv,status)~1,dip
 survfit(Surv(surv,ifelse(status<1,1,0))~1,dipg)
 ```
 
-Mostrando uma mediana de follow-up de `r summary(survfit(Surv(surv,ifelse(status<1,1,0))~1,dipg))$table[5]` meses.
+Mostrando uma mediana de follow-up de `r round(summary(survfit(Surv(surv,ifelse(status<1,1,0))~1,dipg))$table[5],1)` meses.
 
 Aqui, o gráfico comparativo entre os pacientes que fizeram QT segundo um esquema HIT e os outros pacientes:
 
@@ -65,3 +65,4 @@ Comparando os dois grupos com um teste semiparamétrico, o modelo de riscos prop
 ```{r echo=F}
 summary(coxph(Surv(surv,status)~ifelse(QT1<10,0,1),dipg))
 ```
+Este resultado indica que existe a possibilidade de haver alguma diferença de sobrevida quando os pacientes recebem ácido valpróico juntamente com o tratamento.
