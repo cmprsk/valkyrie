@@ -70,3 +70,5 @@ Comparando os dois grupos com um teste semiparamétrico, o modelo de riscos prop
 summary(coxph(Surv(surv,status)~ifelse(QT1<10,0,1),dipg))
 ```
 Este resultado indica que existe a possibilidade de haver alguma diferença de sobrevida quando os pacientes recebem ácido valpróico juntamente com o tratamento.
+
+``` Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)```
