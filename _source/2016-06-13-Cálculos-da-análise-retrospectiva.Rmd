@@ -16,46 +16,50 @@ Utilizei, como guia, o excelente exemplo de [_yihui_](https://github.com/yihui/k
 require(knitr)
 require(RCurl)
 require(survival)
-dipg<-read.csv(text = getURL("https://raw.githubusercontent.com/fhcflx/valkyrie/gh-pages/assets/stat/dipg.csv"))
+dipg<-read.csv(text = getURL("https://raw.githubusercontent.com/fhcflx/valkyrie/gh-pages/assets/data/dipg.csv"))
+attach(dipg)  
+fit1 = survfit(Surv(surv,status)~1)  
+fit2 = survfit(Surv(surv,ifelse(status<1,1,0))~1)  
+fit3 = survfit(Surv(surv,status)~ifelse(QT1<10,0,1))  
 ```
 
 ```{r Sobrevida, fig.height=10, fig.width=12, fig.cap='Sobrevida de pacientes com DIPG'}
-plot(survfit(Surv(surv,status)~1,dipg),xlab="Meses")
+plot(fit1,xlab="Meses")
 ```
 
 Grupo de pacientes com diagnóstico de DIPG tratados em nosso serviço, entre 2000 e 2013. O gráfico mostra a estimativa de probabilidade de sobrevida, calculada pelo método de Kaplan-Meier, usando a linguagem de programação R, pacote *survival*. O pacote *RCurl* foi adicionalmente utilizado para capturar os dados a partir do arquivo [.csv](https://github.com/fhcflx/valkyrie/blob/gh-pages/assets/stat/dipg.csv) armazenado no repositório do github. O gráfico mostra também o intervalo de confiança 95%.
 Este é o resumo da variável de sobrevida, além da sobrevida em 12 meses e tempo de follow-up:
 
 ```{r echo=F}
-survfit(Surv(surv,status)~1,dipg)
+fit1
 ```
 
 ```{r echo=F}
-summary(survfit(Surv(surv,status)~1,dipg),time=12)
+summary(fit1,time=12)
 ```
 
-Mostrando uma mediana de sobrevida de `r round(summary(survfit(Surv(surv,status)~1,dipg))$table[5],1)` meses e sobrevida em 12 meses de `r round(summary(survfit(Surv(surv,status)~1,dipg),time=12)$surv,3)*100` %.
+Mostrando uma mediana de sobrevida de `r round(summary(fit1)$table[7],1)` meses e sobrevida em 12 meses de `r round(summary(fit1,time=12)$surv,3)*100` %.
 
 ```{r echo=F}
-survfit(Surv(surv,ifelse(status<1,1,0))~1,dipg)
+fit2
 ```
 
-Mostrando uma mediana de follow-up de `r round(summary(survfit(Surv(surv,ifelse(status<1,1,0))~1,dipg))$table[5],1)` meses.
+Mostrando uma mediana de follow-up de `r round(summary(fit2)$table[7],1)` meses.
 
 Aqui, o gráfico comparativo entre os pacientes que fizeram QT segundo um esquema HIT e os outros pacientes:
 
 ```{r Sobrevida2, fig.height=10, fig.width=12, fig.cap='Sobrevida de pacientes com DIPG, divididos por tratamento'}
-plot(survfit(Surv(surv,status)~ifelse(QT1<10,0,1),dipg),xlab="Meses")
+plot(fit3,xlab="Meses")
 ```
 E o resumo da sobrevida nos 2 grupos, com sobrevida aos 12 meses:
 ```{r echo=F}
-survfit(Surv(surv,status)~ifelse(QT1<10,0,1),dipg)
+fit3
 ```
 ```{r echo=F}
-summary(survfit(Surv(surv,status)~ifelse(QT1<10,0,1),dipg),time=12)
+summary(fit3,time=12)
 ```
 
-Mostrando uma sobrevida aos 12 meses de `r round(summary(survfit(Surv(surv,status)~ifelse(QT1<10,0,1),dipg),time=12)$surv[2],3)*100` % para o grupo tratado com protocolo _as per_ HIT (n = `r summary(survfit(Surv(surv,status)~ifelse(QT1<10,0,1),dipg),time=12)$n[2]` ) e de `r round(summary(survfit(Surv(surv,status)~ifelse(QT1<10,0,1),dipg),time=12)$surv[1],3)*100` % para os demais (n = `r summary(survfit(Surv(surv,status)~ifelse(QT1<10,0,1),dipg),time=12)$n[1]` ).
+Mostrando uma sobrevida aos 12 meses de `r round(summary(fit3,time=12)$surv[2],3)*100` % para o grupo tratado com protocolo _as per_ HIT (n = `r summary(fit3,time=12)$n[2]` ) e de `r round(summary(fit3,time=12)$surv[1],3)*100` % para os demais (n = `r summary(fit3,time=12)$n[1]` ).
 
 Comparando os dois grupos com um teste não paramétrico que utiliza o estimador de Kaplan-Meier, o teste de log-rank, ou de Mantel-Haenszel (vide documentação do pacote [_survival_](https://cran.r-project.org/web/packages/survival/survival.pdf)).
 ```{r echo=F}
