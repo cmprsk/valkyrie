@@ -2,7 +2,7 @@
 layout: post
 title:  "Um pouco sobre o tratamento do ensaio"
 date:   2016-06-02 16:03:45 -0300
-categories: valquiria
+categories: metodologia
 ---
 ### A base científica de VALQUIRIA
 
