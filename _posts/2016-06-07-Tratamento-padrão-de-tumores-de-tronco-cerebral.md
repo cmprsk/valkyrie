@@ -2,7 +2,7 @@
 layout: post
 title:  "Tratamento padrão de tumores de tronco cerebral"
 date:   2016-06-07 16:03:45 -0300
-categories: valquiria
+categories: metodologia
 ---
 ### Como os pacientes com DIPG são tratados normalmente
 
@@ -20,4 +20,4 @@ Em nosso serviço, 81.6% dos pacientes receberam quimioterapia (QT). O uso de QT
 ``` Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)
 ```
 
-_Esta postagem foi modificada em 19/06/2016 para incluir cálculos *on the fly* realizados pelo pacote knitr. Vide o arquivo [.Rmd](https://github.com/fhcflx/valkyrie/blob/gh-pages/_source/2016-06-07-Tratamento-padrão-de-tumores-de-tronco-cerebral.Rmd) desta postagem_
+_Esta postagem foi modificada em 19/06/2016 para incluir cálculos **on the fly** realizados pelo pacote knitr. Vide o arquivo [.Rmd](https://github.com/fhcflx/valkyrie/blob/gh-pages/_source/2016-06-07-Tratamento-padrão-de-tumores-de-tronco-cerebral.Rmd) desta postagem_
