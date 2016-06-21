@@ -97,4 +97,4 @@ O arquivo completo deste banco de dados, contendo as informações sobre todos o
 ``` Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)
 ```
 
-_Esta postagem foi modificada em 20/06/2016 para incluir cálculos *on the fly* realizados pelo pacote knitr. Vide o arquivo [.Rmd](https://github.com/fhcflx/valkyrie/blob/gh-pages/_source/2016-06-09-Grupo-controle-histórico.Rmd) desta postagem_
+_Esta postagem foi modificada em 20/06/2016 para incluir cálculos **on the fly** realizados pelo pacote knitr. Vide o arquivo [.Rmd](https://github.com/fhcflx/valkyrie/blob/gh-pages/_source/2016-06-09-Grupo-controle-histórico.Rmd) desta postagem_
