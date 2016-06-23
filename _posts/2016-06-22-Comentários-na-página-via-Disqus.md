@@ -39,7 +39,7 @@ A partir de hoje, configurei o sistema de comentários nas postagens do ensaio V
 E adicionando a seguinte tag liquid no modelo post.html:
 
 ```
-
+  
 {% include  disqus.html %}
 
 ```
