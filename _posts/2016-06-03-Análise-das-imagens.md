@@ -24,7 +24,7 @@ A admissão dos pacientes para o ensaio se dará seguindo estes passos:
 
 Exemplo de exame armazenado na DICOM Library, que pode ser analisado online:
 
-{% include medream-example %}
+{% include medream-example.html %}
 
 #### Critérios para diagnóstico dos gliomas pontinos intrínsecos difusos:
 
@@ -42,7 +42,7 @@ Embora não existam critérios diagnósticos definidos na literatura, nós utili
 
 Ou seja, tumor __centrado na ponte__, hipointenso em T1, hiperintenso em T2, hipodenso em TC, __difuso__ (sem bordas nítidas), extensão para __mais que metade do diâmetro do tronco cerebral__. O estudo de ressonância magnética (RM) abaixo ilustra um caso de paciente atendido em nosso serviço hospitalar, com diagnóstico de DIPG. Observando as sequências ponderadas em T1, T2 e FLAIR, pode-se observar uma lesão infiltrando e "insuflando" toda a extensão da ponte, com iso-hipointensidade em T1, pouca ou nenhuma captação de contraste e alteração de sinal em T2/FLAIR, sem demarcação nítida de bordas.
 
-{% include medream-dipg %}
+{% include medream-dipg.html %}
 
 Um estudo publicado por [Hankinson _et al_](http://thejns.org/doi/full/10.3171/2011.4.PEDS1180) no Journal of Neurosurgery avaliou a reproducibilidade da avaliação por imagem de ressonância magnética, realizada por neurocirurgiões experientes, do diagnóstico de DIPG. Os autores mostraram inconsistência no diagnóstico e conduta dos casos avaliados. Uma imagem representativa dos diferentes padrões encontrados foi publicada:
 
