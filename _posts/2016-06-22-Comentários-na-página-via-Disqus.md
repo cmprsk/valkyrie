@@ -9,13 +9,15 @@ categories: valquiria
 A partir de hoje, configurei o sistema de comentários nas postagens do ensaio VALQUIRIA. Usando as instruções encontradas [aqui](https://help.disqus.com/customer/portal/articles/472138-jekyll-installation-instructions) e também [aqui](http://sgeos.github.io/jekyll/disqus/2016/02/14/adding-disqus-to-a-jekyll-blog.html), criei e configurei uma conta no Disqus e acrescentei o seguinte código num arquivo _disqus.html_, salvo na pasta **\_includes**:
 
 {% highlight html %}
-{% raw %}{% if page.comments %}{% endraw %}
-{% raw %}{% endif %}{% endraw %}
+  {{ "{% if page.comments " }}%}
+  {% include  disqus.html %}
+  {{ "{% endif " }}%}
 {% endhighlight %}
 
 E adicionando a seguinte _tag_ [Liquid](https://github.com/Shopify/liquid/wiki/liquid-for-designers) no modelo _post.html_:
 
 {% highlight html %}
+  {{ "{% include  disqus.html " }}%}
 {% endhighlight %}
 
 
