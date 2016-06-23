@@ -10,7 +10,7 @@ A partir de hoje, configurei o sistema de comentários nas postagens do ensaio V
 
 {% highlight html %}
 {% raw %}{% if page.comments %}{% endraw %}
-{% include  disqus.html %}
+{% include disqus.html %}
 {% raw %}{% endif %}{% endraw %}
 {% endhighlight %}
 
@@ -18,7 +18,7 @@ A partir de hoje, configurei o sistema de comentários nas postagens do ensaio V
 E adicionando a seguinte _tag_ [Liquid](https://github.com/Shopify/liquid/wiki/liquid-for-designers) no modelo _post.html_:
 
 {% highlight html %}
-{% raw %}{% include  disqus.html %}{% endraw %}
+{% raw %}{% include disqus.html %}{% endraw %}
 {% endhighlight %}
 
 
