@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Temos um twitter"
 date:   2016-06-06 16:03:45 -0300
 categories: valquiria
