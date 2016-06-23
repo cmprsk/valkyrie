@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Tratamento padrão de tumores de tronco cerebral"
 date:   2016-06-07 16:03:45 -0300
 categories: metodologia

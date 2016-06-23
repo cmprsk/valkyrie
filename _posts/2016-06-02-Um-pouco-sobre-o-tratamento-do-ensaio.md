@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Um pouco sobre o tratamento do ensaio"
 date:   2016-06-02 16:03:45 -0300
 categories: metodologia

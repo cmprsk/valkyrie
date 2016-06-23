@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Cálculo do número de pacientes"
 date:   2016-06-08 16:03:45 -0300
 categories: metodologia

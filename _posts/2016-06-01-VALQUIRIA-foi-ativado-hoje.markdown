@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "VALQUIRIA foi ativado hoje"
 date:   2016-06-01 16:03:45 -0300
 categories: valquiria

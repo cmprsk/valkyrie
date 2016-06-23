@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Desidentificação - anonimização"
 date:   2016-06-14 16:03:45 -0300
 categories: metodologia

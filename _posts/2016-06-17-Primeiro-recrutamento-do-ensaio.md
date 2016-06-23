@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Primeiro recrutamento do ensaio (treinamento)"
 date:   2016-06-17 16:03:45 -0300
 categories: valquiria
