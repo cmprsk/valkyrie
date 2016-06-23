@@ -24,7 +24,7 @@ A admissão dos pacientes para o ensaio se dará seguindo estes passos:
 
 Exemplo de exame armazenado na DICOM Library, que pode ser analisado online:
 
-{% include medream-dipg %}
+{% include medream-example %}
 
 #### Critérios para diagnóstico dos gliomas pontinos intrínsecos difusos:
 
