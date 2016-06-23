@@ -17,9 +17,9 @@ A partir de hoje, configurei o sistema de comentários nas postagens do ensaio V
 
 E adicionando a seguinte _tag_ [Liquid](https://github.com/Shopify/liquid/wiki/liquid-for-designers) no modelo _post.html_:
 
-{% highlight html %}
+<!--{% highlight html %}
 {% raw %}{% include disqus %}{% endraw %}
-{% endhighlight %}
+{% endhighlight %}-->
 
 
 Os comentários podem ser moderados, respondidos e curados no Disqus, e o histórico de comentários vai ficar na página da postagem. Todos os leitores da página do VALQUIRIA são convidados a opinar, criticar, sugerir ou apenas comentar e acrescentar sua experiência e idéias. Todas as contribuições são bem-vindas!
