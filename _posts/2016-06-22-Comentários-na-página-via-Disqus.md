@@ -9,7 +9,7 @@ categories: valquiria
 A partir de hoje, configurei o sistema de comentários nas postagens do ensaio VALQUIRIA. Usando as instruções encontradas [aqui](https://help.disqus.com/customer/portal/articles/472138-jekyll-installation-instructions), criei e configurei uma conta no Disqus e acrescentei o seguinte código num arquivo _disqus.html_, salvo na pasta **\_includes**:
 
 ```
-{% comment %}
+{% raw %}
 {% if page.comments %}
 <div id="disqus_thread"></div>
 <script>
@@ -34,15 +34,15 @@ A partir de hoje, configurei o sistema de comentários nas postagens do ensaio V
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 {% endif %}
-{% endcomment %}
+{% endraw %}
 ```
 
 E adicionando a seguinte _tag_ [Liquid](https://github.com/Shopify/liquid/wiki/liquid-for-designers) no modelo post.html:
 
 ```
-{% comment %}
+{% raw %}
 {% include  disqus.html %}
-{% endcomment %}
+{% endraw %}
 ```
 
 Os comentários podem ser moderados, respondidos e curados no Disqus, e o histórico de comentários vai ficar na página da postagem. Todos os leitores da página do VALQUIRIA são convidados a opinar, criticar, sugerir ou apenas comentar e acrescentar sua experiência e idéias. Todas as contribuições são bem-vindas!
