@@ -3,7 +3,7 @@
 > ## UTN: U1111-1179-2263
 
 -----------------------
-Este repositório vai abrigar os arquivos do primeiro *open science clinical trial*, um [**open lab notebook**](https://en.wikipedia.org/wiki/Open_notebook_science) que descreverá e apresentará os resultados de um ensaio clínico em tempo real (enquanto os dados são coletados). A fim de proteger a identidade e confidencialidade dos pacientes, os dados não serão apresentados de forma completa, porém serão anotados de forma [*desidentificada*](https://en.wikipedia.org/wiki/De-identification).
+Este repositório vai abrigar os arquivos do primeiro **ensaio clínico usando ciência aberta (open science clinical trial)**, um [**caderno de pesquisa aberto (open lab notebook)**][open-lab] que descreverá e apresentará os resultados de um ensaio clínico em tempo real (enquanto os dados são coletados). A fim de proteger a identidade e confidencialidade dos pacientes, os dados não serão apresentados de forma completa, porém serão anotados de forma [*desidentificada*](https://en.wikipedia.org/wiki/De-identification).
 
 Acrônimo: Ácido **VAL**próico, **QUI**mioterapia e **R**adioterapia para pacientes com DIPG na **I**nfância e **A**dolescência
 
@@ -37,8 +37,15 @@ Ativado em 01/06/2016.
 
 [Equipe](crew/README.md).
 
--------------------------------
-This repository will harbor the files of the first *open science clinical trial*, an [**open lab notebook**](https://en.wikipedia.org/wiki/Open_notebook_science) project that will describe and present the results of a clinical trial in real time (as data is registered). In order to protect the identity and confidentiality of the patients, data will not be shown in raw format, but [*de-identified*](https://en.wikipedia.org/wiki/De-identification).
+### Referências:
+
+- [Open notebook science, Wikipedia][open-lab]
+
+[open-lab]: https://en.wikipedia.org/wiki/Open_notebook_science
+  
+----
+
+This repository will harbor the files of the first **open science clinical trial**, an [**open lab notebook**](https://en.wikipedia.org/wiki/Open_notebook_science) project that will describe and present the results of a clinical trial in real time (as data is registered). In order to protect the identity and confidentiality of the patients, data will not be shown in raw format, but [*de-identified*](https://en.wikipedia.org/wiki/De-identification).
 
 Acronim: VALKYRIE - **VAL**proic acid with radio**CH(K)**emothe**R**apy for D**I**PG
 
@@ -76,3 +83,4 @@ Active 06/01/2016.
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">valkyrie</span> de <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Francisco H C Felix</span> está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons - Atribuição-NãoComercial 4.0 Internacional</a>
 
 ![logo](https://github.com/fhcflx/valkyrie/blob/master/opennsSCI.png)
+
