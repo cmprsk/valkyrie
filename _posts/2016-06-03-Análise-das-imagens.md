@@ -7,7 +7,7 @@ categories: valquiria
 ---
 ### Revisão central das imagens
 
-As imagens médicas costumam ser fornecidas em formato digital, através de CD ou DVD gravado pela clínica de radiologia que realiza os exames. Essas imagens são armazenadas num formato padronizado, denominado [DICOM](https://pt.wikipedia.org/wiki/DICOM) (*Digital Imaging and Communications in Medicine*). A disponibilidade das imagens em formato digital permite seu manuseio e compartilhamento com maior flexibilidade. No nosso ensaio, idealizamos utilizar a revisão das imagens digitalmente, de forma **anonimizada**, ou **desidentificada**, ou seja, sem nenhuma informação que possa identificar de forma direta ou indireta os pacientes. Para este fim, utilizaremos o serviço do compartilhamento de imagens médicas [DICOM Library](http://www.dicomlibrary.com). Este serviço, criado pela empresa Softneta, com financiamento da União Européia, recebe arquivos DICOM, tornando-os anônimos automaticamente e permite seu compartilhamento, sem identificação de pacientes, profissionais ou serviços de saúde.
+As imagens médicas costumam ser fornecidas em formato digital, através de CD ou DVD gravado pela clínica de radiologia que realiza os exames. Essas imagens são armazenadas num formato padronizado, denominado [DICOM][dicom] (*Digital Imaging and Communications in Medicine*). A disponibilidade das imagens em formato digital permite seu manuseio e compartilhamento com maior flexibilidade. No nosso ensaio, idealizamos utilizar a revisão das imagens digitalmente, de forma **anonimizada**, ou **desidentificada**, ou seja, sem nenhuma informação que possa identificar de forma direta ou indireta os pacientes. Para este fim, utilizaremos o serviço do compartilhamento de imagens médicas [DICOM Library][dicom-library]. Este serviço, criado pela empresa Softneta, com financiamento da União Européia, recebe arquivos DICOM, tornando-os anônimos automaticamente e permite seu compartilhamento, sem identificação de pacientes, profissionais ou serviços de saúde.
 
 Repassei hoje com a Dra Sandra Albuquerque o processo de envio das imagens para o servidor do DICOM Library. Abaixo, um vídeo explicativo (em inglês):
 
@@ -44,20 +44,35 @@ Ou seja, tumor __centrado na ponte__, hipointenso em T1, hiperintenso em T2, hip
 
 {% include medream-dipg.html %}
 
-Um estudo publicado por [Hankinson _et al_](http://thejns.org/doi/full/10.3171/2011.4.PEDS1180) no Journal of Neurosurgery avaliou a reproducibilidade da avaliação por imagem de ressonância magnética, realizada por neurocirurgiões experientes, do diagnóstico de DIPG. Os autores mostraram inconsistência no diagnóstico e conduta dos casos avaliados. Uma imagem representativa dos diferentes padrões encontrados foi publicada:
+Um estudo publicado por [Hankinson _et al_][hankinson] no Journal of Neurosurgery avaliou a reproducibilidade da avaliação por imagem de ressonância magnética, realizada por neurocirurgiões experientes, do diagnóstico de DIPG. Os autores mostraram inconsistência no diagnóstico e conduta dos casos avaliados. Uma imagem representativa dos diferentes padrões encontrados foi publicada:
 
 ![hankinsonetal](http://thejns.org/na101/home/literatum/publisher/jns/journals/content/ped.1/2011/ped.1.2011.8.issue-1/2011.4.peds1180/production/images/large/0080097f1.jpeg)
-*Imagens representativas de casos típico (A), intermediário (B) e atípico (C). As imagens são protegidas por [direitos autorais](https://thejns.org/action/permissions) e não devem ser copiadas, nem reproduzidas.*
+*Imagens representativas de casos típico (A), intermediário (B) e atípico (C). As imagens são protegidas por [direitos autorais][jns-permission] e não devem ser copiadas, nem reproduzidas.*
 
  Os critérios de diagnóstico sugeridos neste trabalho são:
- > 1) an intrinsic, central location involving more than 50% of the axial diameter of the pons;
- 2) indistinct tumor margins;
- 3) T1 hypointensity;
- 4) T2 hyperintensity;
- 5) irregular, if any, enhancement following Gd administration; and
- 6) the absence of cystic or exophytic components.
+ > 1. an intrinsic, central location involving more than 50% of the axial diameter of the pons;
+   2. indistinct tumor margins;
+   3. T1 hypointensity;
+   4. T2 hyperintensity;
+   5. irregular, if any, enhancement following Gd administration; and
+   6. the absence of cystic or exophytic components.
  Encasement of the basilar artery is another, less consistently referenced characteristic.
 
 ---
 
 ``` Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)```
+
+### Referências:
+
+- [DICOM][dicom]
+- [DICOM Library][dicom-library]
+- [Hankinson TC, _et al_. Interpretation of magnetic
+resonance images in diffuse intrinsic pontine glioma: a survey of pediatric
+neurosurgeons. J Neurosurg Pediatr. 2011;8:97-102. ][hankinson]
+- [Journal of Neurosurgery: request of permissions][jns-permission]
+
+
+[dicom]: https://pt.wikipedia.org/wiki/DICOM
+[dicom-library]: http://www.dicomlibrary.com
+[hankinson]: http://thejns.org/doi/full/10.3171/2011.4.PEDS1180
+[jns-permission]: https://thejns.org/action/permissions

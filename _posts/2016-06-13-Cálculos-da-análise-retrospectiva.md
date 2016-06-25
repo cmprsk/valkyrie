@@ -8,10 +8,10 @@ categories: metodologia
 
 ## Curva de sobrevida da análise retrospectiva:
 
-Os cálculos mostrados aqui usam o banco de dados de pacientes diagnosticados com DIPG entre 2000-2013, atualizados até 2014. O follow-up dos pacientes neste banco de dados é um pouco mais longo que nos dados originalmente usados para os cálculos do projeto e, portanto, terão algumas diferenças numéricas. Esta postagem ilustra como usar os dados obtidos de uma pesquisa clínica de forma transparente e totalmente reprodutível aos leitores. Incluindo tanto os dados de pacientes individuais (sem identificá-los) como o _script_ usado para realizar a análise dos dados, este é um exemplo das possibilidades do modelo de _open lab notebook_ e do paradigma de _open science_. Quando os dados do ensaio prospectivo forem coletados, serão igualmente publicados da mesma forma transparente, ficando permanentemente disponíveis para análise e crítica pelos interessados. Discuti a inspiração para esta abordagem nesta [postagem](http://fhcflx.github.io/pharmakon/jekyll/update/2016/05/01/Migrando-meu-blog-para-Github-Pages-usando-Jekyll.html) em outro blog.
+Os cálculos mostrados aqui usam o banco de dados de pacientes diagnosticados com DIPG entre 2000-2013, atualizados até 2014. O follow-up dos pacientes neste banco de dados é um pouco mais longo que nos dados originalmente usados para os cálculos do projeto e, portanto, terão algumas diferenças numéricas. Esta postagem ilustra como usar os dados obtidos de uma pesquisa clínica de forma transparente e totalmente reprodutível aos leitores. Incluindo tanto os dados de pacientes individuais (sem identificá-los) como o _script_ usado para realizar a análise dos dados, este é um exemplo das possibilidades do modelo de _open lab notebook_ e do paradigma de _open science_. Quando os dados do ensaio prospectivo forem coletados, serão igualmente publicados da mesma forma transparente, ficando permanentemente disponíveis para análise e crítica pelos interessados. Discuti a inspiração para esta abordagem nesta [postagem][jekyll-migrando] em outro blog.
 
-Esta postagem usa o pacote [_knitr_](http://yihui.name/knitr/) para calcular os resultados ao mesmo tempo em que compila a página em html com [_jekyll_](https://jekyllrb.com/).
-Utilizei, como guia, o excelente exemplo de [_yihui_](https://github.com/yihui/knitr). Para formatar tabelas usando mais do que o disponível no knitr, usei o pacote [pander](http://rapporter.github.io/pander/), como mostrado muito bem [aqui](http://rapporter.github.io/pander/knitr.html).
+Esta postagem usa o pacote [_knitr_][knitr] para calcular os resultados ao mesmo tempo em que compila a página em html com [_jekyll_][jekyll].
+Utilizei, como guia, o excelente exemplo de [_yihui_][yihui] Para formatar tabelas usando mais do que o disponível no knitr, usei o pacote [pander][pander], como mostrado muito bem [aqui][pander-knitr]. Apenas observei o cuidado de passar a opção ```type = 'rmarkdown' ``` para o pander.
 
 
 ```r
@@ -94,7 +94,7 @@ E o resumo da sobrevida nos 2 grupos, com sobrevida aos 12 meses:
 
 Mostrando uma sobrevida aos 12 meses de 87.5 % para o grupo tratado com protocolo _as per_ HIT (n = 12 ) e de 32.3 % para os demais (n = 44 ).
 
-Comparando os dois grupos com um teste não paramétrico que utiliza o estimador de Kaplan-Meier, o teste de log-rank, ou de Mantel-Haenszel (vide documentação do pacote [_survival_](https://cran.r-project.org/web/packages/survival/survival.pdf)).
+Comparando os dois grupos com um teste não paramétrico que utiliza o estimador de Kaplan-Meier, o teste de log-rank, ou de Mantel-Haenszel (vide documentação do pacote [_survival_][survival]).
 
 |             &nbsp;             |  N  |  Observed  |  Expected  |  (O-E)^2/E  |  (O-E)^2/V  |
 |:------------------------------:|:---:|:----------:|:----------:|:-----------:|:-----------:|
@@ -104,7 +104,7 @@ Comparando os dois grupos com um teste não paramétrico que utiliza o estimador
 Table: Call: Surv(surv, status) ~ ifelse(QT1 < 10, 0, 1) Chisq = 8.035346
 on 1 degrees of freedom, p = 0.004587
 
-Comparando os dois grupos com um teste semiparamétrico, o modelo de riscos proporcionais de Cox (vide documentação do pacote [_survival_](https://cran.r-project.org/web/packages/survival/survival.pdf)).
+Comparando os dois grupos com um teste semiparamétrico, o modelo de riscos proporcionais de Cox (vide documentação do pacote [_survival_][survival]).
 
 
 |            &nbsp;            |  coef  |  exp(coef)  |  se(coef)  |   z    |    p    |
@@ -140,3 +140,21 @@ Likelihood ratio test=11.76  on 1 df, p=0.0006041988  n= 56, number of events= 4
 Este resultado indica que existe a possibilidade de haver alguma diferença de sobrevida quando os pacientes recebem ácido valpróico juntamente com o tratamento.
 
 ``` Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)```
+
+### Referências:
+
+- [Jekyll][jekyll]
+- [Jekyll, Migrando meu blog para Github Pages usando Jekyll][jekyll-migrando]
+- [Knitr, Elegant, flexible and fast dynamic report generation with R][knitr]
+- [Knitr, Github][yihui]
+- [pander: An R Pandoc Writer][pander]
+- [pander, Using pander with kniter][pander-knitr]
+- [Package 'survival'][survival]
+
+[jekyll]: https://jekyllrb.com
+[jekyll-migrando]: http://fhcflx.github.io/pharmakon/jekyll/update/2016/05/01/Migrando-meu-blog-para-Github-Pages-usando-Jekyll.html
+[knitr]: http://yihui.name/knitr/)
+[yihui]: https://github.com/yihui/knitr
+[pander]: http://rapporter.github.io/pander/
+[pander-knitr]: http://rapporter.github.io/pander/knitr.html
+[survival]: https://cran.r-project.org/web/packages/survival/survival.pdf
