@@ -6,32 +6,32 @@ date:   2016-06-09 16:03:45 -0300
 categories: metodologia
 ---
 
-O grupo controle histórico compõe-se de pacientes com DIPG, diagnosticados entre 2000 e 2013, que _não_ foram tratados com quimioterapia de acordo com os protocolos HIT do [GPOH](http://www.kinderkrebsinfo.de/gpoh_society/index_eng.html), adaptados. Somente foram selecionados para compor o controle histórico pacientes que receberam radioterapia, na dose de 40 Gy ou maior.
+O grupo controle histórico compõe-se de pacientes com DIPG, diagnosticados entre 2000 e 2013, que _não_ foram tratados com quimioterapia de acordo com os protocolos HIT do [GPOH][gpoh], adaptados. Somente foram selecionados para compor o controle histórico pacientes que receberam radioterapia, na dose de 40 Gy ou maior.
 
-A tabela abaixo mostra as características dos pacientes incluídos no grupo histórico, segundo definido no [projeto](https://github.com/fhcflx/valkyrie/blob/gh-pages/assets/posts/2016-06-09-Grupo-controle-historico/Anteprojeto_VALQUIRIA_HIAS_3.pdf), o qual será comparado com o grupo tratado prospectivamente no ensaio VALQUIRIA. Este grupo foi comparado com o piloto retrospectivo a partir do qual calculamos o número de pacientes a ser recrutado no ensaio.
+A tabela abaixo mostra as características dos pacientes incluídos no grupo histórico, segundo definido no [projeto][projeto], o qual será comparado com o grupo tratado prospectivamente no ensaio VALQUIRIA. Este grupo foi comparado com o piloto retrospectivo a partir do qual calculamos o número de pacientes a ser recrutado no ensaio.
 
 
 
 ---
 
-|||*Valor* || *Unidades* || *Dispersão* |||| *Medida* |
-|:--- | --- |:---:| --- |:--- | --- |:-------:| --- | --- :| --- |:---:|
-|Sexo||||||||||
-||Masculino| 12 || - || - || - || *n* |
-||Feminino| 19 || - || - || - || *n* |
-|Idade || 7.4 || anos || 2.8 - 15.8 || min - max || mediana |
-|QT|| 29 || - || - || - || *n* |
-||COG-A9952 | 25 || - || - || - || *n* |
-||ACNS0126 | 4 || - || - || - || *n* |
-|Sobrevida|| 11.4 || meses || 8.1 - 15.6 || IC95% || mediana |
-|Tempo para <br> progressão || 8.2 || meses || 6.9 - 10.6 || IC95% || mediana |
-|Segunda QT|| 18 || - || - || - || *n* |
-||Temozolomida | 7 || - || - || - || *n* |
-||ICE/IE | 7 || - || - || - || *n* |
-||Vimblastina | 3 || - || - || - || *n* |
-||Carbo-VCR | 1 || - || - || - || *n* |
-|Segunda RT|| 2 || -  || - || - || *n* |
-|Sobrevida após <br> progressão || 87 || meses || 63 - 150 || IC95% || mediana |
+|     |         |*Valor* |     | *Unidades* |     | *Dispersão* |     |     |     | *Medida* |
+|:--- | ------- |:------:| --- |:---------- | --- |:-----------:| --- | ---:| --- |:--------:|
+| Sexo          |        |     |            |     |             |     |     |     |          |
+|     |Masculino|   12   |     |      -     |     |      -      |     |  -  |     |    *n*   |
+|     | Feminino|   19   |     |      -     |     |      -      |     |  -  |     |    *n*   |
+|Idade|         |   7.4  |     |     anos   |     |  2.8 - 15.8 |     | min - max |  mediana |
+|QT   |         |   29   |     |      -     |     |      -      |     |  -  |     |    *n*   |
+|     |COG-A9952|   25   |     |      -     |     |      -      |     |  -  |     |    *n*   |
+|     |ACNS0126 |    4   |     |      -     |     |      -      |     |  -  |     |    *n*   |
+|Sobrevida|     |   11.4 |     |     meses  |     |  8.1 - 15.6 |     |IC95%|     |  mediana |
+|Tempo para <br> progressão||8.2||   meses  |     |  6.9 - 10.6 |     |IC95%|     |  mediana |
+|Segunda QT    ||   18   |     |      -     |     |      -      |     |  -  |     |    *n*   |
+| |Temozolomida |    7   |     |      -     |     |      -      |     |  -  |     |    *n*   |
+|     | ICE/IE  |    7   |     |      -     |     |      -      |     |  -  |     |    *n*   |
+|   |Vimblastina|    3   |     |      -     |     |      -      |     |  -  |     |    *n*   |
+|     |Carbo-VCR|    1   |     |      -     |     |      -      |     |  -  |     |    *n*   |
+|Segunda RT    ||    2   |     |      -     |     |      -      |     |  -  |     |    *n*   |
+|Sobrevida após <br> progressão||87|| meses |     |   63 - 150  |     |IC95%|     |  mediana |
 
 ---
 
@@ -99,3 +99,11 @@ O arquivo completo deste banco de dados, contendo as informações sobre todos o
 ```
 
 _Esta postagem foi modificada em 20/06/2016 para incluir cálculos **on the fly** realizados pelo pacote knitr. Vide o arquivo [.Rmd](https://github.com/fhcflx/valkyrie/blob/gh-pages/_source/2016-06-09-Grupo-controle-histórico.Rmd) desta postagem_
+
+### Referências:
+
+- [GPOH][gpoh]
+- [Projeto VALQUIRIA][projeto]
+
+[gpoh]: http://www.kinderkrebsinfo.de/gpoh_society/index_eng.html
+[projeto]: https://github.com/fhcflx/valkyrie/blob/gh-pages/assets/posts/2016-06-09-Grupo-controle-historico/Anteprojeto_VALQUIRIA_HIAS_3.pdf
