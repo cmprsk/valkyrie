@@ -93,12 +93,12 @@ RT: cGy
 ettrt: Tempo para RT (dias)  
 ttp: tempo para progressão (meses)
 s2: sobrevida após a progressão (dias)  
-O arquivo completo deste banco de dados, contendo as informações sobre todos os pacientes diagnosticados com DIPG em nosso serviço entre 2000-2013 (desidentificado) está disponível em formato [.csv](https://github.com/fhcflx/valkyrie/blob/gh-pages/assets/stat/dipg.csv).
+O arquivo completo deste banco de dados, contendo as informações sobre todos os pacientes diagnosticados com DIPG em nosso serviço entre 2000-2013 (desidentificado) está disponível em formato [.csv](/assets/stat/dipg.csv).
 
 ``` Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)
 ```
 
-_Esta postagem foi modificada em 20/06/2016 para incluir cálculos **on the fly** realizados pelo pacote knitr. Vide o arquivo [.Rmd](https://github.com/fhcflx/valkyrie/blob/gh-pages/_source/2016-06-09-Grupo-controle-histórico.Rmd) desta postagem_
+_Esta postagem foi modificada em 20/06/2016 para incluir cálculos **on the fly** realizados pelo pacote knitr. Vide o arquivo [.Rmd](/_source/2016-06-09-Grupo-controle-histórico.Rmd) desta postagem_
 
 ### Referências:
 
@@ -106,4 +106,4 @@ _Esta postagem foi modificada em 20/06/2016 para incluir cálculos **on the fly*
 - [Projeto VALQUIRIA][projeto]
 
 [gpoh]: http://www.kinderkrebsinfo.de/gpoh_society/index_eng.html
-[projeto]: https://github.com/fhcflx/valkyrie/blob/gh-pages/assets/posts/2016-06-09-Grupo-controle-historico/Anteprojeto_VALQUIRIA_HIAS_3.pdf
+[projeto]: /assets/posts/2016-06-09-Grupo-controle-historico/Anteprojeto_VALQUIRIA_HIAS_3.pdf

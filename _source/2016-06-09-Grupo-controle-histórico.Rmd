@@ -5,9 +5,9 @@ date:   2016-06-09 16:03:45 -0300
 categories: metodologia
 ---
 
-O grupo controle histórico compõe-se de pacientes com DIPG, diagnosticados entre 2000 e 2013, que _não_ foram tratados com quimioterapia de acordo com os protocolos HIT do [GPOH](http://www.kinderkrebsinfo.de/gpoh_society/index_eng.html), adaptados. Somente foram selecionados para compor o controle histórico pacientes que receberam radioterapia, na dose de 40 Gy ou maior.
+O grupo controle histórico compõe-se de pacientes com DIPG, diagnosticados entre 2000 e 2013, que _não_ foram tratados com quimioterapia de acordo com os protocolos HIT do [GPOH][gpoh], adaptados. Somente foram selecionados para compor o controle histórico pacientes que receberam radioterapia, na dose de 40 Gy ou maior.
 
-A tabela abaixo mostra as características dos pacientes incluídos no grupo histórico, segundo definido no [projeto](https://github.com/fhcflx/valkyrie/blob/gh-pages/assets/posts/2016-06-09-Grupo-controle-historico/Anteprojeto_VALQUIRIA_HIAS_3.pdf), o qual será comparado com o grupo tratado prospectivamente no ensaio VALQUIRIA. Este grupo foi comparado com o piloto retrospectivo a partir do qual calculamos o número de pacientes a ser recrutado no ensaio.
+A tabela abaixo mostra as características dos pacientes incluídos no grupo histórico, segundo definido no [projeto][projeto], o qual será comparado com o grupo tratado prospectivamente no ensaio VALQUIRIA. Este grupo foi comparado com o piloto retrospectivo a partir do qual calculamos o número de pacientes a ser recrutado no ensaio.
 
 ```{r warning=F, message=F, echo=F}
 require(knitr)
@@ -29,24 +29,24 @@ fits = survfit(Surv(s2,status)~1,subset=(QT1!=10&RT>4000))
 
 ---
 
-|||*Valor* || *Unidades* || *Dispersão* |||| *Medida* |
-|:--- | --- |:---:| --- |:--- | --- |:-------:| --- | --- :| --- |:---:|
-|Sexo||||||||||
-||Masculino| `r y` || - || - || - || *n* |
-||Feminino| `r x` || - || - || - || *n* |
-|Idade || `r a` || anos || `r m` - `r M` || min - max || mediana |
-|QT|| `r q[2]+q[3]` || - || - || - || *n* |
-||COG-A9952 | `r q[2]` || - || - || - || *n* |
-||ACNS0126 | `r q[3]` || - || - || - || *n* |
-|Sobrevida|| `r summary(fit)$table[7]` || meses || `r summary(fit)$table[8]` - `r summary(fit)$table[9]` || IC95% || mediana |
-|Tempo para <br> progressão || `r summary(fitt)$table[7]` || meses || `r summary(fitt)$table[8]` - `r summary(fitt)$table[9]` || IC95% || mediana |
-|Segunda QT|| `r q2[2]+q2[3]+q2[4]+q2[5]+q2[6]+q2[7]` || - || - || - || *n* |
-||Temozolomida | `r q2[5]` || - || - || - || *n* |
-||ICE/IE | `r q2[3]+q2[4]+q2[6]` || - || - || - || *n* |
-||Vimblastina | `r q2[7]` || - || - || - || *n* |
-||Carbo-VCR | `r q2[2]` || - || - || - || *n* |
-|Segunda RT|| `r summary(RT2>4000)[3]` || -  || - || - || *n* |
-|Sobrevida após <br> progressão || `r summary(fits)$table[7]` || meses || `r summary(fits)$table[8]` - `r summary(fits)$table[9]` || IC95% || mediana |
+|     |         |*Valor* |     | *Unidades* |     | *Dispersão* |     |     |     | *Medida* |
+|:--- | ------- |:------:| --- |:---------- | --- |:-----------:| --- | ---:| --- |:--------:|
+| Sexo          |        |     |            |     |             |     |     |     |          |
+|     |Masculino|   12   |     |      -     |     |      -      |     |  -  |     |    *n*   |
+|     | Feminino|   19   |     |      -     |     |      -      |     |  -  |     |    *n*   |
+|Idade|         |   7.4  |     |     anos   |     |  2.8 - 15.8 |     | min - max |  mediana |
+|QT   |         |   29   |     |      -     |     |      -      |     |  -  |     |    *n*   |
+|     |COG-A9952|   25   |     |      -     |     |      -      |     |  -  |     |    *n*   |
+|     |ACNS0126 |    4   |     |      -     |     |      -      |     |  -  |     |    *n*   |
+|Sobrevida|     |   11.4 |     |     meses  |     |  8.1 - 15.6 |     |IC95%|     |  mediana |
+|Tempo para <br> progressão||8.2||   meses  |     |  6.9 - 10.6 |     |IC95%|     |  mediana |
+|Segunda QT    ||   18   |     |      -     |     |      -      |     |  -  |     |    *n*   |
+| |Temozolomida |    7   |     |      -     |     |      -      |     |  -  |     |    *n*   |
+|     | ICE/IE  |    7   |     |      -     |     |      -      |     |  -  |     |    *n*   |
+|   |Vimblastina|    3   |     |      -     |     |      -      |     |  -  |     |    *n*   |
+|     |Carbo-VCR|    1   |     |      -     |     |      -      |     |  -  |     |    *n*   |
+|Segunda RT    ||    2   |     |      -     |     |      -      |     |  -  |     |    *n*   |
+|Sobrevida após <br> progressão||87|| meses |     |   63 - 150  |     |IC95%|     |  mediana |
 
 ---
 
@@ -77,9 +77,17 @@ RT: cGy
 ettrt: Tempo para RT (dias)  
 ttp: tempo para progressão (meses)
 s2: sobrevida após a progressão (dias)  
-O arquivo completo deste banco de dados, contendo as informações sobre todos os pacientes diagnosticados com DIPG em nosso serviço entre 2000-2013 (desidentificado) está disponível em formato [.csv](https://github.com/fhcflx/valkyrie/blob/gh-pages/assets/stat/dipg.csv).
+O arquivo completo deste banco de dados, contendo as informações sobre todos os pacientes diagnosticados com DIPG em nosso serviço entre 2000-2013 (desidentificado) está disponível em formato [.csv](/assets/stat/dipg.csv).
 
 ``` Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)
 ```
 
-_Esta postagem foi modificada em 20/06/2016 para incluir cálculos **on the fly** realizados pelo pacote knitr. Vide o arquivo [.Rmd](https://github.com/fhcflx/valkyrie/blob/gh-pages/_source/2016-06-09-Grupo-controle-histórico.Rmd) desta postagem_
+_Esta postagem foi modificada em 20/06/2016 para incluir cálculos **on the fly** realizados pelo pacote knitr. Vide o arquivo [.Rmd](/_source/2016-06-09-Grupo-controle-histórico.Rmd) desta postagem_
+
+### Referências:
+
+- [GPOH][gpoh]
+- [Projeto VALQUIRIA][projeto]
+
+[gpoh]: http://www.kinderkrebsinfo.de/gpoh_society/index_eng.html
+[projeto]: /assets/posts/2016-06-09-Grupo-controle-historico/Anteprojeto_VALQUIRIA_HIAS_3.pdf
