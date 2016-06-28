@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
   VALQUIRIA é um ensaio clínico que estuda o tratamento de crianças e adolescentes
   com tumores difusos da ponte (tronco cerebral), uma doença grave de
   difícil tratamento e sem terapia curativa estabelecida.
-baseurl: "/valkyrie" # the subpath of your site, e.g. /blog
+baseurl: "http://fhcflx.github.io/valkyrie" # the subpath of your site, e.g. /blog
 url: "https://github.com/fhcflx/valkyrie/blob/gh-pages" # the base hostname & protocol for your site
 twitter_username: valkyrie_trial
 github_username:  fhcflx/valkyrie
