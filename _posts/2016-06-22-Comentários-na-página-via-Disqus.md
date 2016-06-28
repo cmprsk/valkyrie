@@ -24,8 +24,6 @@ E adicionando a seguinte _tag_ [Liquid][liquid] no modelo _post.html_:
 Para adicionar os comentários do Disqus a um outro blog [Jekyll][jekyll], sugiro utilizar o [código universal][disqus-embed] fornecido por ele.
 Os comentários podem ser moderados, respondidos e curados no Disqus, e o histórico de comentários vai ficar na página da postagem. Todos os leitores da página do VALQUIRIA são convidados a opinar, criticar, sugerir ou apenas comentar e acrescentar sua experiência e idéias. Todas as contribuições são bem-vindas!
 
-``` Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)```
-
 ### Referências:
 
 - [Jekyll][jekyll]

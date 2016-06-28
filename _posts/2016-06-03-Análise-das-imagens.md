@@ -60,8 +60,6 @@ Um estudo publicado por [Hankinson _et al_][hankinson] no Journal of Neurosurger
 
 ---
 
-``` Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)```
-
 ### Referências:
 
 - [DICOM][dicom]

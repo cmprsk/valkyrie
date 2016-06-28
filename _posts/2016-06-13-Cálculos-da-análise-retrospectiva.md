@@ -139,8 +139,6 @@ Likelihood ratio test=11.76  on 1 df, p=0.0006041988  n= 56, number of events= 4
 
 Este resultado indica que existe a possibilidade de haver alguma diferença de sobrevida quando os pacientes recebem ácido valpróico juntamente com o tratamento.
 
-``` Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)```
-
 ### Referências:
 
 - [Jekyll][jekyll]

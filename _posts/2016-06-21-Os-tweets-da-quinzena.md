@@ -11,8 +11,6 @@ categories: valquiria
 
 Integração entre [_Jekyll_][jekyll] e Twitter através do [_jekyll-twitter-plugin_][jekyll-twitter-plugin] criado por [_Robert Murray_][murray]. Infelizmente, o Github não permite este plugin, mas isso foi contornado gerando o arquivo localmente em html - _voilà_!
 
-``` Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)```
-
 ### Referências:
 
 - [Jekyll][jekyll]
