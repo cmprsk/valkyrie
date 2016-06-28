@@ -92,12 +92,12 @@ RT: cGy
 ettrt: Tempo para RT (dias)  
 ttp: tempo para progressão (meses)
 s2: sobrevida após a progressão (dias)  
-O arquivo completo deste banco de dados, contendo as informações sobre todos os pacientes diagnosticados com DIPG em nosso serviço entre 2000-2013 (desidentificado) está disponível em formato [.csv](/_data/dipg.csv).
+O arquivo completo deste banco de dados, contendo as informações sobre todos os pacientes diagnosticados com DIPG em nosso serviço entre 2000-2013 (desidentificado) está disponível em formato [.csv]({{ site.url }}/_data/dipg.csv).
 
 ``` Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)
 ```
 
-_Esta postagem foi modificada em 20/06/2016 para incluir cálculos **on the fly** realizados pelo pacote knitr. Vide o arquivo [.Rmd](/_source/2016-06-09-Grupo-controle-histórico.Rmd) desta postagem_
+_Esta postagem foi modificada em 20/06/2016 para incluir cálculos **on the fly** realizados pelo pacote knitr. Vide o arquivo [.Rmd]({{ site.url }}/_source/2016-06-09-Grupo-controle-histórico.Rmd) desta postagem_
 
 ### Referências:
 
@@ -105,4 +105,4 @@ _Esta postagem foi modificada em 20/06/2016 para incluir cálculos **on the fly*
 - [Projeto VALQUIRIA][projeto]
 
 [gpoh]: http://www.kinderkrebsinfo.de/gpoh_society/index_eng.html
-[projeto]: /assets/posts/2016-06-09-Grupo-controle-historico/Anteprojeto_VALQUIRIA_HIAS_3.pdf
+[projeto]: {{ site.url }}/assets/posts/2016-06-09-Grupo-controle-historico/Anteprojeto_VALQUIRIA_HIAS_3.pdf
