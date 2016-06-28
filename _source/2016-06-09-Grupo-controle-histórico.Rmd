@@ -13,7 +13,7 @@ A tabela abaixo mostra as características dos pacientes incluídos no grupo his
 require(knitr)
 require(RCurl)
 require(survival)
-dipg<-read.csv(text = getURL("https://raw.githubusercontent.com/fhcflx/valkyrie/gh-pages/assets/data/dipg.csv"))
+dipg<-read.csv(text = getURL("https://raw.githubusercontent.com/fhcflx/valkyrie/gh-pages/_data/dipg.csv"))
 attach(dipg)  
 y = summary(as.factor(subset(Sexo,RT>4000&QT1!=10)))[1]  
 x = summary(as.factor(subset(Sexo,RT>4000&QT1!=10)))[2]  
@@ -77,7 +77,7 @@ RT: cGy
 ettrt: Tempo para RT (dias)  
 ttp: tempo para progressão (meses)
 s2: sobrevida após a progressão (dias)  
-O arquivo completo deste banco de dados, contendo as informações sobre todos os pacientes diagnosticados com DIPG em nosso serviço entre 2000-2013 (desidentificado) está disponível em formato [.csv](/assets/stat/dipg.csv).
+O arquivo completo deste banco de dados, contendo as informações sobre todos os pacientes diagnosticados com DIPG em nosso serviço entre 2000-2013 (desidentificado) está disponível em formato [.csv](/_data/dipg.csv).
 
 ``` Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)
 ```

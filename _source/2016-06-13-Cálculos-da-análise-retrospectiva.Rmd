@@ -17,7 +17,7 @@ require(pander)
 require(knitr)
 require(RCurl)
 require(survival)
-dipg<-read.csv(text = getURL("https://raw.githubusercontent.com/fhcflx/valkyrie/gh-pages/assets/data/dipg.csv"))
+dipg<-read.csv(text = getURL("https://raw.githubusercontent.com/fhcflx/valkyrie/gh-pages/_data/dipg.csv"))
 attach(dipg)  
 fit1 = survfit(Surv(surv,status)~1)  
 fit2 = survfit(Surv(surv,ifelse(status<1,1,0))~1)  
@@ -28,7 +28,7 @@ fit3 = survfit(Surv(surv,status)~ifelse(QT1<10,0,1))
 plot(fit1,xlab="Meses")
 ```
 
-Grupo de pacientes com diagnóstico de DIPG tratados em nosso serviço, entre 2000 e 2013. O gráfico mostra a estimativa de probabilidade de sobrevida, calculada pelo método de Kaplan-Meier, usando a linguagem de programação R, pacote *survival*. O pacote *RCurl* foi adicionalmente utilizado para capturar os dados a partir do arquivo [.csv](/assets/stat/dipg.csv) armazenado no repositório do github. O gráfico mostra também o intervalo de confiança 95%.
+Grupo de pacientes com diagnóstico de DIPG tratados em nosso serviço, entre 2000 e 2013. O gráfico mostra a estimativa de probabilidade de sobrevida, calculada pelo método de Kaplan-Meier, usando a linguagem de programação R, pacote *survival*. O pacote *RCurl* foi adicionalmente utilizado para capturar os dados a partir do arquivo [.csv](/_data/dipg.csv) armazenado no repositório do github. O gráfico mostra também o intervalo de confiança 95%.
 Este é o resumo da variável de sobrevida, além da sobrevida em 12 meses:
 
 ```{r echo=F}
@@ -95,7 +95,7 @@ Este resultado indica que existe a possibilidade de haver alguma diferença de s
 
 [jekyll]: https://jekyllrb.com
 [jekyll-migrando]: http://fhcflx.github.io/pharmakon/jekyll/update/2016/05/01/Migrando-meu-blog-para-Github-Pages-usando-Jekyll.html
-[knitr]: http://yihui.name/knitr/)
+[knitr]: http://yihui.name/knitr/
 [yihui]: https://github.com/yihui/knitr
 [pander]: http://rapporter.github.io/pander/
 [pander-knitr]: http://rapporter.github.io/pander/knitr.html
