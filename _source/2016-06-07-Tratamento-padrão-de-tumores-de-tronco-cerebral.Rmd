@@ -10,7 +10,7 @@ categories: metodologia
 require(knitr)
 require(RCurl)
 require(survival)
-brainstem<-read.csv(text = getURL("https://raw.githubusercontent.com/fhcflx/valkyrie/gh-pages/assets/data/brainstem2015.csv"))  
+brainstem<-read.csv(text = getURL("https://raw.githubusercontent.com/fhcflx/valkyrie/gh-pages/_data/brainstem2015.csv"))  
 attach(brainstem)  
 S = sum(summary(topo))  
 s = sum(summary(subset(topo,topo!="DIPG")))  
