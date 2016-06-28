@@ -13,7 +13,7 @@ Esta postagem usa o pacote [_knitr_][knitr] para calcular os resultados ao mesmo
 Utilizei, como guia, o excelente exemplo de [_yihui_][yihui] Para formatar tabelas usando mais do que o disponível no knitr, usei o pacote [pander][pander], como mostrado muito bem [aqui][pander-knitr]. Apenas observei o cuidado de passar a opção ```type = 'rmarkdown' ``` para o pander.
 
 
-{% highlight r %}
+```r
 require(pander)  
 require(knitr)
 require(RCurl)
@@ -23,16 +23,16 @@ attach(dipg)
 fit1 = survfit(Surv(surv,status)~1)  
 fit2 = survfit(Surv(surv,ifelse(status<1,1,0))~1)  
 fit3 = survfit(Surv(surv,status)~ifelse(QT1<10,0,1))  
-{% endhighlight %}
+```
 
 
-{% highlight r %}
+```r
 plot(fit1,xlab="Meses")
-{% endhighlight %}
+```
 
-![Sobrevida de pacientes com DIPG](/figure/source/2016-06-13-Cálculos-da-análise-retrospectiva/Sobrevida-1.png)
+![Sobrevida de pacientes com DIPG]({{site.url}}/figure/source/2016-06-13-Cálculos-da-análise-retrospectiva/Sobrevida-1.png)
 
-Grupo de pacientes com diagnóstico de DIPG tratados em nosso serviço, entre 2000 e 2013. O gráfico mostra a estimativa de probabilidade de sobrevida, calculada pelo método de Kaplan-Meier, usando a linguagem de programação R, pacote *survival*. O pacote *RCurl* foi adicionalmente utilizado para capturar os dados a partir do arquivo [.csv](/_data/dipg.csv) armazenado no repositório do github. O gráfico mostra também o intervalo de confiança 95%.
+Grupo de pacientes com diagnóstico de DIPG tratados em nosso serviço, entre 2000 e 2013. O gráfico mostra a estimativa de probabilidade de sobrevida, calculada pelo método de Kaplan-Meier, usando a linguagem de programação R, pacote *survival*. O pacote *RCurl* foi adicionalmente utilizado para capturar os dados a partir do arquivo [.csv]({{ site.url }}/_data/dipg.csv) armazenado no repositório do github. O gráfico mostra também o intervalo de confiança 95%.
 Este é o resumo da variável de sobrevida, além da sobrevida em 12 meses:
 
 
@@ -41,12 +41,12 @@ Este é o resumo da variável de sobrevida, além da sobrevida em 12 meses:
 |    56     |   56    |    56     |    42    |   9.5    |    7.3    |   13.8    |
 
 
-{% highlight text %}
+```
 ## Call: survfit(formula = Surv(surv, status) ~ 1)
 ##
 ##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
 ##    12     17      30    0.395  0.0705        0.279        0.561
-{% endhighlight %}
+```
 
 Mostrando uma mediana de sobrevida de 9.5 meses e sobrevida em 12 meses de 39.5 %.
 
@@ -62,11 +62,11 @@ Mostrando uma mediana de follow-up de 25 meses.
 Aqui, o gráfico comparativo entre os pacientes que fizeram QT segundo um esquema HIT e os outros pacientes:
 
 
-{% highlight r %}
+```r
 plot(fit3,xlab="Meses")
-{% endhighlight %}
+```
 
-![Sobrevida de pacientes com DIPG, divididos por tratamento](/figure/source/2016-06-13-Cálculos-da-análise-retrospectiva/Sobrevida2-1.png)
+![Sobrevida de pacientes com DIPG, divididos por tratamento]({{site.url}}/figure/source/2016-06-13-Cálculos-da-análise-retrospectiva/Sobrevida2-1.png)
 
 E o resumo da sobrevida nos 2 grupos, com sobrevida aos 12 meses:
 
@@ -75,7 +75,7 @@ E o resumo da sobrevida nos 2 grupos, com sobrevida aos 12 meses:
 |  **ifelse(QT1 < 10, 0, 1)=0**  |    44     |   44    |    44     |    41    |    8     |    6.5    |   11.9    |
 |  **ifelse(QT1 < 10, 0, 1)=1**  |    12     |   12    |    12     |    1     |    NA    |    NA     |    NA     |
 
-{% highlight text %}
+```
 ## Call: survfit(formula = Surv(surv, status) ~ ifelse(QT1 < 10, 0, 1))
 ##
 ##                 ifelse(QT1 < 10, 0, 1)=0
@@ -89,7 +89,7 @@ E o resumo da sobrevida nos 2 grupos, com sobrevida aos 12 meses:
 ##       12.000        4.000        1.000        0.875        0.117
 ## lower 95% CI upper 95% CI
 ##        0.673        1.000
-{% endhighlight %}
+```
 
 Mostrando uma sobrevida aos 12 meses de 87.5 % para o grupo tratado com protocolo _as per_ HIT (n = 12 ) e de 32.3 % para os demais (n = 44 ).
 
@@ -115,7 +115,7 @@ Table: Fitting Proportional Hazards Regression Model: Surv(surv, status) ~ ifels
 
 Likelihood ratio test=11.76  on 1 df, p=0.0006041988  n= 56, number of events= 42
 
-{% highlight text %}
+```
 ## Call:
 ## coxph(formula = Surv(surv, status) ~ ifelse(QT1 < 10, 0, 1),
 ##     data = dipg)
@@ -135,7 +135,7 @@ Likelihood ratio test=11.76  on 1 df, p=0.0006041988  n= 56, number of events= 4
 ## Likelihood ratio test= 11.76  on 1 df,   p=0.0006042
 ## Wald test            = 5.22  on 1 df,   p=0.02233
 ## Score (logrank) test = 8  on 1 df,   p=0.004679
-{% endhighlight %}
+```
 
 Este resultado indica que existe a possibilidade de haver alguma diferença de sobrevida quando os pacientes recebem ácido valpróico juntamente com o tratamento.
 
