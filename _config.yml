@@ -21,6 +21,12 @@ twitter:
   consumer_secret: 3u08pwR4WTrCiTipHvQzo4OZoV3Z6p7QLXbo8pkgWw2LeiQKkI
   access_token: 739525629746548737-JXA04QzF2BJrzGX7xgexxsPiULVLL5S
   access_token_secret: Js2QJ9yaLjlJw6MJOuuJdl50XAT38XklksiiEh0M7EG1G
-
+defaults:
+  -
+    scope:
+      path:""
+      type:"posts"
+    values:
+      author:"Francisco H. C. Felix"
 # Build settings
 markdown: kramdown
