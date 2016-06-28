@@ -24,9 +24,10 @@ twitter:
 defaults:
   -
     scope:
-      path:""
-      type:"posts"
+      path: ""
+      type: "posts"
     values:
-      author:"Francisco H. C. Felix"
+      layout: "default"
+      author: "Francisco H. C. Felix"
 # Build settings
 markdown: kramdown

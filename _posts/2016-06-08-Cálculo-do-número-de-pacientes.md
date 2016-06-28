@@ -92,5 +92,3 @@ Esses números foram obtidos da comparação que eu fizera entre pacientes trata
 
 ![](/assets/posts/2016-06-08-Cálculo-do-número-de-pacientes/pasted-image-30.png?raw=true)
 *Gráfico da introdução do projeto, mostrando a curva de sobrevida dos pacientes com DIPG tratados em nosso serviço entre 2000-2013, diferenciados pelo tratamento realizado (em azul, protocolos do HIT com ácido valpróico).*
-
-``` Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)```

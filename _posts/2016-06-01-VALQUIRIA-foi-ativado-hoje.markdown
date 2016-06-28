@@ -22,8 +22,6 @@ Em resumo, os passos da entrada dos pacientes serão:
 
 O estudo está aguardando a documentação da ANVISA para iniciar o recrutamento dos pacientes.
 
-``` Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)```
-
 ### Referências:
 
 - [Hospital Infantil Albert Sabin][hias]

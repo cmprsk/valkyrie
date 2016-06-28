@@ -40,6 +40,3 @@ Um rápido guia do que poderia ser publicizado sem prejuízo da confidencialidad
 6. **Análises estatísticas e suas interpretações**: idealmente, nesta fase, os dados deveriam vir a público, na forma de preprint ou auto-publicação, permitindo a análise crítica por parte da comunidade científica. Caso os resultados fossem negativos, isso ficaria imediatamente patente e seria divulgado.
 
 Estas medidas tornariam o processo dos ensaios clínicos sem problemas ou falhas? Claro que essa é uma visão ingênua. No entanto, poderiam diminuir muito as incertezas quanto às informações clínicas, além de reduzir os custos com pesquisas redundantes e coibir os abusos e as fraudes.
-
-
-``` Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)```
