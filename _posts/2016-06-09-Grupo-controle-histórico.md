@@ -1,6 +1,5 @@
 ---
 layout: post
-comments: true
 title:  "Grupo controle histórico"
 date:   2016-06-09 16:03:45 -0300
 categories: metodologia
@@ -93,7 +92,7 @@ RT: cGy
 ettrt: Tempo para RT (dias)  
 ttp: tempo para progressão (meses)
 s2: sobrevida após a progressão (dias)  
-O arquivo completo deste banco de dados, contendo as informações sobre todos os pacientes diagnosticados com DIPG em nosso serviço entre 2000-2013 (desidentificado) está disponível em formato [.csv](/assets/stat/dipg.csv).
+O arquivo completo deste banco de dados, contendo as informações sobre todos os pacientes diagnosticados com DIPG em nosso serviço entre 2000-2013 (desidentificado) está disponível em formato [.csv](/_data/dipg.csv).
 
 ``` Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)
 ```
