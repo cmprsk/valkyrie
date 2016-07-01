@@ -13,7 +13,8 @@ description: > # this means to ignore newlines until "baseurl:"
   com tumores difusos da ponte (tronco cerebral), uma doença grave de
   difícil tratamento e sem terapia curativa estabelecida.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://github.com/fhcflx/valkyrie/blob/gh-pages" # the base hostname & protocol for your site
+url: "http://fhcflx.github.io/valkyrie" # the base hostname & protocol for your site
+exclude: [README.md,LICENSE.md,.bundle,.git,_site,Gemfile,Gemfile.lock]
 twitter_username: valkyrie_trial
 github_username:  fhcflx/valkyrie
 twitter:
