@@ -94,7 +94,7 @@ ttp: tempo para progressão (meses)
 s2: sobrevida após a progressão (dias)  
 O arquivo completo deste banco de dados, contendo as informações sobre todos os pacientes diagnosticados com DIPG em nosso serviço entre 2000-2013 (desidentificado) está disponível em formato [.csv]({{ site.url }}/_data/dipg.csv).
 
-_Esta postagem foi modificada em 20/06/2016 para incluir cálculos **on the fly** realizados pelo pacote knitr. Vide o arquivo [.Rmd]({{ site.url }}/_source/2016-06-09-Grupo-controle-histórico.Rmd) desta postagem_
+_Esta postagem foi modificada em 20/06/2016 para incluir cálculos **on the fly** realizados pelo pacote knitr. Vide o arquivo [.Rmd]({{ site.github.url }}/_source/2016-06-09-Grupo-controle-histórico.Rmd) desta postagem_
 
 ### Referências:
 

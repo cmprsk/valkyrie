@@ -30,7 +30,7 @@ fit3 = survfit(Surv(surv,status)~ifelse(QT1<10,0,1))
 plot(fit1,xlab="Meses")
 ```
 
-![Sobrevida de pacientes com DIPG]({{site.url}}/figure/source/2016-06-13-Cálculos-da-análise-retrospectiva/Sobrevida-1.png?raw=True)
+![Sobrevida de pacientes com DIPG]({{site.github.url}}/figure/source/2016-06-13-Cálculos-da-análise-retrospectiva/Sobrevida-1.png?raw=True)
 
 Grupo de pacientes com diagnóstico de DIPG tratados em nosso serviço, entre 2000 e 2013. O gráfico mostra a estimativa de probabilidade de sobrevida, calculada pelo método de Kaplan-Meier, usando a linguagem de programação R, pacote *survival*. O pacote *RCurl* foi adicionalmente utilizado para capturar os dados a partir do arquivo [.csv]({{ site.url }}/_data/dipg.csv) armazenado no repositório do github. O gráfico mostra também o intervalo de confiança 95%.
 Este é o resumo da variável de sobrevida, além da sobrevida em 12 meses:
@@ -66,7 +66,7 @@ Aqui, o gráfico comparativo entre os pacientes que fizeram QT segundo um esquem
 plot(fit3,xlab="Meses")
 ```
 
-![Sobrevida de pacientes com DIPG, divididos por tratamento]({{site.url}}/figure/source/2016-06-13-Cálculos-da-análise-retrospectiva/Sobrevida2-1.png?raw=True)
+![Sobrevida de pacientes com DIPG, divididos por tratamento]({{site.github.url}}/figure/source/2016-06-13-Cálculos-da-análise-retrospectiva/Sobrevida2-1.png?raw=True)
 
 E o resumo da sobrevida nos 2 grupos, com sobrevida aos 12 meses:
 
@@ -150,7 +150,7 @@ Este resultado indica que existe a possibilidade de haver alguma diferença de s
 - [Package 'survival'][survival]
 
 [jekyll]: https://jekyllrb.com
-[jekyll-migrando]: http://fhcflx.github.io/pharmakon/jekyll/update/2016/05/01/Migrando-meu-blog-para-Github-Pages-usando-Jekyll.html
+[jekyll-migrando]: /pharmakon/jekyll/update/2016/05/01/Migrando-meu-blog-para-Github-Pages-usando-Jekyll.html
 [knitr]: http://yihui.name/knitr/
 [yihui]: https://github.com/yihui/knitr
 [pander]: http://rapporter.github.io/pander/
