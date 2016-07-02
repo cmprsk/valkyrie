@@ -1,11 +1,11 @@
 ---
 layout: post
 comments: true
-title:  "Cálculos da análise retrospectiva"
+title:  "Retrospective analysis"
 date:   2016-06-13 16:03:45 -0300
 categories: metodologia
 ref: retro
-lang: pt
+lang: en
 ---
 
 ## Curva de sobrevida da análise retrospectiva:

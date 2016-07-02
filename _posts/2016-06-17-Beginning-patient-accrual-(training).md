@@ -1,11 +1,11 @@
 ---
 layout: post
 comments: true
-title:  "Primeiro recrutamento do ensaio (treinamento)"
+title:  "Beginning patient accrual (training)"
 date:   2016-06-17 16:03:45 -0300
 categories: valquiria
 ref: first
-lang: pt
+lang: en
 ---
 
 ```A sequência a seguir é o provável formato do início do recrutamento dos pacientes

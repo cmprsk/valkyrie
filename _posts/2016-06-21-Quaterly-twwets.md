@@ -1,11 +1,11 @@
 ---
 layout: post
 comments: true
-title:  "Os tweets da quinzena"
+title:  "Quaterly tweets"
 date:   2016-06-21 16:03:45 -0300
 categories: valquiria
 ref: twitter2
-lang: pt
+lang: en
 ---
 ### Mensagens postadas no twitter nas últimas 2 semanas (06 a 21 de junho)
 
