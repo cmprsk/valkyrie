@@ -3,6 +3,9 @@ layout: post
 title:  "Tratamento padrão de tumores de tronco cerebral"
 date:   2016-06-07 16:03:45 -0300
 categories: metodologia
+lang: privada
+ref: trata
+lang: pt
 ---
 
 ### Como os pacientes com DIPG são tratados normalmente
