@@ -4,6 +4,8 @@ comments: true
 title:  "Análise das imagens"
 date:   2016-06-03 16:03:45 -0300
 categories: valquiria
+ref: images
+lang: pt
 ---
 ### Revisão central das imagens
 
