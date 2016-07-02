@@ -14,21 +14,12 @@
       </a>
 
       <div class="trigger">
-        <ul>
-          {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-          {% for post in posts %}
-          <li>
-            <a href="{{ post.url | prepend: site.github.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
-          </li>
-          {% endfor %}
-
-          {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-          {% for page in pages %}
-          <li>
-            <a href="{{ page.url | prepend: site.github.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
-          </li>
-          {% endfor %}
-        </ul>
+        {% assign pages=site.pages | where:"lang", page.lang %}
+       {% for my_page in pages %}
+         {% if my_page.title %}
+         <a class="page-link" href="{{ my_page.url | prepend: site.github.url }}">{{ my_page.title }}</a>
+         {% endif %}
+       {% endfor %}
       </div>
     </nav>
 
