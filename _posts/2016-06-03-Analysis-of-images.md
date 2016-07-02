@@ -26,7 +26,7 @@ The admission of patients for the trial will follow these steps:
 
 Example examination stored in DICOM library which can be analyzed online:
 
-{% include medream-example.html% }
+{% include medream-example.html %}
 
 #### Criteria for diagnosis of diffuse intrinsic pontine gliomas:
 
@@ -44,7 +44,7 @@ Although there are no diagnostic criteria defined in the literature, we use a de
 
 Tumor __centered in pons__, hypointense on T1, hyperintense on T2, hypodense on CT, __diffuse__ (no well delimited borders), extension to __more than half of the pons (brainstem) cross diameter__. The magnetic resonance imaging (MRI) study depicted below illustrates a case of a patient admitted to our hospital service diagnosed with DIPG. Note the T1 and T2-weighted sequences: one can observe an infiltrating lesion "inflating" the entire cross length of the pons, with iso-hypointensity in T1, little or no contrast enhancement and signal hiperintensity in T2/FLAIR, without clear demarcation of borders.
 
-{% include medream-dipg.html% }
+{% include medream-dipg.html %}
 
 A study published by [Hankinson _et al_][hankinson] investigated the reproducibility of DIPG diagnostic accuracy by magnetic resonance images evaluated by experienced neurosurgeons. The authors concluded that there was inconsistency in the diagnosis and management of the cases evaluated. A representative picture of the different patterns of DIPG found was published:
 
