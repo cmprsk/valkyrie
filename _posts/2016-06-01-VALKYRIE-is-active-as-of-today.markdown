@@ -7,35 +7,35 @@ categories: valquiria
 ref: active
 lang: en
 ---
-VALQUIRIA é um ensaio clínico que estuda o tratamento de crianças e adolescentes com tumores difusos da ponte (tronco cerebral), uma doença grave de difícil tratamento e, atualmente, sem terapia curativa estabelecida. Este estudo avalia a possibilidade de melhora dos resultados do tratamento (qualidade de vida e sobrevida dos pacientes) com o uso do ácido valpróico, um anti-epiléptico já usado há anos em crianças e adolescentes. Recentemente, novas descobertas mostraram que a maior parte dos pacientes com tumores difusos da ponte têm uma mutação genética que causa uma alteração no modo como os genes são 'lidos' pelas células. Essa alteração pode ser revertida pelo ácido valpróico, e isso talvez torne as células tumorais menos resistentes ao tratamento.  
+VALKYRIE (VALQUIRIA in portuguese) is a clinical trial studying the treatment of children and adolescents with diffuse tumors of the pons (brainstem), a serious disease difficult to treat, and currently with no established curative therapy. This study evaluates the possibility of improving treatment outcomes (quality of life and survival of patients) with the use of valproic acid, an antiepileptic drug already used for decades in children and adolescents. Recently, new discoveries have shown that most patients with diffuse pontine tumors have a genetic mutation which causes a change in the way the genes are rendered 'readable' by the cell machinery. This alteration can be reverted by valproic acid, and thus tumor cells may become less resistant to treatment.
 
-VALQUIRIA foi aprovado pelo Comitê de Ética em Pesquisa do [Hospital Infantil Albert Sabin][hias] e registrado na [Plataforma Brasil][platbrasil] e na Rede Brasileira de Ensaios Clínicos ([ReBEC][rebec]. O [ensaio clínico][rebec-valq] está ativo desde hoje e esta é a página da internet onde todas as informações sobre seu andamento serão postadas. Ao longo do projeto, resultados parciais poderão ser acompanhados nesta página, tornando este um ensaio clínico baseado na [*ciência aberta*][ciaberta], uma forma pública e transparente de pesquisa científica. Mais sobre ciência aberta e sobre a proposta do trabalho, cópias do projeto em vários formatos e outras informações podem ser acessadas no repositório oficial do projeto, [aqui]().
+VALKYRIE was approved by the Institutional Board of the Albert Sabin Children's Hospital ([Hospital Infantil Albert Sabin] [hias]) and registered in [Plataforma Brasil] [platbrasil], a brazilian national registry of institutional boards and the Brazilian Network for Clinical Trials ([Rebec] [rebec], brazilian national registry of clinical trials. The [trial] [ rebec-valq] is active from today and this is the website where all the information about its progress will be posted. Throughout the project, partial results may be checked on this page, making this a clinical trial based on [* open science * ] [ciaberta], a public and transparent way of scientific research. More about open science and on the proposal of work, copies of the project in various formats and other information can be accessed on the official repository of the project [here] ().
 
-![imagem1]({{ site.github.url }}/assets/posts/2016-06-01-Valquiria-foi-ativado-hoje/parecer.png?raw=true)
+![imagem1]
 
-Hoje, fizemos uma reunião rápida no setor de atendimento aos pacientes da Quimioterapia-Dia (conhecido como "Primeiro Andar") no Centro Pediátrico do Câncer do Hospital Infantil Albert Sabin. Aqui serão tratados os pacientes do ensaio. Participaram da reunião Dra Nádia Trompieri, Dra Orlandira Araújo e eu. Elas confirmaram seus papéis na avaliação e tratamento dos pacientes, revisamos o modelo principal de entrada dos pacientes no ensaio e decidimos oficialmente pela ativação do ensaio. A entrada dos pacientes se dará pela enfermaria de Neurocirurgia (Bloco F do Hospital Infantil Albert Sabin), e ficará a encargo da Dra Sandra Albuquerque. Após a avaliação inicial do paciente candidato ao recrutamento no ensaio, a Dra Sandra enviará as imagens de ressonância magnética para revisão central, de forma anônima (desidentificadas). Como estou a cargo da revisão de imagens, avaliarei e confirmarei o diagnóstico de DIPG. Em seguida, darei a autorização para iniciar o processo de recrutamento do paciente. A equipe de alunas da Profa. Juvenia Fontenele apresentará o ensaio aos representantes legais do paciente. Se ocorrer consentimento, o paciente será encaminhado para as Dras Nádia e Orlandira para iniciar o protocolo.
+Today, we had a pitch meeting in the chemotherapy day unit (known as "First Floor") in Pediatric Cancer Center at Albert Sabin Children's Hospital. Here we are treating the patients of the trial, when the patient accrual begins. The meeting included Dr. Nadia Trompieri, Dr. Orlandira Araújo and miself (Dr. Felix). They confirmed their roles in the evaluation and treatment of patients, we reviewed the main model of patient entry in the trial and decided officially for activating the project. The entry of the patients will be first decided at the Neurosurgery ward ("F unit" of the Albert Sabin Children's Hospital), and will be in charge of Dr. Sandra Albuquerque. After the initial assessment of candidate patients for entry in the trial, Dr. Sandra is sending the magnetic resonance imaging to central review, anonymously (deidentified). As I am in charge of reviewing images, I will evaluate and confirm the diagnosis of DIPG. Then I am giving permission to start patient accrual process. The team of graduate students of Professor Juvenia Fontenele will consent forms signed by the patient's family. If consent is provided, the patient will be referred to Drs Nadia and Orlandira to start the protocol treatment.
 
-Em resumo, os passos da entrada dos pacientes serão:
+In summary, the steps from the entry of the patients are going to be:
 
-* Identificação do candidato
-* Avaliação central anônima das imagens
-* Consentimento informado
-* Encaminhamento para o tratamento
+* Identification of the applicant
+* Anonymous central review of images
+* Informed consent
+* Referral to treatment
 
-O estudo está aguardando a documentação da ANVISA para iniciar o recrutamento dos pacientes.
+The study is looking forward to ANVISA for the documentation to start patient accrual.
 
-### Referências:
+### References:
 
-- [Hospital Infantil Albert Sabin][hias]
-- [Plataforma Brasil][platbrasil]
-- [Rede Brasileira de Ensaios Clínicos][rebec]
-- [ReBEC, Ensaio VALQUIRIA][rebec-valq]
-- [Ciência Aberta][ciaberta]
-- [Repositório VALQUIRIA no Github][valquiria]
+- [Albert Sabin Children's Hospital] [hias]
+- [Plataforma Brazil] [platbrasil]
+- [Brazilian Network for Clinical Trials] [rebec]
+- [ReBEC, VALKYRIE/VALQUIRIA project] [rebec-valq]
+- [Open Science] [ciaberta]
+- [VALKYRIE/VALQUIRIA repository on Github] [valkyrie]
 
-[hias]: http://www.hias.ce.gov.br
-[platbrasil]: http://aplicacao.saude.gov.br/plataformabrasil/login.jsf
-[rebec]: http://www.ensaiosclinicos.gov.br
-[rebec-valq]: http://www.ensaiosclinicos.gov.br/rg/RBR-7ygspd/
-[ciaberta]: https://en.wikipedia.org/wiki/Open_science
-[valquiria]: https://github.com/fhcflx/valkyrie
+[Hias]: http://www.hias.ce.gov.br
+[Platbrasil] http://aplicacao.saude.gov.br/plataformabrasil/login.jsf
+[Rebec]: http://www.ensaiosclinicos.gov.br
+[Rebec-valq]: http://www.ensaiosclinicos.gov.br/rg/RBR-7ygspd/
+[Ciaberta] https://en.wikipedia.org/wiki/Open_science
+[Valkyrie]: https://github.com/fhcflx/valkyrie

@@ -5,7 +5,7 @@ lang: pt
 permalink: /sobre/
 ref: about
 ---
-**VALQUIRIA** é o acrônimo de Ensaio Clínico de Ácido **Val**próico com **Qui** mioterapia e **R** adioterapia para Pacientes com Glioma Intrínseco Difuso de Ponte na **I** nfância e **A** dolescência.
+**VALQUIRIA** é o acrônimo de Ensaio Clínico de Ácido **Val** próico com **Qui** mioterapia e **R** adioterapia para Pacientes com Glioma Intrínseco Difuso de Ponte na **I** nfância e **A** dolescência.
 
 Trata-se de um ensaio clínico de pequena escala, cujo objetivo primário é determinar se a adição de ácido valpróico a um tratamento já conhecido (radioquimioterapia) melhora os resultados do tratamento, em termos de sobrevida e qualidade de vida dos pacientes.
 
@@ -30,6 +30,10 @@ Para criar esta página, usei [Jekyll](https://jekyllrb.com) e usei [Github Page
 Sobre o modelo usado para criar esta página:
 
 Este é o tema básico do Jekyll. Mais informações sobre a customização do seu tema Jekyll, bem como a documentação básica do Jekyll em [jekyllrb.com](http://jekyllrb.com/)
+
+Sobre o modelo multilíngue de Jekyll:
+{% include icon-github.html username="sylvaindurand" %} /
+[multilingual-jekyll](https://github.com/sylvaindurand/multilingual-jekyll)
 
 Código fonte para o _novo tema Jekyll_ em:
 {% include icon-github.html username="jglovier" %} /
