@@ -14,7 +14,7 @@ description:
   pt: VALQUIRIA é um ensaio clínico que estuda o tratamento de crianças e adolescentes com tumores difusos da ponte (tronco cerebral), uma doença grave de difícil tratamento e sem terapia curativa estabelecida.
   en: VALKYRIE is a clinical trial project to study the treatment of children and adolescents with diffuse pontine (brainstem) tumors, a rare malignant brain tumorthat has no curative therapy so far.
 index:
-  en: index.html
+  en: 
   pt: index-pt.html
 feed:
   en: /feed.xml
