@@ -1,15 +1,15 @@
 ---
 layout: post
 comments: true
-title:  "Os tweets da quinzena"
-date:   2016-06-21 16:03:45 -0300
+title:  "Our twitter"
+date:   2016-06-06 16:03:45 -0300
 categories: valquiria
-ref: twitter2
-lang: pt
+lang: en
+ref: twitter1
 ---
-### Mensagens postadas no twitter nas últimas 2 semanas (06 a 21 de junho)
+### VALQUIRIA nas redes sociais
 
-{% include twitter2.html %}
+{% include twitter1.html %}
 
 Integração entre [_Jekyll_][jekyll] e Twitter através do [_jekyll-twitter-plugin_][jekyll-twitter-plugin] criado por [_Robert Murray_][murray]. Infelizmente, o Github não permite este plugin, mas isso foi contornado gerando o arquivo localmente em html - _voilà_!
 

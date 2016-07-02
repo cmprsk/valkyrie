@@ -1,10 +1,10 @@
 ---
 layout: post
 comments: true
-title:  "Grupo controle histórico"
+title:  "Historical control group"
 date:   2016-06-09 16:03:45 -0300
 categories: metodologia
-lang: pt
+lang: en
 ref: historico
 ---
 

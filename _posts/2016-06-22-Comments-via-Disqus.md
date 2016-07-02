@@ -1,11 +1,11 @@
 ---
 layout: post
 comments: true
-title:  "Comentários na página via Disqus"
+title:  "Comments via Disqus"
 date:   2016-06-22 16:03:45 -0300
 categories: valquiria
 ref: disqus
-lang: pt
+lang: en
 ---
 
 A partir de hoje, configurei o sistema de comentários nas postagens do ensaio VALQUIRIA. Usando as instruções encontradas [aqui][disqus-jekyll-install] e também [aqui][disqus-jekyll], criei e configurei uma conta no [Disqus][disqus] e acrescentei o seguinte código num arquivo _disqus.html_, salvo na pasta **\_includes**:

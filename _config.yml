@@ -6,17 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: 
+title:
   pt: VALQUIRIA - Tratamento de tumores difusos do tronco cerebral
   en: VALKYRIE - Treatment of diffuse brainstem tumors
 email: valkyr.ie@outlook.com
-description: 
-  pt: VALQUIRIA é um ensaio clínico que estuda o tratamento de crianças e adolescentes
-  com tumores difusos da ponte (tronco cerebral), uma doença grave de
-  difícil tratamento e sem terapia curativa estabelecida.
-  en: VALKYRIE is a clinical trial project to study the treatment of children and adolescents 
-  with diffuse pontine (brainstem) tumors, a rare malignant brain tumor
-  that has no curative therapy so far.
+description:
+  pt: VALQUIRIA é um ensaio clínico que estuda o tratamento de crianças e adolescentes com tumores difusos da ponte (tronco cerebral), uma doença grave de difícil tratamento e sem terapia curativa estabelecida.
+  en: VALKYRIE is a clinical trial project to study the treatment of children and adolescents with diffuse pontine (brainstem) tumors, a rare malignant brain tumorthat has no curative therapy so far.
 index:
   en: index.html
   pt: index-pt.html
