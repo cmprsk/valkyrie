@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Sobre
+lang: pt
 permalink: /sobre/
+ref: about
 ---
 **VALQUIRIA** é o acrônimo de Ensaio Clínico de Ácido **Val**próico com **Qui** mioterapia e **R** adioterapia para Pacientes com Glioma Intrínseco Difuso de Ponte na **I** nfância e **A** dolescência.
 
