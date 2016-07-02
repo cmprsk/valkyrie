@@ -39,4 +39,4 @@ The study is looking forward to ANVISA for the documentation to start patient ac
 [Rebec-valq]: http://www.ensaiosclinicos.gov.br/rg/RBR-7ygspd/
 [Ciaberta]: https://en.wikipedia.org/wiki/Open_science
 [Valkyrie]: https://github.com/fhcflx/valkyrie
-[imagem1]: ({{site.github.url}}/assets/posts/2016-06-01-Valquiria-foi-ativado-hoje/parecer.png?raw=true)
+[imagem1]: {{site.github.url}}/assets/posts/2016-06-01-Valquiria-foi-ativado-hoje/parecer.png?raw=true
