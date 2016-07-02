@@ -20,7 +20,7 @@ lang: pt
 {% assign posts=site.posts | where:"lang", page.lang %}
   <ul class="post-list">
 
-    {% for post in site.posts %}
+    {% for post in posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%-d %b, %Y" }}</span>
 
