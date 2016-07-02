@@ -10,9 +10,9 @@ ref: numero
 
 When we designed the Valkyrie trial several different considerations were made on how to calculate the number of patients to be recruited for the trial. In the end, the decision fell on the way as described in the project methodology (translated from portuguese):
 
-  - #### 5.7. Sample size:
+  -  #### 5.7. Sample size:
 
-  - The sample size does not depend on the initial question, which is not
+  -  The sample size does not depend on the initial question, which is not
   comparative. However, in order to ascertain secondary outcomes, it was
   necessary to calculate the expected number of patients to be recruited.
   Using data available from patients already treated in our hospital
@@ -26,9 +26,9 @@ When we designed the Valkyrie trial several different considerations were made o
   experimental design). The powerSurvEpi package of R language was used
   to calculate the sample size (R Development Core Team, 2012).
 
-  - #### 5.8. Retrospective data to compose the historical control group:
+  -  #### 5.8. Retrospective data to compose the historical control group:
 
-  - The data collected for two other previous projects, "EPIDEMIOLOGIC PROFILE
+  -  The data collected for two other previous projects, "EPIDEMIOLOGIC PROFILE
   OF PEDIATRIC PATIENTS WITH BRAIN TUMOR TREATED IN ALBERT SABIN CHILDREN'S
   HOSPITAL ONCO-HEMATOLOGY SERVICE BETWEEN 2000 AND 2006" and "ASSESSMENT OF PEDIATRIC BRAIN TUMOR TREATMENT IN
   ALBERT SABIN CHILDREN'S HOSPITAL BETWEEN 2007-2010" will be used as
@@ -45,6 +45,7 @@ When we designed the Valkyrie trial several different considerations were made o
   historical group.
 
 R script (2.X - 3.X) used to calculate the sample size in our study, with the results:
+
 ```
  > require (powerSurvEpi)
  > ssizeCT.default(power = 0.8, k = 0.5, pE = 0.14, pC = 0.63, RR = 0.05, alpha = 0.05)
@@ -56,7 +57,7 @@ Where ``` power``` is the statistical power (beta, probability of type 2 error),
 
 These figures were obtained from the comparison I made between patients with HIT protocols and valproic acid *versus* patients treated *as     per* the COG protocols, as shown in the introduction of the project (translated from portuguese):
 
-  - Between September 2002 and November 2013, 57 patients were
+  -  Between September 2002 and November 2013, 57 patients were
   diagnosed with DIPG in our hospital. The median
   overall (10 months, 95% CI 7.3 to 13.8) and progression-free (7
   months, 95% CI 6.2 to 9.5) survival of the whole group falls in the range

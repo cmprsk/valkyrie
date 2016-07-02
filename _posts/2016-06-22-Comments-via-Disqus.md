@@ -8,7 +8,7 @@ ref: disqus
 lang: en
 ---
 
-A partir de hoje, configurei o sistema de comentários nas postagens do ensaio VALQUIRIA. Usando as instruções encontradas [aqui][disqus-jekyll-install] e também [aqui][disqus-jekyll], criei e configurei uma conta no [Disqus][disqus] e acrescentei o seguinte código num arquivo _disqus.html_, salvo na pasta **\_includes**:
+Beginning today, I configured comments in posts. Using the instructions found [here][disqus-jekyll-install] and also [here][disqus-jekyll], I created and cofigured a [Disqus][disqus] account and added the following code in a _disqus.html_ file in my **\_includes**:
 
 {% highlight html %}
   {{ "{% if page.comments " }}%}
@@ -23,10 +23,10 @@ E adicionando a seguinte _tag_ [Liquid][liquid] no modelo _post.html_:
 {% endhighlight %}
 
 
-Para adicionar os comentários do Disqus a um outro blog [Jekyll][jekyll], sugiro utilizar o [código universal][disqus-embed] fornecido por ele.
-Os comentários podem ser moderados, respondidos e curados no Disqus, e o histórico de comentários vai ficar na página da postagem. Todos os leitores da página do VALQUIRIA são convidados a opinar, criticar, sugerir ou apenas comentar e acrescentar sua experiência e idéias. Todas as contribuições são bem-vindas!
+To configure Disqus comments in some [Jekyll][jekyll] blog, I suggest using the [universal code][disqus-embed].
+Cooments can be moderated, answered, and curated on Disqus, and comment history will be shown in the page. All VALKYRIE readers are invated to opinate, suggest, or just comment and add his/her experience and ideas. All contributions are wellcome!
 
-### Referências:
+### References:
 
 - [Jekyll][jekyll]
 - [Disqus][disqus]

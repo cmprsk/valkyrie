@@ -11,6 +11,8 @@ ref: twitter1
 
 {% include twitter1.html %}
 
+Tweets are in portuguese.
+
 Integration between [_Jekyll_][jekyll] and Twitter through [_jekyll-twitter-plugin_][jekyll-twitter-plugin] created by [_Robert Murray_][murray]. Unfortunately, Github does not permit this plugin, but this was bypassed serving the page locally and retrieving the html files - _voilà_!
 
 ### Referências:

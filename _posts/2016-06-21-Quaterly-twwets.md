@@ -7,11 +7,11 @@ categories: valquiria
 ref: twitter2
 lang: en
 ---
-### Mensagens postadas no twitter nas últimas 2 semanas (06 a 21 de junho)
+### Twwets from the last 15 days (06 a 21 de junho)
 
 {% include twitter2.html %}
 
-Integração entre [_Jekyll_][jekyll] e Twitter através do [_jekyll-twitter-plugin_][jekyll-twitter-plugin] criado por [_Robert Murray_][murray]. Infelizmente, o Github não permite este plugin, mas isso foi contornado gerando o arquivo localmente em html - _voilà_!
+Integration between [_Jekyll_][jekyll] and Twitter through [_jekyll-twitter-plugin_][jekyll-twitter-plugin] created by [_Robert Murray_][murray]. Unfortunately, Github does not permit this plugin, but this was bypassed serving the page locally and retrieving the html files - _voilà_!
 
 ### Referências:
 
