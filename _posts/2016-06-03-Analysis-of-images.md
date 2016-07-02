@@ -13,7 +13,7 @@ Medical images are usually provided in digital format through CD or DVD recorded
 
 I pitched in today with Dr. Sandra Albuquerque to review the process of sending the images to the DICOM Library server. Below, a tutorial video:
 
-<Iframe width = "560" height = "315" src = "https://www.youtube.com/embed/1QjBC4k86oQ?rel=0" frameborder = "0" allowFullScreen> </ iframe>
+<iframe width = "560" height = "315" src = "https://www.youtube.com/embed/1QjBC4k86oQ?rel=0" frameborder = "0" allowFullScreen> </iframe>
 
 The admission of patients for the trial will follow these steps:
 
