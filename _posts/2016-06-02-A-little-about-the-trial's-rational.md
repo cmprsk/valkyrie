@@ -19,7 +19,7 @@ Only after completion of the [Human Genome Project][genome], in April 2003, it c
 
 Acetylation of histones is regulated by enzymes, such as any organic reaction, being the most important of these enzymes [histone deacetylase][HDAC] (HDAC). In recent years, substances that inhibit HDACs showed activity against a number of human cancers, two of which have been approved for the treatment of a type of skin lymphoma, vorinostat and romidepsin. The valproic acid or valproate, a substance synthesized in the nineteenth century and used since the 60's as antiepileptic drug, is an [inhibitor][HDACi] of various types of HDAC. It has been tested in several clinical trials for the treatment of various cancers. Some of these clinical trials are being done on children with cancer. Sometime ago, our research group observed a [possible effect][felix2014] of valproic acid in patients with DIPG. To test the possibility that this effect is real and not casual, we designed the VALKYRIE trial.
 
-![imagem2]
+![image]
 *Figure published by our group showing some patients with DIPG (A, B, C) and the response to treatment of one of these patients (D).*
 
 VALKYRIE is a small clinical trial, which will include a limited number of patients (16). Our goal is not to prove the effect of valproic acid in patients with DIPG. To do this, it would be necessary to carry out a much larger clinical trial with the participation of several research centers. The goal of VALQUIRIA is exploring if the possibility of effect of valproic acid is strong enough to justify a larger clinical trial, which will require more resources and would have to include a large number of patients. For this test, we will compare with a *historical control* group of previously treated patients from our hospital and also from a [previous][broniscer] Brazilian clinical trial. If the results are favorable, it would mean the first real advance in the treatment of this disease in more than 40 years.
@@ -55,4 +55,4 @@ Cooperative Group. J Clin Oncol. 2000;18:1246-53.][broniscer]
 [hdaci]: https://en.wikipedia.org/wiki/Histone_deacetylase_inhibitor#Cancer_treatment
 [felix2014]: https://scholar.google.com/citations?view_op=view_citation&hl=pt-BR&user=ZmzTpYgAAAAJ&citation_for_view=ZmzTpYgAAAAJ:MXK_kJrjxJIC
 [broniscer]: http://jco.ascopubs.org/content/18/6/1246.abstract
-[imagem2]: ({{site.github.url}}/assets/posts/2016-06-02-Um-pouco-sobre-o-tratamento-do-ensaio/figure2.png?raw=true)
+[image]: {{site.github.url}}/assets/posts/2016-06-02-Um-pouco-sobre-o-tratamento-do-ensaio/figure2.png?raw=true
