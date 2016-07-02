@@ -3,6 +3,9 @@ layout: post
 title:  "Grupo controle histórico"
 date:   2016-06-09 16:03:45 -0300
 categories: metodologia
+lang: privada
+lang: pt
+ref: historico
 ---
 
 O grupo controle histórico compõe-se de pacientes com DIPG, diagnosticados entre 2000 e 2013, que _não_ foram tratados com quimioterapia de acordo com os protocolos HIT do [GPOH][gpoh], adaptados. Somente foram selecionados para compor o controle histórico pacientes que receberam radioterapia, na dose de 40 Gy ou maior.
