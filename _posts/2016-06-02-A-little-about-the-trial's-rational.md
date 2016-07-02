@@ -28,14 +28,14 @@ VALKYRIE is a small clinical trial, which will include a limited number of patie
 
 - [Felix F, _et al_. Diffuse intrinsic pontine gliomas: report of patients treated in a brazilian pediatric oncological center [v1; not peer reviewed]. F1000Research 2015, 4:1362 (poster)][dipg-poster]
 - [DIPG Registry, Treatment][dipg-treat]
-- [Projeto Genoma HUmano, Wikipedia][genoma]
-- [Projeto Genoma do Câncer, Sanger][genoma-cancer]
+- [Human Genome Project, Wikipedia][genoma]
+- [Cancer Genome Project, Sanger][genoma-cancer]
 - [Catalogue of Somatic Mutations in Cancer - COSMIC][cosmic]
-- [Projeto Genoma do Câncer Pediátrico][genoma-cancer-ped]
+- [Pediatric Cancer Genome Project][genoma-cancer-ped]
 - [COSMIC, Central nervous system][cosmic-brain]
-- [Gene H3F3A, Wikipedia][h3f3a]
-- [Histona deacetilase, Wikipedia][hdac]
-- [Inibidor de histona deacetilase no tratamento de câncer][hdaci]
+- [H3F3A Gene, Wikipedia][h3f3a]
+- [Histone deacetylase, Wikipedia][hdac]
+- [Histone deacetylase inhibitor in cancer treatment][hdaci]
 - [Felix FH, _et al_. Retrospective evaluation of the outcomes of children with diffuse intrinsic pontine glioma treated with radiochemotherapy and valproic acid in a single
 center. J Neurooncol. 2014;116:261-6][felix2014]
 - [Broniscer A, _et al_. Radiation

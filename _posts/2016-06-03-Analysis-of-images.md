@@ -7,62 +7,62 @@ categories: valquiria
 ref: images
 lang: en
 ---
-### Revisão central das imagens
+### Central Reviewing images
 
-As imagens médicas costumam ser fornecidas em formato digital, através de CD ou DVD gravado pela clínica de radiologia que realiza os exames. Essas imagens são armazenadas num formato padronizado, denominado [DICOM][dicom] (*Digital Imaging and Communications in Medicine*). A disponibilidade das imagens em formato digital permite seu manuseio e compartilhamento com maior flexibilidade. No nosso ensaio, idealizamos utilizar a revisão das imagens digitalmente, de forma **anonimizada**, ou **desidentificada**, ou seja, sem nenhuma informação que possa identificar de forma direta ou indireta os pacientes. Para este fim, utilizaremos o serviço do compartilhamento de imagens médicas [DICOM Library][dicom-library]. Este serviço, criado pela empresa Softneta, com financiamento da União Européia, recebe arquivos DICOM, tornando-os anônimos automaticamente e permite seu compartilhamento, sem identificação de pacientes, profissionais ou serviços de saúde.
+Medical images are usually provided in digital format through CD or DVD recorded by the radiology clinic. These images are stored in a standard format, called [DICOM][dicom] (*Digital Imaging and Communications in Medicine*). The availability of images in digital format allows handling and sharing with greater flexibility. In our trial, we are performing the review of images digitally acquired (when available) in **anonymised**  form, ie, without any information that can directly or indirectly identify patients. To do this, we will use the medical image sharing service [DICOM Library][dicom-library]. This service, created by Softneta with funding from the European Union, retrieves DICOM files, anonymizing them automatically in the browser side before uploading and allows one to share medical images without identification of patients, professionals and health services.
 
-Repassei hoje com a Dra Sandra Albuquerque o processo de envio das imagens para o servidor do DICOM Library. Abaixo, um vídeo explicativo (em inglês):
+I pitched in today with Dr. Sandra Albuquerque to review the process of sending the images to the DICOM Library server. Below, a tutorial video:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1QjBC4k86oQ?rel=0" frameborder="0" allowfullscreen></iframe>
+<Iframe width = "560" height = "315" src = "https://www.youtube.com/embed/1QjBC4k86oQ?rel=0" frameborder = "0" allowFullScreen> </ iframe>
 
-A admissão dos pacientes para o ensaio se dará seguindo estes passos:
+The admission of patients for the trial will follow these steps:
 
-* Seleção do paciente candidato (criança ou adolescente com até 18 anos, portador de tumor de tronco cerebral difuso).
-* Envio das imagens digitais para o servidor DICOM Library, anonimizadas, com geração de um link permanente.
-* Contato privado comigo para envio do link.
-* Análise das imagens anônimas através do visualizador da DICOM Library, para certificar o diagnóstico de glioma pontino intrínseco difuso (DIPG).
-* Comunicação da revisão do diagnóstico para a Dra Sandra Albuquerque.
-* Se confirmado o diagnóstico, encaminhamento do paciente para a unidade de Oncologia para iniciar o tratamento, após consentimento.
+* Candidate patient selection (children and adolescents up to 18 years with a diffuse brainstem tumor).
+* Submission of the digital images to the DICOM Library server, anonymised, generating a permanent link.
+* Contact me for private link submission.
+* Analysis of the images anonymously through the DICOM Library viewer to ascertain the diagnosis of diffuse intrinsic pontine glioma (DIPG).
+* Communicating the result of the image review to Dr. Sandra Albuquerque.
+* If the diagnosis is confirmed, the patient's referred to the oncology unit to start treatment after consent.
 
-Exemplo de exame armazenado na DICOM Library, que pode ser analisado online:
+Example examination stored in DICOM library which can be analyzed online:
 
-{% include medream-example.html %}
+{% include medream-example.html% }
 
-#### Critérios para diagnóstico dos gliomas pontinos intrínsecos difusos:
+#### Criteria for diagnosis of diffuse intrinsic pontine gliomas:
 
-Embora não existam critérios diagnósticos definidos na literatura, nós utilizamos uma definição semelhante àquela encontrada no protocolo do ensaio clínico HIT-GBM-D:
+Although there are no diagnostic criteria defined in the literature, we use a definition similar to that found in the HIT-GBM-D trial protocol:
 
-> diffuse intrinsic pontine glioma:  
-  center: pons, tumor T1: hypointense, T2: hyperintense, CT: mostly
-  hypodense, when compared to normal pontine tissue. Diffuse tumor with margins
-  and extension to more than half of the brainstem cross diameter. The normal
-  pontine tissue might either been missing in the level of the maximal tumor
-  extension or might have been reduced to a small rim, but is not simply
-  dislocated by a single solid tumor nodule (...). This tumor group has a
-  clinical history of less than 6 month. The diagnoses can be made
-  radiologically without histological verification.
+> Diffuse intrinsic pontine glioma:
+  center: pons, T1 tumor: hypointense, T2: hyperintense, CT: mostly
+  hypodense, When Compared to regular pontine tissue. Diffuse tumor with margins
+  and extension to more than half of the brainstem cross diameter. The regular
+  pontine tissue might either Been missing in the level of the maximal tumor
+  extension or might Have Been reduced to a small kidney, but is not simply
+  dislocated by a single solid tumor nodule (...). This group has a tumor
+  clinical history of less than 6 month. The diagnoses can be made
+  radiologically without histological verification.
 
-Ou seja, tumor __centrado na ponte__, hipointenso em T1, hiperintenso em T2, hipodenso em TC, __difuso__ (sem bordas nítidas), extensão para __mais que metade do diâmetro do tronco cerebral__. O estudo de ressonância magnética (RM) abaixo ilustra um caso de paciente atendido em nosso serviço hospitalar, com diagnóstico de DIPG. Observando as sequências ponderadas em T1, T2 e FLAIR, pode-se observar uma lesão infiltrando e "insuflando" toda a extensão da ponte, com iso-hipointensidade em T1, pouca ou nenhuma captação de contraste e alteração de sinal em T2/FLAIR, sem demarcação nítida de bordas.
+Tumor __centered in pons__, hypointense on T1, hyperintense on T2, hypodense on CT, __diffuse__ (no well delimited borders), extension to __more than half of the pons (brainstem) cross diameter__. The magnetic resonance imaging (MRI) study depicted below illustrates a case of a patient admitted to our hospital service diagnosed with DIPG. Note the T1 and T2-weighted sequences: one can observe an infiltrating lesion "inflating" the entire cross length of the pons, with iso-hypointensity in T1, little or no contrast enhancement and signal hiperintensity in T2/FLAIR, without clear demarcation of borders.
 
-{% include medream-dipg.html %}
+{% include medream-dipg.html% }
 
-Um estudo publicado por [Hankinson _et al_][hankinson] no Journal of Neurosurgery avaliou a reproducibilidade da avaliação por imagem de ressonância magnética, realizada por neurocirurgiões experientes, do diagnóstico de DIPG. Os autores mostraram inconsistência no diagnóstico e conduta dos casos avaliados. Uma imagem representativa dos diferentes padrões encontrados foi publicada:
+A study published by [Hankinson _et al_][hankinson] investigated the reproducibility of DIPG diagnostic accuracy by magnetic resonance images evaluated by experienced neurosurgeons. The authors concluded that there was inconsistency in the diagnosis and management of the cases evaluated. A representative picture of the different patterns of DIPG found was published:
 
 ![hankinsonetal](http://thejns.org/na101/home/literatum/publisher/jns/journals/content/ped.1/2011/ped.1.2011.8.issue-1/2011.4.peds1180/production/images/large/0080097f1.jpeg)
-*Imagens representativas de casos típico (A), intermediário (B) e atípico (C). As imagens são protegidas por [direitos autorais][jns-permission] e não devem ser copiadas, nem reproduzidas.*
+*Representative images of typical case (A), intermediary (B) and atypical (C). Images are protected by [copyright][jns-permission] and should not be copied or reproduced.*
 
- Os critérios de diagnóstico sugeridos neste trabalho são:
- > 1. an intrinsic, central location involving more than 50% of the axial diameter of the pons;
-   2. indistinct tumor margins;
-   3. T1 hypointensity;
-   4. T2 hyperintensity;
-   5. irregular, if any, enhancement following Gd administration; and
-   6. the absence of cystic or exophytic components.
- Encasement of the basilar artery is another, less consistently referenced characteristic.
+ The diagnostic criteria suggested in this work are:
+ > 1. an intrinsic, central location involving more than 50% of the axial diameter of the pons;
+   2. indistinct tumor margins;
+   3. T1 hypointensity;
+   4. T2 hyperintensity;
+   5. irregular, if any, enhancement following gadolinium administration; and
+   6. the absence of cystic or exophytic components.
+ Encasement of the basilar artery is another frequent, less consistently described characteristic.
 
 ---
 
-### Referências:
+### References:
 
 - [DICOM][dicom]
 - [DICOM Library][dicom-library]
