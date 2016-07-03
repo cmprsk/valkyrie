@@ -26,7 +26,7 @@ And also adding this line to the _index.html_ file (as well as to an alternative
 And these lines to _head.html_ at my **_includes** folder to only show the right language posts:
 
 {% highlight html %}
-{{ "{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' " }}%}{{ "{% for post in posts " }}%}
+{{ "{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' " }}%} {{ "{% for post in posts " }}%}
 <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />{{ "{% endfor " }}%}
 {{ "{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' " }}%}{{ "{% for page in pages " }}%}
 <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />{{ "{% endfor " }}%}
