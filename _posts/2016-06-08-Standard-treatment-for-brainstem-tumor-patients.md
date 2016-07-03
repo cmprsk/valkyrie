@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Standard treatment for brain tumor patients"
-date:   2016-06-07 16:03:45 -0300
+date:   2016-06-08 16:03:45 -0300
 categories: metodologia
 ref: trata
 lang: en

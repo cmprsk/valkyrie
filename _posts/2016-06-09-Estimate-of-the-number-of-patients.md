@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Estimate of the number of patients"
-date:   2016-06-08 16:03:45 -0300
+date:   2016-06-09 16:03:45 -0300
 categories: metodologia
 lang: en
 ref: numero
