@@ -7,7 +7,7 @@ categories: valquiria
 ref: images
 lang: en
 ---
-### Central review ofimages
+### Central review of images
 
 Medical images are usually provided in digital format through CD or DVD recorded by the radiology clinic. These images are stored in a standard format, called [DICOM][dicom] (*Digital Imaging and Communications in Medicine*). The availability of images in digital format allows handling and sharing with greater flexibility. In our trial, we are performing the review of images digitally acquired (when available) in **anonymised**  form, ie, without any information that can directly or indirectly identify patients. To do this, we will use the medical image sharing service [DICOM Library][dicom-library]. This service, created by Softneta with funding from the European Union, retrieves DICOM files, anonymizing them automatically in the browser side before uploading and allows one to share medical images without identification of patients, professionals and health services.
 
