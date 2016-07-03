@@ -19,9 +19,9 @@ ref: # an unique identifier for the post
 
 And also adding this line to the _index.html_ file (as well as to an alternative _index-pt.html_ file):
 
-
- {{ "{% assign posts=site.posts | where:"lang", page.lang " }}%}
-
+{% highlight html %}
+ {% assign posts=site.posts | where:"lang", page.lang %}
+{% endhighlight %}
 
 And these lines to _head.html_ at my **_includes** folder to only show the right language posts:
 
