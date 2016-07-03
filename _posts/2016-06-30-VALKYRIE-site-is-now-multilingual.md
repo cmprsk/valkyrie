@@ -20,23 +20,23 @@ ref: # an unique identifier for the post
 And also adding this line to the _index.html_ file (as well as to an alternative _index-pt.html_ file):
 
 ```liquid
-{% assign posts=site.posts | where:"lang", page.lang %}
+{% comment %}{% assign posts=site.posts | where:"lang", page.lang %}{% endcomment %}
 ```
 
 And these lines to _head.html_ at my **_includes** folder to only show the right language posts:
 
 ```liquid
-{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}{% for post in posts %}
+{% comment %}{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}{% for post in posts %}
 <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />{% endfor %}
 {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}{% for page in pages %}
 <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />{% endfor %}
-<link rel="alternate" type="application/rss+xml" title="{{ site.title[page.lang] }}" href="{{ site.feed[page.lang] | prepend: site.github.url }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.title[page.lang] }}" href="{{ site.feed[page.lang] | prepend: site.github.url }}">{% endcomment %}
 ```
 
 And also these lines to _header.html_ in **_includes** folder to create links to change language view and some other tweaks:
 
 ```liquid
-<a class="site-title" href="{{ site.github.url }}/{{ site.index[page.lang] }}">{{ site.title[page.lang] }}</a>
+{% comment %}<a class="site-title" href="{{ site.github.url }}/{{ site.index[page.lang] }}">{{ site.title[page.lang] }}</a>
 ...
 <div class="trigger">
   {% assign pages=site.pages | where:"lang", page.lang %}
@@ -53,18 +53,18 @@ And also these lines to _header.html_ in **_includes** folder to create links to
 
   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
   {% for page in pages %} <a href="{{ page.url | prepend: site.github.url }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
-</div>
+</div>{% endcomment %}
 
 ```
 
 We must not forget tweaks in the _footer.html_ file as well:
 
 ```
-<h2 class="footer-heading">{{ site.title[page.lang]}}</h2>
+{% comment %}<h2 class="footer-heading">{{ site.title[page.lang]}}</h2>
 ...
 <li>{{ site.title[page.lang] }}</li>
 ...
-<p>{{ site.description[page.lang] }}</p>
+<p>{{ site.description[page.lang] }}</p>{% endcomment %}
 ```
 
 One needs to check the documentation of [Silvain Durand][jekyll-multilingual] and the files I changed in my [repo](https://github.com/fhcflx/valkyrie) in order to try the same.
