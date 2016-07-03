@@ -19,13 +19,13 @@ ref: # an unique identifier for the post
 
 Adicionei esta linha ao arquivo _index.html_ (bem como a um arquivo alternativo _index-pt.html_):
 
-```
+```liquid
 {% assign posts=site.posts | where:"lang", page.lang %}
 ```
 
 E estas linha ao arquivo _head.html_ na minha pasta **_includes** para mostrar apenas as postagens com a língua correta:
 
-```
+```liquid
 {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}{% for post in posts %}
 <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />{% endfor %}
 {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}{% for page in pages %}
@@ -35,7 +35,7 @@ E estas linha ao arquivo _head.html_ na minha pasta **_includes** para mostrar a
 
 E também estas linhas no arquivo _header.html_ na pasta **_includes** para configurar as visualizações por língua e outras mudanças:
 
-```
+```liquid
 <a class="site-title" href="{{ site.github.url }}/{{ site.index[page.lang] }}">{{ site.title[page.lang] }}</a>
 ...
 <div class="trigger">
