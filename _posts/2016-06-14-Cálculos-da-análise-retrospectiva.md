@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Cálculos da análise retrospectiva"
-date:   2016-06-13 16:03:45 -0300
+date:   2016-06-14 16:03:45 -0300
 categories: metodologia
 ref: retro
 lang: pt

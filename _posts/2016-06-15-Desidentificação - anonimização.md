@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Desidentificação - anonimização"
-date:   2016-06-14 16:03:45 -0300
+date:   2016-06-15 16:03:45 -0300
 categories: metodologia
 ref: anonymize
 lang: pt
