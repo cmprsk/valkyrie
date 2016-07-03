@@ -12,7 +12,7 @@ Esta semana começarei a publicar uma versão do site em inglês, além da vers�
 
 ```
 ---
-lang: # a string as en or pt
+lang: # a string as 'en' or 'pt'
 ref: # an unique identifier for the post
 ---
 ```
@@ -67,7 +67,7 @@ Não poderia esquecer do arquivo _footer.html_:
 <p>{{ site.description[page.lang] }}</p>
 ```
 
-Para tentar configurar da mesma forma seu site Jekyll, recomendo a leitura da documentação de [Silvain Durand][jekyll-multilingual] e dar uma olhada nos arquivos em meu [repo][https://github.com/fhcflx/valkyrie].
+Para tentar configurar da mesma forma seu site Jekyll, recomendo a leitura da documentação de [Silvain Durand][jekyll-multilingual] e dar uma olhada nos arquivos em meu [repo](https://github.com/fhcflx/valkyrie).
 
 ### Referências:
 

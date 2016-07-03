@@ -12,7 +12,7 @@ This week we are going to begin publishing this site in more than one language. 
 
 ```
 ---
-lang: # a string as en or pt
+lang: # a string as 'en' or 'pt
 ref: # an unique identifier for the post
 ---
 ```
@@ -67,7 +67,7 @@ We must not forget tweaks in the _footer.html_ file as well:
 <p>{{ site.description[page.lang] }}</p>
 ```
 
-One needs to check the documentation of [Silvain Durand][jekyll-multilingual] and the files I changed in my [repo][https://github.com/fhcflx/valkyrie] in order to try the same.
+One needs to check the documentation of [Silvain Durand][jekyll-multilingual] and the files I changed in my [repo](https://github.com/fhcflx/valkyrie) in order to try the same.
 
 ### References:
 

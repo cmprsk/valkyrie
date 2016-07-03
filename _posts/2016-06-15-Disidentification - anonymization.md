@@ -7,6 +7,8 @@ categories: metodologia
 ref: anonymize
 lang: en
 ---
+>NOT TRANSLATED YET
+
 ### Ética de ensaios clínicos
 
 Um pouco da legislação brasileira:
