@@ -7,6 +7,7 @@ categories: metodologia
 ref: retro
 lang: en
 ---
+>NOT TRANSLATED YET
 
 ## Curva de sobrevida da análise retrospectiva:
 
