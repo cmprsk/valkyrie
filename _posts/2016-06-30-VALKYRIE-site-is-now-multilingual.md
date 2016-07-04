@@ -19,9 +19,11 @@ ref: # an unique identifier for the post
 
 And also adding this line to the _index.html_ file (as well as to an alternative _index-pt.html_ file):
 
-{% highlight html %}
+```
+{% raw %}
  {% assign posts=site.posts | where:"lang", page.lang %}
-{% endhighlight %}
+{% endraw %}
+```
 
 And these lines to _head.html_ at my **_includes** folder to only show the right language posts:
 
@@ -70,7 +72,7 @@ We must not forget tweaks in the _footer.html_ file as well:
  ...
  <p>{{ site.description[page.lang] }}</p>
 {% endraw %}
-``
+```
 
 One needs to check the documentation of [Silvain Durand][jekyll-multilingual] and the files I changed in my [repo](https://github.com/fhcflx/valkyrie) in order to try the same.
 
