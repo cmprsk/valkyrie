@@ -19,15 +19,16 @@ ref: # an unique identifier for the post
 
 And also adding this line to the _index.html_ file (as well as to an alternative _index-pt.html_ file):
 
-```
-{% raw %}
- {% assign posts=site.posts | where:"lang", page.lang %}
-{% endraw %}
-```
+
+{% highlight liquid %}
+ {{" {% assign posts=site.posts | where:"lang", page.lang }} "%}
+{% endhighlight %}
+
 
 And these lines to _head.html_ at my **_includes** folder to only show the right language posts:
 
-```
+
+{% highlight html %}
 {% raw %}
  {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}{% for post in posts %}
  <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />{% endfor %}
@@ -35,11 +36,12 @@ And these lines to _head.html_ at my **_includes** folder to only show the right
  <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />{% endfor %}
  <link rel="alternate" type="application/rss+xml" title="{{ site.title[page.lang] }}" href="{{ site.feed[page.lang] | prepend: site.github.url }}">
 {% endraw %}
-```
+{% endhighlight %}
+
 
 And also these lines to _header.html_ in **_includes** folder to create links to change language view and some other tweaks:
 
-```
+{% highlight html %}
 {% raw %}
 a class="site-title" href="{{ site.github.url }}/{{ site.index[page.lang] }}">{{ site.title[page.lang] }}</a>
 ...
@@ -60,11 +62,11 @@ a class="site-title" href="{{ site.github.url }}/{{ site.index[page.lang] }}">{{
   {% for page in pages %} <a href="{{ page.url | prepend: site.github.url }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
 </div>
 {% endraw %}
-```
+{% endhighlight %}
 
 We must not forget tweaks in the _footer.html_ file as well:
 
-```
+{% highlight html %}
 {% raw %}
  <h2 class="footer-heading">{{ site.title[page.lang] }}</h2>
  ...
@@ -72,7 +74,7 @@ We must not forget tweaks in the _footer.html_ file as well:
  ...
  <p>{{ site.description[page.lang] }}</p>
 {% endraw %}
-```
+{% endhighlight %}
 
 One needs to check the documentation of [Silvain Durand][jekyll-multilingual] and the files I changed in my [repo](https://github.com/fhcflx/valkyrie) in order to try the same.
 
