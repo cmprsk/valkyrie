@@ -25,7 +25,7 @@ Adicionei esta linha ao arquivo _index.html_ (bem como a um arquivo alternativo 
 
 E estas linha ao arquivo _head.html_ na minha pasta **_includes** para mostrar apenas as postagens com a língua correta:
 
-% highlight html %}
+{% highlight html %}
 {% raw %}
  {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}{% for post in posts %}
  <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />{% endfor %}
