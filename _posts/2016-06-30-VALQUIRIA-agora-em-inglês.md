@@ -19,24 +19,27 @@ ref: # an unique identifier for the post
 
 Adicionei esta linha ao arquivo _index.html_ (bem como a um arquivo alternativo _index-pt.html_):
 
-```liquid
-{% assign posts=site.posts | where:"lang", page.lang %}
-```
+{% highlight liquid %}
+ {{" {% assign posts=site.posts | where:"lang", page.lang }} "%}
+{% endhighlight %}
 
 E estas linha ao arquivo _head.html_ na minha pasta **_includes** para mostrar apenas as postagens com a língua correta:
 
-```liquid
-{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}{% for post in posts %}
-<link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />{% endfor %}
-{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}{% for page in pages %}
-<link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />{% endfor %}
-<link rel="alternate" type="application/rss+xml" title="{{ site.title[page.lang] }}" href="{{ site.feed[page.lang] | prepend: site.github.url }}">
-```
+% highlight html %}
+{% raw %}
+ {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}{% for post in posts %}
+ <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />{% endfor %}
+ {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}{% for page in pages %}
+ <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />{% endfor %}
+ <link rel="alternate" type="application/rss+xml" title="{{ site.title[page.lang] }}" href="{{ site.feed[page.lang] | prepend: site.github.url }}">
+{% endraw %}
+{% endhighlight %}
 
 E também estas linhas no arquivo _header.html_ na pasta **_includes** para configurar as visualizações por língua e outras mudanças:
 
-```liquid
-<a class="site-title" href="{{ site.github.url }}/{{ site.index[page.lang] }}">{{ site.title[page.lang] }}</a>
+{% highlight html %}
+{% raw %}
+a class="site-title" href="{{ site.github.url }}/{{ site.index[page.lang] }}">{{ site.title[page.lang] }}</a>
 ...
 <div class="trigger">
   {% assign pages=site.pages | where:"lang", page.lang %}
@@ -49,23 +52,25 @@ E também estas linhas no arquivo _header.html_ na pasta **_includes** para conf
 ...
 <div class="wrapper" style="text-align: right; line-height: 2em">
   {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-  {% for post in posts %} <a href="{{ post.url | prepend: site.github.url }}" class="{{ post.lang }}">{{ post.lang }}</a> {% endfor %}
+  {% for post in posts %} <a href="{{ post.url | prepend: site.github.url }}" class="{{ post.lang }}">{{ post.lang }}}</a> {% endfor %}
 
   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
   {% for page in pages %} <a href="{{ page.url | prepend: site.github.url }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
 </div>
-
-```
+{% endraw %}
+{% endhighlight %}
 
 Não poderia esquecer do arquivo _footer.html_:
 
-```
-<h2 class="footer-heading">{{ site.title[page.lang]}}</h2>
-...
-<li>{{ site.title[page.lang] }}</li>
-...
-<p>{{ site.description[page.lang] }}</p>
-```
+{% highlight html %}
+{% raw %}
+ <h2 class="footer-heading">{{ site.title[page.lang] }}</h2>
+ ...
+ <li>{{ site.title[page.lang] }}</li>
+ ...
+ <p>{{ site.description[page.lang] }}</p>
+{% endraw %}
+{% endhighlight %}
 
 Para tentar configurar da mesma forma seu site Jekyll, recomendo a leitura da documentação de [Silvain Durand][jekyll-multilingual] e dar uma olhada nos arquivos em meu [repo](https://github.com/fhcflx/valkyrie).
 

@@ -27,7 +27,6 @@ And also adding this line to the _index.html_ file (as well as to an alternative
 
 And these lines to _head.html_ at my **_includes** folder to only show the right language posts:
 
-
 {% highlight html %}
 {% raw %}
  {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}{% for post in posts %}
@@ -37,7 +36,6 @@ And these lines to _head.html_ at my **_includes** folder to only show the right
  <link rel="alternate" type="application/rss+xml" title="{{ site.title[page.lang] }}" href="{{ site.feed[page.lang] | prepend: site.github.url }}">
 {% endraw %}
 {% endhighlight %}
-
 
 And also these lines to _header.html_ in **_includes** folder to create links to change language view and some other tweaks:
 
