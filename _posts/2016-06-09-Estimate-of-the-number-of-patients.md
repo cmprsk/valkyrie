@@ -11,7 +11,7 @@ permalink: /sample-size/
 
 When we designed the Valkyrie trial several different considerations were made on how to calculate the number of patients to be recruited for the trial. In the end, the decision fell on the way as described in the project methodology (translated from portuguese):
 
-  - #### 5.7.Sample size:
+  - #### 5.7.Sample size:
 
   - The sample size does not depend on the initial question, which is not
   comparative. However, in order to ascertain secondary outcomes, it was
