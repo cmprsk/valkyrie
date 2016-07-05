@@ -6,6 +6,7 @@ date:   2016-06-06 16:03:45 -0300
 categories: valquiria
 lang: pt
 ref: twitter1
+permalink: /novo-twitter/
 ---
 ### VALQUIRIA nas redes sociais
 

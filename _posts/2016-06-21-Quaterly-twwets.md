@@ -6,6 +6,7 @@ date:   2016-06-21 16:03:45 -0300
 categories: valquiria
 ref: twitter2
 lang: en
+permalink: /quaterly-tweets/
 ---
 ### Twwets from the last 15 days (06 a 21 de junho)
 

@@ -6,40 +6,40 @@ date:   2016-06-13 16:03:45 -0300
 categories: metodologia
 lang: en
 ref: historico
+permalink: /historical-control/
 ---
 >NOT TRANSLATED YET
 
-O grupo controle histórico compõe-se de pacientes com DIPG, diagnosticados entre 2000 e 2013, que _não_ foram tratados com quimioterapia de acordo com os protocolos HIT do [GPOH][gpoh], adaptados. Somente foram selecionados para compor o controle histórico pacientes que receberam radioterapia, na dose de 40 Gy ou maior.
+The historical control group consists of patients with DIPG, diagnosed between 2000 and 2013, _not_ treated with chemotherapy according to the HIT protocols [GPOH][gpoh], adapted. Only patients who received radiation therapy at a dose of 40 Gy or higher were selected.
 
-A tabela abaixo mostra as características dos pacientes incluídos no grupo histórico, segundo definido no [projeto][projeto], o qual será comparado com o grupo tratado prospectivamente no ensaio VALQUIRIA. Este grupo foi comparado com o piloto retrospectivo a partir do qual calculamos o número de pacientes a ser recrutado no ensaio.
-
+The table below shows the characteristics of patients included in the historical group, as defined in [design][design], which will be compared with the group to be treated prospectively in VALQUIRIA trial. This group was compared to retrospective pilot from which we calculated the number of patients to be recruited in the trial.
 
 
 ---
 
-|     |         |*Valor* |     | *Unidades* |     | *Dispersão* |     |     |     | *Medida* |
+|     |         |*Value* |     |   *Units*  |     |*Dispersion* |     |     |     |*Measure* |
 |:--- | ------- |:------:| --- |:---------- | --- |:-----------:| --- | ---:| --- |:--------:|
-| Sexo          |        |     |            |     |             |     |     |     |          |
-|     |Masculino|   12   |     |      -     |     |      -      |     |  -  |     |    *n*   |
-|     | Feminino|   19   |     |      -     |     |      -      |     |  -  |     |    *n*   |
-|Idade|         |   7.4  |     |     anos   |     |  2.8 - 15.8 |     | min - max |  mediana |
+| Sex           |        |     |            |     |             |     |     |     |          |
+|     |   Male  |   12   |     |      -     |     |      -      |     |  -  |     |    *n*   |
+|     |  Female |   19   |     |      -     |     |      -      |     |  -  |     |    *n*   |
+| Age |         |   7.4  |     |    years   |     |  2.8 - 15.8 |     | min - max |  median  |
 |QT   |         |   29   |     |      -     |     |      -      |     |  -  |     |    *n*   |
 |     |COG-A9952|   25   |     |      -     |     |      -      |     |  -  |     |    *n*   |
 |     |ACNS0126 |    4   |     |      -     |     |      -      |     |  -  |     |    *n*   |
-|Sobrevida|     |   11.4 |     |     meses  |     |  8.1 - 15.6 |     |IC95%|     |  mediana |
-|Tempo para <br> progressão||8.2||   meses  |     |  6.9 - 10.6 |     |IC95%|     |  mediana |
-|Segunda QT    ||   18   |     |      -     |     |      -      |     |  -  |     |    *n*   |
-| |Temozolomida |    7   |     |      -     |     |      -      |     |  -  |     |    *n*   |
+|Survival |     |   11.4 |     |    months  |     |  8.1 - 15.6 |     |CI95%|     |  median  |
+|Time to <br> progression||8.2||    months  |     |  6.9 - 10.6 |     |CI95%|     |  median  |
+|Second-line|   |   18   |     |      -     |     |      -      |     |  -  |     |    *n*   |
+| |Temozolomide |    7   |     |      -     |     |      -      |     |  -  |     |    *n*   |
 |     | ICE/IE  |    7   |     |      -     |     |      -      |     |  -  |     |    *n*   |
-|   |Vimblastina|    3   |     |      -     |     |      -      |     |  -  |     |    *n*   |
+|   |Vimblastine|    3   |     |      -     |     |      -      |     |  -  |     |    *n*   |
 |     |Carbo-VCR|    1   |     |      -     |     |      -      |     |  -  |     |    *n*   |
-|Segunda RT    ||    2   |     |      -     |     |      -      |     |  -  |     |    *n*   |
-|Sobrevida após <br> progressão||87|| meses |     |   63 - 150  |     |IC95%|     |  mediana |
+|Re-irradiation||    2   |     |      -     |     |      -      |     |  -  |     |    *n*   |
+|Survival after <br>progression||87|| months|     |   63 - 150  |     |CI95%|     |  median  |
 
 ---
 
-*Tabela 1: características dos pacientes no grupo controle histórico*
-n = número de pacientes
+*Table 1: characteristics of patients on historical control group*
+n = number of patients
 Idade, sobrevida e tempo para progressão expressos em termos de mediana e valores mínimo e máximo.
 
 A segunda tabela mostra os dados tabulados do grupo controle histórico, extraídos de nossa base de dados após _desidentificação_. Os identificadores primários _nome_ (composto pelas iniciais do nome do paciente) e _registro_ (número do prontuário) foram omitidos. Os identificadores secundários _data de nascimento_, _data do diagnóstico_, _data da progressão_ e _censura_ (data da última informação ou óbito) foram substituídos pela _idade_ (idade ao diagnóstico), _sobrevida_, _TPP_ (tempo para progressão). Outras variáreis substituídas: _data do início da quimioterapia_, substituído por _tempo para QT_ (tempo entre o diagnóstico e o início do tratamento quimioterápico) e _data do início da radioterapia_ (tempo entre o diagnóstico e o início do tratamento radioterápico). A base de dados original não será disponibilizada publicamente para preservar a confidencialidade dos pacientes.
@@ -103,7 +103,7 @@ _Esta postagem foi modificada em 20/06/2016 para incluir cálculos **on the fly*
 ### Referências:
 
 - [GPOH][gpoh]
-- [Projeto VALQUIRIA][projeto]
+- [VALQUIRIA project, design][design]
 
 [gpoh]: http://www.kinderkrebsinfo.de/gpoh_society/index_eng.html
-[projeto]: {{ site.url }}/assets/posts/2016-06-09-Grupo-controle-historico/Anteprojeto_VALQUIRIA_HIAS_3.pdf
+[design]: {{ site.url }}/assets/posts/2016-06-09-Grupo-controle-historico/Anteprojeto_VALQUIRIA_HIAS_3.pdf

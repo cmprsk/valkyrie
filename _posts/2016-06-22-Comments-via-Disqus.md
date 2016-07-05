@@ -6,6 +6,7 @@ date:   2016-06-22 16:03:45 -0300
 categories: valquiria
 ref: disqus
 lang: en
+permalink: /disqus-comments/
 ---
 
 Beginning today, I configured comments in posts. Using the instructions found [here][disqus-jekyll-install] and also [here][disqus-jekyll], I created and cofigured a [Disqus][disqus] account and added the following code in a _disqus.html_ file in my **\_includes**:

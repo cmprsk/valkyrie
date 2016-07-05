@@ -6,6 +6,7 @@ date:   2016-06-07 16:03:45 -0300
 categories: valquiria
 ref: criteria
 lang: pt
+permalink: /diagnostico/
 ---
 
 #### Critérios para diagnóstico dos gliomas pontinos intrínsecos difusos:

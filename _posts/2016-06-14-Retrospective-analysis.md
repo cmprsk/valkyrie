@@ -6,6 +6,7 @@ date:   2016-06-14 16:03:45 -0300
 categories: metodologia
 ref: retro
 lang: en
+permalink: /retrospective/
 ---
 >NOT TRANSLATED YET
 

@@ -6,6 +6,7 @@ date:   2016-06-17 16:03:45 -0300
 categories: valquiria
 ref: first
 lang: pt
+permalink: /recrutamento/
 ---
 >NOT TRANSLATED YET
 

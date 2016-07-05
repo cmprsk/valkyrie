@@ -1,11 +1,12 @@
 ---
 layout: post
 comments: true
-title:  "Disidentification - anonymization"
+title:  "De-identification - anonymization"
 date:   2016-06-15 16:03:45 -0300
 categories: metodologia
 ref: anonymize
 lang: en
+permalink: /de-identification/
 ---
 >NOT TRANSLATED YET
 
