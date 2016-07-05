@@ -6,13 +6,14 @@ date:   2016-06-09 16:03:45 -0300
 categories: metodologia
 lang: en
 ref: numero
+permalink: /sample-size/
 ---
 
 When we designed the Valkyrie trial several different considerations were made on how to calculate the number of patients to be recruited for the trial. In the end, the decision fell on the way as described in the project methodology (translated from portuguese):
 
   - #### 5.7.Sample size:
 
-  - The sample size does not depend on the initial question, which is not
+  - The sample size does not depend on the initial question, which is not
   comparative. However, in order to ascertain secondary outcomes, it was
   necessary to calculate the expected number of patients to be recruited.
   Using data available from patients already treated in our hospital
@@ -26,9 +27,9 @@ When we designed the Valkyrie trial several different considerations were made o
   experimental design). The powerSurvEpi package of R language was used
   to calculate the sample size (R Development Core Team, 2012).
 
-  - #### 5.8.Retrospective data to compose the historical control group:
+  - #### 5.8.Retrospective data to compose the historical control group:
 
-  - The data collected for two other previous projects, "EPIDEMIOLOGIC PROFILE
+  - The data collected for two other previous projects, "EPIDEMIOLOGIC PROFILE
   OF PEDIATRIC PATIENTS WITH BRAIN TUMOR TREATED IN ALBERT SABIN CHILDREN'S
   HOSPITAL ONCO-HEMATOLOGY SERVICE BETWEEN 2000 AND 2006" and "ASSESSMENT OF
   PEDIATRIC BRAIN TUMOR TREATMENT IN ALBERT SABIN CHILDREN'S HOSPITAL BETWEEN

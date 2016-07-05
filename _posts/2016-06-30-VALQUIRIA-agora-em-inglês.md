@@ -6,6 +6,7 @@ date:   2016-06-30 16:03:45 -0300
 categories: valquiria
 ref: multilingual
 lang: pt
+permalink: /versao-ingles/
 ---
 
 Esta semana começarei a publicar uma versão do site em inglês, além da versão em português que já existia. Graças às excelentes contribuições de [Sylvain Durand][jekyll-multilingual], pude criar e configurar uma página multilíngue no Jekyll, basicamente adicionando estas linhas na minha YAML [frontmatter][jekyll-frontmatter] das postagens (e alguns outros arquivos, como o _index.html_):
@@ -72,12 +73,16 @@ Não poderia esquecer do arquivo _footer.html_:
 {% endraw %}
 {% endhighlight %}
 
-Para tentar configurar da mesma forma seu site Jekyll, recomendo a leitura da documentação de [Silvain Durand][jekyll-multilingual] e dar uma olhada nos arquivos em meu [repo](https://github.com/fhcflx/valkyrie).
+Na tentativa de incluir links para postagens prévia e próxima, encontrei este [script][prevnext] descrito por [Myriam](https://github.com/mynimi).
+
+Para tentar configurar da mesma forma seu site Jekyll, recomendo a leitura da documentação de [Silvain Durand][jekyll-multilingual] e dar uma olhada em [Myriam][prevnext] e nos arquivos em meu [repo](https://github.com/fhcflx/valkyrie).
 
 ### Referências:
 
 - [Jekyll, Making Jekyll multilingual][jekyll-multilingual]
 - [Jekyll, Frontmatter][jekyll-frontmatter]
+- [Jekyll, Previous and next links within Jekyll collections][prevnext]
 
 [jekyll-frontmatter]: https://jekyllrb.com/docs/frontmatter/
 [jekyll-multilingual]: https://www.sylvaindurand.org/making-jekyll-multilingual/
+[prevnext]: http://halfapx.com/en/previous-and-next-links-within-jekyll-collections/

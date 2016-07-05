@@ -6,6 +6,7 @@ date:   2016-06-14 16:03:45 -0300
 categories: metodologia
 ref: retro
 lang: pt
+permalink: /retrospectiva/
 ---
 
 ## Curva de sobrevida da análise retrospectiva:

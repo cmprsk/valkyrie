@@ -6,6 +6,7 @@ date:   2016-06-06 16:03:45 -0300
 categories: valquiria
 lang: en
 ref: twitter1
+permalink: /new-twitter/
 ---
 ### VALQUIRIA on social nets
 

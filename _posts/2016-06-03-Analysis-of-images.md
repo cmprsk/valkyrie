@@ -6,6 +6,7 @@ date:   2016-06-03 16:03:45 -0300
 categories: valquiria
 ref: images
 lang: en
+permalink: /image-analysis/
 ---
 ### Central review of images
 

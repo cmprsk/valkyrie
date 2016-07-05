@@ -6,6 +6,7 @@ date:   2016-06-30 16:03:45 -0300
 categories: valquiria
 ref: multilingual
 lang: en
+permalink: /multilingual/
 ---
 
 This week we are going to begin publishing this site in more than one language. Thanks to the excellent contributions of [Sylvain Durand][jekyll-multilingual], I created and configured a multilingual jekyll build, basically by adding these lines to the YAML [frontmatter][jekyll-frontmatter] of my posts (and some other files, like _index.html_):
@@ -74,12 +75,16 @@ We must not forget tweaks in the _footer.html_ file as well:
 {% endraw %}
 {% endhighlight %}
 
-One needs to check the documentation of [Silvain Durand][jekyll-multilingual] and the files I changed in my [repo](https://github.com/fhcflx/valkyrie) in order to try the same.
+Searching for a way of linking previous and next posts, I've found this neat [script][prevnext] by [Myriam](https://github.com/mynimi).
+
+One needs to check the documentation of [Silvain Durand][jekyll-multilingual], [Myriam][prevnext] and the files I changed in my [repo](https://github.com/fhcflx/valkyrie) in order to try the same.
 
 ### References:
 
 - [Jekyll, Making Jekyll multilingual][jekyll-multilingual]
 - [Jekyll, Frontmatter][jekyll-frontmatter]
+- [Jekyll, Previous and next links within Jekyll collections][prevnext]
 
 [jekyll-frontmatter]: https://jekyllrb.com/docs/frontmatter/
 [jekyll-multilingual]: https://www.sylvaindurand.org/making-jekyll-multilingual/
+[prevnext]: http://halfapx.com/en/previous-and-next-links-within-jekyll-collections/

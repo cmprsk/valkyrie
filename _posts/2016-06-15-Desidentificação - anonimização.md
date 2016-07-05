@@ -6,6 +6,7 @@ date:   2016-06-15 16:03:45 -0300
 categories: metodologia
 ref: anonymize
 lang: pt
+permalink: /desidentificação/
 ---
 ### Ética de ensaios clínicos
 

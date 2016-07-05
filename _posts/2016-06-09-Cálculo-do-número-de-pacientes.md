@@ -6,6 +6,7 @@ date:   2016-06-09 16:03:45 -0300
 categories: metodologia
 lang: pt
 ref: numero
+permalink: /tamanho-amostra/
 ---
 
 Quando estávamos concebendo o ensaio VALQUÌRIA, várias considerações diferentes foram feitas sobre a forma de calcular o número de pacientes a ser recrutado para o ensaio. No final, a decisão recaiu sobre a forma como está descrito na metodologia do projeto:

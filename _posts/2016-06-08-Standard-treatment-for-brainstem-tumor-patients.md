@@ -6,6 +6,7 @@ date:   2016-06-08 16:03:45 -0300
 categories: metodologia
 ref: trata
 lang: en
+permalink: /standard-treatment/
 ---
 
 ### Standard treatment options for DIPG

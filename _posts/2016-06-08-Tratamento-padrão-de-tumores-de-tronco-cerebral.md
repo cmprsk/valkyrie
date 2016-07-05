@@ -6,6 +6,7 @@ date:   2016-06-08 16:03:45 -0300
 categories: metodologia
 ref: trata
 lang: pt
+permalink: /tratamento-padronizado/
 ---
 
 ### Como os pacientes com DIPG são tratados normalmente

@@ -6,6 +6,7 @@ date:   2016-06-02 16:03:45 -0300
 categories: metodologia
 ref: science
 lang: en
+permalink: /rational/
 ---
 ### The scientific basis of VALKYRIE
 
