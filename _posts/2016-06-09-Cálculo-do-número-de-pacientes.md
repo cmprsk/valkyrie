@@ -9,7 +9,7 @@ ref: numero
 permalink: /tamanho-amostra/
 ---
 
-Quando estávamos concebendo o ensaio VALQUÌRIA, várias considerações diferentes foram feitas sobre a forma de calcular o número de pacientes a ser recrutado para o ensaio. No final, a decisão recaiu sobre a forma como está descrito na metodologia do projeto:
+Quando estávamos concebendo o ensaio VALQUÌRIA, várias considerações diferentes foram feitas sobre a forma de calcular o número de pacientes a ser recrutado para o ensaio. No final, a decisão recaiu sobre a forma como está descrito na [metodologia][meto] do projeto:
 
   - #### 5.7.Tamanho da amostra:
 
@@ -48,7 +48,7 @@ Quando estávamos concebendo o ensaio VALQUÌRIA, várias considerações difere
   esquema de tratamento diferente do HIT (figura 2). Estes pacientes serão
   os incluídos no grupo histórico comparativo.
 
-Script do R (2.X - 3.X) usado para calcular o tamanho amostral no nosso estudo, com o resultado obtido:
+Script do [R (2.X - 3.X)][r], pacote [powerSurvEpi][power], usado para calcular o tamanho amostral no nosso estudo, com o resultado obtido:
 
 ```
  > require (powerSurvEpi)
@@ -57,9 +57,9 @@ nE nC
 14 27
 ```
 
-Onde ```power``` é o poder estatístico (beta, probabilidade de erro tipo 2) escolhido, ```k``` é a razão entre o número de pacientes no grupo experimental e o número de pacientes no grupo controle (histórico), ```pE``` é a probabilidade de falha (evento) no *t*=12 meses no grupo experimental (retirado dos dados de nosso piloto histórico), ```pC``` é a probabilidade de falha (evento) no *t*=12 meses no grupo controle (retirado dos dados de nosso controle histórico), ```RR``` é a razão de chance (hazard ratio) no piloto histórico, ```alpha``` é a probabilidade de erro tipo 1.
+Onde ```power``` é o poder estatístico (beta, probabilidade de erro tipo 2) escolhido, ```k``` é a razão entre o número de pacientes no grupo experimental e o número de pacientes no grupo controle (histórico), ```pE``` é a probabilidade de falha (evento) no *t*=12 meses no grupo experimental (retirado dos dados de nosso piloto histórico), ```pC``` é a probabilidade de falha (evento) no *t*=12 meses no grupo controle (retirado dos dados de nosso controle histórico), ```RR``` é a razão de chance (hazard ratio) no piloto histórico, ```alpha``` é a probabilidade de erro tipo 1. O resultado inclui dois valores: ```nE``` (número de participantes do grupo experimental) e ```nC``` (número de participantes do grupo controle). Este cálculo baseia-se no método de [Freedman (1982)][freedman].
 
-Esses números foram obtidos da comparação que eu fizera entre pacientes tratados com protocolos HIT e ácido valpróico *versus* pacientes tratados *as per* protocolos do COG, como mostrei na introdução do projeto:
+Os  números que usei foram obtidos da comparação que eu fizera entre pacientes tratados com protocolos HIT e ácido valpróico *versus* pacientes tratados *as per* protocolos do COG, como mostrei na [introdução][intro] do projeto:
 
   - Entre setembro de 2002 e novembro de 2013, 57 pacientes foram
   diagnosticados com DIPG em nosso centro hospitalar. A mediana de
@@ -95,3 +95,17 @@ Esses números foram obtidos da comparação que eu fizera entre pacientes trata
 
 ![]({{ site.github.url}}/assets/posts/2016-06-08-Cálculo-do-número-de-pacientes/pasted-image-30.png?raw=true)
 *Gráfico da introdução do projeto, mostrando a curva de sobrevida dos pacientes com DIPG tratados em nosso serviço entre 2000-2013, diferenciados pelo tratamento realizado (em azul, protocolos do HIT com ácido valpróico).*
+
+### Referências:
+
+- [Projeto VALQUIRIA, Metodologia][meto]
+- [R: A Language and Environment for Statistical Computing, R Foundation for Statistical Computing, Vienna, Austria, 2016][r]
+- [Weiliang Qiu, Jorge Chavarro, Ross Lazarus, Bernard Rosner and Jing Ma. (2015). powerSurvEpi: Power and Sample Size Calculation for Survival Analysis of Epidemiological Studies. R package version 0.0.9.][power]
+- [Freedman, L.S. (1982). Tables of the number of patients required in clinical trials using the log-rank test. Statistics in Medicine. 1: 121-129][freedman]
+- [Projeto VALQUIRIA, Introdução][intro]
+
+[meto]: {{site.github.url}}/projeto.md#5metodologia
+[r]: https://www.R-project.org
+[power]: http://CRAN.R-project.org/package=powerSurvEpi
+[freedman]: http://onlinelibrary.wiley.com/doi/10.1002/sim.4780010204/full
+[intro]: {{site.github.url}}/projeto.md#1introdução

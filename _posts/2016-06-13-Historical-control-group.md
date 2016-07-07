@@ -40,7 +40,7 @@ The table below shows the characteristics of patients included in the historical
 
 *Table 1: characteristics of patients on historical control group*
 n = number of patients
-Idade, sobrevida e tempo para progressão expressos em termos de mediana e valores mínimo e máximo.
+Age, overall survival e tempo para progressão expressos em termos de mediana e valores mínimo e máximo.
 
 A segunda tabela mostra os dados tabulados do grupo controle histórico, extraídos de nossa base de dados após _desidentificação_. Os identificadores primários _nome_ (composto pelas iniciais do nome do paciente) e _registro_ (número do prontuário) foram omitidos. Os identificadores secundários _data de nascimento_, _data do diagnóstico_, _data da progressão_ e _censura_ (data da última informação ou óbito) foram substituídos pela _idade_ (idade ao diagnóstico), _sobrevida_, _TPP_ (tempo para progressão). Outras variáreis substituídas: _data do início da quimioterapia_, substituído por _tempo para QT_ (tempo entre o diagnóstico e o início do tratamento quimioterápico) e _data do início da radioterapia_ (tempo entre o diagnóstico e o início do tratamento radioterápico). A base de dados original não será disponibilizada publicamente para preservar a confidencialidade dos pacientes.
 
@@ -106,4 +106,4 @@ _Esta postagem foi modificada em 20/06/2016 para incluir cálculos **on the fly*
 - [VALQUIRIA project, design][design]
 
 [gpoh]: http://www.kinderkrebsinfo.de/gpoh_society/index_eng.html
-[design]: {{ site.url }}/assets/posts/2016-06-09-Grupo-controle-historico/Anteprojeto_VALQUIRIA_HIAS_3.pdf
+[design]: {{site.github.url}}/project.md#58coleta-retrospectiva-de-dados-para-compor-o-grupo-controle-histórico

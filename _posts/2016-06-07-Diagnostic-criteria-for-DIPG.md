@@ -11,7 +11,7 @@ permalink: /diagnostic-criteria/
 
 #### Criteria for diagnosis of diffuse intrinsic pontine gliomas:
 
-Although there are no diagnostic criteria defined in the literature, we use a definition similar to that found in the HIT-GBM-D trial protocol:
+Although there are no diagnostic criteria defined in the literature, we use a definition similar to that found in the [HIT-GBM-D][hit] trial protocol:
 
 > Diffuse intrinsic pontine glioma:
   center: pons, T1 tumor: hypointense, T2: hyperintense, CT: mostly
@@ -45,11 +45,12 @@ A study published by [Hankinson _et al_][hankinson] investigated the reproducibi
 
 ### References:
 
+- [Wolff, J. HIT-GBM-D Studyprotocol (English) 2nd Edition, 2010][hit]
 - [Hankinson TC, _et al_. Interpretation of magnetic
 resonance images in diffuse intrinsic pontine glioma: a survey of pediatric
 neurosurgeons. J Neurosurg Pediatr. 2011;8:97-102. ][hankinson]
 - [Journal of Neurosurgery: request of permissions][jns-permission]
 
-
+[hit]: https://books.google.com.br/books?id=4CSFAgAAQBAJ&pg=PA5&lpg=PA5&dq=hit-gbm-d&source=bl&ots=AdYIKlDhxE&sig=ep4SGKjsi1xwYjJQuRqnJU2ouHs&hl=pt-BR&sa=X&ved=0ahUKEwikrqLAsOHNAhUDfZAKHTL6AhEQ6AEIMDAC#v=onepage&q=hit-gbm-d&f=false
 [hankinson]: http://thejns.org/doi/full/10.3171/2011.4.PEDS1180
 [jns-permission]: https://thejns.org/action/permissions
