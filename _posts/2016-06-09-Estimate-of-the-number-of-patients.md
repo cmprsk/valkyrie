@@ -9,7 +9,7 @@ ref: numero
 permalink: /sample-size/
 ---
 
-When we designed the Valkyrie trial several different considerations were made on how to calculate the number of patients to be recruited for the trial. In the end, the decision fell on the way as described in the project methodology (translated from portuguese):
+When we designed the Valkyrie trial several different considerations were made on how to calculate the number of patients to be recruited for the trial. In the end, the decision fell on the way as described in the project [methodology][meto] (translated from portuguese):
 
   - #### 5.7.Sample size:
 
@@ -46,7 +46,7 @@ When we designed the Valkyrie trial several different considerations were made o
   other than HIT (Figure 2). These patients will be included in the comparative
   historical group.
 
-R script (2.X - 3.X) used to calculate the sample size in our study, with the results:
+[R (2.X - 3.X)][r] script (package [powerSurvEpi][power]) used to calculate the sample size in our study, with the results:
 
 ```
  > require (powerSurvEpi)
@@ -55,9 +55,9 @@ nE nC
 14 27
 ```
 
-Where ``` power``` is the statistical power (beta, probability of type 2 error), ```k``` is the ratio between the number of patients in the experimental group and the number of patients in the control group, ```pE``` is the probability of failure (event) in *t* = 12 months in the experimental group (taken from the data of our historical pilot),```pC``` is the probability of failure (event) in  *t* = 12 months in the control group (taken from data from our historical control), ```RR``` is the hazard ratio (HR) in the historical pilot, and ```alpha```  is the probability of type 1 error.
+Where ``` power``` is the statistical power (beta, probability of type 2 error), ```k``` is the ratio between the number of patients in the experimental group and the number of patients in the control group, ```pE``` is the probability of failure (event) in *t* = 12 months in the experimental group (taken from the data of our historical pilot),```pC``` is the probability of failure (event) in  *t* = 12 months in the control group (taken from data from our historical control), ```RR``` is the hazard ratio (HR) in the historical pilot, and ```alpha```  is the probability of type 1 error. Results includes 2 elements: ```nE``` (number of participants in experimental group) and ```nC``` number of participants of control group). This calculation is an implementation of the method proposed by [Freedman (1982)][freedman].
 
-These figures were obtained from the comparison I made between patients with HIT protocols and valproic acid *versus* patients treated *as     per* the COG protocols, as shown in the introduction of the project (translated from portuguese):
+These figures were obtained from the comparison I made between patients with HIT protocols and valproic acid *versus* patients treated *as     per* the COG protocols, as shown in the [introduction][intro] of the project (translated from portuguese):
 
   - Between September 2002 and November 2013, 57 patients were
   diagnosed with DIPG in our hospital. The median
@@ -92,3 +92,17 @@ These figures were obtained from the comparison I made between patients with HIT
 
 ![]({{ site.github.url}}/assets/posts/2016-06-08-Cálculo-do-número-de-pacientes/pasted-image-30.png?raw=true)
 *Graph from the project's introduction, showing survival curve of DIPG patients treated in our service between 2000-2013, divided by treatment (blue, HIT protocols and valproic acid).*
+
+### References:
+
+- [VALKYRIE project, Methodology][meto]
+- [R: A Language and Environment for Statistical Computing, R Foundation for Statistical Computing, Vienna, Austria, 2016][r]
+- [Weiliang Qiu, Jorge Chavarro, Ross Lazarus, Bernard Rosner and Jing Ma. (2015). powerSurvEpi: Power and Sample Size Calculation for Survival Analysis of Epidemiological Studies. R package version 0.0.9.][power]
+- [Freedman, L.S. (1982). Tables of the number of patients required in clinical trials using the log-rank test. Statistics in Medicine. 1: 121-129][freedman]
+- [VALKYRIE project, Introduction][intro]
+
+[meto]: {{site.github.url}}/projeto.md#5metodologia
+[r]: https://www.R-project.org
+[power]: http://CRAN.R-project.org/package=powerSurvEpi
+[freedman]: http://onlinelibrary.wiley.com/doi/10.1002/sim.4780010204/full
+[intro]: {{site.github.url}}/projeto.md#1introdução

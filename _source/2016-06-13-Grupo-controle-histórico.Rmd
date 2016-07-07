@@ -15,27 +15,27 @@ require(RCurl)
 require(survival)
 dipg<-read.csv(text = getURL("https://raw.githubusercontent.com/fhcflx/valkyrie/gh-pages/_data/dipg.csv"))
 attach(dipg)  
-y = summary(as.factor(subset(Sexo,RT>4000&QT1!=10)))[1]  
-x = summary(as.factor(subset(Sexo,RT>4000&QT1!=10)))[2]  
-a = summary(subset(age,RT>4000&QT1!=10))[3]  
-m = summary(subset(age,RT>4000&QT1!=10))[1]  
-M = summary(subset(age,RT>4000&QT1!=10))[6]  
-q = summary(as.factor(subset(QT1,RT>4000&QT1!=10)))
-q2 = summary(as.factor(subset(QT2,RT>4000&QT1!=10)))
-fit = survfit(Surv(surv,status)~1,subset=(QT1!=10&RT>4000))  
-fitt = survfit(Surv(ttp,status)~1,subset=(QT1!=10&RT>4000))  
-fits = survfit(Surv(s2,status)~1,subset=(QT1!=10&RT>4000))  
+y = summary(as.factor(subset(sex,rt>4000&chemo!=10)))[1]  
+x = summary(as.factor(subset(sex,rt>4000&chemo!=10)))[2]  
+a = summary(subset(age,rt>4000&chemo!=10))[3]  
+m = summary(subset(age,RT>4000&chemo!=10))[1]  
+M = summary(subset(age,RT>4000&chemo!=10))[6]  
+q = summary(as.factor(subset(chemo,rt>4000&chemo!=10)))
+q2 = summary(as.factor(subset(chemo2,rt>4000&chemo!=10)))
+fit = survfit(Surv(os,status)~1,subset=(chemo!=10&rt>4000))  
+fitt = survfit(Surv(ttp,status)~1,subset=(chemo!=10&rt>4000))  
+fits = survfit(Surv(os2,status)~1,subset=(chemo!=10&rt>4000))  
 ```
 
 ---
 
-|     |         |*Valor* |     | *Unidades* |     | *Dispersão* |     |     |     | *Medida* |
-|:--- | ------- |:------:| --- |:---------- | --- |:-----------:| --- | ---:| --- |:--------:|
-| Sexo          |        |     |            |     |             |     |     |     |          |
-|     |Masculino|   12   |     |      -     |     |      -      |     |  -  |     |    *n*   |
-|     | Feminino|   19   |     |      -     |     |      -      |     |  -  |     |    *n*   |
-|Idade|         |   7.4  |     |     anos   |     |  2.8 - 15.8 |     | min - max |  mediana |
-|QT   |         |   29   |     |      -     |     |      -      |     |  -  |     |    *n*   |
+|     |         |    *Valor*    |     | *Unidades* |     |    *Dispersão*    |     |     |     | *Medida* |
+|:--- | ------- |:-------------:| --- |:---------- | --- |:-----------------:| --- | ---:| --- |:--------:|
+| Sexo          |               |     |            |     |                   |     |     |     |          |
+|     |Masculino|   ```r y```   |     |      -     |     |         -         |     |  -  |     |    *n*   |
+|     | Feminino|   ```r x```   |     |      -     |     |         -         |     |  -  |     |    *n*   |
+|Idade|         |   ```r a```   |     |     anos   |     |```r m```-```r M```|     | min - max |  mediana |
+|QT   |         |   ```r q```   |     |      -     |     |         -         |     |  -  |     |    *n*   |
 |     |COG-A9952|   25   |     |      -     |     |      -      |     |  -  |     |    *n*   |
 |     |ACNS0126 |    4   |     |      -     |     |      -      |     |  -  |     |    *n*   |
 |Sobrevida|     |   11.4 |     |     meses  |     |  8.1 - 15.6 |     |IC95%|     |  mediana |
@@ -65,19 +65,19 @@ kable(subset(dipg[,c(2:13)],QT1!=10&RT>4000))
 
 *Tabela 2: pacientes do grupo controle histórico, dados tabulados.*
 
-Sexo: 0 - masculino, 1 - feminino  
+sex: 0 - masculino, 1 - feminino  
 age: idade (anos)  
-surv: sobrevida global (meses)  
+os: sobrevida global (meses)  
 status: 0 - vivo, 1 - óbito  
-PS1: ECOG, performance ao diagnóstico  
-QT1: 0 - não recebeu quimioterapia, 1 - _as per_ protocolo COG-A9952, 9 - _as per_ protocolo ACNS0126  
-ttqt: Tempo para QT (dias)  
+ecog: ECOG, performance ao diagnóstico  
+chemo: 0 - não recebeu quimioterapia, 1 - _as per_ protocolo COG-A9952, 9 - _as per_ protocolo ACNS0126  
+tt.chemo: Tempo para QT (dias)  
 cycles1: número de ciclos de quimioterapia realizados  
-RT: cGy  
-ettrt: Tempo para RT (dias)  
+rt: cGy  
+tt.rt: Tempo para RT (dias)  
 ttp: tempo para progressão (meses)
-s2: sobrevida após a progressão (dias)  
-O arquivo completo deste banco de dados, contendo as informações sobre todos os pacientes diagnosticados com DIPG em nosso serviço entre 2000-2013 (desidentificado) está disponível em formato [.csv]({{ site.url }}/_data/dipg.csv).
+os2: sobrevida após a progressão (dias)  
+O arquivo completo deste banco de dados, contendo as informações sobre todos os pacientes diagnosticados com DIPG em nosso serviço entre 2000-2013 (desidentificado) está disponível em formato [.csv]({{ site.github.url }}/_data/dipg.csv).
 
 ``` Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)
 ```

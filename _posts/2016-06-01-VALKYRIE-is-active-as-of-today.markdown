@@ -23,7 +23,7 @@ In summary, the steps from the entry of the patients are going to be:
 * Informed consent
 * Referral to treatment
 
-The study is looking forward to ANVISA for the documentation to start patient accrual.
+P.S.: At the end of June we decided to postpone the beginning of patient accrual in order to perform internal evaluations.
 
 ### References:
 

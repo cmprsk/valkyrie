@@ -23,7 +23,7 @@ Em resumo, os passos da entrada dos pacientes serão:
 * Consentimento informado
 * Encaminhamento para o tratamento
 
-O estudo está aguardando a documentação da ANVISA para iniciar o recrutamento dos pacientes.
+Obs.: no final de Junho/2016 decidimos adiar o início do recrutamento dos pacientes para procedermos avaliações internas.
 
 ### Referências:
 
