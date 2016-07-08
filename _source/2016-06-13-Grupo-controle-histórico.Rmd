@@ -1,8 +1,12 @@
 ---
 layout: post
+comments: true
 title:  "Grupo controle histórico"
 date:   2016-06-13 16:03:45 -0300
 categories: metodologia
+ref: historico
+lang: pt
+permalink: /controle-historico/
 ---
 
 O grupo controle histórico compõe-se de pacientes com DIPG, diagnosticados entre 2000 e 2013, que _não_ foram tratados com quimioterapia de acordo com os protocolos HIT do [GPOH][gpoh], adaptados. Somente foram selecionados para compor o controle histórico pacientes que receberam radioterapia, na dose de 40 Gy ou maior.
@@ -18,35 +22,45 @@ attach(dipg)
 y = summary(as.factor(subset(sex,rt>4000&chemo!=10)))[1]  
 x = summary(as.factor(subset(sex,rt>4000&chemo!=10)))[2]  
 a = summary(subset(age,rt>4000&chemo!=10))[3]  
-m = summary(subset(age,RT>4000&chemo!=10))[1]  
-M = summary(subset(age,RT>4000&chemo!=10))[6]  
+m = summary(subset(age,rt>4000&chemo!=10))[1]  
+M = summary(subset(age,rt>4000&chemo!=10))[6]  
 q = summary(as.factor(subset(chemo,rt>4000&chemo!=10)))
 q2 = summary(as.factor(subset(chemo2,rt>4000&chemo!=10)))
 fit = survfit(Surv(os,status)~1,subset=(chemo!=10&rt>4000))  
 fitt = survfit(Surv(ttp,status)~1,subset=(chemo!=10&rt>4000))  
-fits = survfit(Surv(os2,status)~1,subset=(chemo!=10&rt>4000))  
+fits = survfit(Surv(os2,status)~1,subset=(chemo!=10&rt>4000))
+o = round(summary(fit)$table[5],1)  
+s = round(summary(fit)$table[6],1)
+S = round(summary(fit)$table[7],1)
+tp = round(summary(fitt)$table[5],1)
+t = round(summary(fitt)$table[6],1)
+T = round(summary(fitt)$table[7],1)
+r = summary(as.factor(rt2))[3]
+o2 = round(summary(fits)$table[5],1)
+p = round(summary(fits)$table[6],1)
+P = round(summary(fits)$table[7],1)
 ```
 
 ---
 
-|     |         |    *Valor*    |     | *Unidades* |     |    *Dispersão*    |     |     |     | *Medida* |
-|:--- | ------- |:-------------:| --- |:---------- | --- |:-----------------:| --- | ---:| --- |:--------:|
-| Sexo          |               |     |            |     |                   |     |     |     |          |
-|     |Masculino|   ```r y```   |     |      -     |     |         -         |     |  -  |     |    *n*   |
-|     | Feminino|   ```r x```   |     |      -     |     |         -         |     |  -  |     |    *n*   |
-|Idade|         |   ```r a```   |     |     anos   |     |```r m```-```r M```|     | min - max |  mediana |
-|QT   |         |   ```r q```   |     |      -     |     |         -         |     |  -  |     |    *n*   |
-|     |COG-A9952|   25   |     |      -     |     |      -      |     |  -  |     |    *n*   |
-|     |ACNS0126 |    4   |     |      -     |     |      -      |     |  -  |     |    *n*   |
-|Sobrevida|     |   11.4 |     |     meses  |     |  8.1 - 15.6 |     |IC95%|     |  mediana |
-|Tempo para <br> progressão||8.2||   meses  |     |  6.9 - 10.6 |     |IC95%|     |  mediana |
-|Segunda QT    ||   18   |     |      -     |     |      -      |     |  -  |     |    *n*   |
-| |Temozolomida |    7   |     |      -     |     |      -      |     |  -  |     |    *n*   |
-|     | ICE/IE  |    7   |     |      -     |     |      -      |     |  -  |     |    *n*   |
-|   |Vimblastina|    3   |     |      -     |     |      -      |     |  -  |     |    *n*   |
-|     |Carbo-VCR|    1   |     |      -     |     |      -      |     |  -  |     |    *n*   |
-|Segunda RT    ||    2   |     |      -     |     |      -      |     |  -  |     |    *n*   |
-|Sobrevida após <br> progressão||87|| meses |     |   63 - 150  |     |IC95%|     |  mediana |
+|     |         |     *Valor*     |     | *Unidades* |     |    *Dispersão*    |     |     |     | *Medida* |
+|:--- | ------- |:---------------:| --- |:---------- | --- |:-----------------:| --- | ---:| --- |:--------:|
+| Sexo          |                 |     |            |     |                   |     |     |     |          |
+|     |Masculino|     `r y`   |     |      -     |     |         -         |     |  -  |     |    *n*   |
+|     | Feminino|     `r x`   |     |      -     |     |         -         |     |  -  |     |    *n*   |
+|Idade|         |     `r a`   |     |     anos   |     |`r m`-`r M`|     | min - max |  mediana |
+|QT   |         |`r q[2]+q[3]`|     |      -     |     |         -         |     |  -  |     |    *n*   |
+|     |COG-A9952|   `r q[2]`  |     |      -     |     |         -         |     |  -  |     |    *n*   |
+|     |ACNS0126 |   `r q[3]`  |     |      -     |     |         -         |     |  -  |     |    *n*   |
+|Sobrevida|     |     `r o`   |     |     meses  |     |`r s`-`r S`|     |IC95%|     |  mediana |
+|Tempo para <br> progressão| |`r tp`| |   meses  |     |`r t`-`r T`|     |IC95%|     |  mediana |
+|Segunda QT    ||`r sum(q2)-q2[1]`|   |    -     |     |         -         |     |  -  |     |    *n*   |
+| |Temozolomida |  `r q2[5]`  |     |      -     |     |         -         |     |  -  |     |    *n*   |
+|     | ICE/IE  |`r q2[2]+q2[3]+q2[11]`|   -     |     |         -         |     |  -  |     |    *n*   |
+|   |Vimblastina|  `r q2[7]`   |     |     -     |     |         -         |     |  -  |     |    *n*   |
+|     |Carbo-VCR|  `r q2[2]`   |     |     -     |     |         -         |     |  -  |     |    *n*   |
+|Segunda RT    ||     `r y`    |     |     -     |     |         -         |     |  -  |     |    *n*   |
+|Sobrevida após <br> progressão||`r o2`| | meses |     |`r p`-`r P`|     |IC95%|     |  mediana |
 
 ---
 
@@ -58,7 +72,7 @@ A segunda tabela mostra os dados tabulados do grupo controle histórico, extraí
 
 ---
 ```{r kable, echo=F}
-kable(subset(dipg[,c(2:13)],QT1!=10&RT>4000))
+kable(subset(dipg[,c(2:13)],chemo!=10&rt>4000))
 ```
 
 ---
@@ -82,7 +96,7 @@ O arquivo completo deste banco de dados, contendo as informações sobre todos o
 ``` Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)
 ```
 
-_Esta postagem foi modificada em 20/06/2016 para incluir cálculos **on the fly** realizados pelo pacote knitr. Vide o arquivo [.Rmd]({{ site.url }}/_source/2016-06-09-Grupo-controle-histórico.Rmd) desta postagem_
+_Esta postagem foi modificada em 20/06/2016 para incluir cálculos **on the fly** realizados pelo pacote knitr. Vide o arquivo [.Rmd]({{ site.github.url }}/_source/2016-06-09-Grupo-controle-histórico.Rmd) desta postagem_
 
 ### Referências:
 
@@ -90,4 +104,4 @@ _Esta postagem foi modificada em 20/06/2016 para incluir cálculos **on the fly*
 - [Projeto VALQUIRIA][projeto]
 
 [gpoh]: http://www.kinderkrebsinfo.de/gpoh_society/index_eng.html
-[projeto]: {{ site.url }}/assets/posts/2016-06-09-Grupo-controle-historico/Anteprojeto_VALQUIRIA_HIAS_3.pdf
+[projeto]: {{site.github.url}}/assets/posts/2016-06-09-Grupo-controle-historico/Anteprojeto_VALQUIRIA_HIAS_3.pdf
