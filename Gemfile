@@ -1,3 +1,6 @@
 source 'https://rubygems.org'
-gem 'github-pages', group: :jekyl_plugins
-gem 'jekyll-twitter-plugin'
+group :jekyl_plugins do
+    gem "github-pages"
+    gem "jekyll-compose"
+    gem "jekyll-twitter-plugin"
+end
