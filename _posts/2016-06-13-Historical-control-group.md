@@ -8,7 +8,6 @@ lang: en
 ref: historico
 permalink: /historical-control/
 ---
->NOT TRANSLATED YET
 
 The historical control group consists of patients with DIPG, diagnosed between 2000 and 2013, _not_ treated with chemotherapy according to the HIT protocols [GPOH][gpoh], adapted. Only patients who received radiation therapy at a dose of 40 Gy or higher were selected.
 
@@ -42,11 +41,11 @@ The table below shows the characteristics of patients included in the historical
 n = number of patients
 Age, overall survival e tempo para progressão expressos em termos de mediana e valores mínimo e máximo.
 
-A segunda tabela mostra os dados tabulados do grupo controle histórico, extraídos de nossa base de dados após _desidentificação_. Os identificadores primários _nome_ (composto pelas iniciais do nome do paciente) e _registro_ (número do prontuário) foram omitidos. Os identificadores secundários _data de nascimento_, _data do diagnóstico_, _data da progressão_ e _censura_ (data da última informação ou óbito) foram substituídos pela _idade_ (idade ao diagnóstico), _sobrevida_, _TPP_ (tempo para progressão). Outras variáreis substituídas: _data do início da quimioterapia_, substituído por _tempo para QT_ (tempo entre o diagnóstico e o início do tratamento quimioterápico) e _data do início da radioterapia_ (tempo entre o diagnóstico e o início do tratamento radioterápico). A base de dados original não será disponibilizada publicamente para preservar a confidencialidade dos pacientes.
+Second table shows tabulated data from historical control group, extracted from our database after _de-identification_. Primary identifiers _name_ (initials) and _register number_ (chart number) were omited. Secondary identifiers _birth date_, _diagnosis date_, _progression date_ and _censoring date_ (last information or death) were substituted by _age_ (age at diagnosis), _overall survival_, and _time to progression_. Other substituted variables: _chemotherapy initial date_ by _time to chemotherapy_ (time between diagnosis and begin of chemotherapy treatment) and _radiation therapy initial date_ by _time to radiation therapy_ (time between diagnosis and begin of radiation therapy). Original database will not be publicly disclosed to guarantee patient confidentiality integrity.
 
 ---
 
-|   | Sexo|  age| surv| status| PS1| QT1| ttqt| cycles1|   RT| ettrt|  ttp|  s2|
+|   | sex |  age|   os| status|ecog|chemo|tt.chemo|cycles1|rt| tt.rt|  ttp| os2|
 |:--|----:|----:|----:|------:|---:|---:|----:|-------:|----:|-----:|----:|---:|
 |4  |    1| 11.6|  9.0|      1|  NA|   1|  259|       3| 5400|   153|  6.9|  63|
 |5  |    0|  5.9|  8.1|      1|  NA|   1|  226|       4| 5040|    16|  6.2|  56|
@@ -82,25 +81,25 @@ A segunda tabela mostra os dados tabulados do grupo controle histórico, extraí
 
 ---
 
-*Tabela 2: pacientes do grupo controle histórico, dados tabulados.*
+*Table 2: patients of historical control group, basic data.*
 
-Sexo: 0 - masculino, 1 - feminino  
-age: idade (anos)  
-surv: sobrevida global (meses)  
-status: 0 - vivo, 1 - óbito  
-PS1: ECOG, performance ao diagnóstico  
-QT1: 0 - não recebeu quimioterapia, 1 - _as per_ protocolo COG-A9952, 9 - _as per_ protocolo ACNS0126  
-ttqt: Tempo para QT (dias)  
+sex: 0 - male, 1 - female  
+age: years  
+os: overall survival (months)  
+status: 0 - alive, 1 - deceased  
+ecog: ECOG scale at diagnosis  
+chemo: 0 - no chemotherapy, 1 - _as per_ protocol COG-A9952, 9 - _as per_ protocol ACNS0126  
+tt.chemo: time to chemotherapy (days)  
 cycles1: número de ciclos de quimioterapia realizados  
-RT: cGy  
-ettrt: Tempo para RT (dias)  
-ttp: tempo para progressão (meses)
-s2: sobrevida após a progressão (dias)  
+rt: cGy  
+tt.rt: time to radiation therapy (days)  
+ttp: time to progression (months)
+os2: survival after progression (days)  
 O arquivo completo deste banco de dados, contendo as informações sobre todos os pacientes diagnosticados com DIPG em nosso serviço entre 2000-2013 (desidentificado) está disponível em formato [.csv]({{ site.url }}/_data/dipg.csv).
 
-_Esta postagem foi modificada em 20/06/2016 para incluir cálculos **on the fly** realizados pelo pacote knitr. Vide o arquivo [.Rmd]({{ site.github.url }}/_source/2016-06-09-Grupo-controle-histórico.Rmd) desta postagem_
+_This post was edited in 06/20/2016 to include **on the fly** calculations with knitr package. Check [.Rmd]({{site.github.url }}/_source/2016-06-09-Grupo-controle-histórico.Rmd) file of this post._
 
-### Referências:
+### References:
 
 - [GPOH][gpoh]
 - [VALQUIRIA project, design][design]
