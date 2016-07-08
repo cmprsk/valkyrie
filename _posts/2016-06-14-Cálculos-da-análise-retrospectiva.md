@@ -11,7 +11,7 @@ permalink: /retrospectiva/
 
 ## Curva de sobrevida da análise retrospectiva:
 
-Os cálculos mostrados aqui usam o banco de dados de pacientes diagnosticados com DIPG entre 2000-2013, atualizados até 2014. O follow-up dos pacientes neste banco de dados é um pouco mais longo que nos dados originalmente usados para os cálculos do projeto e, portanto, terão algumas diferenças numéricas. Esta postagem ilustra como usar os dados obtidos de uma pesquisa clínica de forma transparente e totalmente reprodutível aos leitores. Incluindo tanto os dados de pacientes individuais (sem identificá-los) como o _script_ usado para realizar a análise dos dados, este é um exemplo das possibilidades do modelo de _open lab notebook_ e do paradigma de _open science_. Quando os dados do ensaio prospectivo forem coletados, serão igualmente publicados da mesma forma transparente, ficando permanentemente disponíveis para análise e crítica pelos interessados. Discuti a inspiração para esta abordagem nesta [postagem][jekyll-migrando] em outro blog.
+Os cálculos mostrados aqui usam o banco de dados de pacientes diagnosticados com DIPG entre 2000-2013, atualizados até 2014. O follow-up dos pacientes neste banco de dados é um pouco mais longo que nos dados originalmente usados para os cálculos do projeto e, portanto, terão algumas diferenças numéricas. Esta postagem ilustra como usar os dados obtidos de uma pesquisa clínica de forma transparente e totalmente reprodutível aos leitores. Incluindo tanto os dados de pacientes individuais (sem identificá-los) como o _script_ usado para realizar a análise dos dados, este é um exemplo das possibilidades do modelo de _open lab notebook_ e do paradigma de _open science_. Quando os dados do ensaio prospectivo forem coletados, serão igualmente publicados da mesma forma transparente, ficando permanentemente disponíveis para análise e crítica pelos interessados. Discuti a inspiração para esta abordagem nesta [postagem][jekyll-migrando] em um blog pessoal.
 
 Esta postagem usa o pacote [_knitr_][knitr] para calcular os resultados ao mesmo tempo em que compila a página em html com [_jekyll_][jekyll].
 Utilizei, como guia, o excelente exemplo de [_yihui_][yihui] Para formatar tabelas usando mais do que o disponível no knitr, usei o pacote [pander][pander], como mostrado muito bem [aqui][pander-knitr]. Apenas observei o cuidado de passar a opção ```type = 'rmarkdown' ``` para o pander.
@@ -34,7 +34,7 @@ fit3 = survfit(Surv(os,status)~ifelse(chemo<10,0,1))
 plot(fit1,xlab="Meses")
 ```
 
-![Sobrevida de pacientes com DIPG]({{ site.github.url }}/figure/source/2016-06-14-Cálculos-da-análise-retrospectiva/Sobrevida-1.png)
+![Sobrevida de pacientes com DIPG]({{ site.github.url }}/figure/source/2016-06-14-Cálculos-da-análise-retrospectiva/Sobrevida-1.png?raw=True)
 
 Grupo de pacientes com diagnóstico de DIPG tratados em nosso serviço, entre 2000 e 2013. O gráfico mostra a estimativa de probabilidade de sobrevida, calculada pelo método de Kaplan-Meier, usando a linguagem de programação R, pacote *survival*. O pacote *RCurl* foi adicionalmente utilizado para capturar os dados a partir do arquivo [.csv]({{ site.github.url }}/_data/dipg.csv) armazenado no repositório do github. O gráfico mostra também o intervalo de confiança 95%.
 Este é o resumo da variável de sobrevida, além da sobrevida em 12 meses:
@@ -70,7 +70,7 @@ Aqui, o gráfico comparativo entre os pacientes que fizeram QT segundo um esquem
 plot(fit3,xlab="Meses")
 ```
 
-![Sobrevida de pacientes com DIPG, divididos por tratamento]({{ site.github.url }}/figure/source/2016-06-14-Cálculos-da-análise-retrospectiva/Sobrevida2-1.png)
+![Sobrevida de pacientes com DIPG, divididos por tratamento]({{ site.github.url }}/figure/source/2016-06-14-Cálculos-da-análise-retrospectiva/Sobrevida2-1.png?raw=True)
 
 E o resumo da sobrevida nos 2 grupos, com sobrevida aos 12 meses:
 
@@ -100,32 +100,48 @@ Mostrando uma sobrevida aos 12 meses de 87.5 % para o grupo tratado com protocol
 Comparando os dois grupos com um teste não paramétrico que utiliza o estimador de Kaplan-Meier, o teste de log-rank, ou de Mantel-Haenszel (vide documentação do pacote [_survival_][survival]).
 
 
-```
-## Error in Surv(surv, status): objeto 'surv' não encontrado
-```
+|              &nbsp;              |  N  |  Observed  |  Expected  |  (O-E)^2/E  |  (O-E)^2/V  |
+|:--------------------------------:|:---:|:----------:|:----------:|:-----------:|:-----------:|
+|  **ifelse(chemo < 10, 0, 1)=0**  | 44  |     41     |   33.81    |    1.529    |    8.035    |
+|  **ifelse(chemo < 10, 0, 1)=1**  | 12  |     1      |   8.189    |    6.311    |    8.035    |
 
-```
-## Error in if (tail(stdout, 1) == "") {: argumento tem comprimento zero
-```
+Table: Call: Surv(os, status) ~ ifelse(chemo < 10, 0, 1) Chisq = 8.035346
+on 1 degrees of freedom, p = 0.004587
 
 Comparando os dois grupos com um teste semiparamétrico, o modelo de riscos proporcionais de Cox (vide documentação do pacote [_survival_][survival]).
 
 
-```
-## Error in Surv(surv, status): objeto 'surv' não encontrado
-```
+|             &nbsp;             |  coef  |  exp(coef)  |  se(coef)  |   z    |    p    |
+|:------------------------------:|:------:|:-----------:|:----------:|:------:|:-------:|
+|  **ifelse(chemo < 10, 0, 1)**  | -2.315 |   0.0988    |   1.013    | -2.285 | 0.02233 |
+
+Table: Fitting Proportional Hazards Regression Model: Surv(os, status) ~ ifelse(chemo < 10, 0, 1)
+
+Likelihood ratio test=11.76  on 1 df, p=0.0006041988  n= 56, number of events= 42
 
 ```
-## Error in if (tail(stdout, 1) == "") {: argumento tem comprimento zero
-```
-
-```
-## Error in Surv(surv, status): objeto 'surv' não encontrado
+## Call:
+## coxph(formula = Surv(os, status) ~ ifelse(chemo < 10, 0, 1),
+##     data = dipg)
+##
+##   n= 56, number of events= 42
+##
+##                             coef exp(coef) se(coef)      z Pr(>|z|)  
+## ifelse(chemo < 10, 0, 1) -2.3147    0.0988   1.0131 -2.285   0.0223 *
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+##
+##                          exp(coef) exp(-coef) lower .95 upper .95
+## ifelse(chemo < 10, 0, 1)    0.0988      10.12   0.01356    0.7197
+##
+## Concordance= 0.585  (se = 0.036 )
+## Rsquare= 0.189   (max possible= 0.99 )
+## Likelihood ratio test= 11.76  on 1 df,   p=0.0006042
+## Wald test            = 5.22  on 1 df,   p=0.02233
+## Score (logrank) test = 8  on 1 df,   p=0.004679
 ```
 
 Este resultado indica que existe a possibilidade de haver alguma diferença de sobrevida quando os pacientes recebem ácido valpróico juntamente com o tratamento.
-
-``` Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)```
 
 ### Referências:
 
