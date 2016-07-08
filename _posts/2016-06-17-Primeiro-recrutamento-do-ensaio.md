@@ -8,7 +8,6 @@ ref: first
 lang: pt
 permalink: /recrutamento/
 ---
->NOT TRANSLATED YET
 
 ```A sequência a seguir é o provável formato do início do recrutamento dos pacientes
 no ensaio clínico VALQUIRIA. Trata-se de uma simulação, uma vez que o estudo, apesar

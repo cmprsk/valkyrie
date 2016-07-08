@@ -11,7 +11,7 @@ permalink: /retrospectiva/
 
 ## Curva de sobrevida da análise retrospectiva:
 
-Os cálculos mostrados aqui usam o banco de dados de pacientes diagnosticados com DIPG entre 2000-2013, atualizados até 2014. O follow-up dos pacientes neste banco de dados é um pouco mais longo que nos dados originalmente usados para os cálculos do projeto e, portanto, terão algumas diferenças numéricas. Esta postagem ilustra como usar os dados obtidos de uma pesquisa clínica de forma transparente e totalmente reprodutível aos leitores. Incluindo tanto os dados de pacientes individuais (sem identificá-los) como o _script_ usado para realizar a análise dos dados, este é um exemplo das possibilidades do modelo de _open lab notebook_ e do paradigma de _open science_. Quando os dados do ensaio prospectivo forem coletados, serão igualmente publicados da mesma forma transparente, ficando permanentemente disponíveis para análise e crítica pelos interessados. Discuti a inspiração para esta abordagem nesta [postagem][jekyll-migrando] em outro blog.
+Os cálculos mostrados aqui usam o banco de dados de pacientes diagnosticados com DIPG entre 2000-2013, atualizados até 2014. O follow-up dos pacientes neste banco de dados é um pouco mais longo que nos dados originalmente usados para os cálculos do projeto e, portanto, terão algumas diferenças numéricas. Esta postagem ilustra como usar os dados obtidos de uma pesquisa clínica de forma transparente e totalmente reprodutível aos leitores. Incluindo tanto os dados de pacientes individuais (sem identificá-los) como o _script_ usado para realizar a análise dos dados, este é um exemplo das possibilidades do modelo de _open lab notebook_ e do paradigma de _open science_. Quando os dados do ensaio prospectivo forem coletados, serão igualmente publicados da mesma forma transparente, ficando permanentemente disponíveis para análise e crítica pelos interessados. Discuti a inspiração para esta abordagem nesta [postagem][jekyll-migrando] em um blog pessoal.
 
 Esta postagem usa o pacote [_knitr_][knitr] para calcular os resultados ao mesmo tempo em que compila a página em html com [_jekyll_][jekyll].
 Utilizei, como guia, o excelente exemplo de [_yihui_][yihui] Para formatar tabelas usando mais do que o disponível no knitr, usei o pacote [pander][pander], como mostrado muito bem [aqui][pander-knitr]. Apenas observei o cuidado de passar a opção ```type = 'rmarkdown' ``` para o pander.
@@ -73,19 +73,17 @@ Mostrando uma sobrevida aos 12 meses de `r round(summary(fit3,time=12)$surv[2],3
 Comparando os dois grupos com um teste não paramétrico que utiliza o estimador de Kaplan-Meier, o teste de log-rank, ou de Mantel-Haenszel (vide documentação do pacote [_survival_][survival]).
 
 ```{r echo=F}
-pander(survdiff(Surv(surv,status)~ifelse(QT1<10,0,1),dipg),style = 'rmarkdown')
+pander(survdiff(Surv(os,status)~ifelse(chemo<10,0,1),dipg),style = 'rmarkdown')
 ```
 
 Comparando os dois grupos com um teste semiparamétrico, o modelo de riscos proporcionais de Cox (vide documentação do pacote [_survival_][survival]).
 
 ```{r echo=F}
-pander(coxph(Surv(surv,status)~ifelse(QT1<10,0,1),dipg),style = 'rmarkdown')
-summary(coxph(Surv(surv,status)~ifelse(QT1<10,0,1),dipg))
+pander(coxph(Surv(os,status)~ifelse(chemo<10,0,1),dipg),style = 'rmarkdown')
+summary(coxph(Surv(os,status)~ifelse(chemo<10,0,1),dipg))
 ```
 
 Este resultado indica que existe a possibilidade de haver alguma diferença de sobrevida quando os pacientes recebem ácido valpróico juntamente com o tratamento.
-
-``` Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)```
 
 ### Referências:
 

@@ -8,14 +8,13 @@ ref: retro
 lang: en
 permalink: /retrospective/
 ---
->NOT TRANSLATED YET
 
-## Curva de sobrevida da análise retrospectiva:
+## Retrospective analysis survival curve:
 
-Os cálculos mostrados aqui usam o banco de dados de pacientes diagnosticados com DIPG entre 2000-2013, atualizados até 2014. O follow-up dos pacientes neste banco de dados é um pouco mais longo que nos dados originalmente usados para os cálculos do projeto e, portanto, terão algumas diferenças numéricas. Esta postagem ilustra como usar os dados obtidos de uma pesquisa clínica de forma transparente e totalmente reprodutível aos leitores. Incluindo tanto os dados de pacientes individuais (sem identificá-los) como o _script_ usado para realizar a análise dos dados, este é um exemplo das possibilidades do modelo de _open lab notebook_ e do paradigma de _open science_. Quando os dados do ensaio prospectivo forem coletados, serão igualmente publicados da mesma forma transparente, ficando permanentemente disponíveis para análise e crítica pelos interessados. Discuti a inspiração para esta abordagem nesta [postagem][jekyll-migrando] em outro blog.
+Calculations shown here use data from patients diagnosed with DIPG between 2000-2013, with follow-up until 2014. Follow-up time of the patients in this database is a bit longer than that from tha original data used to design VALKYRIE project, hence there are some numerical differences. This post illustrate how to present clinical research data in a transparent and fully reproducible way to an audience.   Including individual patient data (de-identified) as well as the _script_ used to perform statistical analysis of data, this is an example of the possibilities of _open lab notebook_ and _open science_ paradigm. When the prospective trial data are collected, they will be equally published in the same format, becoming permanently available to analysis and criticism by interested third parties. I discussed the inspiration to this approach in this [post][jekyll-migrando] in a personal blog.
 
-Esta postagem usa o pacote [_knitr_][knitr] para calcular os resultados ao mesmo tempo em que compila a página em html com [_jekyll_][jekyll].
-Utilizei, como guia, o excelente exemplo de [_yihui_][yihui] Para formatar tabelas usando mais do que o disponível no knitr, usei o pacote [pander][pander], como mostrado muito bem [aqui][pander-knitr]. Apenas observei o cuidado de passar a opção ```type = 'rmarkdown' ``` para o pander.
+This post uses package [_knitr_][knitr] to calculate results at the same time of html parsing with [_jekyll_][jekyll].
+I used the excellent example of [_yihui_][yihui] as guide. To format tables with more than that available in knitr, I used package [pander][pander], as very well depicted [here][pander-knitr]. I only made sure to pass the ```type = 'rmarkdown' ``` option to pander.
 
 
 ```r
@@ -35,9 +34,9 @@ fit3 = survfit(Surv(surv,status)~ifelse(QT1<10,0,1))
 plot(fit1,xlab="Meses")
 ```
 
-![Sobrevida de pacientes com DIPG]({{site.github.url}}/figure/source/2016-06-13-Cálculos-da-análise-retrospectiva/Sobrevida-1.png?raw=True)
+![Survival of patients with DIPG]({{site.github.url}}/figure/source/2016-06-14-Cálculos-da-análise-retrospectiva/Sobrevida-1.png?raw=True)
 
-Grupo de pacientes com diagnóstico de DIPG tratados em nosso serviço, entre 2000 e 2013. O gráfico mostra a estimativa de probabilidade de sobrevida, calculada pelo método de Kaplan-Meier, usando a linguagem de programação R, pacote *survival*. O pacote *RCurl* foi adicionalmente utilizado para capturar os dados a partir do arquivo [.csv]({{ site.url }}/_data/dipg.csv) armazenado no repositório do github. O gráfico mostra também o intervalo de confiança 95%.
+Patients diagnosed with DIPG in our service between 2000 and 2013. Graph shows survival probability estimate, Kaplan-Meier estimate method, R programming language, package *survival*. Package *RCurl* was additionally used to fecth data from a [.csv]({{ site.url }}/_data/dipg.csv) file in github repository. Graph also shows 95% confidence interval.
 Este é o resumo da variável de sobrevida, além da sobrevida em 12 meses:
 
 
@@ -53,27 +52,27 @@ Este é o resumo da variável de sobrevida, além da sobrevida em 12 meses:
 ##    12     17      30    0.395  0.0705        0.279        0.561
 ```
 
-Mostrando uma mediana de sobrevida de 9.5 meses e sobrevida em 12 meses de 39.5 %.
+Median overall survival was 9.5 months and survival at 12 months was 39.5 %.
 
-Este é o resumo do tempo de _follow-up_:
+This is the _follow-up_ variable summary:
 
 
 |  records  |  n.max  |  n.start  |  events  |  median  |  0.95LCL  |  0.95UCL  |
 |:---------:|:-------:|:---------:|:--------:|:--------:|:---------:|:---------:|
 |    56     |   56    |    56     |    14    |    25    |   15.8    |    NA     |
 
-Mostrando uma mediana de follow-up de 25 meses.
+Follow-up median was 25 monrhs.
 
-Aqui, o gráfico comparativo entre os pacientes que fizeram QT segundo um esquema HIT e os outros pacientes:
+Here, graph comparing patients that were treated _as per_ HIT protocols _versus_ other patients:
 
 
 ```r
 plot(fit3,xlab="Meses")
 ```
 
-![Sobrevida de pacientes com DIPG, divididos por tratamento]({{site.github.url}}/figure/source/2016-06-13-Cálculos-da-análise-retrospectiva/Sobrevida2-1.png?raw=True)
+![Survival of DIPG patients, sorted by treatment]({{site.github.url}}/figure/source/2016-06-14-Cálculos-da-análise-retrospectiva/Sobrevida2-1.png?raw=True)
 
-E o resumo da sobrevida nos 2 grupos, com sobrevida aos 12 meses:
+Summary of overall survival and 12-month survival in both groups:
 
 |             &nbsp;             |  records  |  n.max  |  n.start  |  events  |  median  |  0.95LCL  |  0.95UCL  |
 |:------------------------------:|:---------:|:-------:|:---------:|:--------:|:--------:|:---------:|:---------:|
@@ -96,9 +95,9 @@ E o resumo da sobrevida nos 2 grupos, com sobrevida aos 12 meses:
 ##        0.673        1.000
 ```
 
-Mostrando uma sobrevida aos 12 meses de 87.5 % para o grupo tratado com protocolo _as per_ HIT (n = 12 ) e de 32.3 % para os demais (n = 44 ).
+12-month survival was 87.5 % for patients treated _as per_ HIT (n = 12 ) and 32.3 % for the others (n = 44 ).
 
-Comparando os dois grupos com um teste não paramétrico que utiliza o estimador de Kaplan-Meier, o teste de log-rank, ou de Mantel-Haenszel (vide documentação do pacote [_survival_][survival]).
+Comparing both groups with a non-parametric test that uses Kaplan-Meier estimate, log-rank or Mantel-Haenszel test (see [_survival_][survival] package documentation).
 
 
 |             &nbsp;             |  N  |  Observed  |  Expected  |  (O-E)^2/E  |  (O-E)^2/V  |
@@ -109,7 +108,7 @@ Comparando os dois grupos com um teste não paramétrico que utiliza o estimador
 Table: Call: Surv(surv, status) ~ ifelse(QT1 < 10, 0, 1) Chisq = 8.035346
 on 1 degrees of freedom, p = 0.004587
 
-Comparando os dois grupos com um teste semiparamétrico, o modelo de riscos proporcionais de Cox (vide documentação do pacote [_survival_][survival]).
+Comparing both groups with asemiparametric test, Cox proportional risks model (see [_survival_][survival] package documentation).
 
 
 |            &nbsp;            |  coef  |  exp(coef)  |  se(coef)  |   z    |    p    |
@@ -142,9 +141,9 @@ Likelihood ratio test=11.76  on 1 df, p=0.0006041988  n= 56, number of events= 4
 ## Score (logrank) test = 8  on 1 df,   p=0.004679
 ```
 
-Este resultado indica que existe a possibilidade de haver alguma diferença de sobrevida quando os pacientes recebem ácido valpróico juntamente com o tratamento.
+This result indicates that there may be a possible difference in survival when patients are treated _as per_ HIT protocols (with valproic acid).
 
-### Referências:
+### References:
 
 - [Jekyll][jekyll]
 - [Jekyll, Migrando meu blog para Github Pages usando Jekyll][jekyll-migrando]

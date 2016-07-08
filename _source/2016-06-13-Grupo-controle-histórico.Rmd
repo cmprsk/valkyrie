@@ -68,7 +68,7 @@ P = round(summary(fits)$table[7],1)
 n = número de pacientes
 Idade, sobrevida e tempo para progressão expressos em termos de mediana e valores mínimo e máximo.
 
-A segunda tabela mostra os dados tabulados do grupo controle histórico, extraídos de nossa base de dados após _desidentificação_. Os identificadores primários _nome_ (composto pelas iniciais do nome do paciente) e _registro_ (número do prontuário) foram omitidos. Os identificadores secundários _data de nascimento_, _data do diagnóstico_, _data da progressão_ e _censura_ (data da última informação ou óbito) foram substituídos pela _idade_ (idade ao diagnóstico), _sobrevida_, _TPP_ (tempo para progressão). Outras variáreis substituídas: _data do início da quimioterapia_, substituído por _tempo para QT_ (tempo entre o diagnóstico e o início do tratamento quimioterápico) e _data do início da radioterapia_ (tempo entre o diagnóstico e o início do tratamento radioterápico). A base de dados original não será disponibilizada publicamente para preservar a confidencialidade dos pacientes.
+A segunda tabela mostra os dados tabulados do grupo controle histórico, extraídos de nossa base de dados após _desidentificação_. Os identificadores primários _nome_ (composto pelas iniciais do nome do paciente) e _registro_ (número do prontuário) foram omitidos. Os identificadores secundários _data de nascimento_, _data do diagnóstico_, _data da progressão_ e _censura_ (data da última informação ou óbito) foram substituídos pela _idade_ (idade ao diagnóstico), _sobrevida_, _TPP_ (tempo para progressão). Outras variáreis substituídas: _data do início da quimioterapia_, substituído por _tempo para QT_ (tempo entre o diagnóstico e o início do tratamento quimioterápico) e _data do início da radioterapia_, substituído por _tempo para RT_  (tempo entre o diagnóstico e o início do tratamento radioterápico). A base de dados original não será disponibilizada publicamente para preservar a confidencialidade dos pacientes.
 
 ---
 ```{r kable, echo=F}
@@ -92,9 +92,6 @@ tt.rt: Tempo para RT (dias)
 ttp: tempo para progressão (meses)
 os2: sobrevida após a progressão (dias)  
 O arquivo completo deste banco de dados, contendo as informações sobre todos os pacientes diagnosticados com DIPG em nosso serviço entre 2000-2013 (desidentificado) está disponível em formato [.csv]({{ site.github.url }}/_data/dipg.csv).
-
-``` Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)
-```
 
 _Esta postagem foi modificada em 20/06/2016 para incluir cálculos **on the fly** realizados pelo pacote knitr. Vide o arquivo [.Rmd]({{ site.github.url }}/_source/2016-06-09-Grupo-controle-histórico.Rmd) desta postagem_
 
