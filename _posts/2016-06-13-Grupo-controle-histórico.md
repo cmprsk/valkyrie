@@ -98,9 +98,6 @@ ttp: tempo para progressão (meses)
 os2: sobrevida após a progressão (dias)  
 O arquivo completo deste banco de dados, contendo as informações sobre todos os pacientes diagnosticados com DIPG em nosso serviço entre 2000-2013 (desidentificado) está disponível em formato [.csv]({{ site.github.url }}/_data/dipg.csv).
 
-``` Francisco H. C. Félix (Cancerologista Pediátrico, idealizador do projeto)
-```
-
 _Esta postagem foi modificada em 20/06/2016 para incluir cálculos **on the fly** realizados pelo pacote knitr. Vide o arquivo [.Rmd]({{ site.github.url }}/_source/2016-06-09-Grupo-controle-histórico.Rmd) desta postagem_
 
 ### Referências:
