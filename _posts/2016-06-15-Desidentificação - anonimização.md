@@ -8,11 +8,52 @@ ref: anonymize
 lang: pt
 permalink: /desidentificação/
 ---
+
+### Desidentificação, anonimização, pseudo-anonimização, re-identificação
+
+A documentação do National Institute of Standards and Technology (NIST) americano informa que a nomenclatura utilizada nesta área ainda contem ambiguidades. Os termos (em inglês) _de-identification_, _anonymization_ e _pseudoanonymization_ são usados por vezes como sinônimos, por vezes como variações de processos semelhantes. Para diminuir a ambiguidade, o NIST usa as definições da [ISO/TS 25237:2008][iso]:
+
+> de-identification: “general term for any process of removing the association between a set of identifying data and the data subject.” [p. 3]
+anonymization: “process that removes the association between the identifying dataset and the data subject.” [p. 2]
+pseudonymization: “particular type of anonymization that both removes the association with a data subject and adds an association between a particular set of characteristics relating to the data subject and one or more pseudonyms.”1 [p. 5]
+
+Estes termos não são muito encontrados na literatura em português brasileiro, sendo mais próprios do âmbito do direito e da tecnologia da informação. Sua utilização no universo da pesquisa clínica adota conceituações diversas das de outras áreas. Nos EUA, a [HIPAA (Health Insurance Portability and Accountability Act)][hipaa], legislação específica sobre a proteção da identidade e informações pessoais na área da saúde, estabelece padrões para a proteção das informações individuais (_protected health information - PHI_) dos pacientes pelas empresas prestadoras de serviços de saúde e na pesquisa clínica.
+
+De acordo com a HIPAA, uma entidade de pesquisa pode disponibilizar (tornar público) as PHI de pacientes, desde que os seguintes requisitos sejam obedecidos:
+1. Autorização pelo indivíduo de acordo com a lei em vigor.
+2. Documentação adequada de um comitê de ética em pesquisa institucional ou equivalente, ou ainda uma declaração de dispensa ética por motivo legalmente estabelecido.
+3. Uso ou publicação de PHI em anteprojetos, revisões, relatórios, publicações acadêmicas, etc, desde que sob a responsabilidade dos pesquisadores e obedecendo à lei em vigor.
+4. Disponibilização de um conjunto de dados limitado, sob um termo de uso de informações que deve ser celebrado com os usuários ou audiência do trabalho.
+5. Uso ou publicação da informação de forma _desidentificada_, neste caso não configurando mais uso de PHI.
+
+Ainda de acordo com a HIPAA, as formas de desidentificar as PHI envolvem o método de "repositório seguro" ([_safe-harbor_][safeharbor]), no qual um conjunto pré-definido de identificadores é removido das PHI, ou ainda o tratamento estatístico por profissional experiente a fim de reduzir a um mínimo aceitável o risco de que um observador possa chegar à identidade dos pacientes através das informações (_re-identificação_). Os identificadores a serem removidos pelo método de "repositório seguro" incluem:
+1. Nomes próprios
+2. Subdivisões geográficas menores que um "estado", incluindo códigos de endeçamento postal (CEP).
+3. Todas as datas (exceto ano).
+4. Números de telefone.
+5. Identificação de veículos (placas, números de série de chassi, etc).
+6. Números de fax.
+7. Identificadores de dispositivos (números seriais, IMEI, etc).
+8. Endereços de correio eletrônico.
+9. URLs de páginas que possam localizar/identificar o indivíduo.
+10. Números de identidade (_social security number_ nos EUA).
+11. Endereços IP.
+12. Números de registros médicos (prontuários).
+13. Identificadores biométricos, incluindo digital e identificação por voz.
+14. Números de cliente de empresas de saúde.
+15. Fotografias de face inteira (ou equivalentes).
+16. Números de contas bancárias.
+17. Quaisquer outros identificadores pessoais, exceto os expressamente permitidos por lei.
+18. Números de certificados ou licenças.
+
+A HIPAA ainda exige uma declaração da entidade de saúde ou de pesquisa de que desconhece quaisquer métodos que possam usar combinações dos dados remanescentes para identificar os indivíduos.
+
+
 ### Ética de ensaios clínicos
 
 Um pouco da legislação brasileira:
 
-De acordo com a Resolução CNS N° 466 de 2012, item III.2.i, as pesquisas devem
+De acordo com a [Resolução CNS N° 466 de 2012][res466], item III.2.i, as pesquisas devem
 
 >(...) “prever procedimentos que assegurem a confidencialidade e a privacidade, a proteção da imagem e a não estigmatização dos participantes da pesquisa, garantindo a não utilização das informações em prejuízo das pessoas e/ou das comunidades, inclusive em termos de autoestima, de prestígio e/ou de aspectos econômico-financeiros”.
 
@@ -43,3 +84,17 @@ Um rápido guia do que poderia ser publicizado sem prejuízo da confidencialidad
 6. **Análises estatísticas e suas interpretações**: idealmente, nesta fase, os dados deveriam vir a público, na forma de preprint ou auto-publicação, permitindo a análise crítica por parte da comunidade científica. Caso os resultados fossem negativos, isso ficaria imediatamente patente e seria divulgado.
 
 Estas medidas tornariam o processo dos ensaios clínicos sem problemas ou falhas? Claro que essa é uma visão ingênua. No entanto, poderiam diminuir muito as incertezas quanto às informações clínicas, além de reduzir os custos com pesquisas redundantes e coibir os abusos e as fraudes.
+
+### Referências:
+
+- [Garfinkel, SL. De-identification of personal information, NISTIR 8053][nistir]
+- [ISO/TS 25237:2008 Health informatics -- PseudonymizationI][iso]
+- [HIPAA Privacy Rule, What Are the Purpose and Background of the Privacy Rule?][hipaa]
+- [HHS.gov, Guidance Regarding Methods for De-identification of Protected Health Information in Accordance with the Health Insurance Portability and Accountability Act (HIPAA) Privacy Rule][safeharbor]
+- [RESOLUÇÃO Nº 466, DE 12 DE DEZEMBRO DE 2012][res466]
+
+[hipaa]: https://privacyruleandresearch.nih.gov/pr_04.asp
+[safeharbor]: http://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification/index.html#safeharborguidance
+[nistir]: http://dx.doi.org/10.6028/NIST.IR.8053
+[iso]: http://www.iso.org/iso/catalogue_detail?csnumber=42807
+[res466]: http://bvsms.saude.gov.br/bvs/saudelegis/cns/2013/res0466_12_12_2012.html
