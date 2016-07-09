@@ -13,40 +13,52 @@ permalink: /desidentificação/
 
 A documentação do National Institute of Standards and Technology (NIST) americano informa que a nomenclatura utilizada nesta área ainda contem ambiguidades. Os termos (em inglês) _de-identification_, _anonymization_ e _pseudoanonymization_ são usados por vezes como sinônimos, por vezes como variações de processos semelhantes. Para diminuir a ambiguidade, o NIST usa as definições da [ISO/TS 25237:2008][iso]:
 
-> de-identification: “general term for any process of removing the association between a set of identifying data and the data subject.” [p. 3]
-anonymization: “process that removes the association between the identifying dataset and the data subject.” [p. 2]
+> de-identification: “general term for any process of removing the association between a set of identifying data and the data subject.” [p. 3]  
+anonymization: “process that removes the association between the identifying dataset and the data subject.” [p. 2]  
 pseudonymization: “particular type of anonymization that both removes the association with a data subject and adds an association between a particular set of characteristics relating to the data subject and one or more pseudonyms.”1 [p. 5]
 
 Estes termos não são muito encontrados na literatura em português brasileiro, sendo mais próprios do âmbito do direito e da tecnologia da informação. Sua utilização no universo da pesquisa clínica adota conceituações diversas das de outras áreas. Nos EUA, a [HIPAA (Health Insurance Portability and Accountability Act)][hipaa], legislação específica sobre a proteção da identidade e informações pessoais na área da saúde, estabelece padrões para a proteção das informações individuais (_protected health information - PHI_) dos pacientes pelas empresas prestadoras de serviços de saúde e na pesquisa clínica.
 
-De acordo com a HIPAA, uma entidade de pesquisa pode disponibilizar (tornar público) as PHI de pacientes, desde que os seguintes requisitos sejam obedecidos:
-1. Autorização pelo indivíduo de acordo com a lei em vigor.
-2. Documentação adequada de um comitê de ética em pesquisa institucional ou equivalente, ou ainda uma declaração de dispensa ética por motivo legalmente estabelecido.
-3. Uso ou publicação de PHI em anteprojetos, revisões, relatórios, publicações acadêmicas, etc, desde que sob a responsabilidade dos pesquisadores e obedecendo à lei em vigor.
-4. Disponibilização de um conjunto de dados limitado, sob um termo de uso de informações que deve ser celebrado com os usuários ou audiência do trabalho.
+De acordo com a HIPAA, uma entidade de pesquisa pode disponibilizar (tornar público) as PHI de pacientes, desde que os seguintes requisitos sejam obedecidos:  
+1. Autorização pelo indivíduo de acordo com a lei em vigor.  
+2. Documentação adequada de um comitê de ética em pesquisa institucional ou equivalente, ou ainda uma declaração de dispensa ética por motivo legalmente estabelecido.  
+3. Uso ou publicação de PHI em anteprojetos, revisões, relatórios, publicações acadêmicas, etc, desde que sob a responsabilidade dos pesquisadores e obedecendo à lei em vigor.  
+4. Disponibilização de um conjunto de dados limitado, sob um termo de uso de informações que deve ser celebrado com os usuários ou audiência do trabalho.  
 5. Uso ou publicação da informação de forma _desidentificada_, neste caso não configurando mais uso de PHI.
 
-Ainda de acordo com a HIPAA, as formas de desidentificar as PHI envolvem o método de "repositório seguro" ([_safe-harbor_][safeharbor]), no qual um conjunto pré-definido de identificadores é removido das PHI, ou ainda o tratamento estatístico por profissional experiente a fim de reduzir a um mínimo aceitável o risco de que um observador possa chegar à identidade dos pacientes através das informações (_re-identificação_). Os identificadores a serem removidos pelo método de "repositório seguro" incluem:
-1. Nomes próprios
-2. Subdivisões geográficas menores que um "estado", incluindo códigos de endeçamento postal (CEP).
-3. Todas as datas (exceto ano).
-4. Números de telefone.
-5. Identificação de veículos (placas, números de série de chassi, etc).
-6. Números de fax.
-7. Identificadores de dispositivos (números seriais, IMEI, etc).
-8. Endereços de correio eletrônico.
-9. URLs de páginas que possam localizar/identificar o indivíduo.
-10. Números de identidade (_social security number_ nos EUA).
-11. Endereços IP.
-12. Números de registros médicos (prontuários).
-13. Identificadores biométricos, incluindo digital e identificação por voz.
-14. Números de cliente de empresas de saúde.
-15. Fotografias de face inteira (ou equivalentes).
-16. Números de contas bancárias.
-17. Quaisquer outros identificadores pessoais, exceto os expressamente permitidos por lei.
-18. Números de certificados ou licenças.
+Ainda de acordo com a HIPAA, as formas de desidentificar as PHI envolvem o método de "repositório seguro" ([_safe-harbor_][safeharbor]), no qual um conjunto pré-definido de identificadores é removido das PHI, ou ainda o tratamento estatístico por profissional experiente a fim de reduzir a um mínimo aceitável o risco de que um observador possa chegar à identidade dos pacientes através das informações (_re-identificação_). Os identificadores a serem removidos pelo método de "repositório seguro" incluem:  
+1. Nomes próprios  
+2. Subdivisões geográficas menores que um "estado", incluindo códigos de endeçamento postal (CEP).  
+3. Todas as datas (exceto ano).  
+4. Números de telefone.  
+5. Identificação de veículos (placas, números de série de chassi, etc).  
+6. Números de fax.  
+7. Identificadores de dispositivos (números seriais, IMEI, etc).  
+8. Endereços de correio eletrônico.  
+9. URLs de páginas que possam localizar/identificar o indivíduo.  
+10. Números de identidade (_social security number_ nos EUA).  
+11. Endereços IP.  
+12. Números de registros médicos (prontuários).  
+13. Identificadores biométricos, incluindo digital e identificação por voz.  
+14. Números de cliente de empresas de saúde.  
+15. Fotografias de face inteira (ou equivalentes).  
+16. Números de contas bancárias.  
+17. Quaisquer outros identificadores pessoais, exceto os expressamente permitidos por lei.  
+18. Números de certificados ou licenças.  
 
-A HIPAA ainda exige uma declaração da entidade de saúde ou de pesquisa de que desconhece quaisquer métodos que possam usar combinações dos dados remanescentes para identificar os indivíduos.
+A HIPAA ainda exige uma declaração da entidade de saúde ou de pesquisa de que desconhece quaisquer métodos que possam usar combinações dos dados remanescentes para identificar os indivíduos. No entanto,  a HIPAA explicitamente indica que o uso de dados corretamente desidentificados prescinde de autorização, uma vez que estes dados não constituem mais PHI.
+
+Já de acordo com o [National Health and Medical Research Council][NHMRC] australiano, o uso do termo (em inglês) "non-identifiable" é preferível, a fim de evitar a ambiguidade inerente aos outros termos. As técnicas de remoção de identificadores lá seguidas são descritas em [Iain, 2010][ian]. Estas recomendações incluem a autorização específica para publicação de dados "anonimizados" de pacientes individuais. Iain e cols. citam uma lista de 28 identificadores, baseada na política de documentação para pesquisa dos EUA e do Reino Unido. Essa lista é subdividida, ainda, em _identificadores diretos_ e _identificadores indiretos_. Um exemplo de identificadores indiretos cuja remoção é advogada:  
+1. Local de tratamento e/ou profissional responsável pelo tratamento.  
+2. Dados socioeconômicos: ocupação, educação, etc.  
+3. Idade ou ano de nascimento (pode permitir a re-identificação em ensaios pequenos de período de estudo curto).  
+4. Entre outros.  
+
+Este documento ainda sugere que a publicação dos dados em forma "bruta", ou não analisados (raw data), seja acomapanhada de uma das três declarações a seguir:
+
+>Consent for publication of raw data obtained from study participants  
+Consent for publication of raw data not obtained but dataset is fully anonymous in a manner that can easily be verified by any user of the dataset. Publication of the dataset clearly and obviously presents minimal risk to confidentiality of study participants  
+Consent for publication of raw data not obtained and dataset could in theory pose a threat to confidentiality.
 
 
 ### Ética de ensaios clínicos
@@ -91,6 +103,8 @@ Estas medidas tornariam o processo dos ensaios clínicos sem problemas ou falhas
 - [ISO/TS 25237:2008 Health informatics -- PseudonymizationI][iso]
 - [HIPAA Privacy Rule, What Are the Purpose and Background of the Privacy Rule?][hipaa]
 - [HHS.gov, Guidance Regarding Methods for De-identification of Protected Health Information in Accordance with the Health Insurance Portability and Accountability Act (HIPAA) Privacy Rule][safeharbor]
+- [National Statement on Ethical Conduct in Human Research][NHMRC]
+- [Iain Hrynaszkiewicz, Melissa L Norton, Andrew J Vickers, Douglas G Altman, 'Preparing raw clinical data for publication: guidance for journal editors, authors, and peer reviewers', British Medical Journal, 29 January 2010][ian]
 - [RESOLUÇÃO Nº 466, DE 12 DE DEZEMBRO DE 2012][res466]
 
 [hipaa]: https://privacyruleandresearch.nih.gov/pr_04.asp
@@ -98,3 +112,5 @@ Estas medidas tornariam o processo dos ensaios clínicos sem problemas ou falhas
 [nistir]: http://dx.doi.org/10.6028/NIST.IR.8053
 [iso]: http://www.iso.org/iso/catalogue_detail?csnumber=42807
 [res466]: http://bvsms.saude.gov.br/bvs/saudelegis/cns/2013/res0466_12_12_2012.html
+[NHMRC]: http://www.nhmrc.gov.au/guidelines/publications/e72
+[ian]: http://dx.doi10.1136/bmj.c181
