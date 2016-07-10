@@ -108,7 +108,7 @@ Comparing both groups with a non-parametric test that uses Kaplan-Meier estimate
 Table: Call: Surv(surv, status) ~ ifelse(QT1 < 10, 0, 1) Chisq = 8.035346
 on 1 degrees of freedom, p = 0.004587
 
-Comparing both groups with asemiparametric test, Cox proportional risks model (see [_survival_][survival] package documentation).
+Comparing both groups with a semiparametric test, Cox proportional risks model (see [_survival_][survival] package documentation).
 
 
 |            &nbsp;            |  coef  |  exp(coef)  |  se(coef)  |   z    |    p    |
