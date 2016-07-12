@@ -34,7 +34,7 @@ fit3 = survfit(Surv(os,status)~ifelse(chemo<10,0,1))
 plot(fit1,xlab="Meses")
 ```
 
-![Sobrevida de pacientes com DIPG]({{ site.github.url }}/figure/source/2016-06-14-Cálculos-da-análise-retrospectiva/Sobrevida-1.png?raw=True)
+![Sobrevida de pacientes com DIPG]({{site.github.url}}/figure/source/2016-06-14-Cálculos-da-análise-retrospectiva/Sobrevida-1.png?raw=True)
 
 Grupo de pacientes com diagnóstico de DIPG tratados em nosso serviço, entre 2000 e 2013. O gráfico mostra a estimativa de probabilidade de sobrevida, calculada pelo método de Kaplan-Meier, usando a linguagem de programação R, pacote *survival*. O pacote *RCurl* foi adicionalmente utilizado para capturar os dados a partir do arquivo [.csv]({{ site.github.url }}/_data/dipg.csv) armazenado no repositório do github. O gráfico mostra também o intervalo de confiança 95%.
 Este é o resumo da variável de sobrevida, além da sobrevida em 12 meses:
