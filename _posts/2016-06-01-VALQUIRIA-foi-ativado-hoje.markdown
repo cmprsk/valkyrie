@@ -7,6 +7,8 @@ categories: valquiria
 ref: active
 lang: pt
 permalink: /valquiria-ativo/
+doi: 10.6084/m9.figshare.3470294.v1
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, open science
 ---
 VALQUIRIA é um ensaio clínico que estuda o tratamento de crianças e adolescentes com tumores difusos da ponte (tronco cerebral), uma doença grave de difícil tratamento e, atualmente, sem terapia curativa estabelecida. Este estudo avalia a possibilidade de melhora dos resultados do tratamento (qualidade de vida e sobrevida dos pacientes) com o uso do ácido valpróico, um anti-epiléptico já usado há anos em crianças e adolescentes. Recentemente, novas descobertas mostraram que a maior parte dos pacientes com tumores difusos da ponte têm uma mutação genética que causa uma alteração no modo como os genes são 'lidos' pelas células. Essa alteração pode ser revertida pelo ácido valpróico, e isso talvez torne as células tumorais menos resistentes ao tratamento.  
 
