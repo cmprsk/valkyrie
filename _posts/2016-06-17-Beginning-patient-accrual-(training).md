@@ -8,23 +8,18 @@ ref: first
 lang: en
 permalink: /patient-accrual/
 ---
->NOT TRANSLATED YET
 
-```A sequência a seguir é o provável formato do início do recrutamento dos pacientes
-no ensaio clínico VALQUIRIA. Trata-se de uma simulação, uma vez que o estudo, apesar
-de aprovado pelo CEP da nossa instituição, ainda precisa de uma certificação pela
-ANVISA para iniciar o recrutamento dos pacientes. Adicionamos um possível problema
-que pode ocorrer na avaliação das imagens, e suas implicações. Também analisamos o melhor momento de tornar informações dos pacientes públicas.
+```This post shows a probable depiction of what we expect to be the enrollment of the first patient in VALKYRIE. This is a simulation, once the study still needs additional preparation and internal considerations. We show a possible problem that could happen during image review and its implications. We also discuss the best momment of letting information to be public.
 ```
 
-## Primeiro paciente com DIPG é recrutado pelo projeto:
+## First patient with DIPG to be enrolled:
 
-Hoje confirmamos o recrutamento do primeiro paciente portador de DIPG que será tratado de acordo com o protocolo do ensaio clínico VALQUIRIA. Recebemos a informação sobre a existência deste paciente na semana passada, pela Dra. Sandra. Após a avaliação das imagens e avaliação clínica inicial, concluí pela inclusão do paciente, caso a família consentisse. Nesta semana, apresentei o tratamento do ensaio para a família do paciente e, hoje, as fichas de consentimento informado foram assinadas.
+Today we are confirming the enrollment of the first DIPG patient to be treated according to the VALKYRIE protocol. Notice about this patient came to us from Dr. Sandra. After initial clinical evaluation and image review, I concluded for the enrollment of this patient, after informed consent. This week, I explained the treatment plan to the patient's familly, and today got the signed consent.
 
-### Diferença na avaliação das imagens
+### Considerations in image evaluation
 
-No caso deste primeiro paciente, já nos deparamos com a primeira não conformidade de acordo com nosso plano geral de admissão dos pacientes. As imagens de RM do crânio estavam disponíveis em formato de filme impresso, mas não em formato digital para revisão. Após deliberação rápida com a Dra. Sandra, decidimos manter a avaliação e a inclusão de pacientes mesmo sem imagens digitais disponíveis. A avaliação será feita da forma tradicional, por mim  presencialmente e, quando possível, fotografarei os filmes para arquivamento. A revisão das imagens, neste caso, mostrou o preenchimento dos critérios radiológicos de inclusão no ensaio VALQUIRIA.
+In this particular case, we have found the first problem with the study's methodological design. MRI were provided as printed films, and there was no access to digital images in standard dicom format. After a brief discussion with Dr. Sandra, we decided to stand by our evaluation and for the enrollment of this patient in spite of missing digital image files. In such cases, I will review images the traditional way, by examining printed films. Whenever possible, the images will be photographed to be archived. Image review, in the present case, showed the fulfillment of requirements to enrollment in VALKYRIE trial.
 
-### Proteção da confidencialidade do paciente
+### Protection to patient's confidentiality
 
-Mantendo nosso compromisso de proteger eticamente as informações sobre os pacientes, decidi não disponibilizar de imediato os dados sobre os pacientes ao mesmo tempo em que os mesmos vão sendo incluídos, mas apenas noticiar a inclusão de novos pacientes e quaisquer problemas que por ventura ocorrerem. Essa escolha foi feita a fim de não permitir que algum observador possa identificar secundariamente a partir do conhecimento de sua data de inclusão (mesmo que aproximado). Assim, somente vou incluir os dados dos pacientes ao fim do recrutamento, no início do período de seguimento, todos em grupo e com ordem aleatória de entrada no estudo, para não permitir a identificação por esse meio. A desidentificação ativa é parte importante e prioritária de nosso projeto, pois apesar de promovermos a transparência do estudo e das informações, análises e conclusões, até mesmo a nível de paciente individual, queremos ao mesmo tempo proteger a confidencialidade dos pacientes e suas famílias.
+As a guarantee of our commitment to protect personal informations of patients, we decided not to make public the individual patient's data at the time of enrollment. Instead of it, we are only remarking the inclusion of new data. This choice was made in order to prevent re-identification by a third party based on approximate enrollment date. Therefore, I will publish individual patient data in lots, and in random order, beginning at the end of accrual period. Active de-identification is an important priority in our project. Although we advocate information transparency, and public disclosement of analyses and conclusions, we also want to protect confidentiality of patients and their families.

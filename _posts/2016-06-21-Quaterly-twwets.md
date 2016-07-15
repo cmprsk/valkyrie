@@ -8,7 +8,7 @@ ref: twitter2
 lang: en
 permalink: /quaterly-tweets/
 ---
-### Twwets from the last 15 days (06 a 21 de junho)
+### Tweets from the last 15 days (06 a 21 de junho)
 
 {% include twitter2.html %}
 
