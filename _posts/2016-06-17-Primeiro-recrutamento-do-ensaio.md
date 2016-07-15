@@ -11,9 +11,7 @@ permalink: /recrutamento/
 
 ```A sequência a seguir é o provável formato do início do recrutamento dos pacientes
 no ensaio clínico VALQUIRIA. Trata-se de uma simulação, uma vez que o estudo, apesar
-de aprovado pelo CEP da nossa instituição, ainda precisa de uma certificação pela
-ANVISA para iniciar o recrutamento dos pacientes. Adicionamos um possível problema
-que pode ocorrer na avaliação das imagens, e suas implicações. Também analisamos o melhor momento de tornar informações dos pacientes públicas.
+de aprovado pelo CEP da nossa instituição, ainda precisa de eparação adicional e acertos dos últimos detalhes internamente. Adicionamos um possível problema que pode ocorrer na avaliação das imagens, e suas implicações. Também analisamos o melhor momento de tornar informações dos pacientes públicas.
 ```
 
 ## Primeiro paciente com DIPG é recrutado pelo projeto:

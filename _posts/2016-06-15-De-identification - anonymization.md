@@ -21,8 +21,8 @@ pseudonymization: “particular type of anonymization that both removes the asso
 Brazilian portuguese literature largely lacks this terminology, and they are more often used in law or information technology. The utilization of these concepts in health care and research has a specific conceptualization. [HIPAA (Health Insurance Portability and Accountability Act)][hipaa], US regulamentation of health data privacy protection, establishes standards for patient personal information  (_protected health information - PHI_) handling by health care providers.
 
 According to HIPAA, a research entity can disclose patient provided these requirements are met:  
-1. Autorização pelo indivíduo de acordo com a lei em vigor.  
-2. Documentação adequada de um comitê de ética em pesquisa institucional ou equivalente, ou ainda uma declaração de dispensa ética por motivo legalmente estabelecido.  
+1. Signed informed consent.  
+2. Adequate documentation from an institutional review board or .  
 3. Uso ou publicação de PHI em anteprojetos, revisões, relatórios, publicações acadêmicas, etc, desde que sob a responsabilidade dos pesquisadores e obedecendo à lei em vigor.  
 4. Disponibilização de um conjunto de dados limitado, sob um termo de uso de informações que deve ser celebrado com os usuários ou audiência do trabalho.  
 5. Uso ou publicação da informação de forma _desidentificada_, neste caso não configurando mais uso de PHI.
