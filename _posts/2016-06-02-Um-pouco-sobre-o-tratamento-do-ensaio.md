@@ -7,6 +7,8 @@ categories: metodologia
 ref: science
 lang: pt
 permalink: /racional/
+doi: 10.6084/m9.figshare.3489917.v1
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, rational
 ---
 ### A base científica de VALQUIRIA
 
