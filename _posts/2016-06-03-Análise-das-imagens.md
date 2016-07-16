@@ -7,6 +7,8 @@ categories: valquiria
 ref: images
 lang: pt
 permalink: /analise-imagens/
+doi: 10.6084/m9.figshare.3489932.v1
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, magnetic resonance imaging
 ---
 ### Revisão central das imagens
 

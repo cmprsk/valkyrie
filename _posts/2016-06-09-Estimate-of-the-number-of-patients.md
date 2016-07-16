@@ -7,6 +7,8 @@ categories: metodologia
 lang: en
 ref: numero
 permalink: /sample-size/
+doi: 10.6084/m9.figshare.3489947.v1
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, sample size
 ---
 
 When we designed the Valkyrie trial several different considerations were made on how to calculate the number of patients to be recruited for the trial. In the end, the decision fell on the way as described in the project [methodology][meto] (translated from portuguese):

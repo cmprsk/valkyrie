@@ -7,6 +7,8 @@ categories: valquiria
 lang: en
 ref: twitter1
 permalink: /new-twitter/
+doi: 10.6084/m9.figshare.3489938.v1
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, twitter
 ---
 ### VALQUIRIA on social nets
 

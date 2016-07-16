@@ -7,6 +7,8 @@ categories: valquiria
 ref: disqus
 lang: pt
 permalink: /disqus/
+doi: 10.6084/m9.figshare.3489968.v1
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, disqus, jekyll
 ---
 
 A partir de hoje, configurei o sistema de comentários nas postagens do ensaio VALQUIRIA. Usando as instruções encontradas [aqui][disqus-jekyll-install] e também [aqui][disqus-jekyll], criei e configurei uma conta no [Disqus][disqus] e acrescentei o seguinte código num arquivo _disqus.html_, salvo na pasta **\_includes**:

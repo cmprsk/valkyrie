@@ -7,6 +7,8 @@ categories: metodologia
 lang: pt
 ref: numero
 permalink: /tamanho-amostra/
+doi: 10.6084/m9.figshare.3489947.v1
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, sample size
 ---
 
 Quando estávamos concebendo o ensaio VALQUÌRIA, várias considerações diferentes foram feitas sobre a forma de calcular o número de pacientes a ser recrutado para o ensaio. No final, a decisão recaiu sobre a forma como está descrito na [metodologia][meto] do projeto:

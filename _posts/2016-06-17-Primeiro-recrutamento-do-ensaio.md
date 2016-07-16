@@ -7,6 +7,8 @@ categories: valquiria
 ref: first
 lang: pt
 permalink: /recrutamento/
+doi: 10.6084/m9.figshare.3489962.v1
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, patient accrual
 ---
 
 ```A sequência a seguir é o provável formato do início do recrutamento dos pacientes

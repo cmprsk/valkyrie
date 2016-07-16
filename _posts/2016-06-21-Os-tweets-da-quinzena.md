@@ -7,6 +7,8 @@ categories: valquiria
 ref: twitter2
 lang: pt
 permalink: /tweets-quinzena/
+doi: 10.6084/m9.figshare.3489965.v1
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, twitter, jekyll
 ---
 ### Mensagens postadas no twitter nas últimas 2 semanas (06 a 21 de junho)
 
