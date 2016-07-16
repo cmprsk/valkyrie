@@ -7,6 +7,8 @@ categories: valquiria
 ref: disqus
 lang: en
 permalink: /disqus-comments/
+doi: 10.6084/m9.figshare.3489968.v1
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, disqus, jekyll
 ---
 
 Beginning today, I configured comments in posts. Using the instructions found [here][disqus-jekyll-install] and also [here][disqus-jekyll], I created and cofigured a [Disqus][disqus] account and added the following code in a _disqus.html_ file in my **\_includes**:

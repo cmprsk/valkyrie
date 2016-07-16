@@ -7,6 +7,8 @@ categories: metodologia
 ref: historico
 lang: pt
 permalink: /controle-historico/
+doi: 10.6084/m9.figshare.3489956.v1
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, historical control
 ---
 
 O grupo controle histórico compõe-se de pacientes com DIPG, diagnosticados entre 2000 e 2013, que _não_ foram tratados com quimioterapia de acordo com os protocolos HIT do [GPOH][gpoh], adaptados. Somente foram selecionados para compor o controle histórico pacientes que receberam radioterapia, na dose de 40 Gy ou maior.

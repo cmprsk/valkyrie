@@ -7,6 +7,8 @@ categories: valquiria
 ref: multilingual
 lang: pt
 permalink: /versao-ingles/
+doi: 10.6084/m9.figshare.3489971.v1
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, multilingual, jekyll
 ---
 
 Esta semana começarei a publicar uma versão do site em inglês, além da versão em português que já existia. Graças às excelentes contribuições de [Sylvain Durand][jekyll-multilingual], pude criar e configurar uma página multilíngue no Jekyll, basicamente adicionando estas linhas na minha YAML [frontmatter][jekyll-frontmatter] das postagens (e alguns outros arquivos, como o _index.html_):

@@ -7,11 +7,13 @@ categories: metodologia
 ref: retro
 lang: en
 permalink: /retrospective/
+doi: 10.6084/m9.figshare.3489959.v1
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, retrospective analysis, open science, jekyll, knitr
 ---
 
 ## Retrospective analysis survival curve:
 
-Calculations shown here use data from patients diagnosed with DIPG between 2000-2013, with follow-up until 2014. Follow-up time of the patients in this database is a bit longer than that from tha original data used to design VALKYRIE project, hence there are some numerical differences. This post illustrate how to present clinical research data in a transparent and fully reproducible way to an audience.   Including individual patient data (de-identified) as well as the _script_ used to perform statistical analysis of data, this is an example of the possibilities of _open lab notebook_ and _open science_ paradigm. When the prospective trial data are collected, they will be equally published in the same format, becoming permanently available to analysis and criticism by interested third parties. I discussed the inspiration to this approach in this [post][jekyll-migrando] in a personal blog.
+Calculations shown here use data from patients diagnosed with DIPG between 2000-2013, with follow-up until 2014. Follow-up time of the patients in this database is a bit longer than that from the original data used to design VALKYRIE project, hence there are some numerical differences. This post illustrate how to present clinical research data in a transparent and fully reproducible way to an audience.   Including individual patient data (de-identified) as well as the _script_ used to perform statistical analysis of data, this is an example of the possibilities of _open lab notebook_ and _open science_ paradigm. When the prospective trial data are collected, they will be equally published in the same format, becoming permanently available to analysis and criticism by interested third parties. I discussed the inspiration to this approach in this [post][jekyll-migrando] in a personal blog.
 
 This post uses package [_knitr_][knitr] to calculate results at the same time of html parsing with [_jekyll_][jekyll].
 I used the excellent example of [_yihui_][yihui] as guide. To format tables with more than that available in knitr, I used package [pander][pander], as very well depicted [here][pander-knitr]. I only made sure to pass the ```type = 'rmarkdown' ``` option to pander.

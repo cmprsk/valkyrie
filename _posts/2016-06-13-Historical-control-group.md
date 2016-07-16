@@ -7,9 +7,11 @@ categories: metodologia
 lang: en
 ref: historico
 permalink: /historical-control/
+doi: 10.6084/m9.figshare.3489956.v1
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, historical control
 ---
 
-The historical control group consists of patients with DIPG, diagnosed between 2000 and 2013, _not_ treated with chemotherapy according to the HIT protocols [GPOH][gpoh], adapted. Only patients who received radiation therapy at a dose of 40 Gy or higher were selected.
+The historical control group consists of patients with DIPG, diagnosed between 2000 and 2013, _not_ treated with chemotherapy according to the HIT protocols ([GPOH][gpoh]), adapted. Only patients who received radiation therapy at a dose of 40 Gy or higher were selected.
 
 The table below shows the characteristics of patients included in the historical group, as defined in [design][design], which will be compared with the group to be treated prospectively in VALQUIRIA trial. This group was compared to retrospective pilot from which we calculated the number of patients to be recruited in the trial.
 
