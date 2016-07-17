@@ -7,7 +7,7 @@ categories: metodologia
 ref: retro
 lang: en
 permalink: /retrospective/
-doi: 10.6084/m9.figshare.3489959.v1
+doi: 10.6084/m9.figshare.3489959.v2
 tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, retrospective analysis, open science, jekyll, knitr
 ---
 
@@ -39,7 +39,7 @@ plot(fit1,xlab="Meses")
 ![Survival of patients with DIPG]({{site.github.url}}/figure/source/2016-06-14-Cálculos-da-análise-retrospectiva/Sobrevida-1.png?raw=True)
 
 Patients diagnosed with DIPG in our service between 2000 and 2013. Graph shows survival probability estimate, Kaplan-Meier estimate method, R programming language, package *survival*. Package *RCurl* was additionally used to fecth data from a [.csv]({{ site.url }}/_data/dipg.csv) file in github repository. Graph also shows 95% confidence interval.
-Este é o resumo da variável de sobrevida, além da sobrevida em 12 meses:
+This is the overall survival and 12-month survival summary:
 
 
 |  records  |  n.max  |  n.start  |  events  |  median  |  0.95LCL  |  0.95UCL  |
