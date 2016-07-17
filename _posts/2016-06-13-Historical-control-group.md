@@ -7,7 +7,7 @@ categories: metodologia
 lang: en
 ref: historico
 permalink: /historical-control/
-doi: 10.6084/m9.figshare.3489956.v1
+doi: 10.6084/m9.figshare.3489956.v2
 tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, historical control
 ---
 
@@ -92,12 +92,12 @@ status: 0 - alive, 1 - deceased
 ecog: ECOG scale at diagnosis  
 chemo: 0 - no chemotherapy, 1 - _as per_ protocol COG-A9952, 9 - _as per_ protocol ACNS0126  
 tt.chemo: time to chemotherapy (days)  
-cycles1: número de ciclos de quimioterapia realizados  
+cycles1: number of chemotherapy cycles completed  
 rt: cGy  
 tt.rt: time to radiation therapy (days)  
 ttp: time to progression (months)
 os2: survival after progression (days)  
-O arquivo completo deste banco de dados, contendo as informações sobre todos os pacientes diagnosticados com DIPG em nosso serviço entre 2000-2013 (desidentificado) está disponível em formato [.csv]({{ site.url }}/_data/dipg.csv).
+The complete dataset, with all information about patients diagnosed with DIPG in our service between 2000-2013 (de-identified) is available in [.csv]({{ site.url }}/_data/dipg.csv) format.
 
 _This post was edited in 06/20/2016 to include **on the fly** calculations with knitr package. Check [.Rmd]({{site.github.url }}/_source/2016-06-09-Grupo-controle-histórico.Rmd) file of this post._
 

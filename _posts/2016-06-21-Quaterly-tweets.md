@@ -16,7 +16,7 @@ tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical
 
 Integration between [_Jekyll_][jekyll] and Twitter through [_jekyll-twitter-plugin_][jekyll-twitter-plugin] created by [_Robert Murray_][murray]. Unfortunately, Github does not permit this plugin, but this was bypassed serving the page locally and retrieving the html files - _voilà_!
 
-### Referências:
+### References:
 
 - [Jekyll][jekyll]
 - [Jekyll, Jekyll-twitter plugin][jekyll-twitter-plugin]
