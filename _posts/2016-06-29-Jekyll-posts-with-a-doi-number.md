@@ -1,4 +1,4 @@
-Jekyll posts with a DOI number
+
 ---
 layout: post
 comments: true
