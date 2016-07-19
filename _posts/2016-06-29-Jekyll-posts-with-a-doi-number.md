@@ -10,7 +10,6 @@ lang: en
 permalink: /doi-number/
 doi: 10.6084/m9.figshare..v1
 tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, figshare, doi, jekyll
-
 ---
 
 The next step in the publishing of this _open clinical trial notebook_ is to get a _DOI_ (Digital Object Identifier) for each post. DOIs are [persistent interoperable identifiers][id-io], internet uniform resource locators (URL) with the characteristic of being persistent and not subject to 'link rot'. This makes them useful for identification and citation of academic material. A not-for-profit organization, the [International DOI Foundation][doi], is the governance and management body for the Registration Agencies that provides DOI numbers.  
