@@ -1,4 +1,3 @@
-
 ---
 layout: post
 comments: true
@@ -10,7 +9,6 @@ lang: pet
 permalink: /identificador-doi/
 doi: 10.6084/m9.figshare..v1
 tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, figshare, doi, jekyll
-
 ---
 
 O próximo passo na publicação deste _caderno aberto de ensaio clínico_ será registrar um _DOI_ (Digital Object Identifier) para cada postagem. DOIs são [identificadores interoperáveis persistentes][id-io], endereços da rede mundial (URL) com a característica de serem persistentes e não sofrerem "quebra de link (link rot)". Isto os torna úteis para identificação e citação acadêmicos. Uma organização sem fins lucrativos, a [International DOI Foundation][doi], constitui o órgão de governança e manutenção para Agências de Registro que são provedoras de DOI.  
