@@ -37,6 +37,6 @@ defaults:
     values:
       layout: "default"
       author: "Francisco H. C. Felix"
-      permalink: /{{ page.lang }}/:year/:title/
+      permalink: /:lang/:year/:title/
 # Build settings
 markdown: kramdown
