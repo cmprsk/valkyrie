@@ -15,7 +15,7 @@ tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical
 
 Embora não existam critérios diagnósticos definidos na literatura, nós utilizamos uma definição semelhante àquela encontrada no protocolo do ensaio clínico [HIT-GBM-D][hit]:
 
-> diffuse intrinsic pontine glioma:
+> Diffuse intrinsic pontine glioma:
   center: pons, tumor T1: hypointense, T2: hyperintense, CT: mostly
   hypodense, when compared to normal pontine tissue. Diffuse tumor with margins
   and extension to more than half of the brainstem cross diameter. The normal
