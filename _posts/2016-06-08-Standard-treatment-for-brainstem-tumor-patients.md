@@ -22,7 +22,7 @@ In our service, 81.6% of patients received chemotherapy (CT). The use of routine
 ![image1](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4483042/bin/nou10402.jpg)
 *Survival curve of the patients in the study by Jansen et al, 2015. Picture protected by [copyright](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4483042/figure/NOU104F2/#).*
 
-_This post was modified on 06.19.2016 to include **on the fly** calculations enacted by knitr package. See the [.RMD]({{ site.github.url }}/_source/2016-06-07-Tratamento-padrão-de-tumores-de-tronco-cerebral.Rmd) file (in portuguese)._
+_This post was modified on 06.19.2016 to include **on the fly** calculations enacted by knitr package. See the [.Rmd]({{ site.github.url }}/_source/2016-06-07-Tratamento-padrão-de-tumores-de-tronco-cerebral.Rmd) file (in portuguese)._
 
 ### References:
 

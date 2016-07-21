@@ -35,6 +35,7 @@ A study published by [Hankinson _et al_][hankinson] investigated the reproducibi
 *Representative images of typical case (A), intermediary (B) and atypical (C). Images are protected by [copyright][jns-permission] and should not be copied or reproduced.*
 
  The diagnostic criteria suggested in this work are:
+
  > 1. an intrinsic, central location involving more than 50% of the axial diameter of the pons;
    2. indistinct tumor margins;
    3. T1 hypointensity;
