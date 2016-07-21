@@ -35,14 +35,14 @@ Um estudo publicado por [Hankinson _et al_][hankinson] no Journal of Neurosurger
 *Imagens representativas de casos típico (A), intermediário (B) e atípico (C). As imagens são protegidas por [direitos autorais][jns-permission] e não devem ser copiadas, nem reproduzidas.*
 
  Os critérios de diagnóstico sugeridos neste trabalho são:
- 
+
  > 1. an intrinsic, central location involving more than 50% of the axial diameter of the pons;
-   2. indistinct tumor margins;
-   3. T1 hypointensity;
-   4. T2 hyperintensity;
-   5. irregular, if any, enhancement following Gd administration; and
-   6. the absence of cystic or exophytic components.
- Encasement of the basilar artery is another, less consistently referenced characteristic.
+2. indistinct tumor margins;
+3. T1 hypointensity;
+4. T2 hyperintensity;
+5. irregular, if any, enhancement following Gd administration; and
+6. the absence of cystic or exophytic components.
+7. Encasement of the basilar artery is another, less consistently referenced characteristic.
 
 ---
 

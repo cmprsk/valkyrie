@@ -37,12 +37,12 @@ A study published by [Hankinson _et al_][hankinson] investigated the reproducibi
  The diagnostic criteria suggested in this work are:
 
  > 1. an intrinsic, central location involving more than 50% of the axial diameter of the pons;
-   2. indistinct tumor margins;
-   3. T1 hypointensity;
-   4. T2 hyperintensity;
-   5. irregular, if any, enhancement following gadolinium administration; and
-   6. the absence of cystic or exophytic components.
- Encasement of the basilar artery is another frequent, less consistently described characteristic.
+ 2. indistinct tumor margins;
+ 3. T1 hypointensity;
+ 4. T2 hyperintensity;
+ 5. irregular, if any, enhancement following gadolinium administration; and
+ 6. the absence of cystic or exophytic components.
+ 7. Encasement of the basilar artery is another frequent, less consistently described characteristic.
 
 ---
 
