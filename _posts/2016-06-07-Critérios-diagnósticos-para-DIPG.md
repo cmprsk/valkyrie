@@ -42,7 +42,7 @@ Um estudo publicado por [Hankinson _et al_][hankinson] no Journal of Neurosurger
 4. T2 hyperintensity;
 5. irregular, if any, enhancement following Gd administration; and
 6. the absence of cystic or exophytic components.
-7. Encasement of the basilar artery is another, less consistently referenced characteristic.
+7. encasement of the basilar artery is another, less consistently referenced characteristic.
 
 ---
 
