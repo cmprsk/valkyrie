@@ -31,9 +31,10 @@ Ou seja, tumor __centrado na ponte__, hipointenso em T1, hiperintenso em T2, hip
 
 Um estudo publicado por [Hankinson _et al_][hankinson] no Journal of Neurosurgery avaliou a reproducibilidade da avaliação por imagem de ressonância magnética, realizada por neurocirurgiões experientes, do diagnóstico de DIPG. Os autores mostraram inconsistência no diagnóstico e conduta dos casos avaliados. Uma imagem representativa dos diferentes padrões encontrados foi publicada:
 
-![hankinsonetal-pending reprint permission](<!--http://thejns.org/na101/home/literatum/publisher/jns/journals/content/ped.1/2011/ped.1.2011.8.issue-1/2011.4.peds1180/production/images/large/0080097f1.jpeg-->)
+![hankinsonetal]({{ site.github.url }}/assets/posts/2016-06-07-Diagnostic-criteria-for-DIPG/0080097f1.jpeg)
 
-*Imagens representativas de casos típico (A), intermediário (B) e atípico (C). As imagens são protegidas por [direitos autorais][jns-permission] e não devem ser copiadas, nem reproduzidas.*
+*Imagens representativas de casos típico (A), intermediário (B) e atípico (C). As imagens são protegidas por [direitos autorais][jns-permission] e não devem ser copiadas, nem reproduzidas. 
+This material is used with permission of The JNS Publishing Group (JNSPG) but neither the authors nor JNSPG have formally reviewed this content and offer no endorsement of any pharmaceutical, device or procedure. Please see the referenced article at www.thejns.org.*
 
  Os critérios de diagnóstico sugeridos neste trabalho são:
 
