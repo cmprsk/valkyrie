@@ -32,6 +32,7 @@ Assim, escolhi usar Jekyll para criar o site de VALQUIRIA e escrever suas postag
 - [GitHub][gthb]
 - [Tom Preston-Werner at Github][tpw]
 - [Ruby (programming lnaguage)][rby]
+- [Daring fireball - Markdown, by John Gruber][mrkdwn]
 - [Wordpress.com Support - Set a Static "Home" Page (Front Page)][sttc]
 - [GitHub Pages][gthb-pgs]
 - [Using Jekyll as a static site generator with GitHub Pages][jkyll-gthb-pgs]
@@ -50,6 +51,7 @@ Assim, escolhi usar Jekyll para criar o site de VALQUIRIA e escrever suas postag
 [gthb]: https://github.com/
 [tpw]: https://github.com/mojombo
 [rby]: https://en.wikipedia.org/wiki/Ruby_(programming_language)
+[mrkdwn]: https://daringfireball.net/projects/markdown/
 [sttc]: https://en.support.wordpress.com/pages/front-page/
 [gthb-pgs]: https://pages.github.com/
 [jkyll-gthb-pgs]:https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/
