@@ -31,7 +31,7 @@ So I chose to use Jekyll to create the VALKYRIE site and write my posts in markd
 - [PHP: Hypertext Preprocessor][php]
 - [GitHub][gthb]
 - [Tom Preston-Werner at Github][tpw]
-- [Ruby (programming lnaguage)][rby]
+- [Ruby (programming language)][rby]
 - [Daring fireball - Markdown, by John Gruber][mrkdwn]
 - [Wordpress.com Support - Set a Static "Home" Page (Front Page)][sttc]
 - [GitHub Pages][gthb-pgs]
