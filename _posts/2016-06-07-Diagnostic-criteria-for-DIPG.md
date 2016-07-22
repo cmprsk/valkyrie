@@ -31,9 +31,9 @@ Tumor __centered in pons__, hypointense on T1, hyperintense on T2, hypodense on 
 
 A study published by [Hankinson _et al_][hankinson] investigated the reproducibility of DIPG diagnostic accuracy by magnetic resonance images evaluated by experienced neurosurgeons. The authors concluded that there was inconsistency in the diagnosis and management of the cases evaluated. A representative picture of the different patterns of DIPG found was published:
 
-![hankinsonetal-pending reprint permission](<!--http://thejns.org/na101/home/literatum/publisher/jns/journals/content/ped.1/2011/ped.1.2011.8.issue-1/2011.4.peds1180/production/images/large/0080097f1.jpeg-->)
+![hankinsonetal]({{ site.github.url }}/assets/posts/2016-06-07-Diagnostic-criteria-for-DIPG/0080097f1.jpeg)
 
-*Representative images of typical case (A), intermediary (B) and atypical (C). Images are protected by [copyright][jns-permission] and should not be copied or reproduced.*
+*Representative images of typical case (A), intermediary (B) and atypical (C). Images are protected by [copyright][jns-permission] and should not be copied or reproduced. This material is used with permission of The JNS Publishing Group (JNSPG) but neither the authors nor JNSPG have formally reviewed this content and offer no endorsement of any pharmaceutical, device or procedure. Please see the referenced article at www.thejns.org.*
 
  The diagnostic criteria suggested in this work are:
 
