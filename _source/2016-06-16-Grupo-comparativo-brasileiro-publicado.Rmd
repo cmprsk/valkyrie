@@ -1,0 +1,101 @@
+---
+layout: post
+comments: true
+title:  "Cálculos da análise retrospectiva"
+date:   2016-06-14 16:03:45 -0300
+categories: metodologia
+ref: retro
+lang: pt
+permalink: /retrospectiva/
+---
+
+## Dados invididuais de pacientes:
+
+Além do grupo controle histórico de nosso serviço, usaremos as informações publicadas 
+
+```{r warning=F, message=F}
+require(pander)  
+require(knitr)
+require(RCurl)
+require(survival)
+dipg<-read.csv(text = getURL("https://raw.githubusercontent.com/fhcflx/valkyrie/gh-pages/_data/dipg.csv"))
+attach(dipg)  
+fit1 = survfit(Surv(os,status)~1)  
+fit2 = survfit(Surv(os,ifelse(status<1,1,0))~1)  
+fit3 = survfit(Surv(os,status)~ifelse(chemo<10,0,1))  
+```
+
+```{r Sobrevida, fig.height=10, fig.width=12, fig.cap='Sobrevida de pacientes com DIPG'}
+plot(fit1,xlab="Meses")
+```
+
+Grupo de pacientes com diagnóstico de DIPG tratados em nosso serviço, entre 2000 e 2013. O gráfico mostra a estimativa de probabilidade de sobrevida, calculada pelo método de Kaplan-Meier, usando a linguagem de programação R, pacote *survival*. O pacote *RCurl* foi adicionalmente utilizado para capturar os dados a partir do arquivo [.csv]({{ site.github.url }}/_data/dipg.csv) armazenado no repositório do github. O gráfico mostra também o intervalo de confiança 95%.
+Este é o resumo da variável de sobrevida, além da sobrevida em 12 meses:
+
+```{r echo=F}
+panderOptions('table.split.table', Inf)
+pander(fit1,style = 'rmarkdown')
+```
+
+```{r echo=F}
+summary(fit1,time=12)
+```
+
+Mostrando uma mediana de sobrevida de `r round(summary(fit1)$table[7],1)` meses e sobrevida em 12 meses de `r round(summary(fit1,time=12)$surv,3)*100` %.
+
+Este é o resumo do tempo de _follow-up_:
+
+```{r echo=F}
+pander(fit2,style = 'rmarkdown')
+```
+
+Mostrando uma mediana de follow-up de `r round(summary(fit2)$table[7],1)` meses.
+
+Aqui, o gráfico comparativo entre os pacientes que fizeram QT segundo um esquema HIT e os outros pacientes:
+
+```{r Sobrevida2, fig.height=10, fig.width=12, fig.cap='Sobrevida de pacientes com DIPG, divididos por tratamento'}
+plot(fit3,xlab="Meses")
+```
+
+E o resumo da sobrevida nos 2 grupos, com sobrevida aos 12 meses:
+```{r echo=F}
+pander(fit3,style = 'rmarkdown')
+```
+```{r echo=F}
+summary(fit3,time=12)
+```
+
+Mostrando uma sobrevida aos 12 meses de `r round(summary(fit3,time=12)$surv[2],3)*100` % para o grupo tratado com protocolo _as per_ HIT (n = `r summary(fit3,time=12)$n[2]` ) e de `r round(summary(fit3,time=12)$surv[1],3)*100` % para os demais (n = `r summary(fit3,time=12)$n[1]` ).
+
+Comparando os dois grupos com um teste não paramétrico que utiliza o estimador de Kaplan-Meier, o teste de log-rank, ou de Mantel-Haenszel (vide documentação do pacote [_survival_][survival]).
+
+```{r echo=F}
+pander(survdiff(Surv(os,status)~ifelse(chemo<10,0,1),dipg),style = 'rmarkdown')
+```
+
+Comparando os dois grupos com um teste semiparamétrico, o modelo de riscos proporcionais de Cox (vide documentação do pacote [_survival_][survival]).
+
+```{r echo=F}
+pander(coxph(Surv(os,status)~ifelse(chemo<10,0,1),dipg),style = 'rmarkdown')
+summary(coxph(Surv(os,status)~ifelse(chemo<10,0,1),dipg))
+```
+
+Este resultado indica que existe a possibilidade de haver alguma diferença de sobrevida quando os pacientes recebem ácido valpróico juntamente com o tratamento.
+
+### Referências:
+
+- [Jekyll][jekyll]
+- [Jekyll, Migrando meu blog para Github Pages usando Jekyll][jekyll-migrando]
+- [Knitr, Elegant, flexible and fast dynamic report generation with R][knitr]
+- [Knitr, Github][yihui]
+- [pander: An R Pandoc Writer][pander]
+- [pander, Using pander with kniter][pander-knitr]
+- [Package 'survival'][survival]
+
+[jekyll]: https://jekyllrb.com
+[jekyll-migrando]: http://fhcflx.github.io/pharmakon/jekyll/update/2016/05/01/Migrando-meu-blog-para-Github-Pages-usando-Jekyll.html
+[knitr]: http://yihui.name/knitr/
+[yihui]: https://github.com/yihui/knitr
+[pander]: http://rapporter.github.io/pander/
+[pander-knitr]: http://rapporter.github.io/pander/knitr.html
+[survival]: https://cran.r-project.org/web/packages/survival/survival.pdf
