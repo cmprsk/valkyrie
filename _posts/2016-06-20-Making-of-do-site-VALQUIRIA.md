@@ -31,7 +31,7 @@ Assim, escolhi usar Jekyll para criar o site de VALQUIRIA e escrever suas postag
 - [PHP: Hypertext Preprocessor][php]
 - [GitHub][gthb]
 - [Tom Preston-Werner at Github][tpw]
-- [Ruby (programming lnaguage)][rby]
+- [Ruby (programming language)][rby]
 - [Daring fireball - Markdown, by John Gruber][mrkdwn]
 - [Wordpress.com Support - Set a Static "Home" Page (Front Page)][sttc]
 - [GitHub Pages][gthb-pgs]
