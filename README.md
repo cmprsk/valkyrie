@@ -19,7 +19,7 @@ Identificação no Registro Brasileiro de Ensaios Clínicos (ReBEC): [RBR-7ygspd
 
 Registrado no ReBEC em 04/02/2016. Última atualização em: 30/05/2016
 
-Ativado em 01/06/2016. Patient accrual Yas not begin yet (as for July 24th).
+Ativado em 01/06/2016. Reçrutamento de pacientes ainda não iniciado (em 24 de julho).
 
 ### Responsável: 
 > Francisco Helder Cavalcante Felix,
@@ -67,7 +67,7 @@ Identification in the Brazillian Clinical Trial Registry (ReBEC): [RBR-7ygspd][r
 
 First received on ReBEC in 02/04/2016. Last updated in 05/30/2016.
 
-Active 06/01/2016.
+Actived in 06/01/2016. Patient accrual has not begin yet (as for July 24th).
 
 ### Responsible: 
 > Francisco Helder Cavalcante Felix,
