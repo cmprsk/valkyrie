@@ -19,7 +19,7 @@ Identificação no Registro Brasileiro de Ensaios Clínicos (ReBEC): [RBR-7ygspd
 
 Registrado no ReBEC em 04/02/2016. Última atualização em: 30/05/2016
 
-Ativado em 01/06/2016. Reçrutamento de pacientes ainda não iniciado (em 24 de julho).
+Ativado em 01/06/2016. Recrutamento de pacientes ainda não iniciado (em 24 de julho).
 
 ### Responsável: 
 > Francisco Helder Cavalcante Felix,
