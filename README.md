@@ -50,7 +50,7 @@ Identification in the Brazillian Clinical Trial Registry (ReBEC): [RBR-7ygspd](h
 
 First received on ReBEC in 02/04/2016. Last updated in 05/30/2016.
 
-Activated in 06/01/2016. Patient accrual Yas not begin yet (as for July 24th).
+Activated in 06/01/2016. Patient accrual has not begin yet (as for July 24th).
 
 ### Responsible: 
 > Francisco Helder Cavalcante Felix,
