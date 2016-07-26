@@ -18,6 +18,8 @@ Identificação no Registro Brasileiro de Ensaios Clínicos (ReBEC): [RBR-7ygspd
 
 Registrado no ReBEC em 04/02/2016. Última atualização em: 30/05/2016
 
+Ativado em 01/06/2016. Recrutamento dos pacientes ainda não iniciado (em 24 de julho).
+
 ### Responsável: 
 > Francisco Helder Cavalcante Felix,
 > Médico cancerologista pediátrico
@@ -47,6 +49,8 @@ Registered number in Plataforma Brasil (brazillian national institutional boards
 Identification in the Brazillian Clinical Trial Registry (ReBEC): [RBR-7ygspd](http://www.ensaiosclinicos.gov.br/rg/RBR-7ygspd/)
 
 First received on ReBEC in 02/04/2016. Last updated in 05/30/2016.
+
+Activated in 06/01/2016. Patient accrual Yas not begin yet (as for July 24th).
 
 ### Responsible: 
 > Francisco Helder Cavalcante Felix,
