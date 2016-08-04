@@ -20,7 +20,7 @@ To: **Institutional Review Board,** Albert Sabin Children's Hospital,
 
 Sincerely,
 
-** Francisco Helder Cavalcante Felix **
+**Francisco Helder Cavalcante Felix,** 
 _Project design_
 
 This letter to the IRB was published in the project repository:
