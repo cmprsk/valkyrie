@@ -7,5 +7,5 @@ Agradecemos a confiança em nosso grupo.
 
 Sinceramente,
 
-**Francisco Helder Cavalcante Felix, **
+**Francisco Helder Cavalcante Felix,** 
 _Idealizador do Projeto_
