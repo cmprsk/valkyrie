@@ -21,7 +21,7 @@ Os pacientes com DIPG foram tratados com radioterapia (54%), recebendo uma dose 
 
 Em nosso serviço, 81.6% dos pacientes receberam quimioterapia (QT). O uso de QT de rotina para o tratamento desta doença não é amplamente aceito como eficaz. Mesmo assim, nos grandes centros internacionais, a maioria dos pacientes é tratada com QT. Em 2015, [Jansen][jansen] *et al* publicaram o maior estudo retrospectivo de análise de prognóstico em pacientes com DIPG, incluindo 316 pacientes (60% recebeu QT). Eles concluíram que o tratamento com quimioterapia, além da radioterapia, aumentou discretamente a sobrevida global dos pacientes (cerca de 26% menos risco de mortalidade, p< 0.004). Isto contrasta com todos os ensaios clínicos prospectivos já publicados avaliando quimioterapia para o tratamento de DIPG, nenhum dos quais mostrou efeito de nenhuma terapia farmacológica. Em nosso serviço, temos utilizados tanto quimioterapia oral quanto de administração venosa para o tratamento de nossos pacientes com DIPG.
 
-![Jansen et al, 2015; fig.1](#http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4483042/bin/nou10402.jpg)
+![Jansen et al, 2015; fig.2](#http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4483042/bin/nou10402.jpg)
 *Curva de sobrevida dos pacientes avaliados no estudo de Jansen et al, 2015. Imagem protegida por [direitos autorais](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4483042/figure/NOU104F2/#).*
 
 _Esta postagem foi modificada em 19/06/2016 para incluir cálculos **on the fly** realizados pelo pacote knitr. Vide o arquivo [.Rmd]({{ site.github.url }}/_source/2016-06-07-Tratamento-padrão-de-tumores-de-tronco-cerebral.Rmd) desta postagem_
