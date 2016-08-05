@@ -19,7 +19,7 @@ The DIPG patients were treated with radiotherapy (54%) receiving a dose of 40-54
 
 In our service, 81.6% of patients received chemotherapy (CT). The use of routine chemotherapy for the treatment of this disease is not widely accepted as effective. Still, most of the DIPG patients are treated with chemotherapy, usually in clinical trials. In 2015, [Jansen][jansen] *et al* published the largest retrospective study of prognostic analysis in patients with DIPG, including 316 patients (60% received chemotherapy). They concluded that treatment with chemotherapy plus radiation therapy, slightly increased the overall survival of patients (about 26% lower risk of death, p <0.004). This is in contrast with all previously published prospective clinical trials evaluating chemotherapy for the treatment of DIPG, none of which showed any effect of drug therapy. In our service, we have used both oral as well as intravenously administrated chemotherapy for the treatment of patients with DIPG.
 
-![Jansen et al, 2015; fig.1](#http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4483042/bin/nou10402.jpg)
+![Jansen et al, 2015; fig.2](#http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4483042/bin/nou10402.jpg)
 *Survival curve of the patients in the study by Jansen et al, 2015. Picture protected by [copyright](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4483042/figure/NOU104F2/#).*
 
 _This post was modified on 06.19.2016 to include **on the fly** calculations enacted by knitr package. See the [.Rmd]({{ site.github.url }}/_source/2016-06-07-Tratamento-padrão-de-tumores-de-tronco-cerebral.Rmd) file (in portuguese)._
