@@ -38,7 +38,7 @@ plot(fit1,xlab="Meses")
 
 ![Survival of patients with DIPG]({{site.github.url}}/figure/source/2016-06-14-Cálculos-da-análise-retrospectiva/Sobrevida-1.png?raw=True)
 
-Patients diagnosed with DIPG in our service between 2000 and 2013. Graph shows survival probability estimate, Kaplan-Meier estimate method, R programming language, package *survival*. Package *RCurl* was additionally used to fecth data from a [.csv]({{ site.url }}/_data/dipg.csv) file in github repository. Graph also shows 95% confidence interval.
+Patients diagnosed with DIPG in our service between 2000 and 2013. Graph shows survival probability estimate, Kaplan-Meier estimate method, R programming language, package *survival*. Package *RCurl* was additionally used to fecth data from a [.csv][csv] file in github repository. Graph also shows 95% confidence interval.
 This is the overall survival and 12-month survival summary:
 
 
@@ -154,6 +154,7 @@ This result indicates that there may be a possible difference in survival when p
 - [pander: An R Pandoc Writer][pander]
 - [pander, Using pander with kniter][pander-knitr]
 - [Package 'survival'][survival]
+- [DIPG database][csv]
 
 [jekyll]: https://jekyllrb.com
 [jekyll-migrando]: /pharmakon/jekyll/update/2016/05/01/Migrando-meu-blog-para-Github-Pages-usando-Jekyll.html
@@ -162,3 +163,4 @@ This result indicates that there may be a possible difference in survival when p
 [pander]: http://rapporter.github.io/pander/
 [pander-knitr]: http://rapporter.github.io/pander/knitr.html
 [survival]: https://cran.r-project.org/web/packages/survival/survival.pdf
+[csv]:https://github.com/fhcflx/valkyrie/blob/master/data/
