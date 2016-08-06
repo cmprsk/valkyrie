@@ -1,24 +1,24 @@
 ---
 layout: post
 comments: true
-title:  "Cálculos da análise retrospectiva"
-date:   2016-06-14 16:03:45 -0300
+title:  "Grpu comparativo brasileiro publicado"
+date:   2016-06-16 16:03:45 -0300
 categories: metodologia
-ref: retro
+ref: previous
 lang: pt
-permalink: /retrospectiva/
+permalink: /estudo-anterior/
 ---
 
 ## Dados invididuais de pacientes:
 
-Além do grupo controle histórico de nosso serviço, usaremos as informações publicadas 
+Além do grupo controle histórico de nosso serviço, usaremos as informações publicadas em um estudo clínico brasileiro
 
 ```{r warning=F, message=F}
 require(pander)  
 require(knitr)
 require(RCurl)
 require(survival)
-dipg<-read.csv(text = getURL("https://raw.githubusercontent.com/fhcflx/valkyrie/gh-pages/_data/dipg.csv"))
+dipg<-read.csv(text = getURL("https://raw.githubusercontent.com/fhcflx/valkyrie/gh-pages/_data/broniscer2000table1.csv"))
 attach(dipg)  
 fit1 = survfit(Surv(os,status)~1)  
 fit2 = survfit(Surv(os,ifelse(status<1,1,0))~1)  
@@ -29,7 +29,7 @@ fit3 = survfit(Surv(os,status)~ifelse(chemo<10,0,1))
 plot(fit1,xlab="Meses")
 ```
 
-Grupo de pacientes com diagnóstico de DIPG tratados em nosso serviço, entre 2000 e 2013. O gráfico mostra a estimativa de probabilidade de sobrevida, calculada pelo método de Kaplan-Meier, usando a linguagem de programação R, pacote *survival*. O pacote *RCurl* foi adicionalmente utilizado para capturar os dados a partir do arquivo [.csv]({{ site.github.url }}/_data/dipg.csv) armazenado no repositório do github. O gráfico mostra também o intervalo de confiança 95%.
+Grupo de pacientes com diagnóstico de DIPG tratados em nosso serviço, entre 2000 e 2013. O gráfico mostra a estimativa de probabilidade de sobrevida, calculada pelo método de Kaplan-Meier, usando a linguagem de programação R, pacote *survival*. O pacote *RCurl* foi adicionalmente utilizado para capturar os dados a partir do arquivo [.csv][csv] armazenado no repositório do github. O gráfico mostra também o intervalo de confiança 95%.
 Este é o resumo da variável de sobrevida, além da sobrevida em 12 meses:
 
 ```{r echo=F}
@@ -91,6 +91,7 @@ Este resultado indica que existe a possibilidade de haver alguma diferença de s
 - [pander: An R Pandoc Writer][pander]
 - [pander, Using pander with kniter][pander-knitr]
 - [Package 'survival'][survival]
+- [Resultados de estudo pacientes com DIPG][csv]
 
 [jekyll]: https://jekyllrb.com
 [jekyll-migrando]: http://fhcflx.github.io/pharmakon/jekyll/update/2016/05/01/Migrando-meu-blog-para-Github-Pages-usando-Jekyll.html
@@ -99,3 +100,4 @@ Este resultado indica que existe a possibilidade de haver alguma diferença de s
 [pander]: http://rapporter.github.io/pander/
 [pander-knitr]: http://rapporter.github.io/pander/knitr.html
 [survival]: https://cran.r-project.org/web/packages/survival/survival.pdf
+[csv]:https://github.com/fhcflx/valkyrie/blob/gh-pages/_data/broniscer2000table1.csv

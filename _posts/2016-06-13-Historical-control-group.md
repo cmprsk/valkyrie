@@ -97,14 +97,16 @@ rt: cGy
 tt.rt: time to radiation therapy (days)  
 ttp: time to progression (months)
 os2: survival after progression (days)  
-The complete dataset, with all information about patients diagnosed with DIPG in our service between 2000-2013 (de-identified) is available in [.csv]({{ site.url }}/_data/dipg.csv) format.
+The complete dataset, with all information about patients diagnosed with DIPG in our service between 2000-2013 (de-identified) is available in [.csv][csv] format.
 
-_This post was edited in 06/20/2016 to include **on the fly** calculations with knitr package. Check [.Rmd]({{site.github.url }}/_source/2016-06-09-Grupo-controle-histórico.Rmd) file of this post._
+_This post was edited in 06/20/2016 to include **on the fly** calculations with knitr package. Check [.Rmd](https://github.com/fhcflx/valkyrie/blob/gh-pages/_source/2016-06-13-Grupo-controle-histórico.Rmd) file of this post._
 
 ### References:
 
 - [GPOH][gpoh]
 - [VALQUIRIA project, design][design]
+- [DIPG database][csv]
 
 [gpoh]: http://www.kinderkrebsinfo.de/gpoh_society/index_eng.html
-[design]: {{site.github.url}}/assets/posts/2016-06-09-Grupo-controle-historico/projeto.md#58coleta-retrospectiva-de-dados-para-compor-o-grupo-controle-histórico
+[design]: https://github.com/fhcflx/valkyrie/blob/master/project/projeto.md#58coleta-retrospectiva-de-dados-para-compor-o-grupo-controle-histórico
+[csv]:https://github.com/fhcflx/valkyrie/blob/master/data/

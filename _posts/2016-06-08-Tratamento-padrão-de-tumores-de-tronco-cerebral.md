@@ -24,7 +24,7 @@ Em nosso serviço, 81.6% dos pacientes receberam quimioterapia (QT). O uso de QT
 ![Jansen et al, 2015; fig.2](#http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4483042/bin/nou10402.jpg)
 *Curva de sobrevida dos pacientes avaliados no estudo de Jansen et al, 2015. Imagem protegida por [direitos autorais](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4483042/figure/NOU104F2/#).*
 
-_Esta postagem foi modificada em 19/06/2016 para incluir cálculos **on the fly** realizados pelo pacote knitr. Vide o arquivo [.Rmd]({{ site.github.url }}/_source/2016-06-07-Tratamento-padrão-de-tumores-de-tronco-cerebral.Rmd) desta postagem_
+_Esta postagem foi modificada em 19/06/2016 para incluir cálculos **on the fly** realizados pelo pacote knitr. Vide o arquivo [.Rmd](https://github.com/fhcflx/valkyrie/blob/gh-pages/_source/2016-06-08-Tratamento-padrão-de-tumores-de-tronco-cerebral.Rmd) desta postagem_
 
 ### Referências:
 
