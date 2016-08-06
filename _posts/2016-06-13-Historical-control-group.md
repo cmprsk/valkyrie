@@ -107,4 +107,4 @@ _This post was edited in 06/20/2016 to include **on the fly** calculations with 
 - [VALQUIRIA project, design][design]
 
 [gpoh]: http://www.kinderkrebsinfo.de/gpoh_society/index_eng.html
-[design]: {{site.github.url}}/project.md#58coleta-retrospectiva-de-dados-para-compor-o-grupo-controle-histórico
+[design]: {{site.github.url}}/assets/posts/2016-06-09-Grupo-controle-historico/projeto.md#58coleta-retrospectiva-de-dados-para-compor-o-grupo-controle-histórico

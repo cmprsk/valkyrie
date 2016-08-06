@@ -101,4 +101,4 @@ _Esta postagem foi modificada em 20/06/2016 para incluir cálculos **on the fly*
 - [Projeto VALQUIRIA][projeto]
 
 [gpoh]: http://www.kinderkrebsinfo.de/gpoh_society/index_eng.html
-[projeto]: {{site.github.url}}/assets/posts/2016-06-09-Grupo-controle-historico/Anteprojeto_VALQUIRIA_HIAS_3.pdf
+[projeto]: {{site.github.url}}/assets/posts/2016-06-09-Grupo-controle-historico/projeto.md#58coleta-retrospectiva-de-dados-para-compor-o-grupo-controle-histórico
