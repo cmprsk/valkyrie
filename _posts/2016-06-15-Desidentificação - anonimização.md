@@ -52,7 +52,7 @@ Já de acordo com o [National Health and Medical Research Council][NHMRC] austra
 1. Local de tratamento e/ou profissional responsável pelo tratamento.  
 2. Dados socioeconômicos: ocupação, educação, etc.  
 3. Idade ou ano de nascimento (pode permitir a re-identificação em ensaios pequenos de período de estudo curto).  
-4. Entre outros.  
+4. Respostas transcritas _ad verbum_.  
 
 Este documento ainda sugere que a publicação dos dados em forma "bruta", ou não analisados (raw data), seja acomapanhada de uma das três declarações a seguir:
 
@@ -102,11 +102,11 @@ Mesmo assim, ainda existe a possibilidade de melhorar enormemente o modo como os
 Um rápido guia do que poderia ser publicizado sem prejuízo da confidencialidade dos pacientes:
 
 1. **Problema clínico de partida**: a motivação para o estudo. Muitas vezes esta informação é simplesmente omitida, mesmo na publicação dos resultados finais de um ensaio clínico, quando deveria ser fundamental que tal informação viesse a público ainda na fase de projeto.
-2. **Desenho experimental**: é fundamental demonstrar que um projeto pode responder a pergunta que se faz no seu início. O desenho experimental, embora fundamental para se compreender as virtudes e as fraquezas de um projeto, é solenemente ignorado tanto por observadores quanto pelos patrocinadores de um estudo. O mecanismo interno dos ensaios, a razão porque eles podem nos dar informações confiáveis, normalmente são alvo apenas de arcanas e obscuras discussões de estatística. Deveria ser objeto de publicidade ativa desde o início do projeto, para especialistas e leigos.
+2. **Desenho experimental**: é fundamental demonstrar que um projeto pode responder a pergunta que se faz no seu início. O desenho experimental, embora fundamental para se compreender as virtudes e as fraquezas de um projeto, é solenemente ignorado tanto por observadores quanto pelos patrocinadores de um estudo. O mecanismo interno dos ensaios, a razão porque eles podem nos dar informações confiáveis, normalmente são alvo apenas de arcanas e obscuras discussões de estatística. Deveria ser objeto de publicidade ativa desde o início do projeto, para especialistas e leigos, a fim de evitar gasto desnecessário de recursos e experimentação antiética com os pacientes.
 3. **População alvo e processo de recrutamento**: em geral, o item mais bem publicizado dos ensaios, pois depende disso que o projeto decole. Uma perspectiva dada pelo desenho experimental, raramente explicado de forma transparente, seria o ideal.
 4. **Intervenções**: de forma clara e pública, com possíveis efeitos adversos e as medidas tomadas para mitigação destes eventos indesejados.
 5. **Dados de pacientes individuais _desidentificados_**, sem informação nem mesmo sobre sua ordem de entrada do estudo, o que forçaria a divulgação apenas após o recrutamento, idealmente. Num estudo multicêntrico, haveria a possibilidade da divulgação incremental, em lotes, sem prejuízo da confidencialidade dos pacientes, desde que seu centro de tratamento não fosse divulgado ao mesmo tempo.
-6. **Análises estatísticas e suas interpretações**: idealmente, nesta fase, os dados deveriam vir a público, na forma de preprint ou auto-publicação, permitindo a análise crítica por parte da comunidade científica. Caso os resultados fossem negativos, isso ficaria imediatamente patente e seria divulgado.
+6. **Análises estatísticas e suas interpretações**: idealmente, nesta fase, os dados deveriam vir a público, na forma de preprint ou auto-publicação, permitindo a análise crítica por parte da comunidade científica. Caso os resultados fossem negativos, isso ficaria imediatamente patente e seria divulgado. As análises devem ser divulgadas de forma completamente reprodutível.
 
 Estas medidas tornariam o processo dos ensaios clínicos sem problemas ou falhas? Claro que essa é uma visão ingênua. No entanto, poderiam diminuir muito as incertezas quanto às informações clínicas, além de reduzir os custos com pesquisas redundantes e coibir os abusos e as fraudes.
 
@@ -132,7 +132,7 @@ Estas medidas tornariam o processo dos ensaios clínicos sem problemas ou falhas
 [iso]: http://www.iso.org/iso/catalogue_detail?csnumber=42807
 [res466]: http://bvsms.saude.gov.br/bvs/saudelegis/cns/2013/res0466_12_12_2012.html
 [NHMRC]: http://www.nhmrc.gov.au/guidelines/publications/e72
-[ian]: http://dx.doi10.1136/bmj.c181
+[ian]: http://dx.doi.org/10.1136/bmj.c181
 [costa]: http://www.portalmedico.org.br/biblioteca_virtual/bioetica/indice.htm
 [10603]: http://www.planalto.gov.br/ccivil_03/leis/2002/L10603.htm
 [posic]: http://bvsms.saude.gov.br/bvs/saudelegis/gm/2010/prt3207_20_10_2010.html
