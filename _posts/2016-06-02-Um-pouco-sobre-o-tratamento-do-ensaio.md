@@ -48,7 +48,7 @@ Cooperative Group. J Clin Oncol. 2000;18:1246-53.][broniscer]
 
 [dipg-poster]: http://f1000research.com/posters/4-1362
 [dipg-treat]: http://dipgregistry.org/patients-families/treatment/
-[genoma]: (https://en.wikipedia.org/wiki/Human_Genome_Project)
+[genoma]: https://en.wikipedia.org/wiki/Human_Genome_Project
 [genoma-cancer]: http://www.sanger.ac.uk/science/groups/cancer-genome-project
 [cosmic]: http://cancer.sanger.ac.uk/cosmic
 [genoma-cancer-ped]: https://www.stjude.org/research/pediatric-cancer-genome-project.html
