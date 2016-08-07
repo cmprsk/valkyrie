@@ -7,6 +7,8 @@ categories: metodologia
 ref: anonymize
 lang: en
 permalink: /de-identification/
+doi: 10.6084/m9.figshare.3545471.v1
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, de-identification
 ---
 
 ### De-identification, anonymization, pseudoanonymization, re-identification
