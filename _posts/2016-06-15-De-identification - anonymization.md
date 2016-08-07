@@ -20,7 +20,8 @@ pseudonymization: “particular type of anonymization that both removes the asso
 Brazilian portuguese literature largely lacks this terminology, and they are more often used in law or information technology. The utilization of these concepts in health care and research has a specific conceptualization. [HIPAA (Health Insurance Portability and Accountability Act)][hipaa], US regulation of health data privacy protection, establishes standards for patient personal information  (_protected health information - PHI_) handling by health care providers (covered entities).
 
 > A covered entity is permitted to use or disclose PHI for research purposes if it:
-1. Obtains the individual's Authorization for the research use or disclosure of PHI as specified under section 164.508 of the Privacy Rule,
+
+>1. Obtains the individual's Authorization for the research use or disclosure of PHI as specified under section 164.508 of the Privacy Rule,
 2. Obtains satisfactory documentation of an Institutional Review Board (IRB) or Privacy Board's waiver of the Authorization requirement that satisfies section 164.512(i) of the Privacy Rule,
 3. Obtains satisfactory documentation of an IRB or Privacy Board's alteration of the Authorization requirement as well as the altered Authorization from the individual,
 4. Uses or discloses PHI for reviews preparatory to research with representations from the researcher that satisfy section 164.512(i)(1)(ii) of the Privacy Rule,
@@ -31,28 +32,50 @@ Brazilian portuguese literature largely lacks this terminology, and they are mor
 According to HIPAA, de-identifying PHI involve the method of "[safe harbor][safeharbor]", where a pre-defined set of identifiers is removed from the PHI, or statistical modifications by experienced professionals in order to reduce to an acceptable level the risk that a third party can identify patients through remaining information (_re-identification_).
 
 >In §164.514(b), the Safe Harbor method for de-identification is defined as follows:
-(2)(i) The following identifiers of the individual or of relatives, employers, or household members of the individual, are removed:
-(A) Names
-(B) All geographic subdivisions smaller than a state, including street address, city, county, precinct, ZIP code, and their equivalent geocodes, except for the initial three digits of the ZIP code if, according to the current publicly available data from the Bureau of the Census:
-(1) The geographic unit formed by combining all ZIP codes with the same three initial digits contains more than 20,000 people; and
-(2) The initial three digits of a ZIP code for all such geographic units containing 20,000 or fewer people is changed to 000
-(C) All elements of dates (except year) for dates that are directly related to an individual, including birth date, admission date, discharge date, death date, and all ages over 89 and all elements of dates (including year) indicative of such age, except that such ages and elements may be aggregated into a single category of age 90 or older
-(D) Telephone numbers
-(L) Vehicle identifiers and serial numbers, including license plate numbers
-(E) Fax numbers
-(M) Device identifiers and serial numbers
-(F) Email addresses
-(N) Web Universal Resource Locators (URLs)
-(G) Social security numbers
-(O) Internet Protocol (IP) addresses
-(H) Medical record numbers
-(P) Biometric identifiers, including finger and voice prints
-(I) Health plan beneficiary numbers
-(Q) Full-face photographs and any comparable images
-(J) Account numbers
-(R) Any other unique identifying number, characteristic, or code, except as permitted by paragraph (c) of this section; and
-(K) Certificate/license numbers
-(ii) The covered entity does not have actual knowledge that the information could be used alone or in combination with other information to identify an individual who is a subject of the information.  
+
+>(2)(i) The following identifiers of the individual or of relatives, employers, or household members of the individual, are removed:
+
+>(A) Names
+
+>(B) All geographic subdivisions smaller than a state, including street address, city, county, precinct, ZIP code, and their equivalent geocodes, except for the initial three digits of the ZIP code if, according to the current publicly available data from the Bureau of the Census:
+
+>(1) The geographic unit formed by combining all ZIP codes with the same three initial digits contains more than 20,000 people; and
+
+>(2) The initial three digits of a ZIP code for all such geographic units containing 20,000 or fewer people is changed to 000
+
+>(C) All elements of dates (except year) for dates that are directly related to an individual, including birth date, admission date, discharge date, death date, and all ages over 89 and all elements of dates (including year) indicative of such age, except that such ages and elements may be aggregated into a single category of age 90 or older
+
+>(D) Telephone numbers
+
+>(L) Vehicle identifiers and serial numbers, including license plate numbers
+
+>(E) Fax numbers
+
+>(M) Device identifiers and serial numbers
+
+>(F) Email addresses
+
+>(N) Web Universal Resource Locators (URLs)
+
+>(G) Social security numbers
+
+>(O) Internet Protocol (IP) addresses
+
+>(H) Medical record numbers
+
+>(P) Biometric identifiers, including finger and voice prints
+
+>(I) Health plan beneficiary numbers
+
+>(Q) Full-face photographs and any comparable images
+
+>(J) Account numbers
+
+>(R) Any other unique identifying number, characteristic, or code, except as permitted by paragraph (c) of this section; and
+
+>(K) Certificate/license numbers
+
+>(ii) The covered entity does not have actual knowledge that the information could be used alone or in combination with other information to identify an individual who is a subject of the information.  
 
 However, HIPAA explicitly indicates that the use of properly de-identified data do not need authorization, since this information do not constitute PHI anymore.
 
