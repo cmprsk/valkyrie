@@ -11,50 +11,51 @@ permalink: /estudo-anterior/
 
 ## Dados invididuais de pacientes:
 
-Além do grupo controle histórico de nosso serviço, usaremos as informações publicadas em um estudo clínico brasileiro
+Além do grupo controle histórico de nosso serviço, usaremos as informações publicadas em um estudo clínico brasileiro [publicado][broniscer] em 2000.
 
 ```{r warning=F, message=F}
 require(pander)  
 require(knitr)
 require(RCurl)
 require(survival)
-dipg<-read.csv(text = getURL("https://raw.githubusercontent.com/fhcflx/valkyrie/gh-pages/_data/broniscer2000table1.csv"))
-attach(dipg)  
-fit1 = survfit(Surv(os,status)~1)  
-fit2 = survfit(Surv(os,ifelse(status<1,1,0))~1)  
-fit3 = survfit(Surv(os,status)~ifelse(chemo<10,0,1))  
+bron<-read.csv(text = getURL("https://raw.githubusercontent.com/fhcflx/valkyrie/gh-pages/_data/broniscer2000table1.csv"))
+dipg<-read.csv(text = getURL("https://raw.githubusercontent.com/fhcflx/valkyrie/gh-pages/_data/dipg.csv"))
+fit = survfit(Surv(Survival..days./30.5,cens)~1,bron)
+fit.b = survfit(Surv(Survival..days./30.5,ifelse(cens<1,1,0))~1)
+fit2 = survfit(Surv(os,status)~1,dipg,subset=(rt>4000&chemo!=10))
 ```
 
-```{r Sobrevida, fig.height=10, fig.width=12, fig.cap='Sobrevida de pacientes com DIPG'}
-plot(fit1,xlab="Meses")
+```{r Sobrevida, fig.height=10, fig.width=12, fig.cap='Survival of patients with DIPG in the Broniscer _et al_ trial'}
+plot(fit,xlab="Months")
 ```
 
-Grupo de pacientes com diagnóstico de DIPG tratados em nosso serviço, entre 2000 e 2013. O gráfico mostra a estimativa de probabilidade de sobrevida, calculada pelo método de Kaplan-Meier, usando a linguagem de programação R, pacote *survival*. O pacote *RCurl* foi adicionalmente utilizado para capturar os dados a partir do arquivo [.csv][csv] armazenado no repositório do github. O gráfico mostra também o intervalo de confiança 95%.
+Grupo de pacientes com diagnóstico de DIPG (sintomas por menos de 6 meses, envolvimento de mais de 50% de um segmento da ponte ou dois ou mais segmentos) tratados com radioterapia (54 a 60 Gy) e tamoxifeno durante e após a RT (200mg/m<sup>2</sup>) no Hospital A.C. Camargo, em São Paulo. O gráfico mostra a estimativa de probabilidade de sobrevida, calculada pelo método de Kaplan-Meier, usando a linguagem de programação R, pacote *survival*. O pacote *RCurl* foi adicionalmente utilizado para capturar os dados a partir do arquivo [.csv][csv] armazenado no repositório do github. O gráfico mostra também o intervalo de confiança 95%.
 Este é o resumo da variável de sobrevida, além da sobrevida em 12 meses:
 
 ```{r echo=F}
 panderOptions('table.split.table', Inf)
-pander(fit1,style = 'rmarkdown')
+pander(fit,style = 'rmarkdown')
 ```
 
 ```{r echo=F}
-summary(fit1,time=12)
+summary(fit,time=12)
 ```
 
-Mostrando uma mediana de sobrevida de `r round(summary(fit1)$table[7],1)` meses e sobrevida em 12 meses de `r round(summary(fit1,time=12)$surv,3)*100` %.
+Mostrando uma mediana de sobrevida de `r round(summary(fit)$table[7],1)` meses e sobrevida em 12 meses de `r round(summary(fit,time=12)$surv,3)*100` %.
 
 Este é o resumo do tempo de _follow-up_:
 
 ```{r echo=F}
-pander(fit2,style = 'rmarkdown')
+pander(fit.b,style = 'rmarkdown')
 ```
 
-Mostrando uma mediana de follow-up de `r round(summary(fit2)$table[7],1)` meses.
+Mostrando uma mediana de follow-up de `r round(summary(fit.b)$table[7],1)` meses.
 
-Aqui, o gráfico comparativo entre os pacientes que fizeram QT segundo um esquema HIT e os outros pacientes:
+Aqui, o gráfico comparativo entre os pacientes do grupo controle histórico de nosso serviço e os pacientes do ensaio de Broniscer _et al_:
 
-```{r Sobrevida2, fig.height=10, fig.width=12, fig.cap='Sobrevida de pacientes com DIPG, divididos por tratamento'}
-plot(fit3,xlab="Meses")
+```{r Sobrevida2, fig.height=10, fig.width=12, fig.cap='Survival of patients with DIPG'}
+plot(fit2,xlab="Months",col=4)
+lines(fit,col=2)
 ```
 
 E o resumo da sobrevida nos 2 grupos, com sobrevida aos 12 meses:
