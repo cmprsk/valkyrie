@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "Grpu comparativo brasileiro publicado"
+title:  "Grupo comparativo de um ensaio brasileiro"
 date:   2016-06-16 16:03:45 -0300
 categories: metodologia
 ref: previous
@@ -13,23 +13,27 @@ permalink: /estudo-anterior/
 
 Além do grupo controle histórico de nosso serviço, usaremos as informações publicadas em um estudo clínico brasileiro [publicado][broniscer] em 2000.
 
-```{r warning=F, message=F}
+```{r warning=F, message=F, echo=F}
 require(pander)  
 require(knitr)
 require(RCurl)
 require(survival)
 bron<-read.csv(text = getURL("https://raw.githubusercontent.com/fhcflx/valkyrie/gh-pages/_data/broniscer2000table1.csv"))
 dipg<-read.csv(text = getURL("https://raw.githubusercontent.com/fhcflx/valkyrie/gh-pages/_data/dipg.csv"))
+bron$cens=c(1,1,1,1,1,1,1,1,1,1,0,1,1,1,0,1,1,1,1,1,0,0,0,1,1,1,0,0,0)
 fit = survfit(Surv(Survival..days./30.5,cens)~1,bron)
-fit.b = survfit(Surv(Survival..days./30.5,ifelse(cens<1,1,0))~1)
+fit.b = survfit(Surv(Survival..days./30.5,ifelse(cens<1,1,0))~1,bron)
 fit2 = survfit(Surv(os,status)~1,dipg,subset=(rt>4000&chemo!=10))
 ```
 
 ```{r Sobrevida, fig.height=10, fig.width=12, fig.cap='Survival of patients with DIPG in the Broniscer _et al_ trial'}
 plot(fit,xlab="Months")
 ```
+Grupo de pacientes com diagnóstico de DIPG (sintomas por menos de 6 meses, envolvimento de mais de 50% de um segmento da ponte ou dois ou mais segmentos) tratados com radioterapia (54 a 60 Gy) e tamoxifeno durante e após a RT (200mg/m<sup>2</sup>) no Hospital A.C. Camargo, em São Paulo. O gráfico mostra a estimativa de probabilidade de sobrevida, calculada pelo método de Kaplan-Meier, usando a linguagem de programação R, pacote *survival*. O pacote *RCurl* foi adicionalmente utilizado para capturar os dados a partir do arquivo .csv armazenado no repositório do github. O gráfico mostra também o intervalo de confiança 95%.
 
-Grupo de pacientes com diagnóstico de DIPG (sintomas por menos de 6 meses, envolvimento de mais de 50% de um segmento da ponte ou dois ou mais segmentos) tratados com radioterapia (54 a 60 Gy) e tamoxifeno durante e após a RT (200mg/m<sup>2</sup>) no Hospital A.C. Camargo, em São Paulo. O gráfico mostra a estimativa de probabilidade de sobrevida, calculada pelo método de Kaplan-Meier, usando a linguagem de programação R, pacote *survival*. O pacote *RCurl* foi adicionalmente utilizado para capturar os dados a partir do arquivo [.csv][csv] armazenado no repositório do github. O gráfico mostra também o intervalo de confiança 95%.
+_Reprinted with permission. ©(2016) American Society of Clinical Oncology. All rights reserved. The authors, editors, and ASCO are not responsible for errors or omissions in the translation._
+
+
 Este é o resumo da variável de sobrevida, além da sobrevida em 12 meses:
 
 ```{r echo=F}
@@ -60,45 +64,22 @@ lines(fit,col=2)
 
 E o resumo da sobrevida nos 2 grupos, com sobrevida aos 12 meses:
 ```{r echo=F}
-pander(fit3,style = 'rmarkdown')
+pander(fit,style = 'rmarkdown')
+pander(fit2,style = 'rmarkdown')
 ```
 ```{r echo=F}
-summary(fit3,time=12)
+summary(fit,time=12)
+summary(fit2,time=12)
 ```
 
-Mostrando uma sobrevida aos 12 meses de `r round(summary(fit3,time=12)$surv[2],3)*100` % para o grupo tratado com protocolo _as per_ HIT (n = `r summary(fit3,time=12)$n[2]` ) e de `r round(summary(fit3,time=12)$surv[1],3)*100` % para os demais (n = `r summary(fit3,time=12)$n[1]` ).
+Mostrando uma sobrevida aos 12 meses de `r round(summary(fit,time=12)$surv[1],3)*100` % para  os pacientes do ensaio de Broniscer _et al_ (n = `r summary(fit,time=12)$n[1]` ) e de `r round(summary(fit2,time=12)$surv[1],3)*100` % para o grupo controle histórico de nosso serviço (n = `r summary(fit2,time=12)$n[1]` ).
 
-Comparando os dois grupos com um teste não paramétrico que utiliza o estimador de Kaplan-Meier, o teste de log-rank, ou de Mantel-Haenszel (vide documentação do pacote [_survival_][survival]).
-
-```{r echo=F}
-pander(survdiff(Surv(os,status)~ifelse(chemo<10,0,1),dipg),style = 'rmarkdown')
-```
-
-Comparando os dois grupos com um teste semiparamétrico, o modelo de riscos proporcionais de Cox (vide documentação do pacote [_survival_][survival]).
-
-```{r echo=F}
-pander(coxph(Surv(os,status)~ifelse(chemo<10,0,1),dipg),style = 'rmarkdown')
-summary(coxph(Surv(os,status)~ifelse(chemo<10,0,1),dipg))
-```
-
-Este resultado indica que existe a possibilidade de haver alguma diferença de sobrevida quando os pacientes recebem ácido valpróico juntamente com o tratamento.
+A permissão para utilizar os dados da tabela principal do trabalho de [Broniscer _et al_][broniscer] foi-nos fornecida pela [ASCO][asco] em 2016. Estes dados estão protegidos por direitos autorais e não devem ser reutilizados sem a permissão do titular dos direitos.
 
 ### Referências:
 
-- [Jekyll][jekyll]
-- [Jekyll, Migrando meu blog para Github Pages usando Jekyll][jekyll-migrando]
-- [Knitr, Elegant, flexible and fast dynamic report generation with R][knitr]
-- [Knitr, Github][yihui]
-- [pander: An R Pandoc Writer][pander]
-- [pander, Using pander with kniter][pander-knitr]
-- [Package 'survival'][survival]
-- [Resultados de estudo pacientes com DIPG][csv]
+- [Broniscer A, Leite CC, Lanchote VL, Machado TM, Cristófani LM. Radiation therapy and high-dose tamoxifen in the treatment of patients with diffuse brainstem gliomas: results of a Brazilian cooperative study. Brainstem Glioma Cooperative Group. J Clin Oncol. 2000 Mar;18(6):1246-53.][broniscer]
+- [ASCO: American Society of Clinical Oncology][asco]
 
-[jekyll]: https://jekyllrb.com
-[jekyll-migrando]: http://fhcflx.github.io/pharmakon/jekyll/update/2016/05/01/Migrando-meu-blog-para-Github-Pages-usando-Jekyll.html
-[knitr]: http://yihui.name/knitr/
-[yihui]: https://github.com/yihui/knitr
-[pander]: http://rapporter.github.io/pander/
-[pander-knitr]: http://rapporter.github.io/pander/knitr.html
-[survival]: https://cran.r-project.org/web/packages/survival/survival.pdf
-[csv]:https://github.com/fhcflx/valkyrie/blob/gh-pages/_data/broniscer2000table1.csv
+[broniscer]: http://jco.ascopubs.org/content/18/6/1246.long
+[asco]: http://www.asco.org
