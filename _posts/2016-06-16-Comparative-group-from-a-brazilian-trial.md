@@ -20,7 +20,7 @@ In addition to the historical control group of our service, we are to use the in
 plot(fit,xlab="Months")
 ```
 
-![Survival of patients with DIPG in the Broniscer _et al_ trial]({{site.github.url}}/figure/source/2016-06-16-Grupo-comparativo-brasileiro-publicado/Sobrevida-1.png)
+![Survival of patients with DIPG in the Broniscer _et al_ trial]({{site.github.url}}/figure/source/2016-06-16-Grupo-comparativo-brasileiro-publicado/Sobrevida-1.png?raw=True)
 Group of patients with DIPG (symptoms for less than 6 months, involvement of more than 50% of a pontine segment or two or more segments), treated with radiation (54 to 60 Gy) and tamoxifen during and after RT (200mg/m<sup>2</sup>) at the AC Camargo Hospital in Sao Paulo. The graph shows the estimated probability of survival calculated by the Kaplan-Meier method, using the R programming language, *survival* package. The package *RCurl* was used to capture the data from the .csv file stored on github repository. The graph also shows the 95% confidence interval.
 
 _Reprinted with permission. ©(2016) American Society of Clinical Oncology. All rights reserved. The authors, editors, and ASCO are not responsible for errors or omissions in the translation._
@@ -59,7 +59,7 @@ plot(fit2,xlab="Months",col=4)
 lines(fit,col=2)
 ```
 
-![Survival of patients with DIPG]({{site.github.url}}/figure/source/2016-06-16-Grupo-comparativo-brasileiro-publicado/Sobrevida2-1.png)
+![Survival of patients with DIPG]({{site.github.url}}/figure/source/2016-06-16-Grupo-comparativo-brasileiro-publicado/Sobrevida2-1.png?raw=True)
 
 And the summary of overall survival of the two groups, with survival at 12 months:
 
