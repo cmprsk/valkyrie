@@ -6,7 +6,7 @@ date:   2016-06-16 16:03:45 -0300
 categories: metodologia
 ref: previous
 lang: en
-permalink: /estudo-anterior/
+permalink: /previous-trial/
 ---
 
 ## Individual patient data:
