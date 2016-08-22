@@ -7,6 +7,8 @@ categories: metodologia
 ref: previous
 lang: en
 permalink: /previous-trial/
+doi: 10.6084/m9.figshare.3749790.v1
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, historical control
 ---
 
 ## Individual patient data:
@@ -90,7 +92,7 @@ And the summary of overall survival of the two groups, with survival at 12 month
 
 Showing a survival at 12 months of 37.1% for patients in the Broniscer _et al_ trial (n = 29) and 44.7% in the historical control group of our service (n = 31).
 
-Permission to use the data from the main table from [Broniscer _et al _][broniscer] was supplied to us by [ASCO][asco] in 2016. These data are protected by copyright and should not be reused without permission from rightholder.
+Permission to use the data from the main table from [Broniscer _et al_][broniscer] was supplied to us by [ASCO][asco] in 2016. These data are protected by copyright and should not be reused without permission from rightholder.
 
 ### References:
 
