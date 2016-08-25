@@ -7,7 +7,7 @@ categories: metodologia
 ref: trata
 lang: en
 permalink: /standard-treatment/
-doi: 10.6084/m9.figshare.3489944.v2
+doi: 10.6084/m9.figshare.3489944.v3
 tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, standard treatment
 ---
 
