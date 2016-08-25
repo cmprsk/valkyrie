@@ -376,12 +376,12 @@ Como um bônus final, a partir da segunda versão da base de dados é possível 
 
 Um gráfico construído a partir da comparação dos grupos g1 e g2, cada um com 12 pacientes:
 
-![Sobrevida de pacientes com DIPG](/figure/source/2016-07-27-Análise-de-sobrevida-em-duas-versões-do-mesmo-banco-de-dados/Sobrevida-1.png?raw=True)
+![Sobrevida de pacientes com DIPG]({{site.github.url}}/figure/source/2016-07-27-Análise-de-sobrevida-em-duas-versões-do-mesmo-banco-de-dados/Sobrevida-1.png?raw=True)
 
 ```
 ## Call: survfit(formula = Surv(os, status) ~ g, data = brainstem, subset = (topo ==
 ##     "DIPG" & rt > 4000))
-## 
+##
 ##    24 observations deleted due to missingness
 ##      n events median 0.95LCL 0.95UCL
 ## g=1 12      7    9.0     7.4      NA
