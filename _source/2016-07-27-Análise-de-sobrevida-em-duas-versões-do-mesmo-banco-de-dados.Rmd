@@ -245,7 +245,8 @@ Um gráfico construído a partir da comparação dos grupos g1 e g2, cada um com
 plot(survfit(Surv(os,status)~g,brainstem,subset=(topo=="DIPG"&rt>4000)),xlab="Meses",col=c(2,4))
 survfit(Surv(os,status)~g,brainstem,subset=(topo=="DIPG"&rt>4000))
 ```
-É bem evidente que não parece existir diferença entre as curvas. Isso indicaria que o tratamento proposto no nosso projeto de ensaio clínico não correlaciona-se com modificação de sobrevida, em especial que o uso de ácido valpróico não parece ter efeito? Guardadas as limitações da análise retrospectiva e o número limitado de pacientes nesta comparação, esta é uma conclusão possível. 
+É bem evidente que não parece existir diferença entre as curvas. Isso indicaria que o tratamento proposto no nosso projeto de ensaio clínico não correlaciona-se com modificação de sobrevida, em especial que o uso de ácido valpróico não parece ter efeito? Guardadas as limitações da análise retrospectiva e o número limitado de pacientes nesta comparação, esta é uma conclusão possível.
+
 ### Referências:
 
 1. Felix FHC. Diagnostic criteria for DIPG (2016). Figshare, doi:[10.6084/m9.figshare.3489941.v1][imagem]

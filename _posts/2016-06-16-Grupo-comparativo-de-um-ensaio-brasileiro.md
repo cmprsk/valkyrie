@@ -7,8 +7,6 @@ categories: metodologia
 ref: previous
 lang: pt
 permalink: /estudo-anterior/
-doi: 10.6084/m9.figshare.3749790.v1
-tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, historical control
 ---
 
 ## Dados invididuais de pacientes:
@@ -22,7 +20,7 @@ Além do grupo controle histórico de nosso serviço, usaremos as informações 
 plot(fit,xlab="Months")
 ```
 
-![Survival of patients with DIPG in the Broniscer _et al_ trial]({{site.github.url}}/figure/source/2016-06-16-Grupo-comparativo-de-um-ensaio-brasileiro/Sobrevida-1.png?raw=True)
+![Survival of patients with DIPG in the Broniscer _et al_ trial](/figure/source/2016-06-16-Grupo-comparativo-de-um-ensaio-brasileiro/Sobrevida-1.png)
 Grupo de pacientes com diagnóstico de DIPG (sintomas por menos de 6 meses, envolvimento de mais de 50% de um segmento da ponte ou dois ou mais segmentos) tratados com radioterapia (54 a 60 Gy) e tamoxifeno durante e após a RT (200mg/m<sup>2</sup>) no Hospital A.C. Camargo, em São Paulo. O gráfico mostra a estimativa de probabilidade de sobrevida, calculada pelo método de Kaplan-Meier, usando a linguagem de programação R, pacote *survival*. O pacote *RCurl* foi adicionalmente utilizado para capturar os dados a partir do arquivo .csv armazenado no repositório do github. O gráfico mostra também o intervalo de confiança 95%.
 
 _Reprinted with permission. ©(2016) American Society of Clinical Oncology. All rights reserved. The authors, editors, and ASCO are not responsible for errors or omissions in the translation._
@@ -38,7 +36,7 @@ Este é o resumo da variável de sobrevida, além da sobrevida em 12 meses:
 
 ```
 ## Call: survfit(formula = Surv(Survival..days./30.5, cens) ~ 1, data = bron)
-##
+## 
 ##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
 ##    12      9      17    0.371  0.0952        0.224        0.613
 ```
@@ -62,7 +60,7 @@ plot(fit2,xlab="Months",col=4)
 lines(fit,col=2)
 ```
 
-![Survival of patients with DIPG]({{site.github.url}}/figure/source/2016-06-16-Grupo-comparativo-de-um-ensaio-brasileiro/Sobrevida2-1.png?raw=True)
+![Survival of patients with DIPG](/figure/source/2016-06-16-Grupo-comparativo-de-um-ensaio-brasileiro/Sobrevida2-1.png)
 
 E o resumo da sobrevida nos 2 grupos, com sobrevida aos 12 meses:
 
@@ -78,15 +76,15 @@ E o resumo da sobrevida nos 2 grupos, com sobrevida aos 12 meses:
 
 ```
 ## Call: survfit(formula = Surv(Survival..days./30.5, cens) ~ 1, data = bron)
-##
+## 
 ##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
 ##    12      9      17    0.371  0.0952        0.224        0.613
 ```
 
 ```
-## Call: survfit(formula = Surv(os, status) ~ 1, data = dipg, subset = (rt >
+## Call: survfit(formula = Surv(os, status) ~ 1, data = dipg, subset = (rt > 
 ##     4000 & chemo != 10))
-##
+## 
 ##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
 ##    12     13      17    0.447    0.09        0.302        0.664
 ```
