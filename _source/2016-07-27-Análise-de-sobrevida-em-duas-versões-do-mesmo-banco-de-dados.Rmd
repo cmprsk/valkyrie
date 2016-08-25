@@ -1,0 +1,291 @@
+---
+layout: post
+comments: true
+title:  "Análise de sobrevida em duas versões do mesmo banco de dados"
+date:   2016-07-27 16:03:45 -0300
+categories: metodologia
+ref: survival
+lang: pt
+permalink: /analise-sobrevida/
+---
+
+```{r warning=F, message=F, echo=F}
+require(pander)  
+require(knitr)
+require(RCurl)
+require(survival)
+dipg<-read.csv(text = getURL("https://raw.githubusercontent.com/fhcflx/valkyrie/gh-pages/_data/dipg.csv"))
+brainstem<-read.csv(text = getURL("https://raw.githubusercontent.com/fhcflx/valkyrie/gh-pages/_data/brainstem2015.csv"))  
+attach (brainstem)
+brainstem$os = round(os/30.5,1)
+brainstem$age = round(age/365.25,1)
+brainstem$g = ifelse(chemo!=10&vpa==0,1,ifelse(chemo==10,2,NA))
+fit.a = survfit(Surv(os,status)~1,dipg,subset=(rt>4000&chemo!=10))
+fit.b = survfit(Surv(os,ifelse(status<1,1,NA))~1,dipg,subset=(rt>4000&chemo!=10))
+fit.c = survfit(Surv(os,status)~1,subset=(topo=="DIPG"&rt>4000&chemo!=10),brainstem)
+fit.d = survfit(Surv(os,ifelse(status<1,1,NA))~1,subset=(topo=="DIPG"&rt>4000&chemo!=10),brainstem)
+fit.a2 = survfit(Surv(os,status)~1,dipg,subset=(rt>4000&chemo!=10&vpa==0))
+fit.b2 = survfit(Surv(os,status)~1,dipg,subset=(rt>4000&chemo!=10&vpa==0))
+fit.c2 = survfit(Surv(os,status)~1,subset=(topo=="DIPG"&rt>4000&chemo!=10&vpa==0),brainstem)
+fit.d2 = survfit(Surv(os,ifelse(status<1,1,NA))~1,subset=(topo=="DIPG"&rt>4000&chemo!=10&vpa==0),brainstem)
+fit.e = survfit(Surv(os,status)~1,dipg,subset=(rt>4000&chemo==10))
+fit.f = survfit(Surv(os,ifelse(status<1,1,0))~1,dipg,subset=(rt>4000&chemo==10))
+fit.g = survfit(Surv(os,status)~1,subset=(topo=="DIPG"&rt>4000&chemo==10),brainstem)
+fit.h = survfit(Surv(os,status)~1,subset=(topo=="DIPG"&rt>4000&chemo==10),brainstem)
+fit.e2 = survfit(Surv(os,status)~1,dipg,subset=(rt>4000&chemo==10&vpa==1))
+fit.f2 = survfit(Surv(os,status)~1,dipg,subset=(rt>4000&chemo==10&vpa==1))
+fit.g2 = survfit(Surv(os,status)~1,subset=(topo=="DIPG"&rt>4000&chemo==10&vpa==1),brainstem)
+fit.h2 = survfit(Surv(os,status)~1,subset=(topo=="DIPG"&rt>4000&chemo==10&vpa==1),brainstem)
+```
+
+### Introdução:
+
+Tumores pontinos intrínsecos difusos (_diffuse intrinsic pontine gliomas_, DIPG) são os tumores cerebrais de maior mortalidade na faixa etária de crianças e adolescentes (0-18 anos). Crianças com mediana de idade de 7 anos são as mais acometidas, sem diferença de [gênero][rational]. [1] Não existe tratamento curativo eficaz. Em sua maioria, são gliomas da região ventral da ponte cujo padrão de crescimento principal é infiltrativo, acometendo a maior parte ou virtualmente todo o diâmetro seccional da ponte. Via de regra, não forma uma massa tumoral captante de contraste e não tem limites precisos na [imagem por ressonância magnética][imagem]. [2]
+
+Nosso grupo de pesquisa estuda ativamente esta doença. As informações que temos sobre pacientes com DIPG vêm da base de dados que estamos montando desde 2009. Esta base de dados, atualmente, é totalmente digital e baseada num servidor na nuvem. Várias versões dela já existiram, mais ou menos bem documentadas ao longo do tempo. Duas versões diferentes, em momentos diferentes, deram origem aos dois conjuntos de dados publicados neste projeto. São como dois instantâneos diferentes, cada um mostrando o aspecto de parte da base de dados num momento específico. Esta postagem tem por objetivo a comparação destes dois instantâneos através da análise de sobrevida. Ou seja, faremos a mesma análise retrospectiva nas duas bases de dados diferentes.
+
+A primeira versão tenta recapitular o momento exato do conjunto de dados quando o projeto VALQUIRIA foi escrito, em 2014. Infelizmente, essa versão exata do banco de dados não foi salva, apenas uma versão próxima. Então, utilizei a versão que havia sido armazenada em 2014, fazendo uma única modificação (inclusão do paciente 56). Os dados foram desidentificados como já descrevi [anteriormente][historico] [3] e a base de dados foi salva num arquivo [.csv][csv] [4] armazenado no repositório do projeto. O arquivo inclui todos os pacientes com diagnóstico de DIPG entre 2000-2013, independente do tratamento realizado.
+
+A segunda versão é da base de dados de 2015 (os instantâneos são sempre gravados no fim do ano) e inclui pacientes diagnosticados com tumores de tronco cerebral entre 2000-2015, difusos ou focais, tratados ou não. Igualmente, apenas uma mudança foi realizada (troca do rótulo de **topografia** do paciente 64 de _ponte focal_ para _DIPG_). Ela também está armazenada no mesmo servidor em formato [.csv][csv]. [4]
+
+A análise de sobrevida que foi usada para [desenhar][design] o estudo VALQUIRIA [5] foi uma análise retrospectiva na qual comparamos o desfecho (sobrevida global) de pacientes com DIPG diagnosticados entre 2000-2013 tratados com pelo menos 40 Gy de RT e dois tipos diferentes de quimioterapia (QT): tratados de acordo com um protocolo [HIT do GPOH][dipg-poster] [6] _versus_ tratados com outros protocolos de QT (ou sem QT). É essa análise que será repetida nas duas versões da base de dados.
+
+### Metodologia:
+
+As bases de dados estão armazenadas num repositório do Github, publicamente acessíveis. Elas não contem elementos que possam identificar os pacientes, muito embora mostrem dados individuais dos pacientes (foram [desidentificadas][deid] [7]). Suas informações foram adquiridas através do pacote [_RCurl_][curl] [8] da linguagem de programação R [9]. Utilizando o pacote [_knitr_][knitr] [10], um script escrito na linguagem R foi executado para realizar a análise de sobrevida usando o pacote [_survival_][survival] [11] e as informações capturadas a partir dos arquivos das bases de dados. Os cálculos realizados foram: computação de estimativa de curva de sobrevida com o método de Kaplan-Meier (KM) [12], teste de log-rank ou de Mantel-Haenszel para comparação entre duas curvas de sobrevida obtidas pelo método de KM [13], e cálculo do tempo de seguimento (calculado a partir dos sobreviventes, quando os houvesse). Apenas as informações dos pacientes portadores de DIPG e que receberasm pelo menos 40 Gy de radioterapia (RT) foram utilizadas, em ambas as versões da base de dados. As comparações realizadas foram feitas entre pacientes tratados de acordo com protocolos do HIT [6] e pacientes tratados apenas com RT ou também de acordo com protocolos do COG [14]. O script foi gravado num arquivo [.Rmd][rmd] [15] armazenado no Github, o qual foi, a um só tempo, analisado e implementado, dando origem a uma versão escrita em formato [Markdown][markdown] [16], utilizando o pacote [_servr_][servr] [17] e o programa [Jekyll 3.2.1][jekyll] [18]. O arquivo .md foi salvo num repositório local e, em seguida, comitado (sincronizado) para o GitHub Pages, ficando à disposição na internet. Todos os arquivos podem ser publicamente acessados. O texto atual constitui, então, informação científica completamente reprodutível por terceiros.
+
+### Resultados e discussão:
+
+Os dados tabulados (tabelas 1 e 2) mostram apenas os pacientes com DIPG tratados com RT de ambas as versões da base de dados. A diferença entre as duas versões é um número maior de casos na segunda versão (6 casos a mais, principalmente no grupo tratado com esquemas do COG) e maior tempo de seguimento dos casos (maior impacto nos casos tratados com esquemas do HIT, pois eram casos mais novos). Embora o tempo de seguimento tenda a não afetar o estimador de Kaplan-Meier, nesse caso ocorreu um impacto diferencial importante em apenas um dos grupos comparados. Isso modificou sobremaneira os resultados da análise de sobrevida, como veremos a seguir.
+
+**Tabela 1: pacientes com diagnóstico de DIPG, diagnosticados entre 2000-2013, tratados com RT (dose total mínima de 40 Gy)**
+
+---
+*1-A.Tratados com QT as per protocolos do COG, ou sem QT*
+```{r table 1a, echo=F}
+kable(subset(dipg[,c(2:13,24)],chemo!=10&rt>4000))
+```
+
+---
+<br>
+*1-B.Tratados com QT as per protocolos do HIT*
+```{r table 1b, echo=F}
+kable(subset(dipg[,c(2:13,24)],chemo==10&rt>4000))
+```
+
+---
+---
+<br>
+
+**Tabela 2: pacientes com diagnóstico de DIPG, diagnosticados entre 2000-2015, tratados com RT (dose total mínima de 40 Gy)**
+
+---
+*2-A.Tratados com QT as per protocolos do COG, ou sem QT*
+```{r table 2a, echo=F}
+kable(subset(brainstem[,c(2:5,8:14,19,28,43)],brainstem$topo=="DIPG"&brainstem$chemo!=10&brainstem$rt>4000))
+```
+
+---
+<br>
+*2-B.Tratados com QT as per protocolos do HIT*
+```{r table 2b, echo=F}
+kable(subset(brainstem[,c(2:5,8:14,19,43)],brainstem$topo=="DIPG"&brainstem$chemo==10&brainstem$rt>4000))
+```
+
+---
+---
+<br>
+
+#### Análise de sobrevida:
+
+Ambas as versões da base de dados mostram um grupo maior de pacientes com DIPG que foram tratados ou apenas com RT, ou também com esquemas de QT de acordo com protocolos do COG. Na segunda versão, este grupo tem 5 pacientes a mais (`r round(5/31,1)*100`%). Resumo da variável de sobrevida, além da sobrevida em 12 meses, ilustrando que essas variáveis praticamente não mudaram:
+
+```Primeira versão do banco de dados - apenas RT/ RT+COG```
+
+> ```{r echo=F}
+panderOptions('table.split.table', Inf)
+pander(fit.a,style = 'rmarkdown')
+```
+
+```{r echo=F}
+summary(fit.a,time=12)
+```
+
+```Segunda versão do banco de dados - apenas RT/ RT+COG```
+
+> ```{r echo=F}
+pander(fit.c,style = 'rmarkdown')
+panderOptions('table.split.table', Inf)
+```
+
+```{r echo=F}
+summary(fit.c,time=12)
+```
+
+O tempo de seguimento (_follow-up_) também praticamente não se modificou.
+Resumo do tempo de seguimento (obtido pelo método clássico de calcular o seguimento dos sobreviventes):
+
+```Primeira versão do banco de dados - apenas RT/ RT+COG```
+
+> ```{r warning=F, message=F, echo=F}
+pander(fit.b,style = 'rmarkdown')
+```
+
+```Segunda versão do banco de dados - apenas RT/ RT+COG```
+
+> ```{r warning=F, message=F, echo=F}
+pander(fit.d,style = 'rmarkdown')
+```
+
+Como pode ser visto nas tabelas 1 e 2, uma quantidade considerável de pacientes deste grupo, em ambas as versões da base de dados, recebeu ácido valpróico (VPA) concomitante ao tratamento. Assim, a comparação entre os tipos diferentes de tratamento com QT ficou contaminado, pois também faz parte da hipótese do projeto que o tratamento com VPA talvez modifique a sobrevida. Para tentar reduzir este viés, foi necessário refazer os cálculos, levando em consideração apenas os pacientes que NÃO foram tratados com VPA.
+Resumo da variável de sobrevida, além da sobrevida em 12 meses:
+
+```Primeira versão do banco de dados - apenas RT/ RT+COG, sem VPA```
+
+> ```{r echo=F}
+panderOptions('table.split.table', Inf)
+pander(fit.a2,style = 'rmarkdown')
+```
+
+```{r echo=F}
+summary(fit.a2,time=12)
+```
+
+```Segunda versão do banco de dados - apenas RT/ RT+COG, sem VPA```
+
+> ```{r echo=F}
+panderOptions('table.split.table', Inf)
+pander(fit.c2,style = 'rmarkdown')
+```
+
+```{r echo=F}
+summary(fit.c2,time=12)
+```
+
+Tempo de seguimento:
+
+```Primeira versão do banco de dados - apenas RT/ RT+COG, sem VPA```
+
+> ```{r message=F, echo=F}
+pander(fit.b2,style = 'rmarkdown')
+```
+
+O tempo de seguimento da primeira versão da base de dados (pacientes tratados com esquemas diferentes dos HIT), excluindo os pacientes que receberam VPA, não é diferente da própria mediana de sobrevida, uma vez que todos os pacientes incluídos alcançaram o evento (óbito), ou seja, não existem sobreviventes neste subgrupo.
+
+```Segunda versão do banco de dados - apenas RT/ RT+COG, sem VPA```
+
+> ```{r message=F, echo=F}
+pander(fit.d2,style = 'rmarkdown')
+```
+
+Nas duas versões da base de dados, os grupos tratados com QT segundo protocolos HIT são menores. No entanto, ocorre uma diferença importante de tempo de seguimento entre as duas versões. Isso se reflete numa diferença também grande no número de pacientes censurados, o que implica, em última análise, numa mudança de desfechos e, logo, de resultado final.
+Resumo da variável de sobrevida, além da sobrevida em 12 meses:
+
+```Primeira versão do banco de dados - apenas RT+HIT```
+
+> ```{r echo=F}
+panderOptions('table.split.table', Inf)
+pander(fit.e,style = 'rmarkdown')
+```
+
+```{r echo=F}
+summary(fit.e,time=12)
+```
+
+```Segunda versão do banco de dados - apenas RT+HIT```
+
+> ```{r echo=F}
+panderOptions('table.split.table', Inf)
+pander(fit.g,style = 'rmarkdown')
+```
+
+```{r echo=F}
+summary(fit.g,time=12)
+```
+
+Diferença do tempo de seguimento (calculado na primeira versão do banco de dados pela função KM inversa, pois quase todos os pacientes ainda estavam vivos):
+
+```Primeira versão do banco de dados - apenas RT+HIT```
+
+> ```{r message=F, echo=F}
+pander(fit.f,style = 'rmarkdown')
+```
+
+```Segunda versão do banco de dados - apenas RT+HIT```
+
+> ```{r message=F, echo=F}
+pander(fit.h,style = 'rmarkdown')
+```
+
+Neste ponto, já é possível concluir que, apesar do tempo de seguimento usualmente não interferir sobremaneira na estimativa do método de Kaplan-Meier [19], o que realmente ocorreu foi uma grande mudança nos desfechos. Enquanto que, na primeira versão da base de dados, quase todos os pacientes tratados de acordo com esquema HIT foram censurados e quase nenhum experimentara o evento estudado (óbito), o contrário ocorreu na segunda versão da base de dados. Nessa segunda versão, com um tempo de seguimento pouco mais de 6 meses maior, a grande parte dos pacientes havia experimentado o evento e quase não haviam pacientes censurados. Isso ilustra a importância de assegurar que o tempo de seguimento dos pacientes seja pelo menos clinicamente significante, compatível com o tempo de evolução natural da doença estudada [20].
+
+Como um bônus final, a partir da segunda versão da base de dados é possível realizar uma nova análise de sobrevida retrospectiva, dessa vez comparando pacientes tratados com QT de acordo com protocolos HIT (associado com VPA), com pacientes tratados com outros esquemas (ou apenas RT) e, rigorosamente, SEM o uso de VPA. Os resultados são os que seguem:
+
+```Primeira versão do banco de dados - RT/RT+COG versus RT+HIT```
+
+> ```{r echo=F}
+pander(survdiff(Surv(os,status)~ifelse(chemo==10,0,1),dipg,subset=(rt>4000)),style = 'rmarkdown')
+```
+
+```Segunda versão do banco de dados - RT/RT+COG versus RT+HIT```
+
+> ```{r echo=F}
+pander(survdiff(Surv(os,status)~ifelse(chemo==10,0,1),brainstem,subset=(topo=="DIPG"&rt>4000)),style = 'rmarkdown')
+```
+
+```Segunda versão do banco de dados - RT/RT+COG (sem VPA) versus RT+HIT```
+
+> ```{r echo=F}
+pander(survdiff(Surv(os,status)~g,brainstem,subset=(topo=="DIPG"&rt>4000)),style = 'rmarkdown')
+```
+
+Um gráfico construído a partir da comparação dos grupos g1 e g2, cada um com 12 pacientes:
+
+```{r Sobrevida, fig.height=10, fig.width=12, fig.cap='Sobrevida de pacientes com DIPG', echo=F}
+plot(survfit(Surv(os,status)~g,brainstem,subset=(topo=="DIPG"&rt>4000)),xlab="Meses",col=c(2,4))
+survfit(Surv(os,status)~g,brainstem,subset=(topo=="DIPG"&rt>4000))
+```
+É bem evidente que não parece existir diferença entre as curvas. Isso indicaria que o tratamento proposto no nosso projeto de ensaio clínico não correlaciona-se com modificação de sobrevida, em especial que o uso de ácido valpróico não parece ter efeito? Guardadas as limitações da análise retrospectiva e o número limitado de pacientes nesta comparação, esta é uma conclusão possível. 
+### Referências:
+
+1. Felix FHC. Diagnostic criteria for DIPG (2016). Figshare, doi:[10.6084/m9.figshare.3489941.v1][imagem]
+2. Felix FHC. A little about the trial's rational (2016). Figshare, doi:[10.6084/m9.figshare.3489917.v1][rational]
+3. Felix FHC. Historical control group (2016). Figshare, doi:[10.6084/m9.figshare.3489956.v2][historico]
+4. Felix FHC. Banco de dados de pacientes portadores de tumor pontino intrínseco difuso (2016). Repositório do Github, disponível em: [https://github.com/fhcflx/valkyrie/tree/master/data][csv]
+5. Felix FHC. Estimate of the number of patients (2016). Figshare, doi:[10.6084/m9.figshare.3489947.v1][design]
+6. Felix F and Fontenele J. Chemoradiotherapy with etoposide, cisplatin, and ifosfamide associated with valproic acid for patients with diffuse intrinsic pontine glioma [v1; not peer reviewed]. F1000Research 2015, 4:1301 (poster) [Portuguese] (doi:[10.7490/f1000research.1111018.1][dipg-poster])
+7. Felix FHC. De-identification - anonymization (2016). Figshare, doi:[10.6084/m9.figshare.3545471.v1][deid]
+8. `r citation("RCurl")$author` (`r citation("RCurl")$year`). `r citation("RCurl")$title`, [`r citation("RCurl")$url`][curl]
+9. `r citation()$author`. `r citation()$title`, `r citation()$year`, [`r citation()$url`][r]
+10. `r citation("knitr")$author[2]` (`r citation("knitr")$year[1]`). `r citation("knitr")$title[1]`, [`r citation("knitr")$url[1]`][knitr]
+11. `r citation("survival")$author[1]` (`r citation("survival")$year[1]`). `r citation("survival")$title[1]`, [`r citation("survival")$url[1]`][survival]
+12. Kablfleisch, J. D. and Prentice, R. L. (1980). The Statistical Analysis of Failure Time Data. New York:Wiley.
+13. Harrington, D. P. and Fleming, T. R. (1982). A class of rank test procedures for censored survival data. Biometrika 69, 553-566.
+14. Felix FH, de Araujo OL, da Trindade KM, Trompieri NM, Fontenele JB (2014).
+Retrospective evaluation of the outcomes of children with diffuse intrinsic
+pontine glioma treated with radiochemotherapy and valproic acid in a single
+center. J Neurooncol. 116(2):261-6. doi:[10.1007/s11060-013-1280-6](http://dx.doi.org/10.1007/s11060-013-1280-6).
+15. Felix FHC (2016). Análise de sobrevida em duas versões do mesmo banco de dados. Arquivo .Rmd armazenado em repositório do GitHub. [https://github.com/fhcflx/valkyrie/blob/gh-pages/_source/2016-07-27-Análise-de-sobrevida-em-duas-versões-do-mesmo-banco-de-dados.Rmd][rmd]
+16. John Gruber (2004). [Markdown][markdown], © 2002–2016 The Daring Fireball Company LLC.
+17. `r citation("knitr")$author[2]` (`r citation("servr")$year`). `r citation("servr")$title`, [`r citation("servr")$url`][servr]
+18. GitHub (2016). [Jekyll, a blog-aware, static site generator in Ruby.][jekyll] @ MIT License.
+19. Shuster J. (1991). Median follow up in clinical trials. [J. Clin. Oncol.][shuster], 9, 191-192.
+20. Altman DG, De Stavola BL, Love SB, Stepniewska KA (1995). Review of survival analyses published in cancer journals. [Br J Cancer][altman] 72:511–518
+
+[imagem]: http://dx.doi.org/10.6084/m9.figshare.3489941.v1
+[rational]: http://dx.doi.org/10.6084/m9.figshare.3489917.v1
+[csv]: https://github.com/fhcflx/valkyrie/tree/master/data/
+[historico]: http://dx.doi.org/10.6084/m9.figshare.3489956.v2
+[design]: http://dx.doi.org/10.6084/m9.figshare.3489947.v1
+[deid]: http://dx.doi.org/10.6084/m9.figshare.3545471.v1
+[curl]: `r citation("RCurl")$url`
+[r]: `r citation()$url`
+[knitr]: `r citation("knitr")$url[1]`
+[survival]: `r citation("survival")$url[1]`
+[dipg-poster]: http://dx.doi.org/10.7490/f1000research.1111018.1
+[servr]: `r citation("servr")$url`
+[jekyll]: https://jekyllrb.com
+[markdown]: https://daringfireball.net/projects/markdown/
+[rmd]: https://github.com/fhcflx/valkyrie/blob/gh-pages/_source/2016-07-27-Análise-de-sobrevida-em-duas-versões-do-mesmo-banco-de-dados.Rmd
+[shuster]: http://jco.ascopubs.org/content/9/1/191.long
+[altman]: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2033978/pdf/brjcancer00042-0259.pdf
