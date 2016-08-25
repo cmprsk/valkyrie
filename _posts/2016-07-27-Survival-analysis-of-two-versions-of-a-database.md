@@ -7,6 +7,8 @@ categories: metodologia
 ref: survival
 lang: en
 permalink: /survival-analysis/
+doi: 10.6084/m9.figshare.3759075.v1
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, survival analysis, valproic acid
 ---
 
 
