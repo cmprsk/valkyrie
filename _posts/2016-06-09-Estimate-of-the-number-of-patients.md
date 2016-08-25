@@ -59,7 +59,7 @@ nE nC
 
 Where ``` power``` is the statistical power (beta, probability of type 2 error), ```k``` is the ratio between the number of patients in the experimental group and the number of patients in the control group, ```pE``` is the probability of failure (event) in *t* = 12 months in the experimental group (taken from the data of our historical pilot),```pC``` is the probability of failure (event) in  *t* = 12 months in the control group (taken from data from our historical control), ```RR``` is the hazard ratio (HR) in the historical pilot, and ```alpha```  is the probability of type 1 error. Results includes 2 elements: ```nE``` (number of participants in experimental group) and ```nC``` number of participants of control group). This calculation is an implementation of the method proposed by [Freedman (1982)][freedman].
 
-These figures were obtained from the comparison I made between patients with HIT protocols and valproic acid *versus* patients treated *as     per* the COG protocols, as shown in the [introduction][intro] of the project (translated from portuguese):
+These figures were obtained from the comparison I made between patients with HIT protocols and valproic acid *versus* patients treated *as per* the COG protocols, as shown in the [introduction][intro] of the project (translated from portuguese):
 
   - Between September 2002 and November 2013, 57 patients were
   diagnosed with DIPG in our hospital. The median
