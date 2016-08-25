@@ -7,7 +7,7 @@ categories: metodologia
 lang: en
 ref: historico
 permalink: /historical-control/
-doi: 10.6084/m9.figshare.3489956.v2
+doi: 10.6084/m9.figshare.3489956.v3
 tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, historical control
 ---
 
