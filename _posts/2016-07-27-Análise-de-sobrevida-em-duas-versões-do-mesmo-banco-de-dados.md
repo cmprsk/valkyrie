@@ -11,7 +11,9 @@ doi: 10.6084/m9.figshare.3759075.v1
 tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, survival analysis, valproic acid
 ---
 
+### Abstract:
 
+Diffuse intrinsic pontine tumors (DIPG) are the brain tumors that have the highest mortality in the age group of children and adolescents (0-18 years). Children with a median age of 7 years are the most affected, with no difference of gender. There is no effective curative treatment. Our research group actively studies this disease. We have been mounting cloud-based  database of DIPG patients since 2009. Two different versions at different times, giving rise to two sets of data, like two different snapshots, each showing the aspect of the database at a particular time were deposited in the repository of this project. We wanted to compare these two snapshots through survival analysis. That is, we have done the same retrospective analysis in two different versions of the database. We demonstrated an important difference in the retrospective analysis results just because we used two different snapshots of the same dataset. Because all files can be publicly accessed, the scientific information is thus completely reproducible by third parties. This retrospective analysis is part of a clinical trial project that aims to be an open clinical research model.
 
 ### Introdução:
 
