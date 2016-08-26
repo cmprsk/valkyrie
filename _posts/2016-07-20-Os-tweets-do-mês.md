@@ -7,16 +7,16 @@ categories: valquiria
 ref: twitter3
 lang: pt
 permalink: /tweets-mes/
-doi: 10.6084/m9.figshare.3489965.v1
+doi: 10.6084/m9.figshare.3766254.v2
 tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, twitter, jekyll
 ---
-### Tweets from the last 15 days (06 a 21 de junho)
+### Tweets dos últimos 30 dias (21 de junho a 20 de julho)
 
-{% include twitter2.html %}
+{% include twitter3.html %}
 
 Integration between [_Jekyll_][jekyll] and Twitter through [_jekyll-twitter-plugin_][jekyll-twitter-plugin] created by [_Robert Murray_][murray]. Unfortunately, Github does not permit this plugin, but this was bypassed serving the page locally and retrieving the html files - _voilà_!
 
-### References:
+### Referências:
 
 - [Jekyll][jekyll]
 - [Jekyll, Jekyll-twitter plugin][jekyll-twitter-plugin]
