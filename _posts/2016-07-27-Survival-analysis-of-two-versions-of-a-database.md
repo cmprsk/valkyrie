@@ -7,7 +7,7 @@ categories: metodologia
 ref: survival
 lang: en
 permalink: /survival-analysis/
-doi: 10.6084/m9.figshare.3759075.v1
+doi: 10.6084/m9.figshare.3759075.v2
 tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, survival analysis, valproic acid
 ---
 
@@ -23,7 +23,7 @@ Our research group actively studies this disease. The information we have on pat
 
 The first version tries to recapitulate the exact moment of the data set when the VALKYRIE project was written in 2014. Unfortunately, this exact version of the database has not been saved, only the immediatelly next version. So, I used the version that had been stored in 2014, making a single modification (including patient 56). The data was de-identified as already described [before][historico] [3] and the database was saved in a [csv][csv] file [4] stored in the project repository. The file includes all patients diagnosed with DIPG between 2000-2013, regardless of the treatment.
 
-The second version is the 2015 database (snapshots are always written to the end of the year) and includes patients diagnosed with brainstem tumors between 2000-2015, diffuse or focal, treated or not. Also, only one change was made (**topography** label exchange of the patient 64 focal_ from _focal pons_ to _DIPG_). It is also stored on the same server in [.csv][csv] format. [4]
+The second version is the 2015 database (snapshots are always written to the end of the year) and includes patients diagnosed with brainstem tumors between 2000-2015, diffuse or focal, treated or not. Also, only one change was made (**topography** label modification for patient 64 from _focal pons_ to _DIPG_). It is also stored on the same server in [.csv][csv] format. [4]
 
 Survival analysis used to [design][design] VALKYRIE [5] was a retrospective analysis in which we compared the outcome (overall survival) of patients with DIPG diagnosed between 2000-2013 treated with at least 40 Gy of RT and two different types of chemotherapy (chemo): treated according to a [HIT GPOH][dipg-poster] protocol [6] _versus_ those treated with other chemotherapy protocols (or without chemo). It is this analysis to be repeated in the two versions of the database.
 
@@ -380,7 +380,7 @@ As a final bonus, from the second database version it is possible to carry out a
 
 A graph comparing groups g1 and g2, each one with 12 patients:
 
-![Sobrevida de pacientes com DIPG]({{site.github.url}}/figure/source/2016-07-27-Análise-de-sobrevida-em-duas-versões-do-mesmo-banco-de-dados/Sobrevida-1.png?raw=True)
+![Patients with DIPG - overall survival]({{site.github.url}}/figure/source/2016-07-27-Análise-de-sobrevida-em-duas-versões-do-mesmo-banco-de-dados/Sobrevida-1.png?raw=True)
 
 ```
 ## Call: survfit(formula = Surv(os, status) ~ g, data = brainstem, subset = (topo ==
