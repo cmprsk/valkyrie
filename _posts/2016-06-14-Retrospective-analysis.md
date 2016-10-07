@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "Retrospective analysis"
+title:  "Retrospective survival analysis - differences between twon versions of a dataset"
 date:   2016-06-14 16:03:45 -0300
 categories: metodologia
 ref: retro
