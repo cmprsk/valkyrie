@@ -35,7 +35,7 @@ This perception has fueled non-conservative initiatives that aim at this very ce
 
 ![](https://upload.wikimedia.org/wikipedia/en/1/14/Os_taxonomy.png)
 
-
+According to the [Foster (Facilitate Open Science Training for European Research)](https://www.fosteropenscience.eu) initiative site, open Science is ' an umbrella term that involves various movements aiming to remove the barriers for sharing any kind of output, resources, methods or tools, at any stage of the research process '
 
 ### References:
 
