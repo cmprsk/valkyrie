@@ -31,6 +31,12 @@ Notwithstanding that, virtually all "first-tier" scientific publications are pro
 
 This perception has fueled non-conservative initiatives that aim at this very central structure of clinical research. In the last few years, these largely independent and loosely related programs have coalesced in the concept of Open Science. The conceptualization of Open Science has evolved from an analogy to open source software and into a complex idea mainly based on information transparency. 
 
+### What is Open Science?
+
+![](https://upload.wikimedia.org/wikipedia/en/1/14/Os_taxonomy.png)
+
+
+
 ### References:
 
 [jekyll]: https://jekyllrb.com
