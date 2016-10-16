@@ -33,19 +33,30 @@ This perception has fueled non-conservative initiatives that aim at this very ce
 
 ### What is Open Science?
 
-![](https://upload.wikimedia.org/wikipedia/en/1/14/Os_taxonomy.png)
+![taxonomy](https://upload.wikimedia.org/wikipedia/en/1/14/Os_taxonomy.png)
 
-According to the [Foster (Facilitate Open Science Training for European Research)][Foster] initiative site, open science is ```an umbrella term that involves various movements aiming to remove the barriers for sharing any kind of output, resources, methods or tools, at any stage of the research process```
+According to the [Foster (Facilitate Open Science Training for European Research)][fstr] initiative site, open science is ```an umbrella term that involves various movements aiming to remove the barriers for sharing any kind of output, resources, methods or tools, at any stage of the research process```. Such a concept is open and evolving, and aggregates the free sharing of science production as a whole, encompassing all its multiple phases. From the benchside to the final applications. It's far outstreaching than conceptually narrower conservative initiatives. Even though most of the focus remains on Open Data and Open Access publication, OS is far more than this.
+
+The [OECD (Organization for Economic Cooperation and Development)][oecd] states that Open Science is ```to make the primary outputs of publicly funded research results – publications and the research data – publicly accessible in digital format with no or minimal restriction``` [(OECD, 2015)][oecd15]. Notwithstanding this, its outreach is much wider, and extends to the whole science production cycle ([Fuente, 2016][fnt]).
+
+![cycle](https://www.fosteropenscience.eu/sites/default/files/images/OpenScienceResearchInitiative-ResearchLifecycle.png)
+
 
 ### References:
 
 - [Clinical research, Wikipedia][clnrs]
 - [AllTrials.net][alltrls]
-- [Foster (Facilitate Open Science Training for European Research)][fstr]
+- [Facilitate Open Science Training for European Research, FOSTER][fstr]
+- [Organization for Economic Cooperation and Development, OECD][oecd]
+- [OECD (2015), “Making Open Science a Reality”, OECD Science, Technology and Industry Policy Papers, No. 25, OECD Publishing, Paris][oecd15]
+- Gemma Bueno de la Fuente. What is open science? Introduction. [webpage][fnt], retrieved in 10/15/2016.
 
 [clnrs]: https://en.m.wikipedia.org/wiki/Clinical_research
 [alltrls]: http://alltrials.net
 [fstr]: https://www.fosteropenscience.eu
+[oecd]: http://OECD.org
+[oecd15]: http://dx.doi.org/10.1787/5jrs2f963zs1-en
+[fnt]: https://www.fosteropenscience.eu/content/what-open-science-introduction
 [jekyll]: https://jekyllrb.com
 [jekyll-twitter-plugin]: https://github.com/rob-murray/jekyll-twitter-plugin
 [murray]: https://github.com/rob-murray
