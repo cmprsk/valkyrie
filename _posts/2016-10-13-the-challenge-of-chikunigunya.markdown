@@ -23,35 +23,35 @@ Initiatives that already exist around the world are important, but they are frag
 
 ### References:
 
-- [Daring Fireball: Markdown] [mrkdwn]
-- [VALKYRIE - De-identification - anonymization] [de-id]
-- [Mastering Markdown] [GFM]
-- [GitHub Pages - Websites for you and your projects] [gthb-pgs]
-- [Jekyll - Transform your plain text into static websites and blogs] [jkyll]
-- [Using Jekyll as a static site generator with GitHub Pages] [gthb-pgs-jkyll]
-- [The R Project for Statistical Computing] [r]
-- [Knitr - Elegant, flexible and fast dynamic report generation with R] [kntr]
-- [Servr - The HTTP server serves to simple files under a given Beheerder directory based on the httpuv package] [srvr]
-- [YAML 1.2] [yaml]
-- [Jekyll - Front Matter] [yml-frntmttr]
-- [Doi - Identifier inteoperability] [d]
-- [GitHub Inc.] [Gthb]
-- [Git] [gt]
-- [Jekyll-twitter-plugin - The Liquid tag plugin Jekyll que renders Tweets from Twitter API] [jkyll-twttr-plgn]
-- [Disqus - Jekyll Installation Instrunctions] [dsqs]
-- [Making Jekyll multilingual] [mltlngl]
-- [Figshare] [fgshr]
-- [Open Science: Your guide to Open Access Publishing and Open Science] [opn-SCNC]
-- [VALKYRIE - Analysis of images] [MDCL]
-- [VALKYRIE - Standard treatment for brain tumor pacientes] [lcnsd]
+- [Daring Fireball: Markdown][mrkdwn]
+- [VALKYRIE - De-identification - anonymization][de-id]
+- [Mastering Markdown][GFM]
+- [GitHub Pages - Websites for you and your projects][gthb-pgs]
+- [Jekyll - Transform your plain text into static websites and blogs][jkyll]
+- [Using Jekyll as a static site generator with GitHub Pages][gthb-pgs-jkyll]
+- [The R Project for Statistical Computing][r]
+- [Knitr - Elegant, flexible and fast dynamic report generation with R][kntr]
+- [Servr - The HTTP server serves to simple files under a given Beheerder directory based on the httpuv package][srvr]
+- [YAML 1.2][yaml]
+- [Jekyll - Front Matter][yml-frntmttr]
+- [Doi - Identifier inteoperability][d]
+- [GitHub Inc.][Gthb]
+- [Git][gt]
+- [Jekyll-twitter-plugin - The Liquid tag plugin Jekyll que renders Tweets from Twitter API][jkyll-twttr-plgn]
+- [Disqus - Jekyll Installation Instrunctions][dsqs]
+- [Making Jekyll multilingual][mltlngl]
+- [Figshare][fgshr]
+- [Open Science: Your guide to Open Access Publishing and Open Science][opn-SCNC]
+- [VALKYRIE - Analysis of images][MDCL]
+- [VALKYRIE - Standard treatment for brain tumor pacientes][lcnsd]
 
 
-[Mrkdwn] https://daringfireball.net/projects/markdown/
-[-Id]: {{}} site.github.url / de-identification /
+[Mrkdwn]: https://daringfireball.net/projects/markdown/
+[de-id]: {{site.github.url}}/de-identification/
 [GFM]: https://guides.github.com/features/mastering-markdown/
-[Gthb-pgs] https://pages.github.com
-[Jkyll] https://jekyllrb.com
-[Gthb-pp-jkyll] https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/
+[Gthb-pgs]: https://pages.github.com
+[Jkyll]: https://jekyllrb.com
+[Gthb-pp-jkyll]: https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/
 [R]: https://www.r-project.org
 [Kntr] http://yihui.name/knitr/
 [Srvr]: https://github.com/yihui/servr
@@ -60,10 +60,10 @@ Initiatives that already exist around the world are important, but they are frag
 [D]: https://www.doi.org/factsheets/Identifier_Interoper.html
 [Gthb]: https: //github.com
 [GT]: https://git-scm.com
-[Jkll-twttr-plgn]: https://github.com/rob-murray/jekyll-twitter-plugin
-[Dsqs] https://help.disqus.com/customer/portal/articles/472138-jekyll-installation-instructions
-[Mltlngl] https://www.sylvaindurand.org/making-jekyll-multilingual/
-[Fgshr] http://www.figshare.com
+[Jkll-twttr-plgn]: https://github.com/rob-murray/jekyll-twitter-plugin/
+[Dsqs]: https://help.disqus.com/customer/portal/articles/472138-jekyll-installation-instructions/
+[Mltlngl]: https://www.sylvaindurand.org/making-jekyll-multilingual/
+[Fgshr]: http://www.figshare.com
 [Opn-SCNC]: http://openscience.com
-[MDCL]: {{}} site.github.url / image-analysis /
-[Lcnsd]: {{}} site.github.url / standard-treatment /
+[MDCL]: {{site.github.url}}/image-analysis/
+[Lcnsd]: {{site.github.url}}/standard-treatment/
