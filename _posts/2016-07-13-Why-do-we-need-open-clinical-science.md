@@ -43,9 +43,9 @@ According to the [Foster (Facilitate Open Science Training for European Research
 - [AllTrials.net][alltrls]
 - [Foster (Facilitate Open Science Training for European Research)][fstr]
 
-[clnrs](https://en.m.wikipedia.org/wiki/Clinical_research)
-[alltrls](http://alltrials.net)
-[fstr](https://www.fosteropenscience.eu)
+[clnrs]: https://en.m.wikipedia.org/wiki/Clinical_research
+[alltrls]: http://alltrials.net
+[fstr]: https://www.fosteropenscience.eu
 [jekyll]: https://jekyllrb.com
 [jekyll-twitter-plugin]: https://github.com/rob-murray/jekyll-twitter-plugin
 [murray]: https://github.com/rob-murray
