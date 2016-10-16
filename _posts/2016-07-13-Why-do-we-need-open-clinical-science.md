@@ -46,10 +46,12 @@ The [OECD (Organization for Economic Cooperation and Development)][oecd] states 
 
 - [Clinical research, Wikipedia][clnrs]
 - [AllTrials.net][alltrls]
+- [Knoth, Petr; Pontika, Nancy (2015): Open Science Taxonomy. figshare.][txnmy]
 - [Facilitate Open Science Training for European Research, FOSTER][fstr]
 - [Organization for Economic Cooperation and Development, OECD][oecd]
 - [OECD (2015), “Making Open Science a Reality”, OECD Science, Technology and Industry Policy Papers, No. 25, OECD Publishing, Paris][oecd15]
 - Gemma Bueno de la Fuente. What is open science? Introduction. [webpage][fnt], retrieved in 10/15/2016.
+- Open Science and Research Initiative (2014). Open Science and Research Handbook. [English version] Available at [webpage][oshndbk]
 
 [clnrs]: https://en.m.wikipedia.org/wiki/Clinical_research
 [alltrls]: http://alltrials.net
@@ -57,6 +59,8 @@ The [OECD (Organization for Economic Cooperation and Development)][oecd] states 
 [oecd]: http://OECD.org
 [oecd15]: http://dx.doi.org/10.1787/5jrs2f963zs1-en
 [fnt]: https://www.fosteropenscience.eu/content/what-open-science-introduction
+[oshndbk]: https://avointiede.fi/documents/14273/0/Open+Science+and+Research+Handbook+v.1.0/50316d5d-440b-4496-b039-2997663afff8
+[txnmy]: https://dx.doi.org/10.6084/m9.figshare.1508606.v3
 [jekyll]: https://jekyllrb.com
 [jekyll-twitter-plugin]: https://github.com/rob-murray/jekyll-twitter-plugin
 [murray]: https://github.com/rob-murray
