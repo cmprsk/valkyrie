@@ -51,7 +51,7 @@ Initiatives that already exist around the world are important, but they are frag
 [GFM]: https://guides.github.com/features/mastering-markdown/
 [Gthb-pgs]: https://pages.github.com
 [Jkyll]: https://jekyllrb.com
-[gthb-pp-jkyll]: https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/
+[gthb-pgs-jkyll]: https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/
 [R]: https://www.r-project.org
 [kntr]:http://yihui.name/knitr/
 [Srvr]: https://github.com/yihui/servr
