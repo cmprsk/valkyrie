@@ -51,16 +51,16 @@ Initiatives that already exist around the world are important, but they are frag
 [GFM]: https://guides.github.com/features/mastering-markdown/
 [Gthb-pgs]: https://pages.github.com
 [Jkyll]: https://jekyllrb.com
-[Gthb-pp-jkyll]: https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/
+[gthb-pp-jkyll]: https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/
 [R]: https://www.r-project.org
-[Kntr] http://yihui.name/knitr/
+[kntr]:http://yihui.name/knitr/
 [Srvr]: https://github.com/yihui/servr
 [Yaml]: http://yaml.org
 [Yml-frntmttr]: https://jekyllrb.com/docs/frontmatter/
 [D]: https://www.doi.org/factsheets/Identifier_Interoper.html
 [Gthb]: https://github.com
 [gt]: https://git-scm.com
-[jkll-twttr-plgn]: https://github.com/rob-murray/jekyll-twitter-plugin/
+[jkyll-twttr-plgn]: https://github.com/rob-murray/jekyll-twitter-plugin/
 [dsqs]: https://help.disqus.com/customer/portal/articles/472138-jekyll-installation-instructions/
 [mltlngl]: https://www.sylvaindurand.org/making-jekyll-multilingual/
 [fgshr]: http://www.figshare.com
