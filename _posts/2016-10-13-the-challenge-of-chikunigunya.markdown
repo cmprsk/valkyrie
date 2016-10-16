@@ -58,12 +58,12 @@ Initiatives that already exist around the world are important, but they are frag
 [Yaml]: http://yaml.org
 [Yml-frntmttr]: https://jekyllrb.com/docs/frontmatter/
 [D]: https://www.doi.org/factsheets/Identifier_Interoper.html
-[Gthb]: https: //github.com
-[GT]: https://git-scm.com
-[Jkll-twttr-plgn]: https://github.com/rob-murray/jekyll-twitter-plugin/
-[Dsqs]: https://help.disqus.com/customer/portal/articles/472138-jekyll-installation-instructions/
-[Mltlngl]: https://www.sylvaindurand.org/making-jekyll-multilingual/
-[Fgshr]: http://www.figshare.com
-[Opn-SCNC]: http://openscience.com
+[Gthb]: https://github.com
+[gt]: https://git-scm.com
+[jkll-twttr-plgn]: https://github.com/rob-murray/jekyll-twitter-plugin/
+[dsqs]: https://help.disqus.com/customer/portal/articles/472138-jekyll-installation-instructions/
+[mltlngl]: https://www.sylvaindurand.org/making-jekyll-multilingual/
+[fgshr]: http://www.figshare.com
+[opn-SCNC]: http://openscience.com
 [MDCL]: {{site.github.url}}/image-analysis/
 [Lcnsd]: {{site.github.url}}/standard-treatment/
