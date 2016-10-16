@@ -60,7 +60,7 @@ Iniciativas que já existem em todo o mundo são importantes, mas elas estão fr
 [d]: https://www.doi.org/factsheets/Identifier_Interoper.html
 [gthb]:https://github.com
 [gt]: https://git-scm.com
-[jkll-twttr-plgn]: https://github.com/rob-murray/jekyll-twitter-plugin
+[jkyll-twttr-plgn]: https://github.com/rob-murray/jekyll-twitter-plugin
 [dsqs]: https://help.disqus.com/customer/portal/articles/472138-jekyll-installation-instructions
 [mltlngl]: https://www.sylvaindurand.org/making-jekyll-multilingual/
 [fgshr]: http://www.figshare.com
