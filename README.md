@@ -19,7 +19,8 @@ Identificação no Registro Brasileiro de Ensaios Clínicos (ReBEC): [RBR-7ygspd
 
 Registrado no ReBEC em 04/02/2016. Última atualização em: 30/05/2016
 
-Ativado em 01/06/2016. Recrutamento de pacientes ainda não iniciado (em 24 de julho).
+Ativado em 01/06/2016. Recrutamento de pacientes ainda não iniciado. O projeto, como um todo, foi suspenso até janeiro de 2017, quando faremos uma reavaliação.
+
 
 ### Responsável: 
 > Francisco Helder Cavalcante Felix,
@@ -48,6 +49,12 @@ Ativado em 01/06/2016. Recrutamento de pacientes ainda não iniciado (em 24 de j
 - [Sociedade Brasileira de Pediatria][sbp]
 - [Sociedade Brasileira de Oncologia Pediátrica][sobope]
 - [Society for Neuro-oncology][sno]
+
+```
+Como contribuir:
+1. Entre em sua conta do GitHub e abra um issue, ou
+2. Faça um fork do projeto, modifique e dê um pull request.
+```
   
 ----
 
@@ -67,7 +74,7 @@ Identification in the Brazillian Clinical Trial Registry (ReBEC): [RBR-7ygspd][r
 
 First received on ReBEC in 02/04/2016. Last updated in 05/30/2016.
 
-Actived in 06/01/2016. Patient accrual has not begin yet (as for July 24th).
+Actived in 06/01/2016. Patient accrual has not begin yet. The project was put on a hold until January 2017, when it will be reassessed.
 
 ### Responsible: 
 > Francisco Helder Cavalcante Felix,
@@ -96,6 +103,12 @@ Actived in 06/01/2016. Patient accrual has not begin yet (as for July 24th).
 - [Brazilian Society of Pediatrics][sbp]
 - [Brazilian Society of Pediatric Oncology][sobope]
 - [Society for Neuro-oncology][sno]
+
+```
+How to contribute:
+1. Log in your GitHub account and open an issue, or
+2. Fork the project, modify and make a pull request.
+```
 
 ---------------------------------
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">valkyrie</span> de <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Francisco H C Felix</span> está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons - Atribuição-NãoComercial 4.0 Internacional</a>
