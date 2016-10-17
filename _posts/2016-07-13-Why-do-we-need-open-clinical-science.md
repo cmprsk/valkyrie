@@ -13,13 +13,13 @@ tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical
 ### More transparency in clinical research
 
 The reasons why [clinical research][clnrs] is done should be obvious. However, one must address them and try to summarize them into a few working principles if an in depth analysis is to be carried out. It is probably a consensus that clinical research aims to develop new treatments for ailments. That said, it should be a corollary that clinical research seeks the benefit of the public. Additionally, it is paramount to clinical research the protection of the experimental subject.
-In other words, the individuals that participate in clinical research must not be submitted to unethical or inhumane conditions or procedures, and this includes their privacy. A third principle could be stated as follows: clinical research must adhere to a rigid methodology in order to ensure the highest possible likelihood of reliability of the results. This will guarantee that the resources spent in the research are not wasted in futile efforts.
+In other words, the individuals that participate in clinical research must not be submitted to unethical or inhumane conditions or procedures, and this includes their privacy. A third principle could be stated as follows: clinical research must adhere to a rigid methodology in order to ensure the highest possible likelihood of reliability of the results. Methodology and reporting have to be clear enough so these results may be fully reproducible by third parties. This will guarantee that the resources spent in the research are not wasted in futile efforts.
 
 This leads us to a set of three principles one could summarize as goes:
 
 1. Uphold the interest of the public.
 2. Protect the integrity of the participant.
-3. Follow a strict method.
+3. Follow a strict, reproducible method.
 
 What is the best way to ascertain that all clinical research will adopt these principles to the heart? The answer is very difficult, and no one has ever succeeded completely in this intent, as far as I know. A series of reasons complicates the prospect of clinical research, but the most important seem to be conflicts of interest from funders and scientists. However, one may not underestimate the influence of widespread cultural beliefs of science makers and the general public and a pervasive unfamiliarity with the meaning and shortcomings of statistical methods. These are not really small problems. The net result of the clinical research difficulties are low probability of publication of final results of clinical trials (even when they are clinically meaningful), and overall lack of transparency of information derived from clinical trials.
 
@@ -29,7 +29,7 @@ A good example of conservative initiatives are the legislation of many countries
 
 Notwithstanding that, virtually all "first-tier" scientific publications are produced in this mainstream information productive chain. It is funded by big pharma, carried out by selected highly regarded institutions and published in the most traditional and difficult to achieve scientific journals. As a correlate measure of adequacy to this axis, we can examine the distribution of the Thomson Reuters Impact Factor. Less than 0.1% of 2014 published papers were really highly cited, a fact that shapes the landscape of impact factor distribution and, consequently, the rank of the most prestigious journals. That highly redundant, positive feedback loop system concentrates the majority of important clinical research. As a logical conclusion, one can state that most problems with clinical science transparency arise in this axis.
 
-This perception has fueled non-conservative initiatives that aim at this very central structure of clinical research. In the last few years, these largely independent and loosely related programs have coalesced in the concept of Open Science. The conceptualization of Open Science has evolved from an analogy to open source software and into a complex idea mainly based on information transparency. 
+This perception has fueled non-conservative initiatives that aim at this very central structure of clinical research. In the last few years, these largely independent and loosely related programs have coalesced in the concept of Open Science. The conceptualization of Open Science has evolved from an analogy to open source software and into a complex idea mainly based on information transparency.
 
 ### What is Open Science?
 
