@@ -21,6 +21,7 @@ Registrado no ReBEC em 04/02/2016. Última atualização em: 30/05/2016
 
 Ativado em 01/06/2016. Recrutamento de pacientes ainda não iniciado. O projeto, como um todo, foi suspenso até janeiro de 2017, quando faremos uma reavaliação.
 
+Página do caderno aberto de pesquisa clínica: http://fhcflx.github.io/valkyrie
 
 ### Responsável: 
 > Francisco Helder Cavalcante Felix,
@@ -54,6 +55,10 @@ Ativado em 01/06/2016. Recrutamento de pacientes ainda não iniciado. O projeto,
 Como contribuir:
 1. Entre em sua conta do GitHub e abra um issue, ou
 2. Faça um fork do projeto, modifique e dê um pull request.
+
+Contribuições para o caderno aberto de pesquisa clínica:
+1. Vá para o branch do site em https://github.com/fhcflx/valkyrie/tree/gh-pages,
+2. Abra um issue, dê um pull request.
 ```
   
 ----
@@ -75,6 +80,8 @@ Identification in the Brazillian Clinical Trial Registry (ReBEC): [RBR-7ygspd][r
 First received on ReBEC in 02/04/2016. Last updated in 05/30/2016.
 
 Actived in 06/01/2016. Patient accrual has not begin yet. The project was put on a hold until January 2017, when it will be reassessed.
+
+Home page of the clinical research open notebook: http://fhcflx.github.io/valkyrie
 
 ### Responsible: 
 > Francisco Helder Cavalcante Felix,
@@ -108,6 +115,10 @@ Actived in 06/01/2016. Patient accrual has not begin yet. The project was put on
 How to contribute:
 1. Log in your GitHub account and open an issue, or
 2. Fork the project, modify and make a pull request.
+
+Contributions to the clinical research open notebook:
+1. Go to the site branch in https://github.com/fhcflx/valkyrie/tree/gh-pages,
+2. Open an issue, make a pull request.
 ```
 
 ---------------------------------
