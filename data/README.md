@@ -17,21 +17,21 @@ Versões em momentos diferentes de bases de dados de sobrevida de pacientes pode
 
 ### Versão de 2014:
 
-Arquivo: [dipg2014.csv][dipg]
-Formato: valores separados por vírgulas (texto simples)
-Codificação: UTF-8
-Inclusão de dados: pacientes de 0-18 anos diagnosticados com DIPG entre 2000 e 2013 em um único centro hospitalar
-Desidentificação: realizada através da retirada de campos identificadores primários (registro no arquivo hospitalar, nome, procedência) e secundários (data de nascimento, data de diagnóstico, datas dos tratamentos)
-Número de pacientes incluídos: 56
+- Arquivo: [dipg2014.csv][dipg]
+- Formato: valores separados por vírgulas (texto simples)
+- Codificação: UTF-8
+- Inclusão de dados: pacientes de 0-18 anos diagnosticados com DIPG entre 2000 e 2013 em um único centro hospitalar
+- Desidentificação: realizada através da retirada de campos identificadores primários (registro no arquivo hospitalar, nome, procedência) e secundários (data de nascimento, data de diagnóstico, datas dos tratamentos)
+- Número de pacientes incluídos: 56
 
 ### Versão de 2015:
 
-Arquivo: [brainstem2015.csv][brainstem]
-Formato: valores separados por vírgulas (texto simples)
-Codificação: UTF-8
-Inclusão de dados: pacientes de 0-18 anos diagnosticados com tumores de tronco cerebral (tanto focais, quanto difusos) entre 2000 e 2015 em um único centro hospitalar
-Desidentificação: realizada através da retirada de campos identificadores primários (registro no arquivo hospitalar, nome, procedência) e secundários (data de nascimento, data de diagnóstico, datas dos tratamentos)
-Número de pacientes incluídos: 87
+- Arquivo: [brainstem2015.csv][brainstem]
+- Formato: valores separados por vírgulas (texto simples)
+- Codificação: UTF-8
+- Inclusão de dados: pacientes de 0-18 anos diagnosticados com tumores de tronco cerebral (tanto focais, quanto difusos) entre 2000 e 2015 em um único centro hospitalar
+- Desidentificação: realizada através da retirada de campos identificadores primários (registro no arquivo hospitalar, nome, procedência) e secundários (data de nascimento, data de diagnóstico, datas dos tratamentos)
+- Número de pacientes incluídos: 87
 
 ### Referências:
 
@@ -61,21 +61,21 @@ Versions at different times of patient survival data bases may lead to different
 
 ### 2014 Version:
 
-Archive: [dipg2014.csv][dipg]
-Format: comma separated values (plain text)
-Codification: UTF-8
-Inclusion criteria: patients with 0-18 years diagnosed with DIPG between 2000 and 2013 in a single hospital center
-De-identification: through the deleting of primary (register number, name, geolocation) and secondary identifiers (birth date, diagnosis date, dates of the treatments)
-Number of patients: 56
+- Archive: [dipg2014.csv][dipg]
+- Format: comma separated values (plain text)
+- Codification: UTF-8
+- Inclusion criteria: patients with 0-18 years diagnosed with DIPG between 2000 and 2013 in a single hospital center
+- De-identification: through the deleting of primary (register number, name, geolocation) and secondary identifiers (birth date, diagnosis date, dates of the treatments)
+- Number of patients: 56
 
 ### 2015 Version:
 
-Archive: [brainstem2015.csv][brainstem]
-Format: comma separated values (plain text)
-Codification: UTF-8
-Inclusion criteria: patients with 0-18 years diagnosed with brainstem tumors (including focal tumors and DIPG) between 2000 and 2015 in a single hospital center
-De-identification: through the deleting of primary (register number, name, geolocation) and secondary identifiers (birth date, diagnosis date, dates of the treatments)
-Number of patients: 87
+- Archive: [brainstem2015.csv][brainstem]
+- Format: comma separated values (plain text)
+- Codification: UTF-8
+- Inclusion criteria: patients with 0-18 years diagnosed with brainstem tumors (including focal tumors and DIPG) between 2000 and 2015 in a single hospital center
+- De-identification: through the deleting of primary (register number, name, geolocation) and secondary identifiers (birth date, diagnosis date, dates of the treatments)
+- Number of patients: 87
 
 ### References:
 
