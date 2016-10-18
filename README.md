@@ -3,7 +3,7 @@
 > ## UTN: U1111-1179-2263
 
 -----------------------
-Este repositório vai abrigar os arquivos do primeiro **ensaio clínico usando ciência aberta (open science clinical trial)**, um [**caderno de pesquisa aberto (open lab notebook)**][open-lab] que descreverá e apresentará os resultados de um ensaio clínico em tempo real (enquanto os dados são coletados). A fim de proteger a identidade e confidencialidade dos pacientes, os dados não serão apresentados de forma completa, porém serão anotados de forma [*desidentificada*][desidentifica].
+Este repositório abriga arquivos de um modelo de **ensaio clínico usando ciência aberta (open science clinical trial)**, um [**caderno de pesquisa aberto (open lab notebook)**][open-lab] que descreve e apresenta os resultados de um ensaio clínico em tempo real (enquanto os dados são coletados). A fim de proteger a identidade e confidencialidade dos pacientes, os dados não são apresentados de forma completa, porém são anotados de forma [*desidentificada*][desidentifica].
 
 Acrônimo: Ácido **VAL**próico, **QUI**mioterapia e **R**adioterapia para pacientes com DIPG na **I**nfância e **A**dolescência
 
@@ -23,7 +23,7 @@ Ativado em 01/06/2016. Recrutamento de pacientes ainda não iniciado. O projeto,
 
 Página do caderno aberto de pesquisa clínica: http://fhcflx.github.io/valkyrie
 
-### Responsável: 
+### Responsável:
 > Francisco Helder Cavalcante Felix,
 > Médico cancerologista pediátrico
 > atuando desde 2008 (ingresso por concurso público) no [Hospital Infantil Albert Sabin][hias], Fortaleza - CE, Brasil
@@ -60,10 +60,10 @@ Contribuições para o caderno aberto de pesquisa clínica:
 1. Vá para o branch do site em https://github.com/fhcflx/valkyrie/tree/gh-pages,
 2. Abra um issue, dê um pull request.
 ```
-  
+
 ----
 
-This repository will harbor the files of the first **open science clinical trial**, an [**open lab notebook**](https://en.wikipedia.org/wiki/Open_notebook_science) project that will describe and present the results of a clinical trial in real time (as data is registered). In order to protect the identity and confidentiality of the patients, data will not be shown in raw format, but [*de-identified*](https://en.wikipedia.org/wiki/De-identification).
+This repository keeps the files of an **open science clinical trial** model, an [**open lab notebook**](https://en.wikipedia.org/wiki/Open_notebook_science) project that describes and presents the results of a clinical trial in real time (as data is registered). In order to protect the identity and confidentiality of the patients, data is not to be shown in raw format, but [*de-identified*](https://en.wikipedia.org/wiki/De-identification).
 
 Acronim: VALKYRIE - **VAL**proic acid with radio**CH(K)**emothe**R**apy for D**I**PG
 
@@ -83,7 +83,7 @@ Actived in 06/01/2016. Patient accrual has not begin yet. The project was put on
 
 Home page of the clinical research open notebook: http://fhcflx.github.io/valkyrie
 
-### Responsible: 
+### Responsible:
 > Francisco Helder Cavalcante Felix,
 > Pediatric cancerologist
 > staff since 2008 at [Hospital Infantil Albert Sabin][hias], Fortaleza - CE, Brazil

@@ -13,16 +13,20 @@ Em 2015, publicamos um [poster][felix2] no 19º Congresso Brasileiro de Oncologi
 
 Adicionalmente, publicamos um [poster][felix1] em 2014, com parte dos dados correspondentes a uma versão do banco de dados intermediária entre as duas depositadas aqui.
 
+Versões em momentos diferentes de bases de dados de sobrevida de pacientes podem ter interpretações diferentes dos resultados das mesmas análises retrospectivas. [Aqui][bases], eu mostro como a mesma análise de sobrevida retorna resultados diferentes nas duas versões da base de dados armazenadas neste repositório.
+
 ### Referências:
 
-- Felix, Francisco. (2016). Phase IIa (proof of concept) Trial of Valproic Acid with Chemotherapy and Radiotherapy for Patients with Diffuse Intrinsic Pontine Glioma in Childhood and Adolescence - VALQUIRIA. Zenodo. [10.5281/zenodo.44888][val]
-- [Desidentificação - anonimização][deid]
+- Felix, Francisco (2016). Phase IIa (proof of concept) Trial of Valproic Acid with Chemotherapy and Radiotherapy for Patients with Diffuse Intrinsic Pontine Glioma in Childhood and Adolescence - VALQUIRIA. Zenodo. [10.5281/zenodo.44888][val]
+- Felix, Francisco H C (2016). Desidentificação - anonimização. Figshare. doi:[10.6084/m9.figshare.3759075.v2][deid]
 - Felix F and Fontenele J. Chemoradiotherapy with etoposide, cisplatin, and ifosfamide associated with valproic acid for patients with diffuse intrinsic pontine glioma [v1; not peer reviewed]. F1000Research 2015, 4:1301 (poster) [Portuguese] (doi: [10.7490/f1000research.1111018.1][felix1])
 - Felix F, Santos K, Freire P et al. Diffuse intrinsic pontine gliomas: report of patients treated in a brazilian pediatric oncological center [v1; not peer reviewed]. F1000Research 2015, 4:1362 (poster) [Portuguese] (doi: [10.7490/f1000research.1111075.1][felix2])
+- Felix, Francisco H C (2016). Análise de sobrevida em duas versões do mesmo banco de dados. Figshare. doi:[10.6084/m9.figshare.3759075.v2][bases]
 
 [val]: https://zenodo.org/record/44888
-[deid]: http://fhcflx.github.io/valkyrie/desidentificação/
+[deid]: http://dx.doi.org/10.6084/m9.figshare.3545471.v1
 [dipg]: https://github.com/fhcflx/valkyrie/blob/gh-pages/_data/dipg.csv
 [brainstem]: https://github.com/fhcflx/valkyrie/blob/gh-pages/_data/brainstem2015.csv
 [felix1]: https://dx.doi.org/10.7490/f1000research.1111018.1
 [felix2]: https://dx.doi.org/10.7490/f1000research.1111075.1
+[bases]: http://dx.doi.org/10.6084/m9.figshare.3759075.v2/
