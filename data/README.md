@@ -15,6 +15,24 @@ Adicionalmente, publicamos um [poster][felix1] em 2014, com parte dos dados corr
 
 Versões em momentos diferentes de bases de dados de sobrevida de pacientes podem ter interpretações diferentes dos resultados das mesmas análises retrospectivas. [Aqui][bases], eu mostro como a mesma análise de sobrevida retorna resultados diferentes nas duas versões da base de dados armazenadas neste repositório.
 
+### Versão de 2014:
+
+Arquivo: [dipg2014.csv][dipg]
+Formato: valores separados por vírgulas (texto simples)
+Codificação: UTF-8
+Inclusão de dados: pacientes de 0-18 anos diagnosticados com DIPG entre 2000 e 2013 em um único centro hospitalar
+Desidentificação: realizada através da retirada de campos identificadores primários (registro no arquivo hospitalar, nome, procedência) e secundários (data de nascimento, data de diagnóstico, datas dos tratamentos)
+Número de pacientes incluídos: 56
+
+### Versão de 2015:
+
+Arquivo: [brainstem2015.csv][brainstem]
+Formato: valores separados por vírgulas (texto simples)
+Codificação: UTF-8
+Inclusão de dados: pacientes de 0-18 anos diagnosticados com tumores de tronco cerebral (tanto focais, quanto difusos) entre 2000 e 2015 em um único centro hospitalar
+Desidentificação: realizada através da retirada de campos identificadores primários (registro no arquivo hospitalar, nome, procedência) e secundários (data de nascimento, data de diagnóstico, datas dos tratamentos)
+Número de pacientes incluídos: 87
+
 ### Referências:
 
 - Felix, Francisco (2016). Phase IIa (proof of concept) Trial of Valproic Acid with Chemotherapy and Radiotherapy for Patients with Diffuse Intrinsic Pontine Glioma in Childhood and Adolescence - VALQUIRIA. Zenodo. [10.5281/zenodo.44888][val]
@@ -40,6 +58,24 @@ In 2015, we published a [poster][felix2] at the 19th Brazilian Congress of Clini
 In addition, we publish an [poster][felix1] in 2014, with part of the data corresponding to an intermediate version of the database between the two deposited here.
 
 Versions at different times of patient survival data bases may lead to different interpretations of the results of retrospective analyses. [Here][bases], we show how the same survival analysis gives different results using the two versions of the database stored in this repository.
+
+### 2014 Version:
+
+Archive: [dipg2014.csv][dipg]
+Format: comma separated values (plain text)
+Codification: UTF-8
+Inclusion criteria: patients with 0-18 years diagnosed with DIPG between 2000 and 2013 in a single hospital center
+De-identification: through the deleting of primary (register number, name, geolocation) and secondary identifiers (birth date, diagnosis date, dates of the treatments)
+Number of patients: 56
+
+### 2015 Version:
+
+Archive: [brainstem2015.csv][brainstem]
+Format: comma separated values (plain text)
+Codification: UTF-8
+Inclusion criteria: patients with 0-18 years diagnosed with brainstem tumors (including focal tumors and DIPG) between 2000 and 2015 in a single hospital center
+De-identification: through the deleting of primary (register number, name, geolocation) and secondary identifiers (birth date, diagnosis date, dates of the treatments)
+Number of patients: 87
 
 ### References:
 
