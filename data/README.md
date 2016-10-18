@@ -33,13 +33,13 @@ Each version can be seen as a snapshot of the information contained in the datab
 
 Before publishing in this repository, it was first necessary to [disidentify][deid] data in the database. The original database and its versions will not be made public in order to protect the confidentiality of patients involved.
 
-In 2014 we published a retrospective analysis of survival in the VALKYRIE project manuscript, [deposited][val] a few months ago in ZENODO repository. This retrospective analysis used a version of the database which, unfortunately, was not saved. We put here in this repository one the closest possible version of that. In order to reduce differences, we made a change, by adding patient record 56. This database is stored in format [.csv] [dipg].
+In 2014 we published a retrospective analysis of survival in the VALKYRIE project manuscript, [deposited][val] a few months ago in ZENODO repository. This retrospective analysis used a version of the database which, unfortunately, was not saved. The 2014 version we deposited here in this repository is its closest counterpart. In order to reduce differences, we made a change, by adding patient record 56. This database is stored in [.csv][dipg] format.
 
-In 2015, we published a [poster] [felix2] at the 19th Brazilian Congress of Clinical Oncology with the version that year database. When we place [this] [brainstem] database version here in this repository, we changed the topographic classification of the patient 64, of focal tumor bridge to DIPG. To date, this is the most updated version of the database.
+In 2015, we published a [poster][felix2] at the 19th Brazilian Congress of Clinical Oncology with that year's version of the database. In [this][brainstem] database version deposited here, we changed the classification of the patient 64 (the same patient 56 in 2014's database version), from focal brainstem tumor to DIPG. This is the most up-to-date version of the database.
 
-In addition, we publish an [poster] [felix1] in 2014, with part of the data corresponding to a version of the intermediate database between the two deposited here.
+In addition, we publish an [poster][felix1] in 2014, with part of the data corresponding to an intermediate version of the database between the two deposited here.
 
-Versions at different times of patient survival data bases may have different interpretations of the results of these retrospective analyzes. [Here] [base], we show how the same survival analysis return different results in the two versions of the database stored in the repository.
+Versions at different times of patient survival data bases may lead to different interpretations of the results of retrospective analyses. [Here][bases], we show how the same survival analysis gives different results using the two versions of the database stored in this repository.
 
 ### References:
 
