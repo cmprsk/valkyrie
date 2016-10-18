@@ -31,7 +31,7 @@ The data presented here are from a database that has been mounted since 2009.
 More than one version of it is available, illustrating different stages of development of this database.
 Each version can be seen as a snapshot of the information contained in the database at any given time. These snapshots are stored annually and are available on a server in the cloud. Between one version (snapshot) and another, changes were made in the way the data was collected and the classification criteria of brainstem tumors, which reflected in differences between the various versions of the database. Each version also refers to a publication (or set of them) in scientific journals or academic repositories (green way). In general, one can verify the evolution of this database towards increasing transparency and public opening.
 
-Before publishing in this repository, it was first necessary to [disidentify][deid] data in the database. The original database and its versions will not be made public in order to protect the confidentiality of patients involved.
+Before publishing in this repository, it was first necessary to [de-identify][deid] data in the database. The original database and its versions will not be made public in order to protect the confidentiality of patients involved.
 
 In 2014 we published a retrospective analysis of survival in the VALKYRIE project manuscript, [deposited][val] a few months ago in ZENODO repository. This retrospective analysis used a version of the database which, unfortunately, was not saved. The 2014 version we deposited here in this repository is its closest counterpart. In order to reduce differences, we made a change, by adding patient record 56. This database is stored in [.csv][dipg] format.
 
@@ -44,10 +44,10 @@ Versions at different times of patient survival data bases may lead to different
 ### References:
 
 - Felix, Francisco (2016). Phase IIa (proof of concept) Trial of Valproic Acid with Chemotherapy and Radiotherapy for Patients with Diffuse Intrinsic Pontine Glioma in Childhood and Adolescence - VALQUIRIA. Zenodo. [10.5281/zenodo.44888][val]
-- Felix, Francisco H C (2016). Desidentificação - anonimização. Figshare. doi:[10.6084/m9.figshare.3759075.v2][deid]
+- Felix, Francisco H C (2016). De-identification - anonymization. Figshare. doi:[10.6084/m9.figshare.3759075.v2][deid]
 - Felix F and Fontenele J. Chemoradiotherapy with etoposide, cisplatin, and ifosfamide associated with valproic acid for patients with diffuse intrinsic pontine glioma [v1; not peer reviewed]. F1000Research 2015, 4:1301 (poster) [Portuguese] doi:[10.7490/f1000research.1111018.1][felix1]
 - Felix F, Santos K, Freire P et al. Diffuse intrinsic pontine gliomas: report of patients treated in a brazilian pediatric oncological center [v1; not peer reviewed]. F1000Research 2015, 4:1362 (poster) [Portuguese] doi:[10.7490/f1000research.1111075.1][felix2]
-- Felix, Francisco H C (2016). Análise de sobrevida em duas versões do mesmo banco de dados. Figshare. doi:[10.6084/m9.figshare.3759075.v2][bases]
+- Felix, Francisco H C (2016). Survival analysis of two versions of a database. Figshare. doi:[10.6084/m9.figshare.3759075.v2][bases]
 
 
 [val]: https://zenodo.org/record/44888
