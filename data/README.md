@@ -19,8 +19,8 @@ Versões em momentos diferentes de bases de dados de sobrevida de pacientes pode
 
 - Felix, Francisco (2016). Phase IIa (proof of concept) Trial of Valproic Acid with Chemotherapy and Radiotherapy for Patients with Diffuse Intrinsic Pontine Glioma in Childhood and Adolescence - VALQUIRIA. Zenodo. [10.5281/zenodo.44888][val]
 - Felix, Francisco H C (2016). Desidentificação - anonimização. Figshare. doi:[10.6084/m9.figshare.3759075.v2][deid]
-- Felix F and Fontenele J. Chemoradiotherapy with etoposide, cisplatin, and ifosfamide associated with valproic acid for patients with diffuse intrinsic pontine glioma [v1; not peer reviewed]. F1000Research 2015, 4:1301 (poster) [Portuguese] (doi: [10.7490/f1000research.1111018.1][felix1])
-- Felix F, Santos K, Freire P et al. Diffuse intrinsic pontine gliomas: report of patients treated in a brazilian pediatric oncological center [v1; not peer reviewed]. F1000Research 2015, 4:1362 (poster) [Portuguese] (doi: [10.7490/f1000research.1111075.1][felix2])
+- Felix F and Fontenele J. Chemoradiotherapy with etoposide, cisplatin, and ifosfamide associated with valproic acid for patients with diffuse intrinsic pontine glioma [v1; not peer reviewed]. F1000Research 2015, 4:1301 (poster) [Portuguese] doi:[10.7490/f1000research.1111018.1][felix1]
+- Felix F, Santos K, Freire P et al. Diffuse intrinsic pontine gliomas: report of patients treated in a brazilian pediatric oncological center [v1; not peer reviewed]. F1000Research 2015, 4:1362 (poster) [Portuguese] doi:[10.7490/f1000research.1111075.1][felix2]
 - Felix, Francisco H C (2016). Análise de sobrevida em duas versões do mesmo banco de dados. Figshare. doi:[10.6084/m9.figshare.3759075.v2][bases]
 
 [val]: https://zenodo.org/record/44888
