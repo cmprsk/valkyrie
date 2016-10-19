@@ -69,18 +69,22 @@ Versões em momentos diferentes de bases de dados de sobrevida de pacientes pode
    - histo: histologia do tumor
    - topo: topografia do tumor 
    - ecog: escala de performance status do Eastern Cooperative Oncology Group, varia de 0-4 (ao diagnóstico)
-   - lpps: Lansky Play Performance
+   - lpps: Lansky Play Performance Scale, varia de 10 a 100
    - chemo: esquema de quimioterapia de primeira linha
    - tt.chemo: tempo entre o diagnóstico e o início da primeira linha de tratamento, em dias
-   - cycles1: número de ciclos de QT na primeira linha de tratamento
+   - cycles: número de ciclos de QT na primeira linha de tratamento
+   - delta.chemo: duração da primeira linha de tratamento, em dias
    - rt: dose da radioterapia (primeira linha), em cGy
    - tt.rt: tempo entre o diagnóstico e o início da primeira RT, em dias
+   - surgery: abordagem cirúrgica (0 = nenhuma, 2 = biópsia)
+   - prog: progressão após o tratamento de primeira linha
    - ttp: tempo para progressão, em meses
    - os2: sobrevida global após a progressão, em dias
    - ecog2: escala de performance status do Eastern Cooperative Oncology Group, varia de 0-4 (na progressão)
    - chemo2: esquema de quimioterapia de segunda linha
    - tt.chemo2: tempo entre a progressão e o início da segunda linha de tratamento, em dias
    - cycles2: número de ciclos de QT na segunda linha de tratamento
+   - delta.chemo2: duração da segunda linha de tratamento, em dias
    - rt2: dose da radioterapia (segunda linha), em cGy
    - chemo3: esquema de quimioterapia de terceira linha
    - alcarbo: alergia à carboplatina
