@@ -2,7 +2,7 @@
 
 Os dados apresentados aqui são oriundos de um banco de dados que vem sendo montado desde 2009.
 Mais de uma versão está disponível, ilustrando momentos diferentes da evolução deste banco de dados.
-Cada versão pode ser vista como um instantâneo das informações presentes no banco de dados num dado momemnto. Estes instantâneos foram armazenados anualmente, estando disponíveis num servidor na nuvem. Entre uma versão e outra, entre um instantâneo e outro, ocorreram mudanças no modo como os dados foram coletados e nos critérios de classificação dos tumores de tronco cerebral, o que refletiu nas diferenças entre as diversas versões do banco de dados. Cada versão refere-se também a uma publicação (ou conjunto delas) em periódicos científicos ou em repositórios acadêmicos (via verde). De uma forma geral, pode-se acompanhar o direcionamento cada vez maior desta base de dados para a transparência e abertura pública
+Cada versão pode ser vista como um instantâneo das informações presentes no banco de dados num dado momento. Estes instantâneos foram armazenados anualmente, estando disponíveis num servidor na nuvem. Entre uma versão e outra, entre um instantâneo e outro, ocorreram mudanças no modo como os dados foram coletados e nos critérios de classificação dos tumores de tronco cerebral, o que refletiu nas diferenças entre as diversas versões do banco de dados. Cada versão refere-se também a uma publicação (ou conjunto delas) em periódicos científicos ou em repositórios acadêmicos (via verde). De uma forma geral, pode-se acompanhar o direcionamento cada vez maior desta base de dados para a transparência e abertura pública
 de dados e análises.
 
 Para serem publicados neste repositório, foi preciso primeiramente [desidentificar][deid] as versões do banco de dados. O banco de dados original e suas versões não serão tornados públicos a fim de proteger a confidencialidade dos pacientes envolvidos.
@@ -23,6 +23,25 @@ Versões em momentos diferentes de bases de dados de sobrevida de pacientes pode
 - Inclusão de dados: pacientes de 0-18 anos diagnosticados com DIPG entre 2000 e 2013 em um único centro hospitalar
 - Desidentificação: realizada através da retirada de campos identificadores primários (registro no arquivo hospitalar, nome, procedência) e secundários (data de nascimento, data de diagnóstico, datas dos tratamentos)
 - Número de pacientes incluídos: 56
+- Variáveis:
+   - sex
+   - age
+   - os: sobrevida global, em meses
+   - status: desfecho (0 = vivo, 1 = falecido)
+   - ecog: escala de performance status do Eastern Cooperative Oncology Group, varia de 0-4 (ao diagnóstico)
+   - chemo: esquema de quimioterapia de primeira linha
+   - tt.chemo: tempo entre o diagnóstico e o início da primeira linha de tratamento, em dias
+   - cycles1: número de ciclos de QT na primeira linha de tratamento
+   - rt: dose da radioterapia (primeira linha), em cGy
+   - tt.rt: tempo entre o diagnóstico e o início da primeira RT, em dias
+   - ttp: tempo para progressão, em meses
+   - os2: sobrevida global após a progressão, em dias
+   - ecog2: escala de performance status do Eastern Cooperative Oncology Group, varia de 0-4 (na progressão)
+   - chemo2: esquema de quimioterapia de segunda linha
+   - tt.chemo2: tempo entre a progressão e o início da segunda linha de tratamento, em dias
+   - cycles2: número de ciclos de QT na segunda linha de tratamento
+   - rt2: dose da radioterapia (segunda linha), em cGy
+   - chemo3: esquema de quimioterapia de terceira linha
 
 ### Versão de 2015:
 
