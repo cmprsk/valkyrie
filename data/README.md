@@ -61,6 +61,35 @@ Versões em momentos diferentes de bases de dados de sobrevida de pacientes pode
 - Inclusão de dados: pacientes de 0-18 anos diagnosticados com tumores de tronco cerebral (tanto focais, quanto difusos) entre 2000 e 2015 em um único centro hospitalar
 - Desidentificação: realizada através da retirada de campos identificadores primários (registro no arquivo hospitalar, nome, procedência) e secundários (data de nascimento, data de diagnóstico, datas dos tratamentos)
 - Número de pacientes incluídos: 87
+- Variáveis:
+   - sex
+   - age
+   - os: sobrevida global, em meses
+   - status: desfecho (0 = vivo, 1 = falecido)
+   - ecog: escala de performance status do Eastern Cooperative Oncology Group, varia de 0-4 (ao diagnóstico)
+   - chemo: esquema de quimioterapia de primeira linha
+   - tt.chemo: tempo entre o diagnóstico e o início da primeira linha de tratamento, em dias
+   - cycles1: número de ciclos de QT na primeira linha de tratamento
+   - rt: dose da radioterapia (primeira linha), em cGy
+   - tt.rt: tempo entre o diagnóstico e o início da primeira RT, em dias
+   - ttp: tempo para progressão, em meses
+   - os2: sobrevida global após a progressão, em dias
+   - ecog2: escala de performance status do Eastern Cooperative Oncology Group, varia de 0-4 (na progressão)
+   - chemo2: esquema de quimioterapia de segunda linha
+   - tt.chemo2: tempo entre a progressão e o início da segunda linha de tratamento, em dias
+   - cycles2: número de ciclos de QT na segunda linha de tratamento
+   - rt2: dose da radioterapia (segunda linha), em cGy
+   - chemo3: esquema de quimioterapia de terceira linha
+   - alcarbo: alergia à carboplatina
+   - cical: ciclo quando ocorreu a reação alérgica
+   - cap: uso de captopril (0 = não, 1 = desde o diagnóstico, 2 = desde a progressão)
+   - eiaed: uso de antiepilépticos indutores de enzimas hepáticas (0 = não, 1 = sim)
+   - vpa: uso de ácido valpróico (0 = não, 1 = sim)
+   - conv: ocorrência de convulsões após o diagnóstico (0 = não, 1 = sim)
+   - cns.bleed: evento vascular cerebral (0 = nenhum, 1 = hematoma subdural espontâneo, 6 = trombose venosa central)
+   - infec: episódios de infecção grau III-IV, CTC 2.0
+   - hemo: mielossupressão grau III-IV, CTC 2.0
+   - neurotoxicidade grau III-IV, CTC 2.0
 
 ### Referências:
 
@@ -121,4 +150,4 @@ Versions at different times of patient survival data bases may lead to different
 [brainstem]: brainstem2015.csv
 [felix1]: https://dx.doi.org/10.7490/f1000research.1111018.1
 [felix2]: https://dx.doi.org/10.7490/f1000research.1111075.1
-[bases]: http://dx.doi.org/10.6084/m9.figshare.3759075.v2/
+[bases]: http://dx.doi.org/10.6084/m9.figshare.3759075.v2
