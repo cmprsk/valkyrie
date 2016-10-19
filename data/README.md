@@ -42,6 +42,16 @@ Versões em momentos diferentes de bases de dados de sobrevida de pacientes pode
    - cycles2: número de ciclos de QT na segunda linha de tratamento
    - rt2: dose da radioterapia (segunda linha), em cGy
    - chemo3: esquema de quimioterapia de terceira linha
+   - alcarbo: alergia à carboplatina
+   - cical: ciclo quando ocorreu a reação alérgica
+   - cap: uso de captopril (0 = não, 1 = desde o diagnóstico, 2 = desde a progressão)
+   - eiaed: uso de antiepilépticos indutores de enzimas hepáticas (0 = não, 1 = sim)
+   - vpa: uso de ácido valpróico (0 = não, 1 = sim)
+   - conv: ocorrência de convulsões após o diagnóstico (0 = não, 1 = sim)
+   - cns.bleed: evento vascular cerebral (0 = nenhum, 1 = hematoma subdural espontâneo, 6 = trombose venosa central)
+   - infec: episódios de infecção grau III-IV, CTC 2.0
+   - hemo: mielossupressão grau III-IV, CTC 2.0
+   - neurotoxicidade grau III-IV, CTC 2.0
 
 ### Versão de 2015:
 
