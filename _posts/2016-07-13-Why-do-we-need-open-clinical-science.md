@@ -41,7 +41,13 @@ The [OECD (Organization for Economic Cooperation and Development)][oecd] states 
 
 ![cycle](https://www.fosteropenscience.eu/sites/default/files/images/OpenScienceResearchInitiative-ResearchLifecycle.png)
 
-The basic concept behind Open Science is that of spreading the scientific knowledge. Actually, this idea can be retraced back to the Ancient Library of Alexandria, whose main purpose was to collect all the world's knowledge at its time, under the patronage of the ruler of macedonian Egypt. Although the beginning of _open science_ as a conceptual framework has been tradittionally ascribed to the birth of academic journals in 17th century, the idea of disseminating knowledge is clearly of very ancient origin in ocidental tradition. One of its predecessors may have been Aristotle's teachings at the Lyceum in 4th century BC's Athens. He introduced the notion of cooperative research and systematic collection of empiric observations (Lindberg, 1992)
+The basic concept behind Open Science is that of spreading the scientific knowledge. Actually, this idea can be traced back to the Ancient Library of Alexandria, whose main purpose was to collect all the world's knowledge at its time, under the patronage of the ruler of macedonian Egypt. Although the beginning of _open science_ as a conceptual framework has been traditionally ascribed to the birth of academic journals in 17th century, the idea of disseminating knowledge is clearly of very ancient origin in ocidental tradition. One of its predecessors may have been the teachings of Aristotle at Athens's Lyceum in the 4th century BC. He introduced the notion of cooperative research and systematic collection of empiric observations (Lindberg, 1992).
+
+Notwithstanding the breakthrough brought by the invention of the press in XV century and the academic journals in the XVII century, only in the 40s did the sociologist Robert King Merton clearly defined the notion of common ownership of scientific discoveries. In his view, science achievements are a product of social collaborarion and must be assigned to the community. The system of peer-review and subscription-based scholarly publications that has long been the standard, has been shaken recently. The development of digital tools of information and communication technologies has introduced a new disruptive element in the scientific productive cycle. In a 2009 [essay][massing], journalist Michael Massing has refered to the analogy between the introduction of the printing press and the advent of the internet (attibuted to NYU's Clay Shirsky):
+
+> The historical analogy can be taken a step further: just as the advent of printing helped break the medieval Church’s hold on the flow of information, so is the rise of the Internet loosening the grip of the corporate-owned mass media. A profound if unsettling process of decentralization and democratization is taking place.
+
+The term **Open Science** would be introduced in 2003 by the economist Paul David. trying to analyse the relation between the scientific production by the public sector and the rise of intellectual property rights of information assets. Although still a loosely defined concept with multiply interpretations, the Open Science movement has gained momentum all over the world, and policy makers and researchers are talking about it.
 
 
 ### References:
@@ -55,6 +61,7 @@ The basic concept behind Open Science is that of spreading the scientific knowle
 - Gemma Bueno de la Fuente. What is open science? Introduction. [webpage][fnt], retrieved in 10/15/2016.
 - Promoting openness at different stages of the research process (figure). Open Science and Research Initiative (2014). Open Science and Research Handbook. [English version] Available at [webpage][oshndbk]
 - Lindberg, David C. (2007) [1992]. "4: Hellenistic Natural Philosophy". The Beginnings of Western Science (2nd ed.). Chicago: University of Chicago Press. ISBN 0-226-48205-7.
+- [Massing, Michael. The news about the internet. The New York Review of Books, August 13, 2009.][massing]
 
 [clnrs]: https://en.m.wikipedia.org/wiki/Clinical_research
 [alltrls]: http://alltrials.net
@@ -67,3 +74,4 @@ The basic concept behind Open Science is that of spreading the scientific knowle
 [jekyll]: https://jekyllrb.com
 [jekyll-twitter-plugin]: https://github.com/rob-murray/jekyll-twitter-plugin
 [murray]: https://github.com/rob-murray
+[massing]: http://www.nybooks.com/articles/2009/08/13/the-news-about-the-internet/
