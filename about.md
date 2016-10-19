@@ -24,7 +24,9 @@ This study was designed by Francisco Helder Cavalcante Felix, pediatric hemato-o
 
 Complete documentation for this project can be found in a public repository [here](http://github.com/fhcflx/valkyrie/).
 
-Trial was activated in 06/01/2016. Patient accrual has not begin yet (as for 06/30/2016).
+Trial was activated in 06/01/2016. The project has been currently put on a hold until January 2017.
+
+This site is the open science notebook for the project.
 
 To design this static site, I used [Jekyll](https://jekyllrb.com) and hosted it at [Github Pages ](https://pages.github.com/) . Inspiration came from [Carl Boettiger](http://www.carlboettiger.info/index.html) and his [**open lab notebook**](http://www.carlboettiger.info/2012/09/28/Welcome-to-my-lab-notebook.html). The general idea was to create a clinical trial data self-publish model compliant with [open notebook science](https://en.wikipedia.org/wiki/Open_notebook_science), a true [open science clinical trial](https://github.com/fhcflx/valkyrie) that will foster the clinical research implementation of [open science](https://en.wikipedia.org/wiki/Open_science).
 
