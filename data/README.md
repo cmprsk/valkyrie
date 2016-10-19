@@ -117,8 +117,8 @@ Versions at different times of patient survival data bases may lead to different
 
 [val]: https://zenodo.org/record/44888
 [deid]: http://dx.doi.org/10.6084/m9.figshare.3545471.v1
-[dipg]: master/data/dipg.csv
-[brainstem]: https://github.com/fhcflx/valkyrie/blob/gh-pages/_data/brainstem2015.csv
+[dipg]: dipg2014.csv
+[brainstem]: brainstem2015.csv
 [felix1]: https://dx.doi.org/10.7490/f1000research.1111018.1
 [felix2]: https://dx.doi.org/10.7490/f1000research.1111075.1
 [bases]: http://dx.doi.org/10.6084/m9.figshare.3759075.v2/
