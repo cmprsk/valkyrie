@@ -66,7 +66,10 @@ Versões em momentos diferentes de bases de dados de sobrevida de pacientes pode
    - age
    - os: sobrevida global, em meses
    - status: desfecho (0 = vivo, 1 = falecido)
+   - histo: histologia do tumor
+   - topo: topografia do tumor 
    - ecog: escala de performance status do Eastern Cooperative Oncology Group, varia de 0-4 (ao diagnóstico)
+   - lpps: Lansky Play Performance
    - chemo: esquema de quimioterapia de primeira linha
    - tt.chemo: tempo entre o diagnóstico e o início da primeira linha de tratamento, em dias
    - cycles1: número de ciclos de QT na primeira linha de tratamento
