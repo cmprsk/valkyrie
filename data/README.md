@@ -1,4 +1,4 @@
-## Banco de dados de pacientes portadores de tumor pontino intrínseco difuso
+## Banco de dados de pacientes portadores de tumor de tronco cerebral
 
 Os dados apresentados aqui são oriundos de um banco de dados que vem sendo montado desde 2009.
 Mais de uma versão está disponível, ilustrando momentos diferentes da evolução deste banco de dados.
@@ -108,7 +108,7 @@ Versões em momentos diferentes de bases de dados de sobrevida de pacientes pode
 
 ------
 
-## Databank of patients with diffuse intrinsic pontine gliomas (DIPG)
+## Database of patients with brainstem tumors
 
 The data presented here are from a database that has been mounted since 2009.
 More than one version of it is available, illustrating different stages of development of this database.
@@ -150,7 +150,7 @@ Versions at different times of patient survival data bases may lead to different
 - Felix F, Santos K, Freire P et al. Diffuse intrinsic pontine gliomas: report of patients treated in a brazilian pediatric oncological center [v1; not peer reviewed]. F1000Research 2015, 4:1362 (poster) [Portuguese] doi:[10.7490/f1000research.1111075.1][felix2]
 - Felix, Francisco H C (2016). Survival analysis of two versions of a database. Figshare. doi:[10.6084/m9.figshare.3759075.v2][bases]
 
-This Database of patients with brainstem tumors is made available under the Open Data Commons Attribution License: http://opendatacommons.org/licenses/by/1.0/.
+This Database of patients with brainstem tumors is made available under the Open Data Commons Attribution License: http://opendatacommons.org/licenses/by/1.0/
 
 [val]: https://zenodo.org/record/44888
 [deid]: http://dx.doi.org/10.6084/m9.figshare.3545471.v1
