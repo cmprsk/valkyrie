@@ -146,6 +146,35 @@ Versions at different times of patient survival data bases may lead to different
 - Inclusion criteria: patients with 0-18 years diagnosed with DIPG between 2000 and 2013 in a single hospital center
 - De-identification: through the deleting of primary (register number, name, geolocation) and secondary identifiers (birth date, diagnosis date, dates of the treatments)
 - Number of patients: 56
+- Variable list:
+   - sex: 0 = amle, 1 = female
+   - age: years
+   - os: overall survival, months
+   - status: 0 = alive, 1 = dead
+   - ecog: Eastern Cooperative Oncology Group performance scale, range 0-4 (at diagnosis)
+   - chemo: first line chemotherapy protocol
+   - tt.chemo: time from diagnosis to first line chemotherapy, days
+   - cycles1: number of cycles, first line chemotherapy
+   - rt: first line radiotherapy dose, cGy
+   - tt.rt: time from diagnosis to first line radiation therapy, days
+   - ttp: time to progression, months
+   - os2: survival after progression, days
+   - ecog2: Eastern Cooperative Oncology Group performance scale, range 0-4 (on progression)
+   - chemo2: second line chemotherapy protocol
+   - tt.chemo2: time from progression to second line chemotherapy, days
+   - cycles2: number of cycles, second line chemotherapy
+   - rt2: second line radiotherapy dose, cGy
+   - chemo3: third line chemotherapy protocol
+   - alcarbo: alergy to carboplatin
+   - cical: cycle when alergic reaction occurred
+   - cap: captopril use (0 = no, 1 = from diagnosis, 2 = from progression)
+   - eiaed: enzyme-inducing anti-epileptic drugs (0 = no, 1 = yes)
+   - vpa: valproic acid use (0 = no, 1 = yes)
+   - conv: seizures after diagnosis (0 = no, 1 = yes)
+   - cns.bleed: cerebrovascular event (0 = none, 1 = spontaneous subdural hematoma, 6 = central venous thrombosis)
+   - infec: grade III-IV infection episodes, [CTC 2.0][ctc2en], (0 = no, 1 = yes)
+   - hemo: grade III-IV myelossupression, [CTC 2.0][ctc2en], (0 = no, 1 = yes)
+   - neuro: grade III-IV neurotoxicity, [CTC 2.0][ctc2en], (0 = no, 1 = yes)
 
 ### 2015 Version:
 
@@ -155,6 +184,55 @@ Versions at different times of patient survival data bases may lead to different
 - Inclusion criteria: patients with 0-18 years diagnosed with brainstem tumors (including focal tumors and DIPG) between 2000 and 2015 in a single hospital center
 - De-identification: through the deleting of primary (register number, name, geolocation) and secondary identifiers (birth date, diagnosis date, dates of the treatments)
 - Number of patients: 87
+- Variable list:
+   - sex: 0 = amle, 1 = female
+   - age: years
+   - os: overall survival, months
+   - status: 0 = alive, 1 = dead
+   - histo: histology
+   - topo: anatomic site
+   - ecog: Eastern Cooperative Oncology Group performance scale, range 0-4 (at diagnosis)
+   - lpps: Lansky Play Performance Scale, range 10-100
+   - chemo: first line chemotherapy protocol
+   - tt.chemo: time from diagnosis to first line chemotherapy, days
+   - cycles: number of cycles, first line chemotherapy
+   - delta.chemo: first line chemotherapy duration, days
+   - rt: first line radiotherapy dose, cGy
+   - tt.rt: time from diagnosis to first line radiation therapy, days
+   - surgery: 0 = none, 2 = biopsy
+   - prog: progression after first line chemotherapy
+   - ttp: time to progression, months
+   - os2: survival after progression, days
+   - ecog2: Eastern Cooperative Oncology Group performance scale, range 0-4 (on progression)
+   - chemo2: second line chemotherapy protocol
+   - tt.chemo2: time from progression to second line chemotherapy, days
+   - cycles2: number of cycles, second line chemotherapy
+   - delta.chemo2: second line chemotherapy duration, days
+   - rt2: second line radiotherapy dose, cGy
+   - tt.rt2: time from progression to second line radiation therapy, days
+   - prog2: progression after second line chemotherapy
+   - ttp2: time from first progression to second progression, months
+   - chemo3: third line chemotherapy protocol
+   - tt.chemo3: time from second progression to third line chemotherapy, days
+   - cycles3: number of cycles, third line chemotherapy
+   - delta.chemo3: third line chemotherapy duration, days
+   - prog3: progression after third line chemotherapy
+   - ttp3: time from second progression to third progression, months
+   - chemo4: fourth line chemotherapy protocol
+   - tt.chemo4: time from third progression to fourth line chemotherapy, days
+   - cycles4: number of cycles, fourth line chemotherapy
+   - delta.chemo4: fourth line chemotherapy duration, days
+   - alcarbo: alergy to carboplatin
+   - cical: cycle when alergic reaction occurred
+   - cap: captopril use (0 = no, 1 = from diagnosis, 2 = from progression)
+   - eiaed: enzyme-inducing anti-epileptic drugs (0 = no, 1 = yes)
+   - vpa: valproic acid use (0 = no, 1 = yes)
+   - conv: seizures after diagnosis (0 = no, 1 = yes)
+   - cns.bleed: cerebrovascular event (0 = none, 1 = spontaneous subdural hematoma, 6 = central venous thrombosis)
+   - infec: grade III-IV infection episodes, [CTC 2.0][ctc2en], (0 = no, 1 = yes)
+   - hemo: grade III-IV myelossupression, [CTC 2.0][ctc2en], (0 = no, 1 = yes)
+   - endoc: endocrine toxicity, [CTC 2.0][ctc2], (0 = no, 1 = yes)
+   - neuro: grade III-IV neurotoxicity, [CTC 2.0][ctc2en], (0 = no, 1 = yes)
 
 ### References:
 
@@ -181,5 +259,6 @@ This Database of patients with brainstem tumors is made available under the Open
 [felix2]: https://dx.doi.org/10.7490/f1000research.1111075.1
 [bases]: http://dx.doi.org/10.6084/m9.figshare.3759075.v2
 [ctc2]: artigo6.pdf
+[ctc2en]: ctcv20_4-30-992.pdf
 [commit]: https://github.com/fhcflx/valkyrie/commit/9276c7a0e84f29e1eeea36c087ca52eed3306a16
 [commit2]: https://github.com/fhcflx/valkyrie/commit/9934e6adf920bc2d4443d77e24dd2b810e6119bc#diff-8d777f385d3dfec8815d20f7496026dc
