@@ -67,7 +67,7 @@ Versões em momentos diferentes de bases de dados de sobrevida de pacientes pode
    - os: sobrevida global, em meses
    - status: desfecho (0 = vivo, 1 = falecido)
    - histo: histologia do tumor
-   - topo: topografia do tumor 
+   - topo: topografia do tumor
    - ecog: escala de performance status do Eastern Cooperative Oncology Group, varia de 0-4 (ao diagnóstico)
    - lpps: Lansky Play Performance Scale, varia de 10 a 100
    - chemo: esquema de quimioterapia de primeira linha
@@ -150,6 +150,7 @@ Versions at different times of patient survival data bases may lead to different
 - Felix F, Santos K, Freire P et al. Diffuse intrinsic pontine gliomas: report of patients treated in a brazilian pediatric oncological center [v1; not peer reviewed]. F1000Research 2015, 4:1362 (poster) [Portuguese] doi:[10.7490/f1000research.1111075.1][felix2]
 - Felix, Francisco H C (2016). Survival analysis of two versions of a database. Figshare. doi:[10.6084/m9.figshare.3759075.v2][bases]
 
+This Database of patients with brainstem tumors is made available under the Open Data Commons Attribution License: http://opendatacommons.org/licenses/by/1.0/.
 
 [val]: https://zenodo.org/record/44888
 [deid]: http://dx.doi.org/10.6084/m9.figshare.3545471.v1
