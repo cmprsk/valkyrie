@@ -49,9 +49,9 @@ Versões em momentos diferentes de bases de dados de sobrevida de pacientes pode
    - vpa: uso de ácido valpróico (0 = não, 1 = sim)
    - conv: ocorrência de convulsões após o diagnóstico (0 = não, 1 = sim)
    - cns.bleed: evento vascular cerebral (0 = nenhum, 1 = hematoma subdural espontâneo, 6 = trombose venosa central)
-   - infec: episódios de infecção grau III-IV, CTC 2.0
-   - hemo: mielossupressão grau III-IV, CTC 2.0
-   - neurotoxicidade grau III-IV, CTC 2.0
+   - infec: episódios de infecção grau III-IV, [CTC 2.0][ctc2], (0 = não, 1 = sim)
+   - hemo: mielossupressão grau III-IV, [CTC 2.0][ctc2], (0 = não, 1 = sim)
+   - neuro: neurotoxicidade grau III-IV, [CTC 2.0][ctc2], (0 = não, 1 = sim)
 
 ### Versão de 2015:
 
@@ -86,7 +86,19 @@ Versões em momentos diferentes de bases de dados de sobrevida de pacientes pode
    - cycles2: número de ciclos de QT na segunda linha de tratamento
    - delta.chemo2: duração da segunda linha de tratamento, em dias
    - rt2: dose da radioterapia (segunda linha), em cGy
+   - tt.rt2 tempo entre o diagnóstico e o início da segunda RT, em dias
+   - prog2: progressão após o tratamento de segunda linha
+   - ttp2: tempo para progressão, em meses, após a primeira progressão
    - chemo3: esquema de quimioterapia de terceira linha
+   - tt.chemo3: tempo entre a segunda progressão e o início da terceira linha de tratamento, em dias
+   - cycles3: número de ciclos de QT na terceira linha de tratamento
+   - delta.chemo3: duração da terceira linha de tratamento, em dias
+   - prog3: progressão após o tratamento de terceira linha
+   - ttp3: tempo para progressão, em meses, após a segunda progressão
+   - chemo4: esquema de quimioterapia de quarta linha
+   - tt.chemo4: tempo entre a terceira progressão e o início da quarta linha de tratamento, em dias
+   - cycles4: número de ciclos de QT na quarta linha de tratamento
+   - delta.chemo4: duração da quarta linha de tratamento, em dias
    - alcarbo: alergia à carboplatina
    - cical: ciclo quando ocorreu a reação alérgica
    - cap: uso de captopril (0 = não, 1 = desde o diagnóstico, 2 = desde a progressão)
@@ -94,9 +106,10 @@ Versões em momentos diferentes de bases de dados de sobrevida de pacientes pode
    - vpa: uso de ácido valpróico (0 = não, 1 = sim)
    - conv: ocorrência de convulsões após o diagnóstico (0 = não, 1 = sim)
    - cns.bleed: evento vascular cerebral (0 = nenhum, 1 = hematoma subdural espontâneo, 6 = trombose venosa central)
-   - infec: episódios de infecção grau III-IV, CTC 2.0
-   - hemo: mielossupressão grau III-IV, CTC 2.0
-   - neurotoxicidade grau III-IV, CTC 2.0
+   - infec: número de episódios de infecção grau III-IV, [CTC 2.0][ctc2]
+   - hemo: mielossupressão grau III-IV, [CTC 2.0][ctc2], (0 = não, 1 = sim)
+   - endoc: toxicidade endócrina, [CTC 2.0][ctc2], (0 = não, 1 = sim)
+   - neuro: neurotoxicidade grau III-IV, [CTC 2.0][ctc2], (0 = não, 1 = sim)
 
 ### Referências:
 
@@ -105,6 +118,7 @@ Versões em momentos diferentes de bases de dados de sobrevida de pacientes pode
 - Felix F and Fontenele J. Chemoradiotherapy with etoposide, cisplatin, and ifosfamide associated with valproic acid for patients with diffuse intrinsic pontine glioma [v1; not peer reviewed]. F1000Research 2015, 4:1301 (poster) [Portuguese] doi:[10.7490/f1000research.1111018.1][felix1]
 - Felix F, Santos K, Freire P et al. Diffuse intrinsic pontine gliomas: report of patients treated in a brazilian pediatric oncological center [v1; not peer reviewed]. F1000Research 2015, 4:1362 (poster) [Portuguese] doi:[10.7490/f1000research.1111075.1][felix2]
 - Felix, Francisco H C (2016). Análise de sobrevida em duas versões do mesmo banco de dados. Figshare. doi:[10.6084/m9.figshare.3759075.v2][bases]
+- Saad ED, Hoff PM, Carnelós RP, Katz A, Novis YAS, Pietrocola M, et al. Critérios comuns de toxicidade do Instituto Nacional de Câncer dos Estados Unidos. [Rev Bras Cancerol. 2002;48(10):63-96.][ctc2]
 
 ------
 
@@ -159,3 +173,4 @@ This Database of patients with brainstem tumors is made available under the Open
 [felix1]: https://dx.doi.org/10.7490/f1000research.1111018.1
 [felix2]: https://dx.doi.org/10.7490/f1000research.1111075.1
 [bases]: http://dx.doi.org/10.6084/m9.figshare.3759075.v2
+[ctc2]: artigo6.pdf
