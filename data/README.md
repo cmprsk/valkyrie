@@ -7,9 +7,9 @@ de dados e análises.
 
 Para serem publicados neste repositório, foi preciso primeiramente [desidentificar][deid] as versões do banco de dados. O banco de dados original e suas versões não serão tornados públicos a fim de proteger a confidencialidade dos pacientes envolvidos.
 
-Em 2014 publicamos uma análise retrospectiva de sobrevida no manuscrito do projeto VALQUIRIA, [depositado][val] há alguns meses no repositório ZENODO. Essa análise retrospectiva usou uma versão da base de dados a qual, infelizmente, não foi armazenada. Depositamos aqui neste repositório uma versão o mais próximo possível daquela. A fim de diminuir diferenças, fizemos uma mudança, ao acrescentar o registro do paciente 56. Esta base de dados está armazenada em formato [.csv][dipg].
+Em 2014 publicamos uma análise retrospectiva de sobrevida no manuscrito do projeto VALQUIRIA, [depositado][val] há alguns meses no repositório ZENODO. Essa análise retrospectiva usou uma versão da base de dados a qual, infelizmente, não foi armazenada. Depositamos aqui neste repositório uma versão o mais próximo possível daquela. A fim de diminuir diferenças, fizemos uma mudança, ao acrescentar o registro do [paciente 56][commit]. Esta base de dados está armazenada em formato [.csv][dipg].
 
-Em 2015, publicamos um [poster][felix2] no 19º Congresso Brasileiro de Oncologia Clínica com a versão daquele ano da base de dados. Quando depositamos [esta][brainstem] versão da base de dados aqui neste repositório, mudamos a classificação topográfica do paciente 64, de tumor focal da ponte para DIPG. Até o momento, esta é a versão mais atualizada da base de dados.
+Em 2015, publicamos um [poster][felix2] no 19º Congresso Brasileiro de Oncologia Clínica com a versão daquele ano da base de dados. Quando depositamos [esta][brainstem] versão da base de dados aqui neste repositório, mudamos a classificação topográfica do [paciente 64][commit2], de tumor focal da ponte para DIPG. Até o momento, esta é a versão mais atualizada da base de dados.
 
 Adicionalmente, publicamos um [poster][felix1] em 2014, com parte dos dados correspondentes a uma versão do banco de dados intermediária entre as duas depositadas aqui.
 
@@ -24,8 +24,8 @@ Versões em momentos diferentes de bases de dados de sobrevida de pacientes pode
 - Desidentificação: realizada através da retirada de campos identificadores primários (registro no arquivo hospitalar, nome, procedência) e secundários (data de nascimento, data de diagnóstico, datas dos tratamentos)
 - Número de pacientes incluídos: 56
 - Variáveis:
-   - sex
-   - age
+   - sex: sexo (0 = masculino, 1 = feminino)
+   - age: idade (anos)
    - os: sobrevida global, em meses
    - status: desfecho (0 = vivo, 1 = falecido)
    - ecog: escala de performance status do Eastern Cooperative Oncology Group, varia de 0-4 (ao diagnóstico)
@@ -62,8 +62,8 @@ Versões em momentos diferentes de bases de dados de sobrevida de pacientes pode
 - Desidentificação: realizada através da retirada de campos identificadores primários (registro no arquivo hospitalar, nome, procedência) e secundários (data de nascimento, data de diagnóstico, datas dos tratamentos)
 - Número de pacientes incluídos: 87
 - Variáveis:
-   - sex
-   - age
+   - sex: sexo (0 = masculino, 1 = feminino)
+   - age: idade (anos)
    - os: sobrevida global, em meses
    - status: desfecho (0 = vivo, 1 = falecido)
    - histo: histologia do tumor
@@ -130,9 +130,9 @@ Each version can be seen as a snapshot of the information contained in the datab
 
 Before publishing in this repository, it was first necessary to [de-identify][deid] data in the database. The original database and its versions will not be made public in order to protect the confidentiality of patients involved.
 
-In 2014 we published a retrospective analysis of survival in the VALKYRIE project manuscript, [deposited][val] a few months ago in ZENODO repository. This retrospective analysis used a version of the database which, unfortunately, was not saved. The 2014 version we deposited here in this repository is its closest counterpart. In order to reduce differences, we made a change, by adding patient record 56. This database is stored in [.csv][dipg] format.
+In 2014 we published a retrospective analysis of survival in the VALKYRIE project manuscript, [deposited][val] a few months ago in ZENODO repository. This retrospective analysis used a version of the database which, unfortunately, was not saved. The 2014 version we deposited here in this repository is its closest counterpart. In order to reduce differences, we made a change, by adding [patient record 56][commit]. This database is stored in [.csv][dipg] format.
 
-In 2015, we published a [poster][felix2] at the 19th Brazilian Congress of Clinical Oncology with that year's version of the database. In [this][brainstem] database version deposited here, we changed the classification of the patient 64 (the same patient 56 in 2014's database version), from focal brainstem tumor to DIPG. This is the most up-to-date version of the database.
+In 2015, we published a [poster][felix2] at the 19th Brazilian Congress of Clinical Oncology with that year's version of the database. In [this][brainstem] database version deposited here, we changed the classification of the [patient 64][commit2] (the same patient 56 in 2014's database version), from focal brainstem tumor to DIPG. This is the most up-to-date version of the database.
 
 In addition, we publish an [poster][felix1] in 2014, with part of the data corresponding to an intermediate version of the database between the two deposited here.
 
@@ -181,3 +181,5 @@ This Database of patients with brainstem tumors is made available under the Open
 [felix2]: https://dx.doi.org/10.7490/f1000research.1111075.1
 [bases]: http://dx.doi.org/10.6084/m9.figshare.3759075.v2
 [ctc2]: artigo6.pdf
+[commit]: https://github.com/fhcflx/valkyrie/commit/9276c7a0e84f29e1eeea36c087ca52eed3306a16
+[commit2]: https://github.com/fhcflx/valkyrie/commit/9934e6adf920bc2d4443d77e24dd2b810e6119bc#diff-8d777f385d3dfec8815d20f7496026dc
