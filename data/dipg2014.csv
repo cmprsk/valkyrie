@@ -1,4 +1,4 @@
-#,sex,age,os,status,ecog,chemo,tt.chemo,cycles1,rt,tt.rt,ttp,os2,lpps2,chemo2,tt.chemo2,cycles2,rt2,chemo3,alcarbo,cical,cap,eiaed,vpa,conv,cns.bleed,infec,hemo,neuro
+#,sex,age,os,status,ecog,chemo,tt.chemo,cycles1,rt,tt.rt,ttp,os2,ecog2,chemo2,tt.chemo2,cycles2,rt2,chemo3,alcarbo,cical,cap,eiaed,vpa,conv,cns.bleed,infec,hemo,neuro
 1,0,5.70,6.50,1,,1,34,21,0,,,,,0,,,0,0,0,,0,0,0,0,0,0,0,1
 2,0,7.20,3.60,0,,1,7,9,0,,2.80,27,,0,,,0,0,1,8,0,0,0,0,0,0,0,0
 3,1,9.40,5.30,1,,1,,,0,,,,,0,,,0,0,0,,0,0,0,0,0,0,0,0
