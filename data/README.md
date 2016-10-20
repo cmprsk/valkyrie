@@ -124,7 +124,7 @@ Versões em momentos diferentes de bases de dados de sobrevida de pacientes pode
 
 ## Database of patients with brainstem tumors
 
-The data presented here are from a database that has been mounted since 2009.
+The data presented here are from a database that has been developed since 2009.
 More than one version of it is available, illustrating different stages of development of this database.
 Each version can be seen as a snapshot of the information contained in the database at any given time. These snapshots are stored annually and are available on a server in the cloud. Between one version (snapshot) and another, changes were made in the way the data was collected and the classification criteria of brainstem tumors, which reflected in differences between the various versions of the database. Each version also refers to a publication (or set of them) in scientific journals or academic repositories (green way). In general, one can verify the evolution of this database towards increasing transparency and public opening.
 
@@ -164,7 +164,14 @@ Versions at different times of patient survival data bases may lead to different
 - Felix F, Santos K, Freire P et al. Diffuse intrinsic pontine gliomas: report of patients treated in a brazilian pediatric oncological center [v1; not peer reviewed]. F1000Research 2015, 4:1362 (poster) [Portuguese] doi:[10.7490/f1000research.1111075.1][felix2]
 - Felix, Francisco H C (2016). Survival analysis of two versions of a database. Figshare. doi:[10.6084/m9.figshare.3759075.v2][bases]
 
-This Database of patients with brainstem tumors is made available under the Open Data Commons Attribution License: http://opendatacommons.org/licenses/by/1.0/
+This Database of patients with brainstem tumors is made available under the Open Data Commons Public Dedication and License: http://opendatacommons.org/licenses/pddl/1.0/
+
+<a href="http://opendefinition.org/ossd/" title="Open Online Software Service">
+  <img src="/assets.okfn.org/images/ok_buttons/os_80x15_orange_grey.png" alt="" border="" />
+</a>
+<a href="http://opendefinition.org/" title="Open Content">
+  <img src="/assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" alt="" border="" />
+</a>
 
 [val]: https://zenodo.org/record/44888
 [deid]: http://dx.doi.org/10.6084/m9.figshare.3545471.v1
