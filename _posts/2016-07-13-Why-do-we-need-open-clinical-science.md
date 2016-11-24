@@ -8,7 +8,7 @@ ref: open
 lang: en
 permalink: /open-clinical-science/
 doi: 10.6084/m9.figshare.
-tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, open clinical science, jekyll
+tags: clinical research, open science, open clinical science, open data, reproducible research, open notebook science
 ---
 ### More transparency in clinical research
 
@@ -49,6 +49,9 @@ Notwithstanding the breakthrough brought by the invention of the press in XV cen
 
 The term **Open Science** would be introduced in 2003 by the economist Paul David. trying to analyse the relation between the scientific production by the public sector and the rise of intellectual property rights of information assets. Although still a loosely defined concept with multiply interpretations, the Open Science movement has gained momentum all over the world, and policy makers and researchers are talking about it.
 
+### What about open clinical science?
+
+The logical product of the direct application of open science tenants to clinical research would be something like _open clinical science_. Is there anything like open science in clinical research at all? Actually, there is. 
 
 ### References:
 
