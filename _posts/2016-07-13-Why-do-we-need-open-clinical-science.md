@@ -51,7 +51,7 @@ The term **Open Science** would be introduced in 2003 by the economist Paul Davi
 
 ### What about open clinical science?
 
-The logical product of the direct application of open science tenants to clinical research would be something like _open clinical science_. Is there anything like open science in clinical research at all? Actually, there is. 
+The logical product of the direct application of open science tenets to clinical research would be something like _open clinical science_. Is there anything like open science in clinical research at all? Actually, there is. 
 
 ### References:
 
