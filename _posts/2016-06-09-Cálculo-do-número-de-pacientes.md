@@ -1,14 +1,14 @@
 ---
 layout: post
 comments: true
-title:  "Cálculo do número de pacientes"
+title:  "Cálculo do número de pacientes em ensaios clínicos - Projeto VALQUIRIA"
 date:   2016-06-09 16:03:45 -0300
 categories: metodologia
 lang: pt
 ref: numero
 permalink: /tamanho-amostra/
-doi: 10.6084/m9.figshare.3489947.v1
-tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, sample size
+doi: 10.6084/m9.figshare.3489947
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, sample size, project valkyrie
 ---
 
 Quando estávamos concebendo o ensaio VALQUÌRIA, várias considerações diferentes foram feitas sobre a forma de calcular o número de pacientes a ser recrutado para o ensaio. No final, a decisão recaiu sobre a forma como está descrito na [metodologia][meto] do projeto:

@@ -1,14 +1,14 @@
 ---
 layout: post
 comments: true
-title:  "Um pouco sobre o tratamento do ensaio"
+title:  "Um pouco sobre o racional do Projeto VALQUIRIA"
 date:   2016-06-02 16:03:45 -0300
 categories: metodologia
 ref: science
 lang: pt
 permalink: /racional/
-doi: 10.6084/m9.figshare.3489917.v1
-tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, rational
+doi: 10.6084/m9.figshare.3489917
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, rational, project valkyrie
 ---
 ### A base científica de VALQUIRIA
 

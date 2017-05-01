@@ -1,14 +1,14 @@
 ---
 layout: post
 comments: true
-title:  "Os tweets da quinzena"
+title:  "Os tweets da quinzena - Projeto VALQUIRIA"
 date:   2016-06-21 16:03:45 -0300
 categories: valquiria
 ref: twitter2
 lang: pt
 permalink: /tweets-quinzena/
-doi: 10.6084/m9.figshare.3489965.v1
-tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, twitter, jekyll
+doi: 10.6084/m9.figshare.3489965
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, twitter, jekyll, project valkyrie
 ---
 ### Mensagens postadas no twitter nas últimas 2 semanas (06 a 21 de junho)
 

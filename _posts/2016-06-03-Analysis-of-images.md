@@ -1,14 +1,14 @@
 ---
 layout: post
 comments: true
-title:  "Analysis of images"
+title:  "Analysis of medical images with an open tool"
 date:   2016-06-03 16:03:45 -0300
 categories: valquiria
 ref: images
 lang: en
 permalink: /image-analysis/
-doi: 10.6084/m9.figshare.3489932.v1
-tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, twitter
+doi: 10.6084/m9.figshare.3489932
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, magnetic resonance imaging, project valkyrie
 ---
 ### Central review of images
 

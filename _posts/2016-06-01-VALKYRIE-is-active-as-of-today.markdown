@@ -1,14 +1,14 @@
 ---
 layout: post
 comments: true
-title:  "VALKYRIE is active as of today"
+title:  "Project VALKYRIE is active as of today"
 date:   2016-06-01 16:03:45 -0300
 categories: valquiria
 ref: active
 lang: en
 permalink: /valkyrie-is-active/
-doi: 10.6084/m9.figshare.3470294.v2
-tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, open science
+doi: 10.6084/m9.figshare.3470294
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, open science, project valkyrie
 ---
 VALKYRIE (VALQUIRIA in portuguese) is a clinical trial studying the treatment of children and adolescents with diffuse tumors of the pons (brainstem), a serious disease difficult to treat, and currently with no established curative therapy. This study evaluates the possibility of improving treatment outcomes (quality of life and survival of patients) with the use of valproic acid, an antiepileptic drug already used for decades in children and adolescents. Recently, new discoveries have shown that most patients with diffuse pontine tumors have a genetic mutation which causes a change in the way the genes are rendered 'readable' by the cell machinery. This alteration can be reverted by valproic acid, and thus tumor cells may become less resistant to treatment.
 

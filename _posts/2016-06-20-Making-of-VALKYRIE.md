@@ -1,14 +1,14 @@
 ---
 layout: post
 comments: true
-title:  "Making of VALKYRIE"
+title:  "Making of Project VALKYRIE's homepage"
 date:   2016-06-20 16:03:45 -0300
 categories: valquiria
 ref: making
 lang: en
 permalink:
-doi: 10.6084/m9.figshare.3494342.v1
-tags: open science, open notebook science, open clinical trial, jekyll, markdown, static site, git, github
+doi: 10.6084/m9.figshare.3494342
+tags: open science, open notebook science, open clinical trial, jekyll, markdown, static site, git, github, project valkyrie
 ---
 
 To start this site, I used [Jekyll][jkyll], a markdown to [HTML][html] parser that generates static web pages. For starters, there is no secret in a static web page. Most of the pages you surf in the web are dynamic, containing elements that are generated during the rendering of the page, requiring server-side processing. Any of the popular blogging providers like [Blogger][blggr] and [Wordpress][wrdprss] serves dynamic pages. Dynamic pages are customizable and have a huge number of _gadgets_, _plugins_ and possible _hackings_. They really have awesome real-time effects and fantastic complexity. However, their price is a greater time to load the page (no problem in high-quality broadband, but this is not quite the rule everywhere) and greater chance of compatibility issues with browsers or mobile platforms. Nowadays, a high priority has been given to mobile platforms.

@@ -1,14 +1,14 @@
 ---
 layout: post
 comments: true
-title:  "A little about the trial's rational"
+title:  "A little about Project VALKYRIE's rational"
 date:   2016-06-02 16:03:45 -0300
 categories: metodologia
 ref: science
 lang: en
 permalink: /rational/
-doi: 10.6084/m9.figshare.3489917.v1
-tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, rational
+doi: 10.6084/m9.figshare.3489917
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, rational, project valkyrie
 ---
 ### The scientific basis of VALKYRIE
 

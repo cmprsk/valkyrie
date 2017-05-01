@@ -1,14 +1,14 @@
 ---
 layout: post
 comments: true
-title:  "Estimate of the number of patients"
+title:  "Estimate of the number of patients to enroll in a clinical trial - Project VALKYRIE"
 date:   2016-06-09 16:03:45 -0300
 categories: metodologia
 lang: en
 ref: numero
 permalink: /sample-size/
-doi: 10.6084/m9.figshare.3489947.v1
-tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, sample size
+doi: 10.6084/m9.figshare.3489947
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, sample size, project valkyrie
 ---
 
 When we designed the Valkyrie trial several different considerations were made on how to calculate the number of patients to be recruited for the trial. In the end, the decision fell on the way as described in the project [methodology][meto] (translated from portuguese):

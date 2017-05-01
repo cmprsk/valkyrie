@@ -1,14 +1,14 @@
 ---
 layout: post
 comments: true
-title:  "Project amendment"
+title:  "Project VALKYRIE amendment"
 date:   2016-08-04 16:03:45 -0300
 categories: valquiria
 ref: emenda
 lang: en
 permalink: /amendment/
-doi: 10.6084/m9.figshare.3516959.v1
-tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, amendment
+doi: 10.6084/m9.figshare.3516959
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, amendment, project valkyrie
 ---
 
 ## Amendment to the project requested on 8/4/2016.
@@ -20,7 +20,7 @@ To: **Institutional Review Board,** Albert Sabin Children's Hospital,
 
 Sincerely,
 
-**Francisco Helder Cavalcante Felix,** 
+**Francisco Helder Cavalcante Felix,**
 _Project design_
 
 This letter to the IRB was published in the project repository:

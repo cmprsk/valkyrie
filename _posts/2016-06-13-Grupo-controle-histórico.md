@@ -1,14 +1,14 @@
 ---
 layout: post
 comments: true
-title:  "Grupo controle histórico"
+title:  "Grupo controle histórico em ensaios clínicos - Projeto VALQUIRIA"
 date:   2016-06-13 16:03:45 -0300
 categories: metodologia
 ref: historico
 lang: pt
-doi: 10.6084/m9.figshare.3489956.v3
+doi: 10.6084/m9.figshare.3489956
 permalink: /controle-historico/
-tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, historical control
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, historical control, project valkyrie
 ---
 
 O grupo controle histórico compõe-se de pacientes com DIPG, diagnosticados entre 2000 e 2013, que _não_ foram tratados com quimioterapia de acordo com os protocolos HIT do [GPOH][gpoh], adaptados. Somente foram selecionados para compor o controle histórico pacientes que receberam radioterapia, na dose de 40 Gy ou maior.

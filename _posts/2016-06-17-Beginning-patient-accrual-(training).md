@@ -1,14 +1,14 @@
 ---
 layout: post
 comments: true
-title:  "Beginning patient accrual (training)"
+title:  "Beginning patient accrual (training) - Project VALKYRIE"
 date:   2016-06-17 16:03:45 -0300
 categories: valquiria
 ref: first
 lang: en
 permalink: /patient-accrual/
-doi: 10.6084/m9.figshare.3489962.v1
-tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, patient accrual
+doi: 10.6084/m9.figshare.3489962
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, patient accrual, project valkyrie
 ---
 
 ```This post shows a probable depiction of what we expect to be the enrollment of the first patient in VALKYRIE. This is a simulation, once the study still needs additional preparation and internal considerations. We show a possible problem that could happen during image review and its implications. We also discuss the best momment of letting information to be public.
