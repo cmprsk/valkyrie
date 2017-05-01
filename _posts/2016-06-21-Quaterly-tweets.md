@@ -1,14 +1,14 @@
 ---
 layout: post
 comments: true
-title:  "Quaterly tweets"
+title:  "Quaterly tweets - Project VALKYRIE"
 date:   2016-06-21 16:03:45 -0300
 categories: valquiria
 ref: twitter2
 lang: en
 permalink: /quaterly-tweets/
-doi: 10.6084/m9.figshare.3489965.v1
-tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, twitter, jekyll
+doi: 10.6084/m9.figshare.3489965
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, twitter, jekyll, project valkyrie
 ---
 ### Tweets from the last 15 days (June 06<sup>th</sup> to 21<sup>st</sup>)
 

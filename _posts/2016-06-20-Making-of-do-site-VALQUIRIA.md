@@ -1,13 +1,13 @@
 ---
 layout: post
 comments: true
-title:  "Making of do site VALQUIRIA"
+title:  "_Making of_ do site do Projeto VALQUIRIA"
 date:   2016-06-20 16:03:45 -0300
 categories: valquiria
 ref: making
 lang: pt
 permalink:
-doi: 10.6084/m9.figshare.3494342.v1
+doi: 10.6084/m9.figshare.3494342
 tags: open science, open notebook science, open clinical trial, jekyll, markdown, static site, git, github
 ---
 

@@ -1,14 +1,14 @@
 ---
 layout: post
 comments: true
-title:  "Diagnostic criteria for DIPG"
+title:  "Diagnostic criteria for diffuse intrinsic pontine glioma - DIPG"
 date:   2016-06-07 16:03:45 -0300
 categories: valquiria
 ref: criteria
 lang: en
 permalink: /diagnostic-criteria/
-doi: 10.6084/m9.figshare.3489941.v2
-tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, diagnostic criteria
+doi: 10.6084/m9.figshare.3489941
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, diagnostic criteria, project valkyrie
 ---
 
 #### Criteria for diagnosis of diffuse intrinsic pontine gliomas:

@@ -1,14 +1,14 @@
 ---
 layout: post
 comments: true
-title:  "Os tweets do mês"
+title:  "Os tweets do mês - Projeto VALQUIRIA"
 date:   2016-07-20 16:03:45 -0300
 categories: valquiria
 ref: twitter3
 lang: pt
 permalink: /tweets-mes/
-doi: 10.6084/m9.figshare.3766254.v2
-tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, twitter, jekyll
+doi: 10.6084/m9.figshare.3766254
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, twitter, jekyll, project valkyrie
 ---
 ### Tweets dos últimos 30 dias (21 de junho a 20 de julho)
 

@@ -1,14 +1,14 @@
 ---
 layout: post
 comments: true
-title:  "Emenda ao projeto"
+title:  "Emenda ao Projeto VALQUIRIA"
 date:   2016-08-04 16:03:45 -0300
 categories: valquiria
 ref: emenda
 lang: pt
 permalink: /emenda/
-doi: 10.6084/m9.figshare.3516959.v1
-tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, amendment
+doi: 10.6084/m9.figshare.3516959
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, amendment, project valkyrie
 ---
 
 ## Emenda ao projeto solicitada em 04/08/2016.

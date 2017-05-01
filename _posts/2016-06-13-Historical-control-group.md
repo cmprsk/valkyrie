@@ -1,13 +1,13 @@
 ---
 layout: post
 comments: true
-title:  "Historical control group"
+title:  "Historical control group in clinical trials - Project VALKYRIE"
 date:   2016-06-13 16:03:45 -0300
 categories: metodologia
 lang: en
 ref: historico
 permalink: /historical-control/
-doi: 10.6084/m9.figshare.3489956.v3
+doi: 10.6084/m9.figshare.3489956
 tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, historical control
 ---
 

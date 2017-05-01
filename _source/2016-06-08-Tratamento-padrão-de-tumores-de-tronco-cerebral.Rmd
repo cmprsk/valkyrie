@@ -7,8 +7,8 @@ categories: metodologia
 ref: trata
 lang: pt
 permalink: /tratamento-padronizado/
-doi: 10.6084/m9.figshare.3489944.v3
-tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, standard treatment
+doi: 10.6084/m9.figshare.3489944
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, standard treatment, project valkyrie
 ---
 
 ### Como os pacientes com DIPG são tratados normalmente

@@ -1,14 +1,14 @@
 ---
 layout: post
 comments: true
-title:  "Grupo comparativo de um ensaio brasileiro"
+title:  "Grupo comparativo de um ensaio clínico brasileiro"
 date:   2016-06-16 16:03:45 -0300
 categories: metodologia
 ref: previous
 lang: pt
 permalink: /estudo-anterior/
-doi: 10.6084/m9.figshare.3749790.v2
-tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, historical control
+doi: 10.6084/m9.figshare.3749790
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, historical control, project valkyrie
 ---
 
 ## Dados invididuais de pacientes:

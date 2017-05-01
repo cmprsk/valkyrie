@@ -1,13 +1,13 @@
 ---
 layout: post
 comments: true
-title:  "Cálculos da análise retrospectiva"
+title:  "Cálculos da análise retrospectiva - diferenças entre duas versões de um conjunto de dados"
 date:   2016-06-14 16:03:45 -0300
 categories: metodologia
 ref: retro
 lang: pt
 permalink: /retrospectiva/
-doi: 10.6084/m9.figshare.3489959.v3
+doi: 10.6084/m9.figshare.3489959
 tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, retrospective analysis, open science, jekyll, knitr
 ---
 
