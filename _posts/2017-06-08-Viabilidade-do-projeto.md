@@ -40,21 +40,21 @@ O projeto, em sua metodologia, prevê:
 > Droga oral: ácido valpróico (...)
 > Radioquimioterapia simultânea.
 
->	(...)
+> (...)
 
->	Cisplatina (CDDP), perfusão durante 1 hora, 20 mg/m^2/dia, nos dias D1-5.
+> Cisplatina (CDDP), perfusão durante 1 hora, 20 mg/m^2/dia, nos dias D1-5.
 
->	Etoposido (VP16), infusão em 2 h ou mais, 100 mg/m^2/dia, nos dias D1-3.
+> Etoposido (VP16), infusão em 2 h ou mais, 100 mg/m^2/dia, nos dias D1-3.
 
->	Vincristina (VCR), injeção IV, 1,5 mg/m^2 (máximo de 2 mg), dia D5.
+> Vincristina (VCR), injeção IV, 1,5 mg/m^2 (máximo de 2 mg), dia D5.
 
->	(...)
+> (...)
 
->	Ifosfamida (IFO), perfusão durante 1 hora, 1,5 g/m^2/dia, dias D1-5.
+> Ifosfamida (IFO), perfusão durante 1 hora, 1,5 g/m^2/dia, dias D1-5.
 
->	(...)
+> (...)
 
->	Cuidados de suporte
+> Cuidados de suporte
 
 Dentre estas intervenções elencadas, infelizmente, não temos como garantir a capacidade de realizar 100% nenhuma delas. As razões são as que seguem:
 
