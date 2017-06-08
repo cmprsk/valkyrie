@@ -30,18 +30,31 @@ Em vista deste panorama sombrio, decidimos, eu e os principais integrantes do gr
 O projeto, em sua metodologia, prevê:
 
 > Avaliação por Imagem: imagens por ressonância nuclear magnética (RNM) de crãnio contrastadas serão realizadas na entrada do estudo (diagnóstico), e a cada 2 meses após o diagnóstico. As imagens serão armazenadas em formato eletrônico (DICOM).
+
 > Avaliação laboratorial: exames laboratoriais (hemograma, glicemia, eletrólitos, função renal, função hepática, coagulograma) serão realizados na admissão do paciente no estudo e repetidos de acordo com o necessário para o protocolo de quimioterapia ou a critério médico.
+
 (...)
+
 > 5.5. Intervenção:
+
 	Droga oral: ácido valpróico (...)
+
 	Radioquimioterapia simultânea.
+
 	(...)
+
 	Cisplatina (CDDP), perfusão durante 1 hora, 20 mg/m^2/dia, nos dias D1-5.
+
 	Etoposido (VP16), infusão em 2 h ou mais, 100 mg/m^2/dia, nos dias D1-3.
+
 	Vincristina (VCR), injeção IV, 1,5 mg/m^2 (máximo de 2 mg), dia D5.
+
 	(...)
+
 	Ifosfamida (IFO), perfusão durante 1 hora, 1,5 g/m^2/dia, dias D1-5.
+
 	(...)
+
 	Cuidados de suporte
 
 Dentre estas intervenções elencadas, infelizmente, não temos como garantir a capacidade de realizar 100% nenhuma delas. As razões são as que seguem:
