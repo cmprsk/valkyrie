@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Um fluxo de trabalho para a ciência clínica aberta"
-date:   2016-06-28 16:03:45 -0300
+date:   2016-06-27 16:03:45 -0300
 categories: valquiria
 ref: workflow
 lang: pt
