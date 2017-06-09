@@ -4,7 +4,7 @@ comments: true
 title: "Project Feasibility"
 date: 2017-06-08 16:03:45 -0300
 categories: valkyrie
-ref: feasibility
+ref: viabilidade
 lang: en
 permalink: /feasibility/
 doi: 10.6084/m9.figshare.
