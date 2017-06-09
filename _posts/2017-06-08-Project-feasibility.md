@@ -1,14 +1,14 @@
 ---
-Layout: post
-Comments: true
-Title: "Project Feasibility"
-Date: 2017-06-08 16:03:45 -0300
-Categories: valkyrie
-Ref: feasibility
-Lang: en
-Permalink: /feasibility/
-Doi: 10.6084/m9.figshare.
-Tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, project valkyrie
+layout: post
+comments: true
+title: "Project Feasibility"
+date: 2017-06-08 16:03:45 -0300
+categories: valkyrie
+ref: feasibility
+lang: en
+permalink: /feasibility/
+doi: 10.6084/m9.figshare.
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, project valkyrie
 ---
 
 ## Evaluation of the current feasibility of the project
