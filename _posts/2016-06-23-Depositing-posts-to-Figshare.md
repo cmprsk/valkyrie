@@ -1,5 +1,5 @@
 ---
-layout: post
+Layout: post
 comments: true
 title:  "Comentários na página do Projeto VALQUIRIA via Disqus"
 date:   2016-06-22 16:03:45 -0300
