@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Os tweets da quinzena - Projeto VALQUIRIA"
-date:   2016-06-21 16:03:45 -0300
+date:   2016-06-22 16:03:45 -0300
 categories: valquiria
 ref: twitter2
 lang: pt
