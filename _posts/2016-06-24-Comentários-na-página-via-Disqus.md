@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Comentários na página do Projeto VALQUIRIA via Disqus"
-date:   2016-06-22 16:03:45 -0300
+date:   2016-06-24 16:03:45 -0300
 categories: valquiria
 ref: disqus
 lang: pt
