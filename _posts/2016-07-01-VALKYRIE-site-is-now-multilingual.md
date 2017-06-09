@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "VALKYRIE site is now multilingual"
-date:   2016-06-30 16:03:45 -0300
+date:   2016-07-01 16:03:45 -0300
 categories: valquiria
 ref: multilingual
 lang: en
