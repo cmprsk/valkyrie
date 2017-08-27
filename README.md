@@ -1,3 +1,9 @@
+[![GitHub release](https://img.shields.io/github/release/fhcflx/valkyrie.svg)](https://github.com/fhcflx/valkyrie/releases)
+[![GitHub downloads](https://img.shields.io/github/downloads/fhcflx/valkyrie/total.svg)](https://github.com/fhcflx/valkyrie/releases)
+[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--8398--0993-red%20.svg)](http://orcid.org/0000-0002-8398-0993)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0)
+[![Build](https://img.shields.io/travis/fhcflx/valkyrie.svg)](https://travis-ci.org/fhcflx/valkyrie)
+
 # valkyrie (valquiria)
 
 > ## UTN: U1111-1179-2263
