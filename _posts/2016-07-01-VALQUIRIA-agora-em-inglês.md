@@ -23,7 +23,7 @@ ref: # an unique identifier for the post
 Adicionei esta linha ao arquivo _index.html_ (bem como a um arquivo alternativo _index-pt.html_):
 
 {% highlight liquid %}
- {{ "{% assign posts=site.posts | where:"lang", page.lang }}" %}
+ {{ "{% assign posts=site.posts | where:"lang", page.lang %}" }}
 {% endhighlight %}
 
 E estas linha ao arquivo _head.html_ na minha pasta **_includes** para mostrar apenas as postagens com a língua correta:
