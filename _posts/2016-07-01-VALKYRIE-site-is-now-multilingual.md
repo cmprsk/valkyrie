@@ -24,7 +24,7 @@ And also adding this line to the _index.html_ file (as well as to an alternative
 
 
 {% highlight liquid %}
- {{" {% assign posts=site.posts | where:"lang", page.lang }} "%}
+ {%raw%} {% assign posts=site.posts | where:"lang", page.lang %} {%endraw%}
 {% endhighlight %}
 
 
