@@ -26,6 +26,7 @@ Em resumo, os passos da entrada dos pacientes serão:
 * Encaminhamento para o tratamento
 
 Obs.: no final de Junho/2016 decidimos adiar o início do recrutamento dos pacientes para procedermos avaliações internas.
+Obs.2: em 2017, no meio da crise político-econômica pelo qual passa nosso país, a equipe decidiu encerrar o ensaio. Nenhum paciente chegou a ser recrutado e tratado com o protocolo do projeto.
 
 ### Referências:
 
