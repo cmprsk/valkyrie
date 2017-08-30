@@ -1,0 +1,112 @@
+---
+layout: post
+comments: true
+title:  "Retrospective survival analysis of different treatments for DIPG"
+date:   2016-06-14 16:03:45 -0300
+categories: metodologia
+ref: retro
+lang: en
+permalink: /retrospective/
+doi: 10.6084/m9.figshare.3489959
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, retrospective analysis, open science, jekyll, knitr
+---
+
+## Retrospective analysis survival curve:
+
+Calculations shown here use data from patients diagnosed with DIPG between 2000-2013, with follow-up until 2014. Follow-up time of the patients in this database is a bit longer than that from the original data used to design VALKYRIE project, hence there are some numerical differences. This post illustrate how to present clinical research data in a transparent and fully reproducible way to an audience.   Including individual patient data (de-identified) as well as the _script_ used to perform statistical analysis of data, this is an example of the possibilities of _open lab notebook_ and _open science_ paradigm. When the prospective trial data are collected, they will be equally published in the same format, becoming permanently available to analysis and criticism by interested third parties. I discussed the inspiration to this approach in this [post][jekyll-migrando] in a personal blog.
+
+This post uses package [_knitr_][knitr] to calculate results at the same time of html parsing with [_jekyll_][jekyll].
+I used the excellent example of [_yihui_][yihui] as guide. To format tables with more than that available in knitr, I used package [pander][pander], as very well depicted [here][pander-knitr]. I only made sure to pass the ```type = 'rmarkdown' ``` option to pander.
+
+```{r warning=F, message=F}
+require(pander)  
+require(knitr)
+require(RCurl)
+require(survival)
+dipg<-read.csv(text = getURL("https://raw.githubusercontent.com/fhcflx/valkyrie/gh-pages/_data/dipg.csv"))
+attach(dipg)  
+fit1 = survfit(Surv(os,status)~1)  
+fit2 = survfit(Surv(os,ifelse(status<1,1,0))~1)  
+fit3 = survfit(Surv(os,status)~ifelse(chemo<10,0,1))  
+```
+
+```{r Sobrevida, fig.path='figure/source/retrospectiva/', fig.height=10, fig.width=12, fig.cap='Survival of patients with DIPG'}
+plot(fit1,xlab="Meses")
+```
+
+Patients diagnosed with DIPG in our service between 2000 and 2013. Graph shows survival probability estimate, Kaplan-Meier estimate method, R programming language, package *survival*. Package *RCurl* was additionally used to fecth data from a [.csv][csv] file in github repository. Graph also shows 95% confidence interval.
+This is the overall survival and 12-month survival summary:
+
+
+```{r echo=F}
+panderOptions('table.split.table', Inf)
+pander(fit1,style = 'rmarkdown')
+```
+
+```{r echo=F}
+summary(fit1,time=12)
+```
+
+Median overall survival was `r round(summary(fit1)$table[7],1)` months and survival at 12 months was `r round(summary(fit1,time=12)$surv,3)*100` %.
+
+This is the _follow-up_ variable summary:
+
+
+```{r echo=F}
+pander(fit2,style = 'rmarkdown')
+```
+
+Follow-up median was `r round(summary(fit2)$table[7],1)` monrhs.
+
+Here, graph comparing patients that were treated _as per_ HIT protocols _versus_ other patients:
+
+
+```{r Sobrevida2, fig.path='figure/source/retrospectiva/', fig.height=10, fig.width=12, fig.cap='Sobrevida de pacientes com DIPG, divididos por tratamento'}
+plot(fit3,xlab="Meses")
+```
+
+Summary of overall survival and 12-month survival in both groups:
+
+```{r echo=F}
+pander(fit3,style = 'rmarkdown')
+```
+```{r echo=F}
+summary(fit3,time=12)
+```
+
+12-month survival was `r round(summary(fit3,time=12)$surv[2],3)*100` % for patients treated _as per_ HIT (n = `r summary(fit3,time=12)$n[2]` ) and `r round(summary(fit3,time=12)$surv[1],3)*100` % for the others (n = `r summary(fit3,time=12)$n[1]` ).
+
+Comparing both groups with a non-parametric test that uses Kaplan-Meier estimate, log-rank or Mantel-Haenszel test (see [_survival_][survival] package documentation).
+
+```{r echo=F}
+pander(survdiff(Surv(os,status)~ifelse(chemo<10,0,1),dipg),style = 'rmarkdown')
+```
+
+Comparing both groups with a semiparametric test, Cox proportional risks model (see [_survival_][survival] package documentation).
+
+```{r echo=F}
+pander(coxph(Surv(os,status)~ifelse(chemo<10,0,1),dipg),style = 'rmarkdown')
+summary(coxph(Surv(os,status)~ifelse(chemo<10,0,1),dipg))
+```
+
+This result indicates that there may be a possible difference in survival when patients are treated _as per_ HIT protocols (with valproic acid).
+
+### References:
+
+- [Jekyll][jekyll]
+- [Jekyll, Migrando meu blog para Github Pages usando Jekyll][jekyll-migrando]
+- [Knitr, Elegant, flexible and fast dynamic report generation with R][knitr]
+- [Knitr, Github][yihui]
+- [pander: An R Pandoc Writer][pander]
+- [pander, Using pander with kniter][pander-knitr]
+- [Package 'survival'][survival]
+- [DIPG database][csv]
+
+[jekyll]: https://jekyllrb.com
+[jekyll-migrando]: /pharmakon/jekyll/update/2016/05/01/Migrando-meu-blog-para-Github-Pages-usando-Jekyll.html
+[knitr]: http://yihui.name/knitr/
+[yihui]: https://github.com/yihui/knitr
+[pander]: http://rapporter.github.io/pander/
+[pander-knitr]: http://rapporter.github.io/pander/knitr.html
+[survival]: https://cran.r-project.org/web/packages/survival/survival.pdf
+[csv]:https://github.com/fhcflx/valkyrie/blob/master/data/

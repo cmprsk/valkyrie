@@ -30,7 +30,7 @@ fit2 = survfit(Surv(os,ifelse(status<1,1,0))~1)
 fit3 = survfit(Surv(os,status)~ifelse(chemo<10,0,1))  
 ```
 
-```{r Sobrevida, fig.height=10, fig.width=12, fig.cap='Sobrevida de pacientes com DIPG'}
+```{r Sobrevida, fig.path='figure/source/retrospectiva/',fig.height=10, fig.width=12, fig.cap='Sobrevida de pacientes com DIPG'}
 plot(fit1,xlab="Meses")
 ```
 
@@ -58,7 +58,7 @@ Mostrando uma mediana de follow-up de `r round(summary(fit2)$table[7],1)` meses.
 
 Aqui, o gráfico comparativo entre os pacientes que fizeram QT segundo um esquema HIT e os outros pacientes:
 
-```{r Sobrevida2, fig.height=10, fig.width=12, fig.cap='Sobrevida de pacientes com DIPG, divididos por tratamento'}
+```{r Sobrevida2, fig.path='figure/source/retrospectiva/', fig.height=10, fig.width=12, fig.cap='Sobrevida de pacientes com DIPG, divididos por tratamento'}
 plot(fit3,xlab="Meses")
 ```
 
