@@ -22,7 +22,7 @@ In addition to the historical control group of our service, we are to use the in
 plot(fit,xlab="Months")
 ```
 
-![Survival of patients with DIPG in the Broniscer _et al_ trial](/figure/source/estudo-anterior/Sobrevida-1.png)
+![Survival of patients with DIPG in the Broniscer _et al_ trial]({{site.baseurl}}/figure/source/estudo-anterior/Sobrevida-1.png)
 
 Group of patients with DIPG (symptoms for less than 6 months, involvement of more than 50% of a pontine segment or two or more segments), treated with radiation (54 to 60 Gy) and tamoxifen during and after RT (200mg/m<sup>2</sup>) at the AC Camargo Hospital in Sao Paulo. The graph shows the estimated probability of survival calculated by the Kaplan-Meier method, using the R programming language, *survival* package. The package *RCurl* was used to capture the data from the .csv file stored on github repository. The graph also shows the 95% confidence interval.
 
@@ -39,7 +39,7 @@ This is the summary of overall survival, in addition to survival in 12 months:
 
 ```
 ## Call: survfit(formula = Surv(Survival..days./30.5, cens) ~ 1, data = bron)
-## 
+##
 ##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
 ##    12      9      17    0.371  0.0952        0.224        0.613
 ```
@@ -64,7 +64,7 @@ plot(fit2,xlab="Months",col=4)
 lines(fit,col=2)
 ```
 
-![Survival of patients with DIPG](/figure/source/estudo-anterior/Sobrevida2-1.png)
+![Survival of patients with DIPG]({{site.baseurl}}/figure/source/estudo-anterior/Sobrevida2-1.png)
 
 And the summary of overall survival of the two groups, with survival at 12 months:
 
@@ -81,15 +81,15 @@ And the summary of overall survival of the two groups, with survival at 12 month
 
 ```
 ## Call: survfit(formula = Surv(Survival..days./30.5, cens) ~ 1, data = bron)
-## 
+##
 ##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
 ##    12      9      17    0.371  0.0952        0.224        0.613
 ```
 
 ```
-## Call: survfit(formula = Surv(os, status) ~ 1, data = dipg, subset = (rt > 
+## Call: survfit(formula = Surv(os, status) ~ 1, data = dipg, subset = (rt >
 ##     4000 & chemo != 10))
-## 
+##
 ##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
 ##    12     13      17    0.447    0.09        0.302        0.664
 ```

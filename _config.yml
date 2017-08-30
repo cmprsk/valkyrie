@@ -19,8 +19,8 @@ index:
 feed:
   en: /feed.xml
   pt: /feed-pt.xml
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://fhcflx.github.io/valkyrie" # the base hostname & protocol for your site
+baseurl: "/valkyrie" # the subpath of your site, e.g. /blog
+url: "http://fhcflx.github.io" # the base hostname & protocol for your site
 exclude: [LICENSE.md,.bundle,.git,_site,Gemfile,Gemfile.lock,vendor]
 twitter_username: valkyrie_trial
 github_username:  fhcflx/valkyrie
@@ -33,5 +33,9 @@ defaults:
       layout: "default"
       author: "Francisco H. C. Felix"
       permalink: /:year/:title/
+  -
+    scope:
+      path: "/figure"
+      type: "figures"
 # Build settings
 markdown: kramdown
