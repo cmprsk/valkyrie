@@ -171,32 +171,32 @@ Both versions of the database shows a larger group of patients who were treated 
 
 ```First dataset version - RT alone/ RT+COG```
 
-> 
+>
 > | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
 > |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
 > |   31    |  31   |   31    |   29   |  11.4  |   8.1   |  15.6   |
 
 
 ```
-## Call: survfit(formula = Surv(os, status) ~ 1, data = dipg, subset = (rt > 
+## Call: survfit(formula = Surv(os, status) ~ 1, data = dipg, subset = (rt >
 ##     4000 & chemo != 10))
-## 
+##
 ##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
 ##    12     13      17    0.447    0.09        0.302        0.664
 ```
 
 ```Second dataset version - RT alone/ RT+COG```
 
-> 
+>
 > | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
 > |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
 > |   36    |  36   |   36    |   31   |  11.9  |   9.4   |  16.8   |
 
 
 ```
-## Call: survfit(formula = Surv(os, status) ~ 1, data = brainstem, subset = (topo == 
+## Call: survfit(formula = Surv(os, status) ~ 1, data = brainstem, subset = (topo ==
 ##     "DIPG" & rt > 4000 & chemo != 10))
-## 
+##
 ##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
 ##    12     15      17    0.493  0.0872        0.349        0.698
 ```
@@ -206,28 +206,28 @@ Summary of follow-up time (classical method of calculating from the survivors):
 
 ```First dataset version - RT alone/ RT+COG```
 
-> 
+>
 >   * 29 observations deleted due to missingness
-> 
+>
 > <!-- end of list -->
-> 
-> 
-> 
-> 
+>
+>
+>
+>
 > | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
 > |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
 > |    2    |   2   |    2    |   2    |  12.1  |  10.4   |   NA    |
 
 ```Second dataset version - RT alone/ RT+COG```
 
-> 
+>
 >   * 31 observations deleted due to missingness
-> 
+>
 > <!-- end of list -->
-> 
-> 
-> 
-> 
+>
+>
+>
+>
 > | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
 > |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
 > |    5    |   5   |    5    |   5    |  9.7   |   6.8   |   NA    |
@@ -237,32 +237,32 @@ Summary of survival variable, in addition to survival in 12 months:
 
 ```First dataset version - RT alone/ RT+COG, no VPA```
 
-> 
+>
 > | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
 > |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
 > |    7    |   7   |    7    |   7    |   8    |   7.3   |   NA    |
 
 
 ```
-## Call: survfit(formula = Surv(os, status) ~ 1, data = dipg, subset = (rt > 
+## Call: survfit(formula = Surv(os, status) ~ 1, data = dipg, subset = (rt >
 ##     4000 & chemo != 10 & vpa == 0))
-## 
+##
 ##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
 ##    12      1       6    0.143   0.132       0.0233        0.877
 ```
 
 ```Second dataset version - RT alone/ RT+COG, no VPA```
 
-> 
+>
 > | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
 > |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
 > |   12    |  12   |   12    |   7    |   9    |   7.4   |   NA    |
 
 
 ```
-## Call: survfit(formula = Surv(os, status) ~ 1, data = brainstem, subset = (topo == 
+## Call: survfit(formula = Surv(os, status) ~ 1, data = brainstem, subset = (topo ==
 ##     "DIPG" & rt > 4000 & chemo != 10 & vpa == 0))
-## 
+##
 ##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
 ##    12      2       6    0.404   0.155         0.19        0.859
 ```
@@ -272,7 +272,7 @@ Follow-up time:
 
 ```First dataset version - RT alone/ RT+COG, no VPA```
 
-> 
+>
 > | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
 > |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
 > |    7    |   7   |    7    |   7    |   8    |   7.3   |   NA    |
@@ -281,14 +281,14 @@ Follow-up time from the first database version (patients treated with RT alone o
 
 ```Second dataset version - RT alone/ RT+COG, no VPA```
 
-> 
+>
 >   * 7 observations deleted due to missingness
-> 
+>
 > <!-- end of list -->
-> 
-> 
-> 
-> 
+>
+>
+>
+>
 > | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
 > |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
 > |    5    |   5   |    5    |   5    |  9.7   |   6.8   |   NA    |
@@ -298,23 +298,23 @@ Summary of overall survival, and survival in 12 months:
 
 ```First dataset version - RT+HIT```
 
-> 
+>
 > | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
 > |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
 > |   11    |  11   |   11    |   1    |   NA   |   NA    |   NA    |
 
 
 ```
-## Call: survfit(formula = Surv(os, status) ~ 1, data = dipg, subset = (rt > 
+## Call: survfit(formula = Surv(os, status) ~ 1, data = dipg, subset = (rt >
 ##     4000 & chemo == 10))
-## 
+##
 ##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
 ##    12      3       1    0.857   0.132        0.633            1
 ```
 
 ```Second dataset version - RT+HIT```
 
-> 
+>
 > | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
 > |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
 > |   12    |  12   |   12    |   11   |  13.8  |  11.6   |   NA    |
@@ -322,18 +322,18 @@ Summary of overall survival, and survival in 12 months:
 
 ```
 ## Error: <text>:3:12: 'in' inesperado
-## 2: 
+## 2:
 ## 3: Difference in
 ##               ^
 ```
-> 
+>
 > | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
 > |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
 > |   11    |  11   |   11    |   10   |  6.7   |    4    |   NA    |
 
 ```Segunda versão do banco de dados - apenas RT+HIT```
 
-> 
+>
 > | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
 > |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
 > |   12    |  12   |   12    |   11   |  13.8  |  11.6   |   NA    |
@@ -344,46 +344,46 @@ As a final bonus, from the second database version it is possible to carry out a
 
 ```First dataset version - RT/RT+COG versus RT+HIT```
 
-> 
+>
 > |             &nbsp;              | N  | Observed | Expected | (O-E)^2/E | (O-E)^2/V |
 > |:-------------------------------:|:--:|:--------:|:--------:|:---------:|:---------:|
 > | **ifelse(chemo == 10, 0, 1)=0** | 11 |    1     |  5.004   |   3.204   |   3.931   |
 > | **ifelse(chemo == 10, 0, 1)=1** | 31 |    29    |    25    |  0.6413   |   3.931   |
-> 
-> Table: Call: Surv(os, status) ~ ifelse(chemo == 10, 0, 1) Chisq = 3.931154 
+>
+> Table: Call: Surv(os, status) ~ ifelse(chemo == 10, 0, 1) Chisq = 3.931154
 > on 1 degrees of freedom, p = 0.047399
 
 ```Second dataset version - RT/RT+COG versus RT+HIT```
 
-> 
+>
 > |             &nbsp;              | N  | Observed | Expected | (O-E)^2/E | (O-E)^2/V |
 > |:-------------------------------:|:--:|:--------:|:--------:|:---------:|:---------:|
 > | **ifelse(chemo == 10, 0, 1)=0** | 12 |    11    |  11.83   |   0.058   |  0.08403  |
 > | **ifelse(chemo == 10, 0, 1)=1** | 36 |    31    |  30.17   |  0.02274  |  0.08403  |
-> 
-> Table: Call: Surv(os, status) ~ ifelse(chemo == 10, 0, 1) Chisq = 0.084035 
+>
+> Table: Call: Surv(os, status) ~ ifelse(chemo == 10, 0, 1) Chisq = 0.084035
 > on 1 degrees of freedom, p = 0.771903
 
 ```Second dataset version - RT/RT+COG (no VPA) versus RT+HIT```
 
-> 
+>
 > | &nbsp;  | N  | Observed | Expected | (O-E)^2/E | (O-E)^2/V |
 > |:-------:|:--:|:--------:|:--------:|:---------:|:---------:|
 > | **g=1** | 12 |    7     |  5.648   |  0.3236   |  0.4999   |
 > | **g=2** | 12 |    11    |  12.35   |   0.148   |  0.4999   |
-> 
-> Table: Call: Surv(os, status) ~ g Chisq = 0.499920 
+>
+> Table: Call: Surv(os, status) ~ g Chisq = 0.499920
 > on 1 degrees of freedom, p = 0.479535
 
 A graph comparing groups g1 and g2, each one with 12 patients:
 
-![Sobrevida de pacientes com DIPG](/figure/source/analise-sobrevida/Sobrevida-1.png)
+![Sobrevida de pacientes com DIPG]({{site.baseurl}}/figure/source/analise-sobrevida/Sobrevida-1.png)
 
 ```
-## Call: survfit(formula = Surv(os, status) ~ g, data = brainstem, subset = (topo == 
+## Call: survfit(formula = Surv(os, status) ~ g, data = brainstem, subset = (topo ==
 ##     "DIPG" & rt > 4000))
-## 
-##    24 observations deleted due to missingness 
+##
+##    24 observations deleted due to missingness
 ##      n events median 0.95LCL 0.95UCL
 ## g=1 12      7    9.0     7.4      NA
 ## g=2 12     11   13.8    11.6      NA

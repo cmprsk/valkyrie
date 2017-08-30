@@ -36,7 +36,7 @@ fit3 = survfit(Surv(os,status)~ifelse(chemo<10,0,1))
 plot(fit1,xlab="Meses")
 ```
 
-![Survival of patients with DIPG](/figure/source/retrospectiva/Sobrevida-1.png)
+![Survival of patients with DIPG]({{site.baseurl}}/figure/source/retrospectiva/Sobrevida-1.png)
 
 Patients diagnosed with DIPG in our service between 2000 and 2013. Graph shows survival probability estimate, Kaplan-Meier estimate method, R programming language, package *survival*. Package *RCurl* was additionally used to fecth data from a [.csv][csv] file in github repository. Graph also shows 95% confidence interval.
 This is the overall survival and 12-month survival summary:
@@ -50,7 +50,7 @@ This is the overall survival and 12-month survival summary:
 
 ```
 ## Call: survfit(formula = Surv(os, status) ~ 1)
-## 
+##
 ##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
 ##    12     17      30    0.395  0.0705        0.279        0.561
 ```
@@ -75,7 +75,7 @@ Here, graph comparing patients that were treated _as per_ HIT protocols _versus_
 plot(fit3,xlab="Meses")
 ```
 
-![Sobrevida de pacientes com DIPG, divididos por tratamento](/figure/source/retrospectiva/Sobrevida2-1.png)
+![Sobrevida de pacientes com DIPG, divididos por tratamento]({{site.baseurl}}/figure/source/retrospectiva/Sobrevida2-1.png)
 
 Summary of overall survival and 12-month survival in both groups:
 
@@ -87,17 +87,17 @@ Summary of overall survival and 12-month survival in both groups:
 
 ```
 ## Call: survfit(formula = Surv(os, status) ~ ifelse(chemo < 10, 0, 1))
-## 
-##                 ifelse(chemo < 10, 0, 1)=0 
-##         time       n.risk      n.event     survival      std.err 
-##      12.0000      13.0000      29.0000       0.3234       0.0719 
-## lower 95% CI upper 95% CI 
-##       0.2093       0.4999 
-## 
-##                 ifelse(chemo < 10, 0, 1)=1 
-##         time       n.risk      n.event     survival      std.err 
-##       12.000        4.000        1.000        0.875        0.117 
-## lower 95% CI upper 95% CI 
+##
+##                 ifelse(chemo < 10, 0, 1)=0
+##         time       n.risk      n.event     survival      std.err
+##      12.0000      13.0000      29.0000       0.3234       0.0719
+## lower 95% CI upper 95% CI
+##       0.2093       0.4999
+##
+##                 ifelse(chemo < 10, 0, 1)=1
+##         time       n.risk      n.event     survival      std.err
+##       12.000        4.000        1.000        0.875        0.117
+## lower 95% CI upper 95% CI
 ##        0.673        1.000
 ```
 
@@ -111,7 +111,7 @@ Comparing both groups with a non-parametric test that uses Kaplan-Meier estimate
 | **ifelse(chemo < 10, 0, 1)=0** | 44 |    41    |  33.81   |   1.529   |   8.035   |
 | **ifelse(chemo < 10, 0, 1)=1** | 12 |    1     |  8.189   |   6.311   |   8.035   |
 
-Table: Call: Surv(os, status) ~ ifelse(chemo < 10, 0, 1) Chisq = 8.035346 
+Table: Call: Surv(os, status) ~ ifelse(chemo < 10, 0, 1) Chisq = 8.035346
 on 1 degrees of freedom, p = 0.004587
 
 Comparing both groups with a semiparametric test, Cox proportional risks model (see [_survival_][survival] package documentation).
@@ -123,23 +123,23 @@ Comparing both groups with a semiparametric test, Cox proportional risks model (
 
 Table: Fitting Proportional Hazards Regression Model: Surv(os, status) ~ ifelse(chemo < 10, 0, 1)
 
-Likelihood ratio test=11.76  on 1 df, p=0.0006041988  n= 56, number of events= 42 
+Likelihood ratio test=11.76  on 1 df, p=0.0006041988  n= 56, number of events= 42
 
 ```
 ## Call:
-## coxph(formula = Surv(os, status) ~ ifelse(chemo < 10, 0, 1), 
+## coxph(formula = Surv(os, status) ~ ifelse(chemo < 10, 0, 1),
 ##     data = dipg)
-## 
-##   n= 56, number of events= 42 
-## 
+##
+##   n= 56, number of events= 42
+##
 ##                             coef exp(coef) se(coef)      z Pr(>|z|)  
 ## ifelse(chemo < 10, 0, 1) -2.3147    0.0988   1.0131 -2.285   0.0223 *
 ## ---
 ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-## 
+##
 ##                          exp(coef) exp(-coef) lower .95 upper .95
 ## ifelse(chemo < 10, 0, 1)    0.0988      10.12   0.01356    0.7197
-## 
+##
 ## Concordance= 0.585  (se = 0.036 )
 ## Rsquare= 0.189   (max possible= 0.99 )
 ## Likelihood ratio test= 11.76  on 1 df,   p=0.0006042
