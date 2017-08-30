@@ -1,8 +1,6 @@
 _site
 .sass-cache
 .jekyll-metadata
-._*.p*
-._*.csv
-._*.Rmd
-._*.md
-._*.html
+._*
+.RData
+build.Rout

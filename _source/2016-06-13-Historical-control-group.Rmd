@@ -1,0 +1,109 @@
+---
+layout: post
+comments: true
+title:  "Historical control group in clinical trials - Project VALKYRIE"
+date:   2016-06-13 16:03:45 -0300
+categories: metodologia
+lang: en
+ref: historico
+permalink: /historical-control/
+doi: 10.6084/m9.figshare.3489956
+tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, historical control
+---
+
+The historical control group consists of patients with DIPG, diagnosed between 2000 and 2013, _not_ treated with chemotherapy according to the HIT protocols ([GPOH][gpoh]), adapted. Only patients who received radiation therapy at a dose of 40 Gy or higher were selected.
+
+The table below shows the characteristics of patients included in the historical group, as defined in [design][design], which will be compared with the group to be treated prospectively in VALQUIRIA trial. This group was compared to retrospective pilot from which we calculated the number of patients to be recruited in the trial.
+
+```{r warning=F, message=F, echo=F}
+require(knitr)
+require(RCurl)
+require(survival)
+dipg<-read.csv(text = getURL("https://raw.githubusercontent.com/fhcflx/valkyrie/gh-pages/_data/dipg.csv"))
+attach(dipg)  
+y = summary(as.factor(subset(sex,rt>4000&chemo!=10)))[1]  
+x = summary(as.factor(subset(sex,rt>4000&chemo!=10)))[2]  
+a = summary(subset(age,rt>4000&chemo!=10))[3]  
+m = summary(subset(age,rt>4000&chemo!=10))[1]  
+M = summary(subset(age,rt>4000&chemo!=10))[6]  
+q = summary(as.factor(subset(chemo,rt>4000&chemo!=10)))
+q2 = summary(as.factor(subset(chemo2,rt>4000&chemo!=10)))
+fit = survfit(Surv(os,status)~1,subset=(chemo!=10&rt>4000))  
+fitt = survfit(Surv(ttp,status)~1,subset=(chemo!=10&rt>4000))  
+fits = survfit(Surv(os2,status)~1,subset=(chemo!=10&rt>4000))
+o = round(summary(fit)$table[5],1)  
+s = round(summary(fit)$table[6],1)
+S = round(summary(fit)$table[7],1)
+tp = round(summary(fitt)$table[5],1)
+t = round(summary(fitt)$table[6],1)
+T = round(summary(fitt)$table[7],1)
+r = summary(as.factor(rt2))[3]
+o2 = round(summary(fits)$table[5],1)
+p = round(summary(fits)$table[6],1)
+P = round(summary(fits)$table[7],1)
+```
+
+---
+
+|     |         |     *Value*     |     | *Units* |     |    *Dispersion*    |     |     |     | *Measure* |
+|:--- | ------- |:---------------:| --- |:---------- | --- |:-----------------:| --- | ---:| --- |:--------:|
+| Sex          |                 |     |            |     |                   |     |     |     |          |
+|     |Male|     `r y`   |     |      -     |     |         -         |     |  -  |     |    *n*   |
+|     | Female|     `r x`   |     |      -     |     |         -         |     |  -  |     |    *n*   |
+|Age|         |     `r a`   |     |     years   |     |`r m`-`r M`|     | min - max |  median |
+|Chemo   |         |`r q[2]+q[3]`|     |      -     |     |         -         |     |  -  |     |    *n*   |
+|     |COG-A9952|   `r q[2]`  |     |      -     |     |         -         |     |  -  |     |    *n*   |
+|     |ACNS0126 |   `r q[3]`  |     |      -     |     |         -         |     |  -  |     |    *n*   |
+|Survival|     |     `r o`   |     |     months  |     |`r s`-`r S`|     |CI95%|     |  median |
+|Time to <br> progression| |`r tp`| |   months  |     |`r t`-`r T`|     |CI95%|     |  median |
+|Second-line   ||`r sum(q2)-q2[1]`|   |    -     |     |         -         |     |  -  |     |    *n*   |
+| |Temozolomide |  `r q2[5]`  |     |      -     |     |         -         |     |  -  |     |    *n*   |
+|     | ICE/IE  |`r q2[2]+q2[3]+q2[11]`|   -     |     |         -         |     |  -  |     |    *n*   |
+|   |Vimblastine|  `r q2[7]`   |     |     -     |     |         -         |     |  -  |     |    *n*   |
+|     |Carbo-VCR|  `r q2[2]`   |     |     -     |     |         -         |     |  -  |     |    *n*   |
+|Re-irradiation  `r y`    |     |     -     |     |         -         |     |  -  |     |    *n*   |
+|Survival after<br>progression||`r o2`| | months |     |`r p`-`r P`|     |CI95%|     |  median |
+
+---
+
+*Table 1: characteristics of patients on historical control group*
+n = number of patients
+Age, overall survival e tempo para progressão expressos em termos de mediana e valores mínimo e máximo.
+
+Second table shows tabulated data from historical control group, extracted from our database after _de-identification_. Primary identifiers _name_ (initials) and _register number_ (chart number) were omited. Secondary identifiers _birth date_, _diagnosis date_, _progression date_ and _censoring date_ (last information or death) were substituted by _age_ (age at diagnosis), _overall survival_, and _time to progression_. Other substituted variables: _chemotherapy initial date_ by _time to chemotherapy_ (time between diagnosis and begin of chemotherapy treatment) and _radiation therapy initial date_ by _time to radiation therapy_ (time between diagnosis and begin of radiation therapy). Original database will not be publicly disclosed to guarantee patient confidentiality integrity.
+
+---
+
+```{r kable, echo=F}
+kable(subset(dipg[,c(2:13)],chemo!=10&rt>4000))
+```
+
+---
+
+*Table 2: patients of historical control group, basic data.*
+
+sex: 0 - male, 1 - female  
+age: years  
+os: overall survival (months)  
+status: 0 - alive, 1 - deceased  
+ecog: ECOG scale at diagnosis  
+chemo: 0 - no chemotherapy, 1 - _as per_ protocol COG-A9952, 9 - _as per_ protocol ACNS0126  
+tt.chemo: time to chemotherapy (days)  
+cycles1: number of chemotherapy cycles completed  
+rt: cGy  
+tt.rt: time to radiation therapy (days)  
+ttp: time to progression (months)
+os2: survival after progression (days)  
+The complete dataset, with all information about patients diagnosed with DIPG in our service between 2000-2013 (de-identified) is available in [.csv][csv] format.
+
+_This post was edited in 06/20/2016 to include **on the fly** calculations with knitr package. Check [.Rmd](https://github.com/fhcflx/valkyrie/blob/gh-pages/_source/2016-06-13-Grupo-controle-histórico.Rmd) file of this post._
+
+### References:
+
+- [GPOH][gpoh]
+- [VALQUIRIA project, design][design]
+- [DIPG database][csv]
+
+[gpoh]: http://www.kinderkrebsinfo.de/gpoh_society/index_eng.html
+[design]: https://github.com/fhcflx/valkyrie/blob/master/project/projeto.md#58coleta-retrospectiva-de-dados-para-compor-o-grupo-controle-histórico
+[csv]:https://github.com/fhcflx/valkyrie/blob/master/data/

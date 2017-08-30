@@ -247,7 +247,7 @@ pander(survdiff(Surv(os,status)~g,brainstem,subset=(topo=="DIPG"&rt>4000)),style
 
 Um gráfico construído a partir da comparação dos grupos g1 e g2, cada um com 12 pacientes:
 
-```{r Sobrevida, fig.height=10, fig.width=12, fig.cap='Sobrevida de pacientes com DIPG', echo=F}
+```{r Sobrevida, fig.path='figure/source/analise-sobrevida/', fig.height=10, fig.width=12, fig.cap='Sobrevida de pacientes com DIPG', echo=F}
 plot(survfit(Surv(os,status)~g,brainstem,subset=(topo=="DIPG"&rt>4000)),xlab="Meses",col=c(2,4))
 survfit(Surv(os,status)~g,brainstem,subset=(topo=="DIPG"&rt>4000))
 ```

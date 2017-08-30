@@ -11,9 +11,11 @@ doi: 10.6084/m9.figshare.3759075.v2
 tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, survival analysis, valproic acid
 ---
 
+
+
 ### Abstract:
 
-Diffuse intrinsic pontine tumors (DIPG) are the brain tumors that have the highest mortality in the age group of children and adolescents (0-18 years). Children with a median age of 7 years are the most affected, with no difference of gender. There is no effective treatment so far. Our research group has created a cloud-based database of DIPG patients. We deposited two different versions of the database, two snapshots, each showing the aspect of the database at a particular time in the repository of this project. We wanted to compare these two snapshots through survival analysis. That is, we have done the same retrospective analysis in two different versions of the database. We demonstrated an important difference in the retrospective analysis results just because we used two different snapshots of the same dataset. Because all files can be publicly accessed, the information is thus reproducible by peers. This retrospective analysis is part of a project that aims to be an open clinical research model.
+Diffuse intrinsic pontine tumors (DIPG) are the brain tumors that have the highest mortality in the age group of children and adolescents (0-18 years). Children with a median age of 7 years are the most affected, with no difference of gender. There is no effective curative treatment. Our research group actively studies this disease. We have been mounting cloud-based  database of DIPG patients since 2009. Two different versions at different times, giving rise to two sets of data, like two different snapshots, each showing the aspect of the database at a particular time were deposited in the repository of this project. We wanted to compare these two snapshots through survival analysis. That is, we have done the same retrospective analysis in two different versions of the database. We demonstrated an important difference in the retrospective analysis results just because we used two different snapshots of the same dataset. Because all files can be publicly accessed, the scientific information is thus completely reproducible by third parties. This retrospective analysis is part of a clinical trial project that aims to be an open clinical research model.
 
 ### Introdução:
 
@@ -169,32 +171,32 @@ Ambas as versões da base de dados mostram um grupo maior de pacientes com DIPG 
 
 ```Primeira versão do banco de dados - apenas RT/ RT+COG```
 
->
-> |  records  |  n.max  |  n.start  |  events  |  median  |  0.95LCL  |  0.95UCL  |
-> |:---------:|:-------:|:---------:|:--------:|:--------:|:---------:|:---------:|
-> |    31     |   31    |    31     |    29    |   11.4   |    8.1    |   15.6    |
+> 
+> | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
+> |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
+> |   31    |  31   |   31    |   29   |  11.4  |   8.1   |  15.6   |
 
 
 ```
-## Call: survfit(formula = Surv(os, status) ~ 1, data = dipg, subset = (rt >
+## Call: survfit(formula = Surv(os, status) ~ 1, data = dipg, subset = (rt > 
 ##     4000 & chemo != 10))
-##
+## 
 ##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
 ##    12     13      17    0.447    0.09        0.302        0.664
 ```
 
 ```Segunda versão do banco de dados - apenas RT/ RT+COG```
 
->
-> |  records  |  n.max  |  n.start  |  events  |  median  |  0.95LCL  |  0.95UCL  |
-> |:---------:|:-------:|:---------:|:--------:|:--------:|:---------:|:---------:|
-> |    36     |   36    |    36     |    31    |   11.9   |    9.4    |   16.8    |
+> 
+> | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
+> |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
+> |   36    |  36   |   36    |   31   |  11.9  |   9.4   |  16.8   |
 
 
 ```
-## Call: survfit(formula = Surv(os, status) ~ 1, data = brainstem, subset = (topo ==
+## Call: survfit(formula = Surv(os, status) ~ 1, data = brainstem, subset = (topo == 
 ##     "DIPG" & rt > 4000 & chemo != 10))
-##
+## 
 ##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
 ##    12     15      17    0.493  0.0872        0.349        0.698
 ```
@@ -204,63 +206,63 @@ Resumo do tempo de seguimento (obtido pelo método clássico de calcular o segui
 
 ```Primeira versão do banco de dados - apenas RT/ RT+COG```
 
->
+> 
 >   * 29 observations deleted due to missingness
->
+> 
 > <!-- end of list -->
->
->
->
->
-> |  records  |  n.max  |  n.start  |  events  |  median  |  0.95LCL  |  0.95UCL  |
-> |:---------:|:-------:|:---------:|:--------:|:--------:|:---------:|:---------:|
-> |     2     |    2    |     2     |    2     |   12.1   |   10.4    |    NA     |
+> 
+> 
+> 
+> 
+> | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
+> |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
+> |    2    |   2   |    2    |   2    |  12.1  |  10.4   |   NA    |
 
 ```Segunda versão do banco de dados - apenas RT/ RT+COG```
 
->
+> 
 >   * 31 observations deleted due to missingness
->
+> 
 > <!-- end of list -->
->
->
->
->
-> |  records  |  n.max  |  n.start  |  events  |  median  |  0.95LCL  |  0.95UCL  |
-> |:---------:|:-------:|:---------:|:--------:|:--------:|:---------:|:---------:|
-> |     5     |    5    |     5     |    5     |   9.7    |    6.8    |    NA     |
+> 
+> 
+> 
+> 
+> | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
+> |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
+> |    5    |   5   |    5    |   5    |  9.7   |   6.8   |   NA    |
 
 Como pode ser visto nas tabelas 1 e 2, uma quantidade considerável de pacientes deste grupo, em ambas as versões da base de dados, recebeu ácido valpróico (VPA) concomitante ao tratamento. Assim, a comparação entre os tipos diferentes de tratamento com QT ficou contaminado, pois também faz parte da hipótese do projeto que o tratamento com VPA talvez modifique a sobrevida. Para tentar reduzir este viés, foi necessário refazer os cálculos, levando em consideração apenas os pacientes que NÃO foram tratados com VPA.
 Resumo da variável de sobrevida, além da sobrevida em 12 meses:
 
 ```Primeira versão do banco de dados - apenas RT/ RT+COG, sem VPA```
 
->
-> |  records  |  n.max  |  n.start  |  events  |  median  |  0.95LCL  |  0.95UCL  |
-> |:---------:|:-------:|:---------:|:--------:|:--------:|:---------:|:---------:|
-> |     7     |    7    |     7     |    7     |    8     |    7.3    |    NA     |
+> 
+> | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
+> |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
+> |    7    |   7   |    7    |   7    |   8    |   7.3   |   NA    |
 
 
 ```
-## Call: survfit(formula = Surv(os, status) ~ 1, data = dipg, subset = (rt >
+## Call: survfit(formula = Surv(os, status) ~ 1, data = dipg, subset = (rt > 
 ##     4000 & chemo != 10 & vpa == 0))
-##
+## 
 ##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
 ##    12      1       6    0.143   0.132       0.0233        0.877
 ```
 
 ```Segunda versão do banco de dados - apenas RT/ RT+COG, sem VPA```
 
->
-> |  records  |  n.max  |  n.start  |  events  |  median  |  0.95LCL  |  0.95UCL  |
-> |:---------:|:-------:|:---------:|:--------:|:--------:|:---------:|:---------:|
-> |    12     |   12    |    12     |    7     |    9     |    7.4    |    NA     |
+> 
+> | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
+> |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
+> |   12    |  12   |   12    |   7    |   9    |   7.4   |   NA    |
 
 
 ```
-## Call: survfit(formula = Surv(os, status) ~ 1, data = brainstem, subset = (topo ==
+## Call: survfit(formula = Surv(os, status) ~ 1, data = brainstem, subset = (topo == 
 ##     "DIPG" & rt > 4000 & chemo != 10 & vpa == 0))
-##
+## 
 ##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
 ##    12      2       6    0.404   0.155         0.19        0.859
 ```
@@ -269,58 +271,58 @@ Tempo de seguimento:
 
 ```Primeira versão do banco de dados - apenas RT/ RT+COG, sem VPA```
 
->
-> |  records  |  n.max  |  n.start  |  events  |  median  |  0.95LCL  |  0.95UCL  |
-> |:---------:|:-------:|:---------:|:--------:|:--------:|:---------:|:---------:|
-> |     7     |    7    |     7     |    7     |    8     |    7.3    |    NA     |
+> 
+> | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
+> |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
+> |    7    |   7   |    7    |   7    |   8    |   7.3   |   NA    |
 
 O tempo de seguimento da primeira versão da base de dados (pacientes tratados com esquemas diferentes dos HIT), excluindo os pacientes que receberam VPA, não é diferente da própria mediana de sobrevida, uma vez que todos os pacientes incluídos alcançaram o evento (óbito), ou seja, não existem sobreviventes neste subgrupo.
 
 ```Segunda versão do banco de dados - apenas RT/ RT+COG, sem VPA```
 
->
+> 
 >   * 7 observations deleted due to missingness
->
+> 
 > <!-- end of list -->
->
->
->
->
-> |  records  |  n.max  |  n.start  |  events  |  median  |  0.95LCL  |  0.95UCL  |
-> |:---------:|:-------:|:---------:|:--------:|:--------:|:---------:|:---------:|
-> |     5     |    5    |     5     |    5     |   9.7    |    6.8    |    NA     |
+> 
+> 
+> 
+> 
+> | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
+> |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
+> |    5    |   5   |    5    |   5    |  9.7   |   6.8   |   NA    |
 
 Nas duas versões da base de dados, os grupos tratados com QT segundo protocolos HIT são menores. No entanto, ocorre uma diferença importante de tempo de seguimento entre as duas versões. Isso se reflete numa diferença também grande no número de pacientes censurados, o que implica, em última análise, numa mudança de desfechos e, logo, de resultado final.
 Resumo da variável de sobrevida, além da sobrevida em 12 meses:
 
 ```Primeira versão do banco de dados - apenas RT+HIT```
 
->
-> |  records  |  n.max  |  n.start  |  events  |  median  |  0.95LCL  |  0.95UCL  |
-> |:---------:|:-------:|:---------:|:--------:|:--------:|:---------:|:---------:|
-> |    11     |   11    |    11     |    1     |    NA    |    NA     |    NA     |
+> 
+> | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
+> |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
+> |   11    |  11   |   11    |   1    |   NA   |   NA    |   NA    |
 
 
 ```
-## Call: survfit(formula = Surv(os, status) ~ 1, data = dipg, subset = (rt >
+## Call: survfit(formula = Surv(os, status) ~ 1, data = dipg, subset = (rt > 
 ##     4000 & chemo == 10))
-##
+## 
 ##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
 ##    12      3       1    0.857   0.132        0.633            1
 ```
 
 ```Segunda versão do banco de dados - apenas RT+HIT```
 
->
-> |  records  |  n.max  |  n.start  |  events  |  median  |  0.95LCL  |  0.95UCL  |
-> |:---------:|:-------:|:---------:|:--------:|:--------:|:---------:|:---------:|
-> |    12     |   12    |    12     |    11    |   13.8   |   11.6    |    NA     |
+> 
+> | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
+> |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
+> |   12    |  12   |   12    |   11   |  13.8  |  11.6   |   NA    |
 
 
 ```
-## Call: survfit(formula = Surv(os, status) ~ 1, data = brainstem, subset = (topo ==
+## Call: survfit(formula = Surv(os, status) ~ 1, data = brainstem, subset = (topo == 
 ##     "DIPG" & rt > 4000 & chemo == 10))
-##
+## 
 ##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
 ##    12      8       4    0.667   0.136        0.447        0.995
 ```
@@ -329,17 +331,17 @@ Diferença do tempo de seguimento (calculado na primeira versão do banco de dad
 
 ```Primeira versão do banco de dados - apenas RT+HIT```
 
->
-> |  records  |  n.max  |  n.start  |  events  |  median  |  0.95LCL  |  0.95UCL  |
-> |:---------:|:-------:|:---------:|:--------:|:--------:|:---------:|:---------:|
-> |    11     |   11    |    11     |    10    |   6.7    |     4     |    NA     |
+> 
+> | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
+> |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
+> |   11    |  11   |   11    |   10   |  6.7   |    4    |   NA    |
 
 ```Segunda versão do banco de dados - apenas RT+HIT```
 
->
-> |  records  |  n.max  |  n.start  |  events  |  median  |  0.95LCL  |  0.95UCL  |
-> |:---------:|:-------:|:---------:|:--------:|:--------:|:---------:|:---------:|
-> |    12     |   12    |    12     |    11    |   13.8   |   11.6    |    NA     |
+> 
+> | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
+> |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
+> |   12    |  12   |   12    |   11   |  13.8  |  11.6   |   NA    |
 
 Neste ponto, já é possível concluir que, apesar do tempo de seguimento usualmente não interferir sobremaneira na estimativa do método de Kaplan-Meier [19], o que realmente ocorreu foi uma grande mudança nos desfechos. Enquanto que, na primeira versão da base de dados, quase todos os pacientes tratados de acordo com esquema HIT foram censurados e quase nenhum experimentara o evento estudado (óbito), o contrário ocorreu na segunda versão da base de dados. Nessa segunda versão, com um tempo de seguimento pouco mais de 6 meses maior, a grande parte dos pacientes havia experimentado o evento e quase não haviam pacientes censurados. Isso ilustra a importância de assegurar que o tempo de seguimento dos pacientes seja pelo menos clinicamente significante, compatível com o tempo de evolução natural da doença estudada [20].
 
@@ -347,46 +349,46 @@ Como um bônus final, a partir da segunda versão da base de dados é possível 
 
 ```Primeira versão do banco de dados - RT/RT+COG versus RT+HIT```
 
->
-> |              &nbsp;               |  N  |  Observed  |  Expected  |  (O-E)^2/E  |  (O-E)^2/V  |
-> |:---------------------------------:|:---:|:----------:|:----------:|:-----------:|:-----------:|
-> |  **ifelse(chemo == 10, 0, 1)=0**  | 11  |     1      |   5.004    |    3.204    |    3.931    |
-> |  **ifelse(chemo == 10, 0, 1)=1**  | 31  |     29     |     25     |   0.6413    |    3.931    |
->
-> Table: Call: Surv(os, status) ~ ifelse(chemo == 10, 0, 1) Chisq = 3.931154
+> 
+> |             &nbsp;              | N  | Observed | Expected | (O-E)^2/E | (O-E)^2/V |
+> |:-------------------------------:|:--:|:--------:|:--------:|:---------:|:---------:|
+> | **ifelse(chemo == 10, 0, 1)=0** | 11 |    1     |  5.004   |   3.204   |   3.931   |
+> | **ifelse(chemo == 10, 0, 1)=1** | 31 |    29    |    25    |  0.6413   |   3.931   |
+> 
+> Table: Call: Surv(os, status) ~ ifelse(chemo == 10, 0, 1) Chisq = 3.931154 
 > on 1 degrees of freedom, p = 0.047399
 
 ```Segunda versão do banco de dados - RT/RT+COG versus RT+HIT```
 
->
-> |              &nbsp;               |  N  |  Observed  |  Expected  |  (O-E)^2/E  |  (O-E)^2/V  |
-> |:---------------------------------:|:---:|:----------:|:----------:|:-----------:|:-----------:|
-> |  **ifelse(chemo == 10, 0, 1)=0**  | 12  |     11     |   11.83    |    0.058    |   0.08403   |
-> |  **ifelse(chemo == 10, 0, 1)=1**  | 36  |     31     |   30.17    |   0.02274   |   0.08403   |
->
-> Table: Call: Surv(os, status) ~ ifelse(chemo == 10, 0, 1) Chisq = 0.084035
+> 
+> |             &nbsp;              | N  | Observed | Expected | (O-E)^2/E | (O-E)^2/V |
+> |:-------------------------------:|:--:|:--------:|:--------:|:---------:|:---------:|
+> | **ifelse(chemo == 10, 0, 1)=0** | 12 |    11    |  11.83   |   0.058   |  0.08403  |
+> | **ifelse(chemo == 10, 0, 1)=1** | 36 |    31    |  30.17   |  0.02274  |  0.08403  |
+> 
+> Table: Call: Surv(os, status) ~ ifelse(chemo == 10, 0, 1) Chisq = 0.084035 
 > on 1 degrees of freedom, p = 0.771903
 
 ```Segunda versão do banco de dados - RT/RT+COG (sem VPA) versus RT+HIT```
 
->
-> |  &nbsp;   |  N  |  Observed  |  Expected  |  (O-E)^2/E  |  (O-E)^2/V  |
-> |:---------:|:---:|:----------:|:----------:|:-----------:|:-----------:|
-> |  **g=1**  | 12  |     7      |   5.648    |   0.3236    |   0.4999    |
-> |  **g=2**  | 12  |     11     |   12.35    |    0.148    |   0.4999    |
->
-> Table: Call: Surv(os, status) ~ g Chisq = 0.499920
+> 
+> | &nbsp;  | N  | Observed | Expected | (O-E)^2/E | (O-E)^2/V |
+> |:-------:|:--:|:--------:|:--------:|:---------:|:---------:|
+> | **g=1** | 12 |    7     |  5.648   |  0.3236   |  0.4999   |
+> | **g=2** | 12 |    11    |  12.35   |   0.148   |  0.4999   |
+> 
+> Table: Call: Surv(os, status) ~ g Chisq = 0.499920 
 > on 1 degrees of freedom, p = 0.479535
 
 Um gráfico construído a partir da comparação dos grupos g1 e g2, cada um com 12 pacientes:
 
-![Sobrevida de pacientes com DIPG]({{site.github.url}}/figure/source/2016-07-27-Análise-de-sobrevida-em-duas-versões-do-mesmo-banco-de-dados/Sobrevida-1.png?raw=True)
+![Sobrevida de pacientes com DIPG](/figure/source/analise-sobrevida/Sobrevida-1.png)
 
 ```
-## Call: survfit(formula = Surv(os, status) ~ g, data = brainstem, subset = (topo ==
+## Call: survfit(formula = Surv(os, status) ~ g, data = brainstem, subset = (topo == 
 ##     "DIPG" & rt > 4000))
-##
-##    24 observations deleted due to missingness
+## 
+##    24 observations deleted due to missingness 
 ##      n events median 0.95LCL 0.95UCL
 ## g=1 12      7    9.0     7.4      NA
 ## g=2 12     11   13.8    11.6      NA
@@ -403,9 +405,9 @@ Um gráfico construído a partir da comparação dos grupos g1 e g2, cada um com
 6. Felix F and Fontenele J. Chemoradiotherapy with etoposide, cisplatin, and ifosfamide associated with valproic acid for patients with diffuse intrinsic pontine glioma [v1; not peer reviewed]. F1000Research 2015, 4:1301 (poster) [Portuguese] (doi:[10.7490/f1000research.1111018.1][dipg-poster])
 7. Felix FHC. De-identification - anonymization (2016). Figshare, doi:[10.6084/m9.figshare.3545471.v1][deid]
 8. Duncan Temple Lang, the CRAN team (2016). RCurl: General Network (HTTP/FTP/...) Client Interface for R, [https://CRAN.R-project.org/package=RCurl][curl]
-9. R Core Team. R: A Language and Environment for Statistical Computing, 2016, [https://www.R-project.org/][r]
-10. Yihui Xie (2016). knitr: A General-Purpose Package for Dynamic Report Generation in R, [http://yihui.name/knitr/][knitr]
-11. Terry M Therneau (2015). A Package for Survival Analysis in S, [http://CRAN.R-project.org/package=survival][survival]
+9. R Core Team. R: A Language and Environment for Statistical Computing, 2017, [https://www.R-project.org/][r]
+10. Yihui Xie (2017). knitr: A General-Purpose Package for Dynamic Report Generation in R, [https://yihui.name/knitr/][knitr]
+11. Terry M Therneau (2015). A Package for Survival Analysis in S, [https://CRAN.R-project.org/package=survival][survival]
 12. Kablfleisch, J. D. and Prentice, R. L. (1980). The Statistical Analysis of Failure Time Data. New York:Wiley.
 13. Harrington, D. P. and Fleming, T. R. (1982). A class of rank test procedures for censored survival data. Biometrika 69, 553-566.
 14. Felix FH, de Araujo OL, da Trindade KM, Trompieri NM, Fontenele JB (2014).
@@ -414,7 +416,7 @@ pontine glioma treated with radiochemotherapy and valproic acid in a single
 center. J Neurooncol. 116(2):261-6. doi:[10.1007/s11060-013-1280-6](http://dx.doi.org/10.1007/s11060-013-1280-6).
 15. Felix FHC (2016). Análise de sobrevida em duas versões do mesmo banco de dados. Arquivo .Rmd armazenado em repositório do GitHub. [https://github.com/fhcflx/valkyrie/blob/gh-pages/_source/2016-07-27-Análise-de-sobrevida-em-duas-versões-do-mesmo-banco-de-dados.Rmd][rmd]
 16. John Gruber (2004). [Markdown][markdown], © 2002–2016 The Daring Fireball Company LLC.
-17. Yihui Xie (2016). servr: A Simple HTTP Server to Serve Static Files or Dynamic Documents, [https://CRAN.R-project.org/package=servr][servr]
+17. Yihui Xie (2017). servr: A Simple HTTP Server to Serve Static Files or Dynamic Documents, [https://CRAN.R-project.org/package=servr][servr]
 18. GitHub (2016). [Jekyll, a blog-aware, static site generator in Ruby.][jekyll] @ MIT License.
 19. Shuster J. (1991). Median follow up in clinical trials. [J. Clin. Oncol.][shuster], 9, 191-192.
 20. Altman DG, De Stavola BL, Love SB, Stepniewska KA (1995). Review of survival analyses published in cancer journals. [Br J Cancer][altman] 72:511–518
@@ -427,8 +429,8 @@ center. J Neurooncol. 116(2):261-6. doi:[10.1007/s11060-013-1280-6](http://dx.do
 [deid]: http://dx.doi.org/10.6084/m9.figshare.3545471.v1
 [curl]: https://CRAN.R-project.org/package=RCurl
 [r]: https://www.R-project.org/
-[knitr]: http://yihui.name/knitr/
-[survival]: http://CRAN.R-project.org/package=survival
+[knitr]: https://yihui.name/knitr/
+[survival]: https://CRAN.R-project.org/package=survival
 [dipg-poster]: http://dx.doi.org/10.7490/f1000research.1111018.1
 [servr]: https://CRAN.R-project.org/package=servr
 [jekyll]: https://jekyllrb.com

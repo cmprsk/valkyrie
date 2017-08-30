@@ -28,7 +28,7 @@ fit.b = survfit(Surv(Survival..days./30.5,ifelse(cens<1,1,0))~1,bron)
 fit2 = survfit(Surv(os,status)~1,dipg,subset=(rt>4000&chemo!=10))
 ```
 
-```{r Sobrevida, fig.height=10, fig.width=12, fig.cap='Survival of patients with DIPG in the Broniscer _et al_ trial'}
+```{r Sobrevida, fig.path='figure/source/estudo-anterior/', fig.height=10, fig.width=12, fig.cap='Survival of patients with DIPG in the Broniscer _et al_ trial'}
 plot(fit,xlab="Months")
 ```
 Grupo de pacientes com diagnóstico de DIPG (sintomas por menos de 6 meses, envolvimento de mais de 50% de um segmento da ponte ou dois ou mais segmentos) tratados com radioterapia (54 a 60 Gy) e tamoxifeno durante e após a RT (200mg/m<sup>2</sup>) no Hospital A.C. Camargo, em São Paulo. O gráfico mostra a estimativa de probabilidade de sobrevida, calculada pelo método de Kaplan-Meier, usando a linguagem de programação R, pacote *survival*. O pacote *RCurl* foi adicionalmente utilizado para capturar os dados a partir do arquivo .csv armazenado no repositório do github. O gráfico mostra também o intervalo de confiança 95%.
@@ -59,7 +59,7 @@ Mostrando uma mediana de follow-up de `r round(summary(fit.b)$table[7],1)` meses
 
 Aqui, o gráfico comparativo entre os pacientes do grupo controle histórico de nosso serviço e os pacientes do ensaio de Broniscer _et al_:
 
-```{r Sobrevida2, fig.height=10, fig.width=12, fig.cap='Survival of patients with DIPG'}
+```{r Sobrevida2, fig.path='figure/source/estudo-anterior/', fig.height=10, fig.width=12, fig.cap='Survival of patients with DIPG'}
 plot(fit2,xlab="Months",col=4)
 lines(fit,col=2)
 ```

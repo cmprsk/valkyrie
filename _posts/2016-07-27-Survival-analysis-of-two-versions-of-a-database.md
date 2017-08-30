@@ -11,6 +11,8 @@ doi: 10.6084/m9.figshare.3759075.v2
 tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, survival analysis, valproic acid
 ---
 
+
+
 ### Abstract:
 
 Diffuse intrinsic pontine tumors (DIPG) are the brain tumors that have the highest mortality in the age group of children and adolescents (0-18 years). Children with a median age of 7 years are the most affected, with no difference of gender. There is no effective treatment so far. Our research group has created a cloud-based database of DIPG patients. We deposited two different versions of the database, two snapshots, each showing the aspect of the database at a particular time in the repository of this project. We wanted to compare these two snapshots through survival analysis. That is, we have done the same retrospective analysis in two different versions of the database. We demonstrated an important difference in the retrospective analysis results just because we used two different snapshots of the same dataset. Because all files can be publicly accessed, the information is thus reproducible by peers. This retrospective analysis is part of a project that aims to be an open clinical research model.
@@ -38,7 +40,7 @@ The tabulated data (Tables 1 and 2) show only DIPG patients treated with RT from
 **Table 1: patients with DIPG, diagnosed 2000-2013, treated with RT (minimum 40 Gy)**
 
 ---
-*1-A.Treated as per COG protocols (or RT alone)*
+*1-A.Tratados com QT as per protocolos do COG, ou sem QT*
 
 |   | sex|  age|   os| status| ecog| chemo| tt.chemo| cycles1|   rt| tt.rt|  ttp| os2| vpa|
 |:--|---:|----:|----:|------:|----:|-----:|--------:|-------:|----:|-----:|----:|---:|---:|
@@ -76,7 +78,7 @@ The tabulated data (Tables 1 and 2) show only DIPG patients treated with RT from
 
 ---
 <br>
-*1-B.Treated as per HIT protocols*
+*1-B.Tratados com QT as per protocolos do HIT*
 
 |   | sex| age|   os| status| ecog| chemo| tt.chemo| cycles1|   rt| tt.rt|  ttp| os2| vpa|
 |:--|---:|---:|----:|------:|----:|-----:|--------:|-------:|----:|-----:|----:|---:|---:|
@@ -99,7 +101,7 @@ The tabulated data (Tables 1 and 2) show only DIPG patients treated with RT from
 **Table 2: patients with DIPG, diagnosed 2000-2015, treated with RT (minimum 40 Gy)**
 
 ---
-*2-A.Treated as per COG protocols (or RT alone)*
+*2-A.Tratados com QT as per protocolos do COG, ou sem QT*
 
 |   | sex|  age|   os| status| ecog| lpps| chemo| tt.chemo| cycles| delta.chemo|   rt| ttp| ttp2| vpa|
 |:--|---:|----:|----:|------:|----:|----:|-----:|--------:|------:|-----------:|----:|---:|----:|---:|
@@ -142,7 +144,7 @@ The tabulated data (Tables 1 and 2) show only DIPG patients treated with RT from
 
 ---
 <br>
-*2-B.Treated as per HIT protocols*
+*2-B.Tratados com QT as per protocolos do HIT*
 
 |   | sex| age|   os| status| ecog| lpps| chemo| tt.chemo| cycles| delta.chemo|   rt| ttp| vpa|
 |:--|---:|---:|----:|------:|----:|----:|-----:|--------:|------:|-----------:|----:|---:|---:|
@@ -165,36 +167,36 @@ The tabulated data (Tables 1 and 2) show only DIPG patients treated with RT from
 
 #### Survival analysis:
 
-Both versions of the database shows a larger group of patients who were treated with RT alone or chemotherapy regimens according to COG protocols. In the second version, this group has 5 more patients (20% increase). Summary of overall survival, in addition to survival in 12 months, illustrating that these variables have not really changed:
+Both versions of the database shows a larger group of patients who were treated with RT alone or chemotherapy regimens according to COG protocols. In the second version, this group has 5 more patients (20 % increase). Summary of overall survival, in addition to survival in 12 months, illustrating that these variables have not really changed:
 
 ```First dataset version - RT alone/ RT+COG```
 
->
-> |  records  |  n.max  |  n.start  |  events  |  median  |  0.95LCL  |  0.95UCL  |
-> |:---------:|:-------:|:---------:|:--------:|:--------:|:---------:|:---------:|
-> |    31     |   31    |    31     |    29    |   11.4   |    8.1    |   15.6    |
+> 
+> | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
+> |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
+> |   31    |  31   |   31    |   29   |  11.4  |   8.1   |  15.6   |
 
 
 ```
-## Call: survfit(formula = Surv(os, status) ~ 1, data = dipg, subset = (rt >
+## Call: survfit(formula = Surv(os, status) ~ 1, data = dipg, subset = (rt > 
 ##     4000 & chemo != 10))
-##
+## 
 ##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
 ##    12     13      17    0.447    0.09        0.302        0.664
 ```
 
 ```Second dataset version - RT alone/ RT+COG```
 
->
-> |  records  |  n.max  |  n.start  |  events  |  median  |  0.95LCL  |  0.95UCL  |
-> |:---------:|:-------:|:---------:|:--------:|:--------:|:---------:|:---------:|
-> |    36     |   36    |    36     |    31    |   11.9   |    9.4    |   16.8    |
+> 
+> | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
+> |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
+> |   36    |  36   |   36    |   31   |  11.9  |   9.4   |  16.8   |
 
 
 ```
-## Call: survfit(formula = Surv(os, status) ~ 1, data = brainstem, subset = (topo ==
+## Call: survfit(formula = Surv(os, status) ~ 1, data = brainstem, subset = (topo == 
 ##     "DIPG" & rt > 4000 & chemo != 10))
-##
+## 
 ##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
 ##    12     15      17    0.493  0.0872        0.349        0.698
 ```
@@ -204,142 +206,137 @@ Summary of follow-up time (classical method of calculating from the survivors):
 
 ```First dataset version - RT alone/ RT+COG```
 
->
+> 
 >   * 29 observations deleted due to missingness
->
+> 
 > <!-- end of list -->
->
->
->
->
-> |  records  |  n.max  |  n.start  |  events  |  median  |  0.95LCL  |  0.95UCL  |
-> |:---------:|:-------:|:---------:|:--------:|:--------:|:---------:|:---------:|
-> |     2     |    2    |     2     |    2     |   12.1   |   10.4    |    NA     |
+> 
+> 
+> 
+> 
+> | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
+> |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
+> |    2    |   2   |    2    |   2    |  12.1  |  10.4   |   NA    |
 
 ```Second dataset version - RT alone/ RT+COG```
 
->
+> 
 >   * 31 observations deleted due to missingness
->
+> 
 > <!-- end of list -->
->
->
->
->
-> |  records  |  n.max  |  n.start  |  events  |  median  |  0.95LCL  |  0.95UCL  |
-> |:---------:|:-------:|:---------:|:--------:|:--------:|:---------:|:---------:|
-> |     5     |    5    |     5     |    5     |   9.7    |    6.8    |    NA     |
+> 
+> 
+> 
+> 
+> | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
+> |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
+> |    5    |   5   |    5    |   5    |  9.7   |   6.8   |   NA    |
 
 As can be seen in Tables 1 and 2, a considerable number of patients in both versions of the database, received valproic acid (VPA) during treatment. Thus, the comparison between the different types of treatment with chemotherapy was biased, since it was also part of the design hypothesis that treatment with VPA may modify survival. To try to reduce this bias, it was necessary to redo the calculations, taking into account only patients who were NOT treated with VPA.
 Summary of survival variable, in addition to survival in 12 months:
 
 ```First dataset version - RT alone/ RT+COG, no VPA```
 
->
-> |  records  |  n.max  |  n.start  |  events  |  median  |  0.95LCL  |  0.95UCL  |
-> |:---------:|:-------:|:---------:|:--------:|:--------:|:---------:|:---------:|
-> |     7     |    7    |     7     |    7     |    8     |    7.3    |    NA     |
+> 
+> | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
+> |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
+> |    7    |   7   |    7    |   7    |   8    |   7.3   |   NA    |
 
 
 ```
-## Call: survfit(formula = Surv(os, status) ~ 1, data = dipg, subset = (rt >
+## Call: survfit(formula = Surv(os, status) ~ 1, data = dipg, subset = (rt > 
 ##     4000 & chemo != 10 & vpa == 0))
-##
+## 
 ##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
 ##    12      1       6    0.143   0.132       0.0233        0.877
 ```
 
 ```Second dataset version - RT alone/ RT+COG, no VPA```
 
->
-> |  records  |  n.max  |  n.start  |  events  |  median  |  0.95LCL  |  0.95UCL  |
-> |:---------:|:-------:|:---------:|:--------:|:--------:|:---------:|:---------:|
-> |    12     |   12    |    12     |    7     |    9     |    7.4    |    NA     |
+> 
+> | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
+> |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
+> |   12    |  12   |   12    |   7    |   9    |   7.4   |   NA    |
 
 
 ```
-## Call: survfit(formula = Surv(os, status) ~ 1, data = brainstem, subset = (topo ==
+## Call: survfit(formula = Surv(os, status) ~ 1, data = brainstem, subset = (topo == 
 ##     "DIPG" & rt > 4000 & chemo != 10 & vpa == 0))
-##
+## 
 ##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
 ##    12      2       6    0.404   0.155         0.19        0.859
 ```
+
 
 Follow-up time:
 
 ```First dataset version - RT alone/ RT+COG, no VPA```
 
->
-> |  records  |  n.max  |  n.start  |  events  |  median  |  0.95LCL  |  0.95UCL  |
-> |:---------:|:-------:|:---------:|:--------:|:--------:|:---------:|:---------:|
-> |     7     |    7    |     7     |    7     |    8     |    7.3    |    NA     |
+> 
+> | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
+> |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
+> |    7    |   7   |    7    |   7    |   8    |   7.3   |   NA    |
 
 Follow-up time from the first database version (patients treated with RT alone or _as per_ COG), excluding those patients who received VPA is not different from its median overall survival since all included patients experienced the event (death) ie, there are no survivors in this subgroup.
 
 ```Second dataset version - RT alone/ RT+COG, no VPA```
 
->
+> 
 >   * 7 observations deleted due to missingness
->
+> 
 > <!-- end of list -->
->
->
->
->
-> |  records  |  n.max  |  n.start  |  events  |  median  |  0.95LCL  |  0.95UCL  |
-> |:---------:|:-------:|:---------:|:--------:|:--------:|:---------:|:---------:|
-> |     5     |    5    |     5     |    5     |   9.7    |    6.8    |    NA     |
+> 
+> 
+> 
+> 
+> | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
+> |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
+> |    5    |   5   |    5    |   5    |  9.7   |   6.8   |   NA    |
 
 In both versions of the database, the groups treated _as per_ HIT chemotherapy protocols are smaller. However, there is an important difference regarding the follow-up time between the two versions. This reflects also in a substantial difference in the number of censored patients, which means, ultimately, a change in meaningful outcomes and, therefore, in the final results.
 Summary of overall survival, and survival in 12 months:
 
 ```First dataset version - RT+HIT```
 
->
-> |  records  |  n.max  |  n.start  |  events  |  median  |  0.95LCL  |  0.95UCL  |
-> |:---------:|:-------:|:---------:|:--------:|:--------:|:---------:|:---------:|
-> |    11     |   11    |    11     |    1     |    NA    |    NA     |    NA     |
+> 
+> | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
+> |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
+> |   11    |  11   |   11    |   1    |   NA   |   NA    |   NA    |
 
 
 ```
-## Call: survfit(formula = Surv(os, status) ~ 1, data = dipg, subset = (rt >
+## Call: survfit(formula = Surv(os, status) ~ 1, data = dipg, subset = (rt > 
 ##     4000 & chemo == 10))
-##
+## 
 ##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
 ##    12      3       1    0.857   0.132        0.633            1
 ```
 
 ```Second dataset version - RT+HIT```
 
->
-> |  records  |  n.max  |  n.start  |  events  |  median  |  0.95LCL  |  0.95UCL  |
-> |:---------:|:-------:|:---------:|:--------:|:--------:|:---------:|:---------:|
-> |    12     |   12    |    12     |    11    |   13.8   |   11.6    |    NA     |
+> 
+> | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
+> |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
+> |   12    |  12   |   12    |   11   |  13.8  |  11.6   |   NA    |
 
 
 ```
-## Call: survfit(formula = Surv(os, status) ~ 1, data = brainstem, subset = (topo ==
-##     "DIPG" & rt > 4000 & chemo == 10))
-##
-##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
-##    12      8       4    0.667   0.136        0.447        0.995
+## Error: <text>:3:12: 'in' inesperado
+## 2: 
+## 3: Difference in
+##               ^
 ```
+> 
+> | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
+> |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
+> |   11    |  11   |   11    |   10   |  6.7   |    4    |   NA    |
 
-Difference in follow-up time (calculated by inverse KM function, since almost all patients were alive, in the first dataset version):
+```Segunda versão do banco de dados - apenas RT+HIT```
 
-```First dataset version - RT+HIT```
-
->
-> |  records  |  n.max  |  n.start  |  events  |  median  |  0.95LCL  |  0.95UCL  |
-> |:---------:|:-------:|:---------:|:--------:|:--------:|:---------:|:---------:|
-> |    11     |   11    |    11     |    10    |   6.7    |     4     |    NA     |
-
-```Second dataset version - RT+HIT```
-
->
-> |  records  |  n.max  |  n.start  |  events  |  median  |  0.95LCL  |  0.95UCL  |
-> |:---------:|:-------:|:---------:|:--------:|:--------:|:---------:|:---------:|
-> |    12     |   12    |    12     |    11    |   13.8   |   11.6    |    NA     |
+> 
+> | records | n.max | n.start | events | median | 0.95LCL | 0.95UCL |
+> |:-------:|:-----:|:-------:|:------:|:------:|:-------:|:-------:|
+> |   12    |  12   |   12    |   11   |  13.8  |  11.6   |   NA    |
 
 At this point, it is possible to conclude that despite the fact that follow-up time usually do not interfere in the estimation of the Kaplan-Meier function [19], what really happened here was a great change in the meaningful outcomes. While in the first version of the database nearly all patients treated _as per_ HIT were censored and almost no study subject experienced the event (death), the opposite occurred in the second version of the database. In this second version, with a follow-up time increase of just over 6 months most of the patients had experienced the event and there was hardly any censored time. This illustrates the importance of ensuring that the patient follow-up time is at least clinically significant, consistent with the natural progression of the disease studied [20].
 
@@ -347,50 +344,51 @@ As a final bonus, from the second database version it is possible to carry out a
 
 ```First dataset version - RT/RT+COG versus RT+HIT```
 
->
-> |              &nbsp;               |  N  |  Observed  |  Expected  |  (O-E)^2/E  |  (O-E)^2/V  |
-> |:---------------------------------:|:---:|:----------:|:----------:|:-----------:|:-----------:|
-> |  **ifelse(chemo == 10, 0, 1)=0**  | 11  |     1      |   5.004    |    3.204    |    3.931    |
-> |  **ifelse(chemo == 10, 0, 1)=1**  | 31  |     29     |     25     |   0.6413    |    3.931    |
->
-> Table: Call: Surv(os, status) ~ ifelse(chemo == 10, 0, 1) Chisq = 3.931154
+> 
+> |             &nbsp;              | N  | Observed | Expected | (O-E)^2/E | (O-E)^2/V |
+> |:-------------------------------:|:--:|:--------:|:--------:|:---------:|:---------:|
+> | **ifelse(chemo == 10, 0, 1)=0** | 11 |    1     |  5.004   |   3.204   |   3.931   |
+> | **ifelse(chemo == 10, 0, 1)=1** | 31 |    29    |    25    |  0.6413   |   3.931   |
+> 
+> Table: Call: Surv(os, status) ~ ifelse(chemo == 10, 0, 1) Chisq = 3.931154 
 > on 1 degrees of freedom, p = 0.047399
 
 ```Second dataset version - RT/RT+COG versus RT+HIT```
 
->
-> |              &nbsp;               |  N  |  Observed  |  Expected  |  (O-E)^2/E  |  (O-E)^2/V  |
-> |:---------------------------------:|:---:|:----------:|:----------:|:-----------:|:-----------:|
-> |  **ifelse(chemo == 10, 0, 1)=0**  | 12  |     11     |   11.83    |    0.058    |   0.08403   |
-> |  **ifelse(chemo == 10, 0, 1)=1**  | 36  |     31     |   30.17    |   0.02274   |   0.08403   |
->
-> Table: Call: Surv(os, status) ~ ifelse(chemo == 10, 0, 1) Chisq = 0.084035
+> 
+> |             &nbsp;              | N  | Observed | Expected | (O-E)^2/E | (O-E)^2/V |
+> |:-------------------------------:|:--:|:--------:|:--------:|:---------:|:---------:|
+> | **ifelse(chemo == 10, 0, 1)=0** | 12 |    11    |  11.83   |   0.058   |  0.08403  |
+> | **ifelse(chemo == 10, 0, 1)=1** | 36 |    31    |  30.17   |  0.02274  |  0.08403  |
+> 
+> Table: Call: Surv(os, status) ~ ifelse(chemo == 10, 0, 1) Chisq = 0.084035 
 > on 1 degrees of freedom, p = 0.771903
 
 ```Second dataset version - RT/RT+COG (no VPA) versus RT+HIT```
 
->
-> |  &nbsp;   |  N  |  Observed  |  Expected  |  (O-E)^2/E  |  (O-E)^2/V  |
-> |:---------:|:---:|:----------:|:----------:|:-----------:|:-----------:|
-> |  **g=1**  | 12  |     7      |   5.648    |   0.3236    |   0.4999    |
-> |  **g=2**  | 12  |     11     |   12.35    |    0.148    |   0.4999    |
->
-> Table: Call: Surv(os, status) ~ g Chisq = 0.499920
+> 
+> | &nbsp;  | N  | Observed | Expected | (O-E)^2/E | (O-E)^2/V |
+> |:-------:|:--:|:--------:|:--------:|:---------:|:---------:|
+> | **g=1** | 12 |    7     |  5.648   |  0.3236   |  0.4999   |
+> | **g=2** | 12 |    11    |  12.35   |   0.148   |  0.4999   |
+> 
+> Table: Call: Surv(os, status) ~ g Chisq = 0.499920 
 > on 1 degrees of freedom, p = 0.479535
 
 A graph comparing groups g1 and g2, each one with 12 patients:
 
-![Patients with DIPG - overall survival]({{site.github.url}}/figure/source/2016-07-27-Análise-de-sobrevida-em-duas-versões-do-mesmo-banco-de-dados/Sobrevida-1.png?raw=True)
+![Sobrevida de pacientes com DIPG](/figure/source/analise-sobrevida/Sobrevida-1.png)
 
 ```
-## Call: survfit(formula = Surv(os, status) ~ g, data = brainstem, subset = (topo ==
+## Call: survfit(formula = Surv(os, status) ~ g, data = brainstem, subset = (topo == 
 ##     "DIPG" & rt > 4000))
-##
-##    24 observations deleted due to missingness
+## 
+##    24 observations deleted due to missingness 
 ##      n events median 0.95LCL 0.95UCL
 ## g=1 12      7    9.0     7.4      NA
 ## g=2 12     11   13.8    11.6      NA
 ```
+
 It is quite evident that there seems to be no difference between the curves. This would indicate that the treatment proposed in our trial design does not correlate with better survival, in particular the use of valproic acid seems to have no effect. Taking into account the limitations of retrospective analysis and the small number of patients in this comparison, it is a possible conclusion.
 
 ### References:
