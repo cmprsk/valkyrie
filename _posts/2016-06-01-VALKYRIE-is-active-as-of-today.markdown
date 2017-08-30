@@ -16,7 +16,7 @@ VALKYRIE was approved by the Institutional Board of the Albert Sabin Children's 
 
 ![imagem1]
 
-Today, we had a pitch meeting in the chemotherapy day unit (known as "First Floor") in Pediatric Cancer Center at Albert Sabin Children's Hospital. Here we are treating the patients of the trial, when the patient accrual begins. The meeting included Dr. Nadia Trompieri, Dr. Orlandira Araújo and myself (Dr. Felix). They confirmed their roles in the evaluation and treatment of patients, we reviewed the main model of patient entry in the trial and decided officially for activating the project. The entry of the patients will be first decided at the Neurosurgery ward ("F unit" of the Albert Sabin Children's Hospital), and will be in charge of Dr. Sandra Albuquerque. After the initial assessment of candidate patients for entry in the trial, Dr. Albuquerque is sending the magnetic resonance imaging to central review, anonymously (deidentified). As I am in charge of reviewing images, I will evaluate and confirm the diagnosis of DIPG. Then I am giving permission to start patient accrual process. The team of graduate students of Professor Juvenia Fontenele will consent forms signed by the patient's family. If consent is provided, the patient will be referred to Drs Trompieri and Araujo to start the protocol treatment.
+Today, we had a pitch meeting in the chemotherapy day unit (known as "First Floor") in Pediatric Cancer Center at Albert Sabin Children's Hospital. Here we are treating the patients of the trial, when the patient accrual begins. The meeting included Dr. Nadia Trompieri, Dr. Orlandira Araújo and myself (Dr. Felix). They confirmed their roles in the evaluation and treatment of patients, we reviewed the main model of patient entry in the trial and decided officially for activating the project. The entry of the patients will be first decided at the Neurosurgery ward ("F unit" of the Albert Sabin Children's Hospital), and will be in charge of Dr. Sandra Albuquerque. After the initial assessment of candidate patients for entry in the trial, Dr. Albuquerque is sending the magnetic resonance imaging to central review, anonymously (deidentified). As I am in charge of reviewing images, I will evaluate and confirm the diagnosis of DIPG. Then I am giving permission to start patient accrual process. The team of graduate students of Professor Juvenia Fontenele will have consent forms signed by the patient's family. If consent is provided, the patient will be referred to Drs Trompieri and Araujo to start the protocol treatment.
 
 In summary, the steps from the entry of the patients are going to be:
 
@@ -26,6 +26,7 @@ In summary, the steps from the entry of the patients are going to be:
 * Referral to treatment
 
 P.S.: At the end of June we decided to postpone the beginning of patient accrual in order to perform internal evaluations.
+P.S.2: At 2017, in the midst of a political and economic crisis in our country, the team decided to close the study. No patients were ever accrued and treated according with the trial protocol.
 
 ### References:
 
