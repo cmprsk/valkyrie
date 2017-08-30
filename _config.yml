@@ -33,9 +33,6 @@ defaults:
       layout: "default"
       author: "Francisco H. C. Felix"
       permalink: /:year/:title/
-  -
-    scope:
-      path: "/figure"
-      type: "figures"
+
 # Build settings
 markdown: kramdown
