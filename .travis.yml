@@ -4,6 +4,7 @@ rvm:
 
 before_script:
  - echo 'gem "html-proofer"'>>./Gemfile
+ - bundle install
  - chmod +x ./script/cibuild # or do this locally and commit
 
 # Assume bundler is being used, therefore
