@@ -6,7 +6,7 @@ date:   2016-06-16 16:03:45 -0300
 categories: metodologia
 ref: previous
 lang: en
-permalink: previous-trial/
+permalink: /previous-trial/
 doi: 10.6084/m9.figshare.3749790
 tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, historical control, project valkyrie
 ---

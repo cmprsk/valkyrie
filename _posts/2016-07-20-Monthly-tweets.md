@@ -6,7 +6,7 @@ date:   2016-07-20 16:03:45 -0300
 categories: valquiria
 ref: twitter3
 lang: en
-permalink: monthly-tweets/
+permalink: /monthly-tweets/
 doi: 10.6084/m9.figshare.3766254
 tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, twitter, jekyll, project valkyrie
 ---

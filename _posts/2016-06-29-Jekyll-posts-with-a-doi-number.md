@@ -6,7 +6,7 @@ date:   2016-06-29 16:03:45 -0300
 categories: valquiria
 ref: doi-number
 lang: en
-permalink: doi-number/
+permalink: /doi-number/
 doi: 10.6084/m9.figshare.3491690.v1
 tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, figshare, doi, jekyll
 ---

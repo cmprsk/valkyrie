@@ -6,7 +6,7 @@ date:   2016-06-02 16:03:45 -0300
 categories: metodologia
 ref: science
 lang: en
-permalink: rational/
+permalink: /rational/
 doi: 10.6084/m9.figshare.3489917
 tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, rational, project valkyrie
 ---

@@ -6,7 +6,7 @@ date:   2016-07-13 16:03:45 -0300
 categories: valquiria
 ref: open
 lang: en
-permalink: open-clinical-science/
+permalink: /open-clinical-science/
 doi: 10.6084/m9.figshare.
 tags: clinical research, open science, open clinical science, open data, reproducible research, open notebook science
 ---
