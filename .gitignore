@@ -4,3 +4,4 @@ _site
 ._*
 .RData
 build.Rout
+Gemfile.lock
