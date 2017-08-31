@@ -28,7 +28,7 @@ Identification in the Brazillian Clinical Trial Registry (ReBEC): [![ReBEC](http
 
 First received on ReBEC in 02/04/2016. Last updated in 05/30/2016.
 
-Actived in 06/01/2016. Patient accrual has not begin yet. The project was put on a hold until January 2017, when it will be reassessed.
+Actived in 06/01/2016. It was cancelled in August 2017.
 
 Home page of the clinical research open notebook: http://fhcflx.github.io/valkyrie
 
