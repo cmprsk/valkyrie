@@ -95,7 +95,7 @@ Os  números que usei foram obtidos da comparação que eu fizera entre paciente
   adaptado do HIT também receberam VPA, torna-se impossível separar os
   efeitos dos dois componentes do tratamento na sobrevida.
 
-![]({{ site.github.url}}/assets/posts/2016-06-08-Cálculo-do-número-de-pacientes/pasted-image-30.png?raw=true)
+![amostra]({{ site.baseurl}}/assets/posts/2016-06-08-Cálculo-do-número-de-pacientes/pasted-image-30.png)
 *Gráfico da introdução do projeto, mostrando a curva de sobrevida dos pacientes com DIPG tratados em nosso serviço entre 2000-2013, diferenciados pelo tratamento realizado (em azul, protocolos do HIT com ácido valpróico).*
 
 ### Referências:
