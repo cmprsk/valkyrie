@@ -474,7 +474,7 @@ SG. Uma vez que quase todos os pacientes que receberam o protocolo
 adaptado do HIT também receberam VPA, torna-se impossível separar os
 efeitos dos dois componentes do tratamento na sobrevida.
 
-![fig1](https://github.com/cmprsk/valkyrie/blob/master/project/files/Anteprojeto_VALQUIRIA_HIAS.pages/Data/pasted-image-small-31.png)
+![fig1](https://github.com/fhcflx/valkyrie/blob/master/project/files/Anteprojeto_VALQUIRIA_HIAS.pages/Data/pasted-image-small-31.png)
 
 Figura 1: curvas de sobrevida global de pacientes com DIPG
 diagnosticados no HIAS entre 2000 e 2013. Em vermelho: pacientes
@@ -1103,7 +1103,7 @@ DIPG. Destes, 31 pacientes foram tratados com radioterapia e algum outro
 esquema de tratamento diferente do HIT (figura 2). Estes pacientes serão
 os incluídos no grupo histórico comparativo.
 
-![fig2](https://github.com/cmprsk/valkyrie/blob/master/project/files/Anteprojeto_VALQUIRIA_HIAS.pages/Data/pasted-image-small-33.png)
+![fig2](https://github.com/fhcflx/valkyrie/blob/master/project/files/Anteprojeto_VALQUIRIA_HIAS.pages/Data/pasted-image-small-33.png)
 
 De acordo com o Manual Operacional para Comitês de Ética em Pesquisa
 (Série A. Normas e Manuais Técnicos. Série CNS - Cadernos Técnicos. Ed.
@@ -1822,7 +1822,7 @@ Outros exames de imagem:
 ----
 ## Escores/escalas de performance status
 
-![](https://github.com/cmprsk/valkyrie/blob/master/project/files/Anteprojeto_VALQUIRIA_HIAS.pages/Data/image-26.png)
+![](https://github.com/fhcflx/valkyrie/blob/master/project/files/Anteprojeto_VALQUIRIA_HIAS.pages/Data/image-26.png)
 
 Critérios comuns de toxicidade do Instituto Nacional de Câncer dos
 Estados Unidos. Saad, Everardo D., et al. "Critérios comuns de
@@ -2069,7 +2069,7 @@ progressão e sobrevida global.
 
 Data: 21/05/2014
 
-![](https://github.com/cmprsk/valkyrie/blob/master/project/files/Anteprojeto_VALQUIRIA_HIAS.pages/Data/image6-14.png)
+![](https://github.com/fhcflx/valkyrie/blob/master/project/files/Anteprojeto_VALQUIRIA_HIAS.pages/Data/image6-14.png)
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -2079,7 +2079,7 @@ Assinatura do Pesquisador Responsável / orientador
 
 ## Autorização do chefe de serviço
 
-![](https://github.com/cmprsk/valkyrie/blob/master/project/AUTORIZA1.png)
+![](https://github.com/fhcflx/valkyrie/blob/master/project/AUTORIZA1.png)
 
 ----
 
@@ -2102,7 +2102,7 @@ terão acesso ao medicamento findo o projeto.
 
 Fortaleza, 21 de Maio de 2014
 
-![](https://github.com/cmprsk/valkyrie/blob/master/project/files/Anteprojeto_VALQUIRIA_HIAS.pages/Data/image6-14.png)
+![](https://github.com/fhcflx/valkyrie/blob/master/project/files/Anteprojeto_VALQUIRIA_HIAS.pages/Data/image6-14.png)
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
