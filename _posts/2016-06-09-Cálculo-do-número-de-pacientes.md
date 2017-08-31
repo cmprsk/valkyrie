@@ -6,7 +6,7 @@ date:   2016-06-09 16:03:45 -0300
 categories: metodologia
 lang: pt
 ref: numero
-permalink: tamanho-amostra/
+permalink: /tamanho-amostra/
 doi: 10.6084/m9.figshare.3489947
 tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, sample size, project valkyrie
 ---

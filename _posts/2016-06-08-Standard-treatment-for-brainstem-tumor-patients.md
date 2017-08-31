@@ -6,7 +6,7 @@ date:   2016-06-08 16:03:45 -0300
 categories: metodologia
 ref: trata
 lang: en
-permalink: standard-treatment/
+permalink: /standard-treatment/
 doi: 10.6084/m9.figshare.3489944
 tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, standard treatment, project valkyrie
 ---

@@ -6,7 +6,7 @@ date:   2016-06-07 16:03:45 -0300
 categories: valquiria
 ref: criteria
 lang: en
-permalink: diagnostic-criteria/
+permalink: /diagnostic-criteria/
 doi: 10.6084/m9.figshare.3489941
 tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, diagnostic criteria, project valkyrie
 ---

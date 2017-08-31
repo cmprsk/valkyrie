@@ -6,7 +6,7 @@ date:   2016-06-17 16:03:45 -0300
 categories: valquiria
 ref: first
 lang: pt
-permalink: recrutamento/
+permalink: /recrutamento/
 doi: 10.6084/m9.figshare.3489962
 tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, patient accrual, project valkyrie
 ---

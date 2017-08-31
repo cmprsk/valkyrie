@@ -6,7 +6,7 @@ date:   2016-06-14 16:03:45 -0300
 categories: metodologia
 ref: retro
 lang: en
-permalink: retrospective/
+permalink: /retrospective/
 doi: 10.6084/m9.figshare.3489959
 tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, retrospective analysis, open science, jekyll, knitr
 ---

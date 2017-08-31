@@ -6,7 +6,7 @@ date:   2016-06-01 16:03:45 -0300
 categories: valquiria
 ref: active
 lang: pt
-permalink: valquiria-ativo/
+permalink: /valquiria-ativo/
 doi: 10.6084/m9.figshare.3470294
 tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, open science, project valkyrie
 ---
