@@ -214,7 +214,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll
   jekyll-compose
 
 BUNDLED WITH
