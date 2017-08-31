@@ -6,7 +6,7 @@ date:   2017-06-08 16:03:45 -0300
 categories: valquiria
 ref: viabilidade
 lang: pt
-permalink: /viabilidade/
+permalink: viabilidade/
 doi: 10.6084/m9.figshare.
 tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, project valkyrie
 ---

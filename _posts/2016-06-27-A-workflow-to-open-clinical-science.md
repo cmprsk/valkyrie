@@ -6,7 +6,7 @@ date:   2016-06-27 16:03:45 -0300
 categories: valquiria
 ref: workflow
 lang: en
-permalink: /workflow/
+permalink: workflow/
 doi: 10.6084/m9.figshare.3764571.v1
 tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, doi, jekyll, workflow, open science
 ---
