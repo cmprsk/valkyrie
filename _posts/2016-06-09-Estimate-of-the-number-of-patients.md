@@ -92,7 +92,7 @@ These figures were obtained from the comparison I made between patients with HIT
   also received VPA, it is impossible to separate the
   effects of the two components of the treatment on survival.
 
-![]({{ site.github.url}}/assets/posts/2016-06-08-Cálculo-do-número-de-pacientes/pasted-image-30.png?raw=true)
+![amostra]({{ site.baseurl}}/assets/posts/2016-06-08-Cálculo-do-número-de-pacientes/pasted-image-30.png)
 *Graph from the project's introduction, showing survival curve of DIPG patients treated in our service between 2000-2013, divided by treatment (blue, HIT protocols and valproic acid).*
 
 ### References:
