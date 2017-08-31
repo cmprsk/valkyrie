@@ -6,7 +6,7 @@ date:   2016-06-24 16:03:45 -0300
 categories: valquiria
 ref: disqus
 lang: pt
-permalink: /disqus/
+permalink: disqus/
 doi: 10.6084/m9.figshare.3489968
 tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, disqus, jekyll, project valkyrie
 ---

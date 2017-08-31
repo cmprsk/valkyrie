@@ -6,7 +6,7 @@ date:   2016-06-06 16:03:45 -0300
 categories: valquiria
 lang: pt
 ref: twitter1
-permalink: /novo-twitter/
+permalink: novo-twitter/
 doi: 10.6084/m9.figshare.3489938
 tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, magnetic resonance imaging, project valkyrie
 ---

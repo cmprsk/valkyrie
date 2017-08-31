@@ -7,7 +7,7 @@ categories: metodologia
 ref: historico
 lang: pt
 doi: 10.6084/m9.figshare.3489956
-permalink: /controle-historico/
+permalink: controle-historico/
 tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, historical control, project valkyrie
 ---
 

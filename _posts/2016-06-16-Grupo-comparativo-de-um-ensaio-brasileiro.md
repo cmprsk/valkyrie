@@ -6,7 +6,7 @@ date:   2016-06-16 16:03:45 -0300
 categories: metodologia
 ref: previous
 lang: pt
-permalink: /estudo-anterior/
+permalink: estudo-anterior/
 doi: 10.6084/m9.figshare.3749790
 tags: pediatric cancer, brain tumors, diffuse intrinsic pontine glioma, clinical trial, historical control, project valkyrie
 ---
@@ -38,7 +38,7 @@ Este é o resumo da variável de sobrevida, além da sobrevida em 12 meses:
 
 ```
 ## Call: survfit(formula = Surv(Survival..days./30.5, cens) ~ 1, data = bron)
-## 
+##
 ##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
 ##    12      9      17    0.371  0.0952        0.224        0.613
 ```
@@ -78,15 +78,15 @@ E o resumo da sobrevida nos 2 grupos, com sobrevida aos 12 meses:
 
 ```
 ## Call: survfit(formula = Surv(Survival..days./30.5, cens) ~ 1, data = bron)
-## 
+##
 ##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
 ##    12      9      17    0.371  0.0952        0.224        0.613
 ```
 
 ```
-## Call: survfit(formula = Surv(os, status) ~ 1, data = dipg, subset = (rt > 
+## Call: survfit(formula = Surv(os, status) ~ 1, data = dipg, subset = (rt >
 ##     4000 & chemo != 10))
-## 
+##
 ##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
 ##    12     13      17    0.447    0.09        0.302        0.664
 ```
