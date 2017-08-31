@@ -21,8 +21,8 @@
 
     {% if prevurl or nexturl %}
         <div class="pagination">
-            {% if prevurl %}<a href="/valkyrie/{{prevurl}}" class="prev"><i class="fa fa-angle-left"></i>&larr; {{ prevtitle}}</a>{% endif %}
+            {% if prevurl %}<a href="{{site.baseurl}}/{{prevurl}}" class="prev"><i class="fa fa-angle-left"></i>&larr; {{ prevtitle}}</a>{% endif %}
             &nbsp
-            {% if nexturl %}<a href="/valkyrie/{{nexturl}}" class="next">{{nexttitle}} &rarr;<i class="fa fa-angle-right"></i></a>{% endif %}
+            {% if nexturl %}<a href="{{site.baseurl}}/{{nexturl}}" class="next">{{nexttitle}} &rarr;<i class="fa fa-angle-right"></i></a>{% endif %}
         </div>
     {% endif %}
