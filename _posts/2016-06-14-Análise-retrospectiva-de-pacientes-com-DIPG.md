@@ -157,7 +157,7 @@ Este resultado indica que existe a possibilidade de haver alguma diferença de s
 - [Banco de dados de pacientes com DIPG][csv]
 
 [jekyll]: https://jekyllrb.com
-[jekyll-migrando]: {{site.baseurl}}/ciencia-medica/articles/16/Migrando-meu-blog-para-Github-Pages-usando-Jekyll.html
+[jekyll-migrando]: http://fhcflx.github.io/ciencia-medica/articles/16/Migrando-meu-blog-para-Github-Pages-usando-Jekyll.html
 [knitr]: http://yihui.name/knitr/
 [yihui]: https://github.com/yihui/knitr
 [pander]: http://rapporter.github.io/pander/

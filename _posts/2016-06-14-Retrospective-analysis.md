@@ -161,7 +161,7 @@ This result indicates that there may be a possible difference in survival when p
 - [DIPG database][csv]
 
 [jekyll]: https://jekyllrb.com
-[jekyll-migrando]: {{site.baseurl}}/ciencia-medica/articles/16/Migrando-meu-blog-para-Github-Pages-usando-Jekyll.html
+[jekyll-migrando]: http://fhcflx.github.io/ciencia-medica/articles/16/Migrando-meu-blog-para-Github-Pages-usando-Jekyll.html
 [knitr]: http://yihui.name/knitr/
 [yihui]: https://github.com/yihui/knitr
 [pander]: http://rapporter.github.io/pander/
