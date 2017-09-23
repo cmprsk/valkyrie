@@ -5,7 +5,7 @@ title:  "Porque uma ciência clínica aberta"
 date:   2016-07-13 16:03:45 -0300
 categories: valquiria
 ref: open
-lang: en
+lang: pt
 permalink: /ciencia-clinica-aberta/
 doi: 10.6084/m9.figshare.5435968
 tags: clinical research, open science, open clinical science, open data, reproducible research, open notebook science
