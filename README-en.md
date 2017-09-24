@@ -1,6 +1,7 @@
 [![Status](https://img.shields.io/badge/Status-cancelado-red.svg)]()
 [![GitHub downloads](https://img.shields.io/github/downloads/fhcflx/valkyrie/total.svg)](https://github.com/fhcflx/valkyrie/releases)
 [![ORCID](https://img.shields.io/badge/ORCID-0000--0002--8398--0993-blue.svg)](http://orcid.org/0000-0002-8398-0993)
+[![UTN](https://img.shields.io/badge/UTN-U1111--1179--2263-blue.svg)]()
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0)
 [![Build](https://img.shields.io/travis/fhcflx/valkyrie.svg)](https://travis-ci.org/fhcflx/valkyrie)
 
@@ -66,7 +67,7 @@ Contributions to the clinical research open notebook:
 - [Society for Neuro-oncology][sno]
 
 ---------------------------------
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">valkyrie</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Francisco H C Felix</span> is licensed with <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons - Attribution 4.0 Internacional</a>
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">VALKYRIE</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Francisco H C Felix</span> is licensed with <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons - Attribution 4.0 Internacional</a>
 
 This license does not apply to data banks (.csv files).
 
