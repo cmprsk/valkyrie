@@ -5,8 +5,8 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0)
 [![Build](https://img.shields.io/travis/fhcflx/valkyrie.svg)](https://travis-ci.org/fhcflx/valkyrie)
 
-# valkyrie (valquiria)
------------------------
+# VALQUIRIA (VALKYRIE)
+
 ## O que é:
 Este repositório abriga arquivos de um modelo de **ensaio clínico usando ciência aberta (open science clinical trial)**, um [**caderno de pesquisa aberto (open lab notebook)**][open-lab] que descreve e apresenta os resultados de um ensaio clínico em tempo real (enquanto os dados são coletados). A fim de proteger a identidade e confidencialidade dos pacientes, os dados não são apresentados de forma completa, porém são anotados de forma [*desidentificada*][desidentifica].
 
