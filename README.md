@@ -6,9 +6,6 @@
 [![Build](https://img.shields.io/travis/fhcflx/valkyrie.svg)](https://travis-ci.org/fhcflx/valkyrie)
 
 # valkyrie (valquiria)
-
-> ## UTN: U1111-1179-2263
-
 -----------------------
 ## O que é:
 Este repositório abriga arquivos de um modelo de **ensaio clínico usando ciência aberta (open science clinical trial)**, um [**caderno de pesquisa aberto (open lab notebook)**][open-lab] que descreve e apresenta os resultados de um ensaio clínico em tempo real (enquanto os dados são coletados). A fim de proteger a identidade e confidencialidade dos pacientes, os dados não são apresentados de forma completa, porém são anotados de forma [*desidentificada*][desidentifica].
