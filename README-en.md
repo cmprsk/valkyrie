@@ -4,11 +4,8 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0)
 [![Build](https://img.shields.io/travis/fhcflx/valkyrie.svg)](https://travis-ci.org/fhcflx/valkyrie)
 
-# valkyrie (valquiria)
+# VALKYRIE (VALQUIRIA)
 
-> ## UTN: U1111-1179-2263
-
------------------------
 ## What it is:
 This repository keeps the files of an **open science clinical trial** model, an [**open lab notebook**](https://en.wikipedia.org/wiki/Open_notebook_science) project that describes and presents the results of a clinical trial in real time (as data is registered). In order to protect the identity and confidentiality of the patients, data is not to be shown in raw format, but [*de-identified*](https://en.wikipedia.org/wiki/De-identification).
 
