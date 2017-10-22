@@ -1122,7 +1122,7 @@ eticamente recomendado, como no caso deste ensaio.
 ---
 
 |                                                                          | **2014** | **2016** | **2017** | **2018-19** |
-| ----                                                                     | :------  | :------: | :------: | ----------: |
+| ----                                                                     | :------  | :------: | :------: | :---------: |
 | Submissão do Estudo à apreciação do Comitê de Ética e Pesquisa do HIAS.  | X        |          |          |             |
 | Planejamento                                                             | X X      |          |          |             |
 | Impressão e editoração dos instrumentos de coleta de dados               | X X      |          |          |             |
@@ -1410,9 +1410,9 @@ conseqüentemente autoriza e dá consentimento:
 Local e data: Fortaleza, \_\_\_\_ de \_\_\_\_\_\_\_\_\_\_\_\_\_\_ de 20\_\_\_
 
 Nome do paciente:
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
 
 Assinatura do responsável legal  - Polegar Direito
 
@@ -1433,20 +1433,15 @@ Matérias da(s) fotografia(s) ou artigo:
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-Periódico para onde foi submetido:
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+Periódico para onde foi submetido:                                    \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-Editora:
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+Editora:        \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-Número do manuscrito:
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+Número do manuscrito:                     \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-Título do artigo:
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+Título do artigo:                 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-Autor correspondente:
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+Autor correspondente:                     \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 Eu,
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
@@ -1495,10 +1490,9 @@ contexto.
 publicação, mas uma vez que a informação tenha sido publicada ("ido à
 imprensa") não será possível a revogar o consentimento.
 
-Assinado
-:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+Assinado:         \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-Data: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+Data: \_\_\_\_\_\_\_\_\_, \_\_\_de \_\_\_\_\_\_\_\_ de \_\_\_\_\_
 
 ----
 
@@ -1698,7 +1692,7 @@ RNM de crânio:
 \_\_\_\_\_\_\_\_\_
 
 Outros exames de imagem: 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 ### 2. Diagnóstico:
 
@@ -1783,51 +1777,48 @@ Melhor resposta obtida (anotar quando):
 **1 folha para cada data de coleta**
 
 Data da coleta de dados: \_\_\_/\_\_\_/\_\_\_\_\_\_
-```
-  Data |  P |  E  | PC  | Hb  | Ht |   Leu  | Gran  | Lin |  Plaq
-  :------ | --- | --- |---- | ---- | ---- | ----- | ------ | ----- | ------
-  [ |   |    |   |   |  |     |   |  |  
-  [ |   |    |   |   |  |     |   |  |  
-  [ |   |    |   |   |  |     |   |  |  
-  [ |   |    |   |   |  |     |   |  |  
-  [ |   |    |   |   |  |     |   |  |  
-  [ |   |    |   |   |  |     |   |  |  
-  [ |   |    |   |   |  |     |   |  |  
-  [ |   |    |   |   |  |     |   |  |  
-  [ |   |    |   |   |  |     |   |  |  
 
-  Data |  U |  Cr |  AST  | ALT |  Na |  K  | Gli |  PT |  Alb
-  :------ | --- | --- |---- | ---- | ---- | ----- | ------ | ----- | ------
-  [ |   |    |   |   |  |     |   |  |  
-  [ |   |    |   |   |  |     |   |  |  
-  [ |   |    |   |   |  |     |   |  |  
-  [ |   |    |   |   |  |     |   |  |  
-  [ |   |    |   |   |  |     |   |  |  
-  [ |   |    |   |   |  |     |   |  |  
-  [ |   |    |   |   |  |     |   |  |  
-  [ |   |    |   |   |  |     |   |  |  
-  [ |   |    |   |   |  |     |   |  |  
+|    Data    |  P   |  E   |  PC  |  Hb  |  Ht  | Leu  | Gran | Lin  | Plaq |
+| :---       | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| [  /  /  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | 
+| [  /  /  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | 
+| [  /  /  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | 
+| [  /  /  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | 
+| [  /  /  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | 
+| [  /  /  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | 
+| [  /  /  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | 
+| [  /  /  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | 
 
-  Data |  INR |  PAS  | PAD |  FC               
-  :------ | --- | --- |---- | ----
-  [ |   |    |   |   
-  [ |   |    |   |   
-  [ |   |    |   |   
-  [ |   |    |   |   
-  [ |   |    |   |   
-  [ |   |    |   |   
-  [ |   |    |   |   
-  [ |   |    |   |   
-  [ |   |    |   |   
-  [ |   |    |   |   
-```
+|    Data    |  Ur  |  Cr  |  AST |  ALT |  Na  |   K  | Gli  |  PT  |  Alb |
+| :---       | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| [  /  /  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | 
+| [  /  /  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | 
+| [  /  /  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | 
+| [  /  /  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | 
+| [  /  /  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | 
+| [  /  /  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | 
+| [  /  /  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | 
+| [  /  /  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | [  ] | 
+
+|    Data    |  INR |  PAS |  PAD |  FC  |
+| :---       | ---- | ---- | ---- | ---- |
+| [  /  /  ] | [  ] | [  ] | [  ] | [  ] | 
+| [  /  /  ] | [  ] | [  ] | [  ] | [  ] | 
+| [  /  /  ] | [  ] | [  ] | [  ] | [  ] | 
+| [  /  /  ] | [  ] | [  ] | [  ] | [  ] | 
+| [  /  /  ] | [  ] | [  ] | [  ] | [  ] | 
+| [  /  /  ] | [  ] | [  ] | [  ] | [  ] | 
+| [  /  /  ] | [  ] | [  ] | [  ] | [  ] | 
+| [  /  /  ] | [  ] | [  ] | [  ] | [  ] | 
+
+
 Outros exames:
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 Outros exames de imagem:
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 ----
 ## Escores/escalas de performance status
@@ -1842,7 +1833,7 @@ Bras Cancerol* 48.10 (2002): 63-96.
 ----
 
 ## Fichas de quimioterapia
-### GLIOBLASTOMA, GLIOMA DE ALTO GRAU, DIPG – adaptado do HIT-GBM-D
+### DIPG – adaptado do HIT-GBM-D
 
 > **Racional:** no estudo fase II do GPOH, a manutenção simplificada com prednisona, vincristina e lomustina foi tão eficaz quanto a manutenção intensiva do HIT-GBM-C (Wolff et al, 2011). Optamos por não usar a lomustina, apenas a manutenção com prednisona e VCR.
 
@@ -1869,68 +1860,77 @@ máximo 2mg, até iniciar RT.
 **Profilaxia *P. carinii*:** sulfametoxazol + trimetoprima durante todo
 o tratamento.
 
+---
 
-  **DIA**  |  **DROGA**                                   |                                         **OBSERVAÇÃO**
---- | --- | ---
-  **SEM1**  |                       |                     INICIAR RT 54-60 Gy – 30 frações
- **D1**  | **Cisplatina 20mg/m<sup>2</sup>**   |
-    |  HV 24h: 2,4L/m<sup>2</sup> Dividir em 3 fases e fazer primeira fase antes da cisplatina |  L = \_\_\_\_\_\_\_ (&gt;2000)
-           |  **Vepesid 100mg/m<sup>2</sup>**                                               |     P = \_\_\_\_\_\_\_ (&gt;100000)
-  **D2**   |  **Cisplatina 20mg/m<sup>2</sup>**                               |                              
-            | HV 24h: 2,4L/m<sup>2</sup>                                       |                             
-            | **Vepesid 100mg/<sup>2</sup>**                                   |                             
-  **D3**   |  **Cisplatina 20mg/m<sup>2</sup>**                                 |                         
-           |  HV 24h: 2,4L/m<sup>2</sup>                                         |                           
-           |  **Vepesid 100mg/<sup>2</sup>**                                    |                            
-  **D4**    | **Cisplatina 20mg/m<sup>2</sup>**                                |                             
-           |  HV 24h:2,4L/m<sup>2</sup>                                        |                             
-  **D5**    | **Cisplatina 20mg/m<sup>2</sup>**                                |                             
-           |  HV 24h: 2,4L/m<sup>2</sup>                                       |                             
-            | **VCR 1,5mg/m<sup>2</sup>**                                      |                             
+| **DIA**   | **DROGA**                                                     | **OBSERVAÇÃO**                  |
+| ---       | ---                                                           | ---                             |
+| **SEM1**  |                                                               | INICIAR RT 54-60 Gy – 30 frações|
+| **D1**    | **Cisplatina 20mg/m<sup>2</sup>**                             |                                 |
+| HV 24h: 2,4L/m<sup>2</sup> Dividir em 3 fases e fazer primeira |          |                                 |
+| fase antes da cisplatina |                                                | L = \_\_\_\_\_\_\_ (&gt;2000)   |
+|           | **Vepesid 100mg/m<sup>2</sup>**                               | P = \_\_\_\_\_\_\_ (&gt;100000) |
+| **D2**    | **Cisplatina 20mg/m<sup>2</sup>**                             |                                 |
+|           | HV 24h: 2,4L/m<sup>2</sup>                                    |                                 |
+|           | **Vepesid 100mg/<sup>2</sup>**                                |                                 |
+| **D3**    | **Cisplatina 20mg/m<sup>2</sup>**                             |                                 |
+|           | HV 24h: 2,4L/m<sup>2</sup>                                    |                                 |
+|           | **Vepesid 100mg/<sup>2</sup>**                                |                                 |
+| **D4**    | **Cisplatina 20mg/m<sup>2</sup>**                             |                                 |
+|           | HV 24h:2,4L/m<sup>2</sup>                                     |                                 |
+| **D5**    | **Cisplatina 20mg/m<sup>2</sup>**                             |                                 |
+|           | HV 24h: 2,4L/m<sup>2</sup>                                    |                                 |
+|           | **VCR 1,5mg/m<sup>2</sup>**                                   |                                 |
 
-  **DIA**  |  **DROGA**      |      **OBSERVAÇÃO**
---- | --- | ---
-  **SEM2** |   |
-  **D12**  |   **VCR 1,5mg/m<sup>2</sup>** |                    
- |  |
-  **SEM3** |    |
-  **D19**  | **VCR 1,5mg/m<sup>2</sup>** |                       
- |   |
-  **SEM4**  |   |    
-  **D26**    | **VCR 1,5mg/m<sup>2</sup>** |                     
+---
 
-  **DIA** |   **DROGA**                        |                                                  **OBSERVAÇÃO**
---- | --- | ---
-  **SEM6** |          |                    Última semana de RT – se atrasar, adiar QT
-**D35** |  **Cisplatina 20mg/m<sup>2</sup>**  |
-    |  HV 24h: 2,4L/m<sup>2</sup> – Dividir em 3 fases e fazer primeira fase antes da cisplatina |  L = \_\_\_\_\_\_\_ (&gt;2000)
-     |        **Vepesid 100mg/<sup>2</sup>**                     |                               P = \_\_\_\_\_\_\_ (&gt;100000)
-      |       **Ifosfamida 1.500mg/m<sup>2</sup>**                                    |           ClCreat=\_\_\_\_\_\_ (&gt;80)
-        |     **Mesna 500mg/m<sup>2</sup>/dose 0, 4 e 8h após ifosfamida**          |                      
-  **D36** |   **Cisplatina 20mg/m<sup>2</sup>**                   |                                        
-           |  HV 24h: 2,4L/m<sup>2</sup>         |                                                         
-           |  **Vepesid 100mg/<sup>2</sup>**      |                                                        
-           |  **Ifosfamida 1.500mg/m<sup>2</sup>**  |                                                      
-           |  **Mesna – dose acima**          |                                                   
-  **D37**  |  **Cisplatina 20mg/m<sup>2</sup>**          |                                              
-          |   HV 24h: 2,4L/m<sup>2</sup>   |                                                               
-            | **Vepesid 100mg/<sup>2</sup>**          |                                                    
-            | **Ifosfamida 1.500mg/m<sup>2</sup>**    |                                                    
-            | **Mesna – dose acima**                  |                                           
-  **D38**  |  **Cisplatina 20mg/m<sup>2</sup>**        |                                                   
-           |  HV 24h: 2,4L/m<sup>2</sup>              |                                                    
-           |  **Ifosfamida 1.500mg/m<sup>2</sup>**     |                                                   
-            | **Mesna – dose acima**                    |                                         
-  **D39**   | **Cisplatina 20mg/m<sup>2</sup>**         |                                                  
-            | HV 24h: 2,4L/m<sup>2</sup>                |                                                  
-            | **Ifosfamida 1.500mg/m<sup>2</sup>**      |                                                  
-           |  **Mesna – dose acima**        |                                                     
+| **DIA**   | **DROGA**                                                     | **OBSERVAÇÃO**                  |
+| ---       | ---                                                           | ---                             |
+| **SEM2**  |                                                               |                                 |
+| **D12**   | **VCR 1,5mg/m<sup>2</sup>**                                   |                                 |
+|           |                                                               |                                 |
+| **SEM3**  |                                                               |                                 |
+| **D19**   | **VCR 1,5mg/m<sup>2</sup>**                                   |                                 |
+|           |                                                               |                                 |
+| **SEM4**  |                                                               |                                 |
+| **D26**   | **VCR 1,5mg/m<sup>2</sup>**                                   |                                 |
 
-**RNM após radioquimioterapia:** considerar segunda cirurgia.
+---
+
+| **DIA**   | **DROGA**                                                     | **OBSERVAÇÃO**                 |
+| ---       | ---                                                           | ---                            |
+| **SEM6**  |                                                               |Última semana de RT - se atrasar, adiar QT|
+| **D35**    | **Cisplatina 20mg/m<sup>2</sup>**                             |                                 |
+| HV 24h: 2,4L/m<sup>2</sup> Dividir em 3 fases e fazer primeira |          |                                 |
+| fase antes da cisplatina |                                                | L = \_\_\_\_\_\_\_ (&gt;2000)   |
+|           | **Vepesid 100mg/m<sup>2</sup>**                               | P = \_\_\_\_\_\_\_ (&gt;100000) |
+|           | **Ifosfamida 1.500mg/m<sup>2</sup>**                          | ClCreat=\_\_\_\_\_\_ (&gt;80)   |
+|           | **Mesna 500mg/m<sup>2</sup>/dose 0, 4 e 8h após ifosfamida**  |                                 |
+| **D36**   | **Cisplatina 20mg/m<sup>2</sup>**                             |                                 |
+|           | HV 24h: 2,4L/m<sup>2</sup>                                    |                                 |
+|           | **Vepesid 100mg/<sup>2</sup>**                                |                                 |
+|           | **Ifosfamida 1.500mg/m<sup>2</sup>**                          |                                 |
+|           | **Mesna 500mg/m<sup>2</sup>/dose 0, 4 e 8h após ifosfamida**  |                                 |
+| **D37**   | **Cisplatina 20mg/m<sup>2</sup>**                             |                                 |
+|           | HV 24h: 2,4L/m<sup>2</sup>                                    |                                 |
+|           | **Vepesid 100mg/<sup>2</sup>**                                |                                 |
+|           | **Ifosfamida 1.500mg/m<sup>2</sup>**                          |                                 |
+|           | **Mesna 500mg/m<sup>2</sup>/dose 0, 4 e 8h após ifosfamida**  |                                 |
+| **D38**   | **Cisplatina 20mg/m<sup>2</sup>**                             |                                 |
+|           | HV 24h:2,4L/m<sup>2</sup>                                     |                                 |
+|           | **Ifosfamida 1.500mg/m<sup>2</sup>**                          |                                 |
+|           | **Mesna 500mg/m<sup>2</sup>/dose 0, 4 e 8h após ifosfamida**  |                                 |
+| **D39**   | **Cisplatina 20mg/m<sup>2</sup>**                             |                                 |
+|           | HV 24h: 2,4L/m<sup>2</sup>                                    |                                 |
+|           | **Ifosfamida 1.500mg/m<sup>2</sup>**                          |                                 |
+|           | **Mesna 500mg/m<sup>2</sup>/dose 0, 4 e 8h após ifosfamida**  |                                 |
+
+---
+
+**RNM após radioquimioterapia**
 
 ----
 
-### GLIOBLASTOMA, GLIOMA DE ALTO GRAU, DIPG – adaptado do HIT-GBM-D
+### DIPG – adaptado do HIT-GBM-D
 
 ```
 Nome: ______________________________________________________________
@@ -1938,116 +1938,143 @@ Nome: ______________________________________________________________
 Peso: ________ kg Estatura: _______ cm
 ```
 
-  **DIA**  |   **DROGA**                |                              **OBSERVAÇÃO**
---- | --- | ---
-  **SEM10**  |  |  L = \_\_\_\_\_\_\_ (&gt;2000)
-  **D63**   |  **Prednisona 40mg/m<sup>2</sup>/dia por 11 dias (D63 – D74)**  |   P = \_\_\_\_\_\_\_ (&gt;100000)
-   |**Prednisona 20mg/m<sup>2</sup>/dia por 3 dias (D75-D77)** |
-             | **Prednisona 10mg/m<sup>2</sup>/dia por 3 dias (D78-D80)**    |  ClCreat=\_\_\_\_\_\_ (&gt;80)
-  **D63**   |  **VCR 1,5mg/m<sup>2</sup>**                                |     
-  **SEM11**  |  |                                  
-  **D70**   |              **VCR 1,5mg/m<sup>2</sup>**                    |                         
-  **SEM12**  |        |                             
-  **D77**    |        **VCR 1,5mg/m<sup>2</sup>**  |                                                
+---
 
-  **DIA**  |   **DROGA**                |                              **OBSERVAÇÃO**
---- | --- | ---
-  **SEM15**  | |  L = \_\_\_\_\_\_\_ (&gt;2000)
-  **D98**   |   **Prednisona 40mg/m<sup>2</sup>/dia por 11 dias (D63 – D74)**  |   P = \_\_\_\_\_\_\_ (&gt;100000)
-   | **Prednisona 20mg/m<sup>2</sup>/dia por 3 dias (D75-D77)** |
-             | **Prednisona 10mg/m<sup>2</sup>/dia por 3 dias (D78-D80)**    |  ClCreat=\_\_\_\_\_\_ (&gt;80)
-  **D98**   |  **VCR 1,5mg/m<sup>2</sup>**                                |     
-  **SEM16**  |  |                                  
-  **D105**   |              **VCR 1,5mg/m<sup>2</sup>**                    |                         
-  **SEM17**  |        |                             
-  **D106**    |        **VCR 1,5mg/m<sup>2</sup>**  |                                                
+| **DIA**   | **DROGA**                                                     | **OBSERVAÇÃO**                 |
+| ---       | ---                                                           | ---                            |
+| **SEM10** |                                                               | L = \_\_\_\_\_\_\_ (&gt;2000)  |
+| **D63**   | **Prednisona 40mg/m<sup>2</sup>/dia por 11 dias (D63 – D74)** | P = \_\_\_\_\_\_\_ (&gt;100000)|
+|           | **Prednisona 20mg/m<sup>2</sup>/dia por 3 dias (D75-D77)**    |                                |
+|           | **Prednisona 10mg/m<sup>2</sup>/dia por 3 dias (D78-D80)**    | ClCreat=\_\_\_\_\_\_ (&gt;80)  |
+| **D63**   | **VCR 1,5mg/m<sup>2</sup>**                                   |                                |     
+| **SEM11** |                                                               |                                |
+| **D70**   | **VCR 1,5mg/m<sup>2</sup>**                                   |                                |
+| **SEM12** |                                                               |                                |
+| **D77**   | **VCR 1,5mg/m<sup>2</sup>**                                   |                                |
+
+---
+
+| **DIA**   | **DROGA**                                                     | **OBSERVAÇÃO**                 |
+| ---       | ---                                                           | ---                            |
+| **SEM15** |                                                               | L = \_\_\_\_\_\_\_ (&gt;2000)  |
+| **D98**   | **Prednisona 40mg/m<sup>2</sup>/dia por 11 dias (D98 – D109)**| P = \_\_\_\_\_\_\_ (&gt;100000)|
+|           | **Prednisona 20mg/m<sup>2</sup>/dia por 3 dias (D110-D112)**  |                                |
+|           | **Prednisona 10mg/m<sup>2</sup>/dia por 3 dias (D113-D115)**  |  ClCreat=\_\_\_\_\_\_ (&gt;80) |
+| **D98**   | **VCR 1,5mg/m<sup>2</sup>**                                   |                                |
+| **SEM16** |                                                               |                                |
+| **D105**  | **VCR 1,5mg/m<sup>2</sup>**                                   |                                |
+| **SEM17** |                                                               |                                |
+| **D106**  | **VCR 1,5mg/m<sup>2</sup>**                                   |                                |
+
+---
 
 **Reavaliação com RNM: doença progressiva fora de protocolo.**
 
-  **DIA**  |   **DROGA**                |                              **OBSERVAÇÃO**
---- | --- | ---
-  **SEM20**  |  |  L = \_\_\_\_\_\_\_ (&gt;2000)
-  **D127**   | **Prednisona 40mg/m<sup>2</sup>/dia por 11 dias (D63 – D74)**   |   P = \_\_\_\_\_\_\_ (&gt;100000)
-  |   **Prednisona 20mg/m<sup>2</sup>/dia por 3 dias (D75-D77)**  |
-             | **Prednisona 10mg/m<sup>2</sup>/dia por 3 dias (D78-D80)**    |  ClCreat=\_\_\_\_\_\_ (&gt;80)
-  **D127**   |  **VCR 1,5mg/m<sup>2</sup>**                                |     
-  **SEM21**  |  |                                  
-  **D135**   |              **VCR 1,5mg/m<sup>2</sup>**                    |                         
-  **SEM22**  |        |                             
-  **D142**    |        **VCR 1,5mg/m<sup>2</sup>**  |                                                
+---
 
-  **DIA**  |   **DROGA**                |                              **OBSERVAÇÃO**
---- | --- | ---
-  **SEM25**  |  |  L = \_\_\_\_\_\_\_ (&gt;2000)
-  **D163**   | **Prednisona 40mg/m<sup>2</sup>/dia por 11 dias (D63 – D74)**   |   P = \_\_\_\_\_\_\_ (&gt;100000)
-  |   **Prednisona 20mg/m<sup>2</sup>/dia por 3 dias (D75-D77)**  |
-             | **Prednisona 10mg/m<sup>2</sup>/dia por 3 dias (D78-D80)**    |  ClCreat=\_\_\_\_\_\_ (&gt;80)
-  **D163**   |  **VCR 1,5mg/m<sup>2</sup>**                                |     
-  **SEM26**  |  |                                  
-  **D170**   |              **VCR 1,5mg/m<sup>2</sup>**                    |                         
-  **SEM27**  |        |                             
-  **D177**    |        **VCR 1,5mg/m<sup>2</sup>**  |                                                
+| **DIA**   | **DROGA**                                                     | **OBSERVAÇÃO**                 |
+| ---       | ---                                                           | ---                            |
+| **SEM20** |                                                               | L = \_\_\_\_\_\_\_ (&gt;2000)  |
+| **D127**  |**Prednisona 40mg/m<sup>2</sup>/dia por 11 dias (D127 – D138)**| P = \_\_\_\_\_\_\_ (&gt;100000)|
+|           | **Prednisona 20mg/m<sup>2</sup>/dia por 3 dias (D139-D141)**  |                                |
+|           | **Prednisona 10mg/m<sup>2</sup>/dia por 3 dias (D142-D144)**  |  ClCreat=\_\_\_\_\_\_ (&gt;80) |
+| **D127**  | **VCR 1,5mg/m<sup>2</sup>**                                   |                                |
+| **SEM21** |                                                               |                                |
+| **D135**  | **VCR 1,5mg/m<sup>2</sup>**                                   |                                |
+| **SEM22** |                                                               |                                |
+| **D142**  | **VCR 1,5mg/m<sup>2</sup>**                                   |                                |
+
+---
+
+
+| **DIA**   | **DROGA**                                                     | **OBSERVAÇÃO**                 |
+| ---       | ---                                                           | ---                            |
+| **SEM25** |                                                               | L = \_\_\_\_\_\_\_ (&gt;2000)  |
+| **D163**  |**Prednisona 40mg/m<sup>2</sup>/dia por 11 dias (D163 – D174)**| P = \_\_\_\_\_\_\_ (&gt;100000)|
+|           | **Prednisona 20mg/m<sup>2</sup>/dia por 3 dias (D175-D177)**  |                                |
+|           | **Prednisona 10mg/m<sup>2</sup>/dia por 3 dias (D178-D180)**  |  ClCreat=\_\_\_\_\_\_ (&gt;80) |
+| **D163**  | **VCR 1,5mg/m<sup>2</sup>**                                   |                                |
+| **SEM26** |                                                               |                                |
+| **D170**  | **VCR 1,5mg/m<sup>2</sup>**                                   |                                |
+| **SEM27** |                                                               |                                |
+| **D177**  | **VCR 1,5mg/m<sup>2</sup>**                                   |                                |
+
+---
 
 **Reavaliação com RNM: doença progressiva fora de protocolo.**
 
 ----
 
-### GLIOBLASTOMA, GLIOMA DE ALTO GRAU, DIPG – adaptado do HIT-GBM-D
+### DIPG – adaptado do HIT-GBM-D
 
 ```
 Nome: ______________________________________________________________
 
 Peso: ________ kg Estatura: _______ cm
 ```
-  **DIA**  |   **DROGA**                |                              **OBSERVAÇÃO**
---- | --- | ---
-  **SEM30**  |  |  L = \_\_\_\_\_\_\_ (&gt;2000)
-  **D198**   | **Prednisona 40mg/m<sup>2</sup>/dia por 11 dias (D63 – D74)**   |   P = \_\_\_\_\_\_\_ (&gt;100000)
-  |   **Prednisona 20mg/m<sup>2</sup>/dia por 3 dias (D75-D77)**  |
-             | **Prednisona 10mg/m<sup>2</sup>/dia por 3 dias (D78-D80)**    |  ClCreat=\_\_\_\_\_\_ (&gt;80)
-  **D198**   |  **VCR 1,5mg/m<sup>2</sup>**                                |     
-  **SEM31**  |  |                                  
-  **D205**   |              **VCR 1,5mg/m<sup>2</sup>**                    |                         
-  **SEM32**  |        |                             
-  **D212**    |        **VCR 1,5mg/m<sup>2</sup>**  |                                                
 
-  **DIA**  |   **DROGA**                |                              **OBSERVAÇÃO**
---- | --- | ---
-  **SEM35**  |  |  L = \_\_\_\_\_\_\_ (&gt;2000)
-  **D233**   | **Prednisona 40mg/m<sup>2</sup>/dia por 11 dias (D63 – D74)**   |   P = \_\_\_\_\_\_\_ (&gt;100000)
-  |   **Prednisona 20mg/m<sup>2</sup>/dia por 3 dias (D75-D77)**  |
-             | **Prednisona 10mg/m<sup>2</sup>/dia por 3 dias (D78-D80)**    |  ClCreat=\_\_\_\_\_\_ (&gt;80)
-  **D233**   |  **VCR 1,5mg/m<sup>2</sup>**                                |     
-  **SEM36**  |  |                                  
-  **D240**   |              **VCR 1,5mg/m<sup>2</sup>**                    |                         
-  **SEM37**  |        |                             
-  **D247**    |        **VCR 1,5mg/m<sup>2</sup>**  |                                                
+---
+
+| **DIA**   | **DROGA**                                                     | **OBSERVAÇÃO**                 |
+| ---       | ---                                                           | ---                            |
+| **SEM30** |                                                               | L = \_\_\_\_\_\_\_ (&gt;2000)  |
+| **D198**  |**Prednisona 40mg/m<sup>2</sup>/dia por 11 dias (D198 – D209)**| P = \_\_\_\_\_\_\_ (&gt;100000)|
+|           | **Prednisona 20mg/m<sup>2</sup>/dia por 3 dias (D210-D212)**  |                                |
+|           | **Prednisona 10mg/m<sup>2</sup>/dia por 3 dias (D213-D215)**  | ClCreat=\_\_\_\_\_\_ (&gt;80)  |
+| **D198**  | **VCR 1,5mg/m<sup>2</sup>**                                   |                                | 
+| **SEM31** |                                                               |                                |
+| **D205**  | **VCR 1,5mg/m<sup>2</sup>**                                   |                                |
+| **SEM32** |                                                               |                                |
+| **D212*   | **VCR 1,5mg/m<sup>2</sup>**                                   |                                |
+
+---
+
+| **DIA**   | **DROGA**                                                     | **OBSERVAÇÃO**                 |
+| ---       | ---                                                           | ---                            |
+| **SEM35** |                                                               | L = \_\_\_\_\_\_\_ (&gt;2000)  |
+| **D233**  |**Prednisona 40mg/m<sup>2</sup>/dia por 11 dias (D233 – D244)**| P = \_\_\_\_\_\_\_ (&gt;100000)|
+|           | **Prednisona 20mg/m<sup>2</sup>/dia por 3 dias (D245-D247)**  |                                |
+|           | **Prednisona 10mg/m<sup>2</sup>/dia por 3 dias (D248-D250)**  |  ClCreat=\_\_\_\_\_\_ (&gt;80) |
+| **D233**  | **VCR 1,5mg/m<sup>2</sup>**                                   |                                |
+| **SEM36** |                                                               |                                |
+| **D240**  | **VCR 1,5mg/m<sup>2</sup>**                                   |                                |
+| **SEM37** |                                                               |                                |
+| **D247**  | **VCR 1,5mg/m<sup>2</sup>**                                   |                                |
+
+---
 
 **Reavaliação com RNM: doença progressiva fora de protocolo.**
 
-  **DIA**  |   **DROGA**                |                              **OBSERVAÇÃO**
---- | --- | ---
-  **SEM40**  |  |  L = \_\_\_\_\_\_\_ (&gt;2000)
-  **D268**   | **Prednisona 40mg/m<sup>2</sup>/dia por 11 dias (D63 – D74)**   |   P = \_\_\_\_\_\_\_ (&gt;100000)
-  |   **Prednisona 20mg/m<sup>2</sup>/dia por 3 dias (D75-D77)**  |
-             | **Prednisona 10mg/m<sup>2</sup>/dia por 3 dias (D78-D80)**    |  ClCreat=\_\_\_\_\_\_ (&gt;80)
-  **D268**   |  **VCR 1,5mg/m<sup>2</sup>**                                |     
-  **SEM41**  |  |                                  
-  **D275**   |              **VCR 1,5mg/m<sup>2</sup>**                    |                         
-  **SEM42**  |        |                             
-  **D282**    |        **VCR 1,5mg/m<sup>2</sup>**  |                                                
+---
 
-  **DIA**  |   **DROGA**                |                              **OBSERVAÇÃO**
---- | --- | ---
-  **SEM45**  |  |  L = \_\_\_\_\_\_\_ (&gt;2000)
-  **D303**   | **Prednisona 40mg/m<sup>2</sup>/dia por 11 dias (D63 – D74)**   |   P = \_\_\_\_\_\_\_ (&gt;100000)
-  |   **Prednisona 20mg/m<sup>2</sup>/dia por 3 dias (D75-D77)**  |
-             | **Prednisona 10mg/m<sup>2</sup>/dia por 3 dias (D78-D80)**    |  ClCreat=\_\_\_\_\_\_ (&gt;80)
-  **D303**   |  **VCR 1,5mg/m<sup>2</sup>**                                |     
-  **SEM46**  |  |                                  
-  **D310**   |              **VCR 1,5mg/m<sup>2</sup>**                    |                         
-  **SEM47**  |        |                             
-  **D317**    |        **VCR 1,5mg/m<sup>2</sup>**  |                                                
+| **DIA**   | **DROGA**                                                     | **OBSERVAÇÃO**                 |
+| ---       | ---                                                           | ---                            |
+| **SEM40** |                                                               | L = \_\_\_\_\_\_\_ (&gt;2000)  |
+| **D268**  |**Prednisona 40mg/m<sup>2</sup>/dia por 11 dias (D268 – D279)**| P = \_\_\_\_\_\_\_ (&gt;100000)|
+|           | **Prednisona 20mg/m<sup>2</sup>/dia por 3 dias (D280-D282)**  |                                |
+|           | **Prednisona 10mg/m<sup>2</sup>/dia por 3 dias (D283-D285)**  |  ClCreat=\_\_\_\_\_\_ (&gt;80) |
+| **D268**  | **VCR 1,5mg/m<sup>2</sup>**                                   |                                |
+| **SEM41** |                                                               |                                |
+| **D275**  | **VCR 1,5mg/m<sup>2</sup>**                                   |                                |
+| **SEM42** |                                                               |                                |
+| **D282**  | **VCR 1,5mg/m<sup>2</sup>**                                   |                                |
+
+---
+
+
+| **DIA**   | **DROGA**                                                     | **OBSERVAÇÃO**                 |
+| ---       | ---                                                           | ---                            |
+| **SEM45** |                                                               | L = \_\_\_\_\_\_\_ (&gt;2000)  |
+| **D303**  |**Prednisona 40mg/m<sup>2</sup>/dia por 11 dias (D303 – D314)**| P = \_\_\_\_\_\_\_ (&gt;100000)|
+|           | **Prednisona 20mg/m<sup>2</sup>/dia por 3 dias (D315-D317)**  |                                |
+|           | **Prednisona 10mg/m<sup>2</sup>/dia por 3 dias (D318-D320)**  |  ClCreat=\_\_\_\_\_\_ (&gt;80) |
+| **D303**  | **VCR 1,5mg/m<sup>2</sup>**                                   |                                |
+| **SEM46** |                                                               |                                |
+| **D310**  | **VCR 1,5mg/m<sup>2</sup>**                                   |                                |
+| **SEM47** |                                                               |                                |
+| **D317**  | **VCR 1,5mg/m<sup>2</sup>**                                   |                                |
+
+---
 
 **FIM DO PROTOCOLO**
 
