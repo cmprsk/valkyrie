@@ -18,7 +18,7 @@ Título público do projeto: Estudo do tratamento de crianças e adolescentes po
 
 [Projeto][proj] aprovado pelo Comitê de Ética em Pesquisa do Hospital Infantil Albert Sabin em 16/01/2016. Submetido em 28/03/2014.
 
-Número do [parecer][etica]: 1.386.007
+Número do [parecer][etica]: [![CEP](https://img.shields.io/badge/CEP-1.386.007-blue.svg)][etica]
 
 Registro na Plataforma Brasil: [![CAAE](https://img.shields.io/badge/CAAE-30166714.8.0000.5042-blue.svg)](http://plataformabrasil.saude.gov.br/login.jsf)
 
@@ -51,7 +51,7 @@ Página do caderno aberto de pesquisa clínica: http://fhcflx.github.io/valkyrie
 2. Faça um fork do projeto, modifique e dê um pull request.
 
 Contribuições para o caderno aberto de pesquisa clínica:
-1. Vá para o branch do site em https://github.com/fhcflx/valkyrie/tree/gh-pages,
+1. Vá para o _branch_ do site em https://github.com/fhcflx/valkyrie/tree/gh-pages,
 2. Abra um issue, dê um pull request.
 
 ## Referências:
@@ -71,7 +71,7 @@ Contribuições para o caderno aberto de pesquisa clínica:
 
 Esta licença não se aplica ao(s) banco(s) de dado(s), definidos como coleções de dados desidentificados de pacientes, armazenados em formato csv.
 
-![logo](https://github.com/fhcflx/valkyrie/blob/master/opennsSCI.png)
+![logo](opennsSCI.png)
 
 [open-lab]: https://en.wikipedia.org/wiki/Open_notebook_science
 [desidentifica]: https://en.wikipedia.org/wiki/De-identification
