@@ -1,5 +1,3 @@
----
----
 # PROJETO DE PESQUISA
 
 ## TÍTULO:
@@ -548,7 +546,7 @@ aberto, fase II piloto, para avaliar inicialmente a resposta de
 pacientes pediátricos portadores de gliomas pontinos intrínsecos difusos
 ao tratamento com radioquimioterapia associada a ácido valpróico oral.
 
-###5.2.Local e participantes:
+### 5.2.Local e participantes:
 
 A pesquisa será desenvolvida no Hospital Infantil Albert Sabin e em seu
 anexo Centro Pediátrico do Câncer, especialmente no setor de atendimento
@@ -743,10 +741,7 @@ D1-3.
 
 Vincristina (VCR), injeção IV, 1,5 mg/m<sup>2</sup> (máximo de 2 mg), dia D5.
 
-**Intervalo**:
-
-Vincristina semanal durante a irradiação até o 2 º ciclo: injecção IV de
-1,5 mg/m<sup>2</sup> (max. 2 mg), nos dias D12, 19, 26, (33).
+**Intervalo**: Vincristina semanal durante a irradiação até o 2 º ciclo: injecção IV de 1,5 mg/m<sup>2</sup> (max. 2 mg), nos dias D12, 19, 26, (33).
 
 **Ciclo 2**: PEIV (Inicia sete dias antes de terminar a radioterapia )
 
@@ -773,6 +768,8 @@ de pneumonia por *Pneumocystis* *carinii*.
 **Antes de iniciar a radioquimioterapia**: somente iniciar se preencher
 os critérios especificados (tabela 1).
 
+---
+
   **Critérios**|                       **Recomendação**
 --------------|--------------
   leucócitos &gt; 2 X 10<sup>3</sup>/μl e  trombócitos &gt; 10<sup>5</sup>/μl   |        radioquimioterapia simultânea
@@ -786,6 +783,8 @@ leucócitos &lt; 10<sup>3</sup>/μl ou   trombócitos &lt; 3 X 10<sup>4</sup>/μ
   |
 
 Tabela 1: critérios para iniciar a radioquimioterapia.
+
+---
 
 Crises epilépticas durante a semana anterior ao início do protocolo:
 iniciar a radioterapia, cisplatina, etoposido e terapia antiepiléptica;
@@ -810,6 +809,8 @@ em caso de sintomas graves.
 **Antes do 2 º ciclo (PEIV):** somente iniciar se preencher os critérios
 (tabela 2).
 
+---
+
 **Critérios**                 |                                      **Recomendação**
   -----|------
 leucócitos &gt; 2 X 10<sup>3</sup>/μl e  trombócitos &gt; 10<sup>5</sup>/μl              |      100 % da dose de quimioterapia
@@ -829,7 +830,9 @@ Clearance de creatinina &lt; 50 ml/min/1,73 m<sup>2</sup>            |        Ne
 Tabela 2: Diretrizes para o segundo ciclo de quimioterapia durante a
 irradiação
 
-##### Etoposido - conduta na hipersensibilidade:
+---
+
+**Etoposido - conduta na hipersensibilidade:**
 
 Na situação de emergência aguda, pare a infusão.
 
@@ -893,8 +896,7 @@ ciclo seguinte por uma semana.
 Glicosúria com Poliúria: reduzir a prednisona em 20% a cada dois dias
 até resolução.
 
-#### Radioterapia:
-seguindo as especificações do HIT-GBM-D.
+#### Radioterapia: seguindo as especificações do HIT-GBM-D.
 
 Todos os pacientes que tenham completado o seu terceiro ano de vida
 (após o terceiro aniversário) devem receber irradiação local. É
@@ -1116,6 +1118,9 @@ quais um grupo controle convencional não pode ser utilizado ou não é
 eticamente recomendado, como no caso deste ensaio.
 
 ## 6.Cronograma de execução do projeto
+
+---
+
    | **2014** |  **2016** |  **2017** |  **2018-19**
   ---- | :------ | :----------: | :---------- | :--------:
   Submissão do Estudo à apreciação do Comitê de Ética e Pesquisa do HIAS.  | X         |        |          |    
@@ -1127,6 +1132,8 @@ eticamente recomendado, como no caso deste ensaio.
   Análise de dados    |          |        |  X    X         |     X    X     
   Apresentação dos resultados (tese, monografia, publicação, etc) |          |        |           |    X    X
   Reuniões com o grupo de pesquisa para discussão e avaliação das ações     |      X    |    X    |      X     |    X
+
+---
 
 ## 7.Recursos disponíveis
 
@@ -1146,6 +1153,8 @@ funcionária da Universidade Federal do Ceará, cargo de Professora
 Adjunta I, no Departamento de Farmácia, e também não receberá
 remuneração específica pelo projeto.
 
+---
+
   **Material**    | **Quantidade**  | **Valor**
 --- | :---: | ---:
   **Instrumentos PedsQL**       | 01        |       R$ 3170,00
@@ -1159,6 +1168,8 @@ remuneração específica pelo projeto.
   **Cartuchos de tinta para impressora jato de tinta (colorido + preto)**   |   04  |             R$ 600,00
   **Prancheta, crachás de identificação, canetas, lápis, pastas para papel, organizadores, arquivos para os documentos, outros materiais de escritório**  | -    |            R$ 400,00
   **Total**               |   -   |             R$ 15617,00
+
+---
 
 ## 9.Ressarcimento e desistência
 
@@ -1321,8 +1332,6 @@ for flexible interim decisions in clinical trials. J Statistical Planning Infere
 
 ----
 
-## Ensaio Fase IIa (prova de conceito) de Ácido **Val**próico com **Qui**mioterapia e **R**adioterapia para Pacientes com Glioma **I**ntrínseco Difuso de Ponte na Infância e **A**dolescência - VALQUIRIA
-
 # ANEXOS
 
 ----
@@ -1401,7 +1410,7 @@ Local e data: Fortaleza, \_\_\_\_ de \_\_\_\_\_\_\_\_\_\_\_\_\_\_ de 20\_\_\_
 Nome do paciente:
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 Assinatura do responsável legal  - Polegar Direito
 
@@ -1418,12 +1427,12 @@ Nome da pessoa descrita no artigo ou mostrado na publicação:
 
 Matérias da(s) fotografia(s) ou artigo:
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 Periódico para onde foi submetido:
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 Editora:
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
@@ -1686,9 +1695,8 @@ RNM de crânio:
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_Data:
 \_\_\_\_\_\_\_\_\_
 
-Outros exames de imagem:
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+Outros exames de imagem: 
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 ### 2. Diagnóstico:
 
@@ -1699,13 +1707,13 @@ Histopatológico:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
 \_\_\_\_\_\_\_\_\_
 
 Dimensões pela imagem:
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 Data: \_\_\_\_\_\_\_\_\_
 
 ### 3. Tratamento (droga, duração, dose, paraefeitos):
 
 Corticoterapia :
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -1722,7 +1730,7 @@ Outros:
 ### 4. Desfechos: estado ao final do tratamento:
 
 Tratamento:
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 Remissão completa \[RC\] (&lt;5% do tumor inicial): \_\_\_
 
@@ -1734,7 +1742,7 @@ Doença Progressiva \[DP\] (&gt;125% tumor inicial, reaparecimento):
 \_\_\_
 
 Melhor resposta obtida (anotar quando):
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 Tratamento:
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
@@ -1749,7 +1757,7 @@ Doença Progressiva \[DP\] (&gt;125% tumor inicial, reaparecimento):
 \_\_\_
 
 Melhor resposta obtida (anotar quando):
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 Tratamento:
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
@@ -1764,7 +1772,7 @@ Doença Progressiva \[DP\] (&gt;125% tumor inicial, reaparecimento):
 \_\_\_
 
 Melhor resposta obtida (anotar quando):
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 ----
 
@@ -1773,7 +1781,7 @@ Melhor resposta obtida (anotar quando):
 **1 folha para cada data de coleta**
 
 Data da coleta de dados: \_\_\_/\_\_\_/\_\_\_\_\_\_
-
+```
   Data |  P |  E  | PC  | Hb  | Ht |   Leu  | Gran  | Lin |  Plaq
   :------ | --- | --- |---- | ---- | ---- | ----- | ------ | ----- | ------
   [ |   |    |   |   |  |     |   |  |  
@@ -1810,14 +1818,14 @@ Data da coleta de dados: \_\_\_/\_\_\_/\_\_\_\_\_\_
   [ |   |    |   |   
   [ |   |    |   |   
   [ |   |    |   |   
-
+```
 Outros exames:
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 Outros exames de imagem:
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 ----
 ## Escores/escalas de performance status
