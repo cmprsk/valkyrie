@@ -1,7 +1,8 @@
 _site
 .sass-cache
 .jekyll-metadata
-._*
 .RData
 build.Rout
 Gemfile.lock
+.*
+!.gitignore
