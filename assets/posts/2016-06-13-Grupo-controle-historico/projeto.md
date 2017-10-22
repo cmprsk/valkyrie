@@ -474,7 +474,7 @@ SG. Uma vez que quase todos os pacientes que receberam o protocolo
 adaptado do HIT também receberam VPA, torna-se impossível separar os
 efeitos dos dois componentes do tratamento na sobrevida.
 
-![fig1](.../.../.../project/files/Anteprojeto_VALQUIRIA_HIAS.pages/Data/pasted-image-small-31.png)
+![fig1](../../../project/files/Anteprojeto_VALQUIRIA_HIAS.pages/Data/pasted-image-small-31.png)
 
 Figura 1: curvas de sobrevida global de pacientes com DIPG
 diagnosticados no HIAS entre 2000 e 2013. Em vermelho: pacientes
@@ -1103,7 +1103,7 @@ DIPG. Destes, 31 pacientes foram tratados com radioterapia e algum outro
 esquema de tratamento diferente do HIT (figura 2). Estes pacientes serão
 os incluídos no grupo histórico comparativo.
 
-![fig2](.../.../.../project/files/Anteprojeto_VALQUIRIA_HIAS.pages/Data/pasted-image-small-33.png)
+![fig2](../../../project/files/Anteprojeto_VALQUIRIA_HIAS.pages/Data/pasted-image-small-33.png)
 
 De acordo com o Manual Operacional para Comitês de Ética em Pesquisa
 (Série A. Normas e Manuais Técnicos. Série CNS - Cadernos Técnicos. Ed.
@@ -2102,7 +2102,7 @@ terão acesso ao medicamento findo o projeto.
 
 Fortaleza, 21 de Maio de 2014
 
-![Projeto](project/files/Anteprojeto_VALQUIRIA_HIAS.pages/Data/image6-14.png)
+![Projeto](../../../project/files/Anteprojeto_VALQUIRIA_HIAS.pages/Data/image6-14.png)
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
