@@ -1822,7 +1822,7 @@ Outros exames de imagem:
 ----
 ## Escores/escalas de performance status
 
-![Status](https://github.com/fhcflx/valkyrie/blob/master/project/files/Anteprojeto_VALQUIRIA_HIAS.pages/Data/image-26.png)
+![Status](project/files/Anteprojeto_VALQUIRIA_HIAS.pages/Data/image-26.png)
 
 Critérios comuns de toxicidade do Instituto Nacional de Câncer dos
 Estados Unidos. Saad, Everardo D., et al. "Critérios comuns de
@@ -2069,7 +2069,7 @@ progressão e sobrevida global.
 
 Data: 21/05/2014
 
-![Projeto](https://github.com/fhcflx/valkyrie/blob/master/project/files/Anteprojeto_VALQUIRIA_HIAS.pages/Data/image6-14.png)
+![Projeto](project/files/Anteprojeto_VALQUIRIA_HIAS.pages/Data/image6-14.png)
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -2079,7 +2079,7 @@ Assinatura do Pesquisador Responsável / orientador
 
 ## Autorização do chefe de serviço
 
-![Autoriza](https://github.com/fhcflx/valkyrie/blob/master/project/AUTORIZA1.png)
+![Autoriza](project/AUTORIZA1.png)
 
 ----
 
@@ -2102,7 +2102,7 @@ terão acesso ao medicamento findo o projeto.
 
 Fortaleza, 21 de Maio de 2014
 
-![Projeto]
+![Projeto](project/files/Anteprojeto_VALQUIRIA_HIAS.pages/Data/image6-14.png)
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
