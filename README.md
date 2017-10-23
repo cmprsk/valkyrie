@@ -8,12 +8,18 @@
 # VALQUIRIA (VALKYRIE)
 
 ## O que é:
-Este repositório abriga arquivos de um modelo de **ensaio clínico usando ciência aberta (open science clinical trial)**, um [**caderno de pesquisa aberto (open lab notebook)**][open-lab] que descreve e apresenta os resultados de um ensaio clínico em tempo real (enquanto os dados são coletados). A fim de proteger a identidade e confidencialidade dos pacientes, os dados não são apresentados de forma completa, porém são anotados de forma [*desidentificada*][desidentifica].
+Este repositório abriga arquivos de um modelo de **ensaio clínico usando ciência aberta (open science clinical trial)**, um [**caderno de pesquisa aberto (open lab notebook)**][open-lab] desenhado com o objetivo de descrever e apresentar os resultados de um ensaio clínico em tempo real (enquanto os dados são coletados). A fim de proteger a identidade e confidencialidade dos pacientes, os dados não seriam apresentados de forma completa, mas sim de forma [*desidentificada*][desidentifica].
 
 ## O que significa:
-Acrônimo: Ácido **VAL**próico, **QUI**mioterapia e **R**adioterapia para pacientes com DIPG na **I**nfância e **A**dolescência
+Acrônimo: Ácido **VAL**próico, **QUI**mioterapia e **R**adioterapia para pacientes com DIPG na **I**nfância e **A**dolescência. Esse era o título do projeto de ensaio clinico que deu origem ao modelo. Este estudo foi cancelado sem nunca ter recrutado pacientes, mas o modelo permanece como arcabouço que pode ser usado para montar facilmente estudos com objetivos semelhantes.
 
 ## Dados do projeto:
+Modelo de _caderno de pesquisa aberto_ criado para dar suporte a um ensaio clínico de pequeno porte, com objetivo exploratório (piloto), teste de tolerabilidade ou segurança (fase 1), ou prova de conceito de eficácia (fase 2 pequeno). Contém uma configuração mínima que pode ser estendida ou adaptada a um grande número de cenários diferentes. Criado usando Jekyll, um interpretador simples de linguagem de texto pura em formato Markdown usado para gerar páginas de internet estáticas, leves e rápidas. Usa a linguagem de programação estatística R e seu pacote Knitr, permitindo a execução em tempo real de um programa de análise estatística e a renderização dos resultados em formato de texto e figuras direto na página estática. Publicado no repositório social de código de computador GitHub, o qual permite o controle absoluto de versões através do programa Git. As páginas também são publicadas no repositório acadêmico Figshare, conferindo-lhes um número único de DOI, prontamente citável e indexável (a indexação fica a cargo de cada autor). Páginas tutoriais ajudam a planejar um estudo, calcular número experimental, desidentificar dados sensíveis, analisar resultados, escrever manuscritos.
+
+## Como utilizar:
+Obtenha uma cópia do projeto clonando-o, baixando o arquivo compactado, copiando (_fork_) no GitHub, ou importando em outro serviço semelhante (Gitlab, Bitbucket, Gogs).
+
+## Informações do estudo original cancelado:
 Título público do projeto: Estudo do tratamento de crianças e adolescentes portadores de tumores difusos de tronco cerebral usando Ácido Valpróico com Quimioterapia e Radioterapia
 
 [Projeto][proj] aprovado pelo Comitê de Ética em Pesquisa do Hospital Infantil Albert Sabin em 16/01/2016. Submetido em 28/03/2014.
