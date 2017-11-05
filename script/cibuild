@@ -3,3 +3,9 @@ set -e # halt script on error
 
 bundle exec jekyll build
 bundle exec htmlproofer ./_site --disable-external --url-ignore "/#/"
+
+echo 'baseurl: "/valkyrie"' >> _config.yml
+bundle jekyll build
+
+git add . && git commit -m "new update"
+git filter-branch --subdirectory-filter _site --prune-empty
