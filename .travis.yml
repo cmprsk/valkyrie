@@ -10,7 +10,7 @@ env:
   
 before_script: 
    - echo 'gem "html-proofer"'>>./Gemfile 
-   - sed -i 22d _config.yml
+#  - sed -i 22d _config.yml
    - sed -i 1d .gitignore
    - bundle install 
    - chmod +x ./script/cibuild # or do this locally and commit
