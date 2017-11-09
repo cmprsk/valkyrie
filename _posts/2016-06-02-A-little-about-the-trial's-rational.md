@@ -58,4 +58,4 @@ Cooperative Group. J Clin Oncol. 2000;18:1246-53.][broniscer]
 [hdaci]: https://en.wikipedia.org/wiki/Histone_deacetylase_inhibitor#Cancer_treatment
 [felix2014]: https://scholar.google.com/citations?view_op=view_citation&hl=pt-BR&user=ZmzTpYgAAAAJ&citation_for_view=ZmzTpYgAAAAJ:MXK_kJrjxJIC
 [broniscer]: http://jco.ascopubs.org/content/18/6/1246.abstract
-[image]: {{site.github.url}}/assets/posts/2016-06-02-Um-pouco-sobre-o-tratamento-do-ensaio/figure2.png?raw=true
+[image]: {{site.github.url}}/valkyrie/assets/posts/2016-06-02-Um-pouco-sobre-o-tratamento-do-ensaio/figure2.png
