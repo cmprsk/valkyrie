@@ -43,4 +43,4 @@ P.S.2: At 2017, in the midst of a political and economic crisis in our country, 
 [Rebec-valq]: http://www.ensaiosclinicos.gov.br/rg/RBR-7ygspd/
 [Ciaberta]: https://en.wikipedia.org/wiki/Open_science
 [Valkyrie]: https://github.com/fhcflx/valkyrie
-[imagem1]: {{site.github.url}}/valkyrie/assets/posts/2016-06-01-Valquiria-foi-ativado-hoje/parecer.png
+[imagem1]: /assets/posts/2016-06-01-Valquiria-foi-ativado-hoje/parecer.png
