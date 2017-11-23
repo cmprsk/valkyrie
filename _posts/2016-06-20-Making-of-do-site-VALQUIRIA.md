@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "_Making of_ do site do Projeto VALQUIRIA"
+title:  '"Making of" do site do Projeto VALQUIRIA'
 date:   2016-06-20 16:03:45 -0300
 categories: valquiria
 ref: making
