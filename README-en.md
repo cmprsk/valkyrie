@@ -1,19 +1,27 @@
-[![Status](https://img.shields.io/badge/Status-cancelado-red.svg)]()
+﻿[![Status1](https://img.shields.io/badge/Model:-active-green.svg)]()
+[![Status2](https://img.shields.io/badge/Trial:-cancelled-red.svg)]()
 [![GitHub downloads](https://img.shields.io/github/downloads/fhcflx/valkyrie/total.svg)](https://github.com/fhcflx/valkyrie/releases)
 [![ORCID](https://img.shields.io/badge/ORCID-0000--0002--8398--0993-blue.svg)](http://orcid.org/0000-0002-8398-0993)
 [![UTN](https://img.shields.io/badge/UTN-U1111--1179--2263-blue.svg)]()
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0)
 [![Build](https://img.shields.io/travis/fhcflx/valkyrie.svg)](https://travis-ci.org/fhcflx/valkyrie)
+[![port](if_br_4577.png)](README.md)
 
 # VALKYRIE (VALQUIRIA)
 
 ## What it is:
-This repository keeps the files of an **open science clinical trial** model, an [**open lab notebook**](https://en.wikipedia.org/wiki/Open_notebook_science) project that describes and presents the results of a clinical trial in real time (as data is registered). In order to protect the identity and confidentiality of the patients, data is not to be shown in raw format, but [*de-identified*](https://en.wikipedia.org/wiki/De-identification).
+Repository of an **open science clinical trial** model, an [**open lab notebook**](https://en.wikipedia.org/wiki/Open_notebook_science) project that describes and presents the results of a clinical trial in real time (as data is registered). In order to protect the identity and confidentiality of the patients, data is not to be shown in raw format, but [*de-identified*](https://en.wikipedia.org/wiki/De-identification).
 
 ## What does it mean:
-Acronim: VALKYRIE - **VAL**proic acid with radio**CH(K)**emothe**R**apy for D**I**PG
+Acronim: VALKYRIE - **VAL**proic acid with radio**CH(K)**emothe**R**apy for D**I**PG. This was the trial that was first designed with an open lab notebook and that gave origin to this model. The trial was cancelled before even recuiting any patient, but the model remains -- it can be used as a framework to easily create and design similar projects.
 
 ## Project data:
+Open research framework model created to support a small clinical trial with an exploratory (pilot), tolerability or safety (phase 1) or efficacy (small phase 2) purpose. Contains a minimal configuration that can be extended or adapted to a large number of different scenarios. Created using Jekyll, a simple plain text Markdown to HTML parser used to generate static, lightweight and fast internet pages. It uses the statistical programming language R and its Knitr package, allowing real-time execution of a statistical analysis program and rendering results in text and figures right on the static page. Published in GitHub, which allows absolute control of versions through the Git program (locally configured). The pages are also published in the Figshare academic repository, giving them a unique DOI number, readily citable and discoverable (indexing is the responsibility of each author). Tutorial pages help you plan a study, calculate experimental number, disidentify sensitive data, analyze results, write manuscripts.
+
+## How to use:
+Obtain a copy of the project by cloning it, downloading the compressed file, copying (_fork_), or importing into another similar service (Gitlab, Bitbucket, Gogs).
+
+## Original trial info:
 Public title: Study of the treatment of children and adolescents with diffuse brainstem tumors using Valproic Acid with Chemotherapy and Radiation Therapy
 
 [Project][proj] approved by the Institutional Review Board of Hospital Infantil Albert Sabin in 01/16/2016. Submitted in 03/28/2014.
