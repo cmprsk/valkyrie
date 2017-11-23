@@ -24,15 +24,27 @@ url: "http://fhcflx.github.io" # the base hostname & protocol for your site
 exclude: [README.md,README-en.md,LICENSE.md,.bundle,.git,_site,Gemfile,Gemfile.lock,vendor,crew,docs]
 twitter_username: valkyrie_trial
 github_username:  fhcflx/valkyrie
+collections:
+  - design
 defaults:
-  -
-    scope:
+  - scope:
       path: "/_posts"
-      type: "posts"
+      type: 
+        en: "posts"
+        pt: "postagens"
     values:
       layout: "default"
       author: "Francisco H. C. Felix"
       permalink: /:year/:title/
+  - scope:
+      path: "/_design"
+      type:
+        en: "experimental design"
+        pt: "desenho experimental"
+    values:
+      layout: "page"
+      author: "Francisco H. C. Felix"
+      permalink: "/:collection/:name"
 
 # Build settings
 markdown: kramdown
