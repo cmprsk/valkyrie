@@ -25,7 +25,9 @@ exclude: [README.md,README-en.md,LICENSE.md,.bundle,.git,_site,Gemfile,Gemfile.l
 twitter_username: valkyrie_trial
 github_username:  fhcflx/valkyrie
 collections:
-  - design
+  design:
+    output: true
+    permalink: /design/:path
 defaults:
   - scope:
       path: "/_posts"
@@ -36,15 +38,6 @@ defaults:
       layout: "default"
       author: "Francisco H. C. Felix"
       permalink: /:year/:title/
-  - scope:
-      path: "/_design"
-      type:
-        en: "experimental design"
-        pt: "desenho experimental"
-    values:
-      layout: "page"
-      author: "Francisco H. C. Felix"
-      permalink: "/:collection/:name"
 
 # Build settings
 markdown: kramdown
