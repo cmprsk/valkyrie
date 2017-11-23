@@ -1,9 +1,9 @@
 ---
 layout: page
-ref: index
-lang: en
-title: Experimental design
-permalink: /design/index.html
+ref: design
+lang: pt
+title: Desenho experimental
+permalink: /design/index-pt.html
 ---
 
 {% assign design.posts=site.design | where:"lang", page.lang %}
