@@ -2,11 +2,23 @@
 title: Why do you want to do clinical research?
 lang: en
 layout: page
-description: many people end up doing research for the wrong reason and, believe me, this happens all too often in clinical trials too
+description: Many people end up doing research for the wrong reason and, believe me, this happens all too often in clinical trials too.
 ---
 
 ## Reasons to do research:
 
 It is a futile exercise to list all good reasons to do scientific research, and such a "whitelist" will allways let out some good reasons some creative people can come about to do research. Not a good idea. Let people be smart. However, there is a short list of non-obvious **bad reasons** one should never use to justify doing research, and we can focus on those:
 
-1. **I want to discover things.** Nonetheless this sounds a particularly general feeling of all people that research, it is a feature of all curious people, not only scientists. Want to learn? Good, go and read, travel, talk to people different from you. This will be fun and informative. But this is not enough to set up to do science. Science is not fun most of the times. It is boring, tedious, difficult, prone to error and often frustating. Not what you expected, huh? So, although this is _one thing every scientist have in common_, it fits not as a _one reason to do science_. 
+1. **I want to discover things.** Nonetheless this sounds a particularly general feeling of all people that research, it is a feature of all curious people, not only scientists. Want to learn? Good, go and read, travel, talk to people different from you. This will be fun and informative. But this is not enough to set up to do science. Science is not fun most of the times. It is boring, tedious, difficult, prone to error and often frustating. Not what you expected, huh? So, although this is _one thing every scientist have in common_, it fits not as the _one reason to do science_. 
+
+2. **I want to work for the greater good.** Again, the same aplies here. Often, scientists believe that their contributions help to create a better society, a just world. Some say this is a delusion or worse - that helps create a dystopic environment. Never mind, the one important thing is that this is not even a bad reason to do science. This is no reason at all! Science creates knowledge that is essential to foster a better society if we want to, but knowledge cannot be morally judged. It is a tool. So, get rid of this kind of idea because it can bias science. Wanna do the good? Do it. If you use science wisely, it will help you. But do science for _scientific_, not _moral_, reasons.
+
+3. **I want to write a monograph to get an academic title.** From one extreme to the other, this could be one of the most frequent reasons for anyone to join a scientific research. It is selfish, narrow minded, morally reprehensible, unfair, and, yet, in a manner it works! So many people has contributed for science just to fill in a CV, and so much more will do it. It is obvious that this is **not** even close to a good reason to do science, but still the majority that chose research for this mundane reason give a contribution. Not everybody in the science army is a captain or a knight, most are pawns and do not want anything more than a pedestrian achievement. 
+
+4. **I work so hard. I gather this huge amount of data. There must be something that can come from this stuff!** Seriously? In my profession and in my birth place I hear too often people say something like this. My advice: please, don't. You cannot begin a research project without a question you must solve. That is the main reason to research: to solve problems. You have a problem, an impossible one, and design some way of testing a solution (or many possible solutions) to see if it works. You harness data from experiments in order to solve the puzzle, to answer the riddle. You want to put order in a great amount of disordered stuff? Try cleaning up your bedroom. Aimless ships end up wrecked.
+
+5. **I want recognition.** Ok, and the winner is... This may be **the one** worst reason to become a scientist ever. And if you need me to explain that one, you'd better go for another career, not science.
+
+6. **After many years of good work, I feel I deserve the honour to become a professor.** A variation of that last one. In this case, one takes the recognition that may come from science as a prize he/she deserves for the years of service. Make no mistake, that kind of recognition these people want is not really what most get in scientific research. Most scientists are anonimous as neutrinos, even after decades of very hard work. Doing science is not about oneself, it is about all the rest, all the world, all nature.
+
+7. **I am better than anyone in doing this.** Red flag, here! The most dangerous reason one could invoke to become a scientist. Often the cause of great problems and misunderstandings, and a source of trouble for sure. Be good, do not think you are good. Make things the right way and come up with original ideas and you're naturally be pro!

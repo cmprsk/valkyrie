@@ -27,7 +27,6 @@ github_username:  fhcflx/valkyrie
 collections:
   design:
     output: true
-    permalink: /design/:path
 defaults:
   - scope:
       path: "/_posts"
