@@ -9,7 +9,7 @@ title: Experimental design
 
 {% for item in designs %}
 
-  <p><a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></p>
+  <h3><a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></h3>
   <p>{{ item.description }}</p>
   
 
