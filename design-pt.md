@@ -1,15 +1,14 @@
 ---
 layout: page
-ref: design
+ref: experimental
 lang: pt
 title: Desenho experimental
-permalink: /design/index-pt.html
 ---
 
-{% assign design.posts=site.design | where:"lang", page.lang %}
+{% assign designs=site.design | where:"lang", page.lang %}
 
-{% for item in design.posts %}
+{% for item in designs %}
   <h2>{{ item.title }}</h2>
   <p>{{ item.description }}</p>
-  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+  <p><a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></p>
 {% endfor %}
