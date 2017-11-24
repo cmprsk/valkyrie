@@ -8,7 +8,7 @@ title: Desenho experimental
 {% assign designs=site.design | where:"lang", page.lang %}
 
 {% for item in designs %}
-  <h2>{{ item.title }}</h2>
+  <h3><a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></h3>
   <p>{{ item.description }}</p>
-  <p><a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></p>
+
 {% endfor %}
