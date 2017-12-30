@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "Viabilidade do projeto"
+title:  "Viabilidade do projeto - VALQUIRIA desativado hoje"
 date:   2017-06-08 16:03:45 -0300
 categories: valquiria
 ref: viabilidade

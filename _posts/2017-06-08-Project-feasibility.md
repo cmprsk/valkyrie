@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "Project Feasibility"
+title: "Project Feasibility - VALKYRIE deactivated today"
 date: 2017-06-08 16:03:45 -0300
 categories: valkyrie
 ref: viabilidade
