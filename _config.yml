@@ -7,12 +7,12 @@
 
 # Site settings
 title:
-  pt: VALQUIRIA - um caderno aberto de pesquisas clínicas
-  en: VALKYRIE - an open lab notebook for clinical research
+  pt: Um caderno aberto de pesquisas clínicas
+  en: An open lab notebook for clinical research
 email: valkyr.ie@outlook.com
 description:
-  pt: VALQUIRIA é um modelo de caderno aberto de pesquisa para um projeto de ensaio clínico em neuro-oncologia pediátrica.
-  en: VALKYRIE is a model for an open science notebook to a neuro-oncology clinical trial project.
+  pt: Este é um modelo de caderno aberto de pesquisa para um projeto de ensaio clínico em neuro-oncologia pediátrica.
+  en: This is a model for an open science notebook to a neuro-oncology clinical trial project.
 index:
   en: index.html
   pt: index-pt.html
