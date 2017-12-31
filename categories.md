@@ -2,6 +2,8 @@
 layout: page
 permalink: /categories/
 title: Categories
+lang: en
+ref: categories
 ---
 
 
