@@ -1,8 +1,9 @@
 ---
 title: Why do you want to do clinical research?
+date: 2017-10-24 16:00:00 -0300
 lang: en
 ref: why
-layout: page
+layout: post
 description: Many people end up doing research for the wrong reason and, believe me, this happens all too often in clinical trials too.
 ---
 

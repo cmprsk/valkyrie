@@ -1,8 +1,9 @@
 ---
 title: Por que você quer fazer pesquisas clínicas?
+date: 2017-10-24 16:00:00 -0300
 lang: pt
 ref: why
-layout: page
+layout: post
 description: Muitas pessoas acabam fazendo pesquisas por razões erradas e, acredite, isso acontece muitas vezes em ensaios clínicos também.
 ---
 

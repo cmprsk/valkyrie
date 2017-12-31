@@ -1,16 +1,14 @@
 ---
 layout: page
-ref: experimental
-lang: en
-title: Experimental design
+ref: valkyrie
+lang: pt
+title: VALQUIRIA
 ---
 
-{% assign designs=site.design | where:"lang", page.lang %}
+{% assign vpostss=site.valkyrie | where:"lang", page.lang %}
 
-{% for item in designs %}
-
+{% for item in vposts %}
   <h3><a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></h3>
   <p>{{ item.description }}</p>
-  
 
 {% endfor %}
