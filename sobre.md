@@ -5,6 +5,10 @@ lang: pt
 permalink: /sobre/
 ref: about
 ---
+Este projeto estabelece um modelo mínimo para um ensaio clínico de ciência aberta. Abrange o desenho experimental, cálculo do númeoee d paciente, desidentificação ética de registros, gerenciamento e compartilhamento de imagens, análise estatística, apresentação de resultados na web, rascunho manuscrito e muitos mais. A comunidade é gratuita para participar e contribuir para este projeto. Encontra-se num repositório GitHub, por isso é livremente hackeável e de código aberto. O objetivo do projeto é estabelecer um padrão para um caderno de ciência aberto para um pequeno ensaio clínico, que pode ser patrocinado em uma única instituição com recursos limitados. No entanto, através de N de 1 estratégias, pode ser potencialmente escalável para estudos maiores.
+
+Inicialmente, este projeto lançou um pequeno modelo de trial - VALKYRIE, que foi realmente projetado, submetido a um IRB e preparado para acumular pacientes reais. O teste foi ativado em junho de 2016 e nunca iniciou a acumulação do paciente. A pequena equipe que se reuniu para começar o estudo, especialmente eu e a professora Juvenia B. Fontenele, lutou com problemas financeiros, pessoais e estruturais em nossas instituições, nosso país e nossas vidas. Finalmente, tornou-se evidente que seria imprudente continuar a prosseguir este estudo agora e optamos por fechá-lo definitivamente. Isso não impediu que nos devolvêssemos a idéia de ciência aberta e pesquisa clínica aberta. É por isso que o experimento VALKYRIE tornou-se um modelo aberto de pesquisa clínica.
+
 **VALQUIRIA** é o acrônimo de Ensaio Clínico de Ácido **Val** próico com **Qui** mioterapia e **R** adioterapia para Pacientes com Glioma Intrínseco Difuso de Ponte na **I** nfância e **A** dolescência.
 
 Trata-se de um ensaio clínico de pequena escala, cujo objetivo primário é determinar se a adição de ácido valpróico a um tratamento já conhecido (radioquimioterapia) melhora os resultados do tratamento, em termos de sobrevida e qualidade de vida dos pacientes.

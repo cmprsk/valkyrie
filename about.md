@@ -6,6 +6,10 @@ ref: about
 lang: en
 ---
 
+This project sets a minimal model to an open science clinical trial. It encompasses experimental design, patient number calculation, ethical desidentification of records, image management and sharing, statistical analysis, results presentation in web form, manuscript draft, and many more. comunjity is free to join and contribute to this project. It lies in a GitHub repository so it is freely hackable and open source. The aim of the project is to set a standard to an open science notebook for a small clinical trial, one that can be sponsored in a single institution with limited resources. However, through N of 1 strategies, it may potentially scalable to larger studies.
+
+Initially, this project launched a small model trial - VALKYRIE, that was really designed, submitted to an IRB and prepared to accrue real patients. The trial was activated in june 2016 and never started the patient accrual. The small team that gathered to begin the study, specially me and professor Juvenia B. Fontenele, struggled with financial, personal and structural problems in our institutions, our country, and our lives. Finally, it became apparent that it would be unwise to continue pursuing this study now and we chose to close it definitely. This has not stopped us from devoting ourselves to the idea of open science and open clinical research. That's why the VALKYRIE trial turned into an open clinical research model. 
+
 **VALKYRIE** is the acronym of **Val** proic acid, **(K)Chemo** therap **y** and **R** adiation therapy for patients with diffuse **i** ntrinsic pontin **e** glioma.
 
 It is a small proof-of-concept trial, whose primary goal is to determine if valproic acid added to a contemporary radiochemotherapy protocol could result in better survival and quality of life for the patients.
