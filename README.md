@@ -7,7 +7,7 @@
 [![Build](https://img.shields.io/travis/fhcflx/valkyrie.svg)](https://travis-ci.org/fhcflx/valkyrie)
 [![english](if_gb_4627.png)](README-en.md)
 
-# VALQUIRIA (VALKYRIE)
+# Um caderno aberto de pesquisas clínicas
 
 ## O que é:
 Este repositório abriga arquivos de um modelo de **ensaio clínico usando ciência aberta (open science clinical trial)**, um [**caderno de pesquisa aberto (open lab notebook)**][open-lab] desenhado com o objetivo de descrever e apresentar os resultados de um ensaio clínico em tempo real (enquanto os dados são coletados). A fim de proteger a identidade e confidencialidade dos pacientes, os dados não seriam apresentados de forma completa, mas sim de forma [*desidentificada*][desidentifica].
