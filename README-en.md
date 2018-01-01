@@ -7,7 +7,7 @@
 [![Build](https://img.shields.io/travis/fhcflx/valkyrie.svg)](https://travis-ci.org/fhcflx/valkyrie)
 [![port](if_br_4577.png)](README.md)
 
-# VALKYRIE (VALQUIRIA)
+# An open lab notebook for clinical research
 
 ## What it is:
 Repository of an **open science clinical trial** model, an [**open lab notebook**](https://en.wikipedia.org/wiki/Open_notebook_science) project that describes and presents the results of a clinical trial in real time (as data is registered). In order to protect the identity and confidentiality of the patients, data is not to be shown in raw format, but [*de-identified*](https://en.wikipedia.org/wiki/De-identification).
