@@ -24,7 +24,10 @@ script:
 deploy:  
   provider: pages  
   skip_cleanup: true  
-  github_token: $GITHUB_TOKEN  
+  github_token: $GITHUB_TOKEN
+  email: fhcflx@outlook.com
+  name: Francisco H C Felix
+  verbose: true  
   on:    
     branches: 
       - gh-pages
