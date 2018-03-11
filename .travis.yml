@@ -29,5 +29,4 @@ deploy:
   name: Francisco H C Felix
   verbose: true  
   on:    
-    branches: 
-      - gh-pages
+    branch: gh-pages
