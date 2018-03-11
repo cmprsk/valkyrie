@@ -29,4 +29,5 @@ deploy:
   name: Francisco H C Felix
   verbose: true  
   on:    
+    repo: fhcflx/valkyrie
     branch: gh-pages
