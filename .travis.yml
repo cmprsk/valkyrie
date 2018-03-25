@@ -25,9 +25,9 @@ deploy:
   provider: pages  
   skip_cleanup: true  
   github_token: $GITHUB_TOKEN
-  email: fhcflx@outlook.com
-  name: Francisco H C Felix
-  verbose: true  
+#  email: fhcflx@outlook.com
+#  name: Francisco H C Felix
+#  verbose: true  
   on:    
-    repo: fhcflx/valkyrie
-    branch: gh-pages
+#    repo: fhcflx/valkyrie
+    branch: master
