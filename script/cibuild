@@ -4,7 +4,7 @@ set -e # halt script on error
 bundle exec jekyll build
 bundle exec htmlproofer ./_site --disable-external --url-ignore "/#/"
 
-echo 'baseurl: "/valkyrie"' >> _config.yml
+echo 'baseurl: "/neuronc_lab"' >> _config.yml
 bundle exec jekyll build
 
 git add . && git commit -m "new update"

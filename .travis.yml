@@ -29,5 +29,5 @@ deploy:
 #  name: Francisco H C Felix
 #  verbose: true  
   on:    
-#    repo: fhcflx/valkyrie
+#    repo: fhcflx/neuronc_lab
     branch: master
