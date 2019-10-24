@@ -7,8 +7,8 @@
 
 # Site settings
 title:
-  pt: Um caderno aberto de pesquisas clínicas
-  en: An open lab notebook for clinical research
+  pt: CAPNO - Um caderno aberto de pesquisas de neuro-oncologia
+  en: NOOLN - an open lab notebook for neuro-oncology
 email: valkyr.ie@outlook.com
 description:
   pt: Este é um modelo de caderno aberto de pesquisa para um projeto de ensaio clínico em neuro-oncologia pediátrica.
