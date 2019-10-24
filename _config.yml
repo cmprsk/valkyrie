@@ -20,7 +20,7 @@ feed:
   en: /feed.xml
   pt: /feed-pt.xml
 baseurl: "/neuronc_lab" # the subpath of your site, e.g. /blog
-url: "http://fhcflx.github.io" # the base hostname & protocol for your site
+url: "https://fhcflx.github.io" # the base hostname & protocol for your site
 exclude: [README.md,README-en.md,LICENSE.md,.bundle,.git,_site,Gemfile,Gemfile.lock,vendor,crew,docs]
 twitter_username: neuronc_lab
 github_username:  fhcflx/neuronc_lab
