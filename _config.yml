@@ -35,7 +35,7 @@ defaults:
         pt: "postagens"
     values:
       layout: "default"
-      author: "Francisco H. C. Felix"
+      author: "Francisco Felix"
       permalink: /:year/:title/
 
 # Build settings
