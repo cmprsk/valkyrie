@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    
+      <url>
+        <loc>/2017/12/20/design.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/2017/12/20/design.html" />
+        
+        <lastmod>2017-12-20T19:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/2017/11/21/useful.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/2017/11/21/useful.html" />
+        
+          <xhtml:link rel="alternate" hreflang="pt" href="/2017/11/21/useful-pt.html" />
+        
+        <lastmod>2017-11-21T19:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/2017/11/21/useful-pt.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/2017/11/21/useful.html" />
+        
+          <xhtml:link rel="alternate" hreflang="pt" href="/2017/11/21/useful-pt.html" />
+        
+        <lastmod>2017-11-21T19:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/2017/10/24/why.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/2017/10/24/why.html" />
+        
+          <xhtml:link rel="alternate" hreflang="pt" href="/2017/10/24/why-pt.html" />
+        
+        <lastmod>2017-10-24T19:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/2017/10/24/why-pt.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/2017/10/24/why.html" />
+        
+          <xhtml:link rel="alternate" hreflang="pt" href="/2017/10/24/why-pt.html" />
+        
+        <lastmod>2017-10-24T19:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+  
+    
+      <url>
+        <loc>/about/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/about/" />
+        
+          <xhtml:link rel="alternate" hreflang="pt" href="/sobre/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/categories/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/categories/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/feed-pt.xml</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/about/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/categories/" />
+        
+          <xhtml:link rel="alternate" hreflang="pt" href="/feed-pt.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/feed.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="pt" href="/index-pt.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="" href="/css/main.css" />
+        
+          <xhtml:link rel="alternate" hreflang="" href="/sitemaps.old" />
+        
+          <xhtml:link rel="alternate" hreflang="pt" href="/sobre/" />
+        
+          <xhtml:link rel="alternate" hreflang="pt" href="/valkyrie-pt.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/valkyrie.html" />
+        
+          <xhtml:link rel="alternate" hreflang="" href="/sitemap.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="" href="/robots.txt" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/feed.xml</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/about/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/categories/" />
+        
+          <xhtml:link rel="alternate" hreflang="pt" href="/feed-pt.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/feed.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="pt" href="/index-pt.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="" href="/css/main.css" />
+        
+          <xhtml:link rel="alternate" hreflang="" href="/sitemaps.old" />
+        
+          <xhtml:link rel="alternate" hreflang="pt" href="/sobre/" />
+        
+          <xhtml:link rel="alternate" hreflang="pt" href="/valkyrie-pt.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/valkyrie.html" />
+        
+          <xhtml:link rel="alternate" hreflang="" href="/sitemap.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="" href="/robots.txt" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/index-pt.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="pt" href="/index-pt.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="pt" href="/index-pt.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/css/main.css</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/about/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/categories/" />
+        
+          <xhtml:link rel="alternate" hreflang="pt" href="/feed-pt.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/feed.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="pt" href="/index-pt.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="" href="/css/main.css" />
+        
+          <xhtml:link rel="alternate" hreflang="" href="/sitemaps.old" />
+        
+          <xhtml:link rel="alternate" hreflang="pt" href="/sobre/" />
+        
+          <xhtml:link rel="alternate" hreflang="pt" href="/valkyrie-pt.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/valkyrie.html" />
+        
+          <xhtml:link rel="alternate" hreflang="" href="/sitemap.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="" href="/robots.txt" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/sitemaps.old</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/about/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/categories/" />
+        
+          <xhtml:link rel="alternate" hreflang="pt" href="/feed-pt.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/feed.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="pt" href="/index-pt.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="" href="/css/main.css" />
+        
+          <xhtml:link rel="alternate" hreflang="" href="/sitemaps.old" />
+        
+          <xhtml:link rel="alternate" hreflang="pt" href="/sobre/" />
+        
+          <xhtml:link rel="alternate" hreflang="pt" href="/valkyrie-pt.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/valkyrie.html" />
+        
+          <xhtml:link rel="alternate" hreflang="" href="/sitemap.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="" href="/robots.txt" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/sobre/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/about/" />
+        
+          <xhtml:link rel="alternate" hreflang="pt" href="/sobre/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/valkyrie-pt.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="pt" href="/valkyrie-pt.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/valkyrie.html" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/valkyrie.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="pt" href="/valkyrie-pt.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/valkyrie.html" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/sitemap.xml</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/about/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/categories/" />
+        
+          <xhtml:link rel="alternate" hreflang="pt" href="/feed-pt.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/feed.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="pt" href="/index-pt.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="" href="/css/main.css" />
+        
+          <xhtml:link rel="alternate" hreflang="" href="/sitemaps.old" />
+        
+          <xhtml:link rel="alternate" hreflang="pt" href="/sobre/" />
+        
+          <xhtml:link rel="alternate" hreflang="pt" href="/valkyrie-pt.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/valkyrie.html" />
+        
+          <xhtml:link rel="alternate" hreflang="" href="/sitemap.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="" href="/robots.txt" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/robots.txt</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/about/" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/categories/" />
+        
+          <xhtml:link rel="alternate" hreflang="pt" href="/feed-pt.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/feed.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="pt" href="/index-pt.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/" />
+        
+          <xhtml:link rel="alternate" hreflang="" href="/css/main.css" />
+        
+          <xhtml:link rel="alternate" hreflang="" href="/sitemaps.old" />
+        
+          <xhtml:link rel="alternate" hreflang="pt" href="/sobre/" />
+        
+          <xhtml:link rel="alternate" hreflang="pt" href="/valkyrie-pt.html" />
+        
+          <xhtml:link rel="alternate" hreflang="en" href="/valkyrie.html" />
+        
+          <xhtml:link rel="alternate" hreflang="" href="/sitemap.xml" />
+        
+          <xhtml:link rel="alternate" hreflang="" href="/robots.txt" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+  </urlset>

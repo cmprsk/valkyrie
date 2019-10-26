@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NOOLN - an open lab notebook for neuro-oncology</title>
+    <description>This is a model for an open science notebook to a neuro-oncology clinical trial project.</description>
+    <link>https://fhcflx.github.io/neuronc_lab/</link>
+    <atom:link href="/neuronc_lab/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 26 Oct 2019 01:21:56 +0000</pubDate>
+    <lastBuildDate>Sat, 26 Oct 2019 01:21:56 +0000</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+    
+      <item>
+        <title>Choosing the ideal clinical research design</title>
+        <description>
+</description>
+        <pubDate>Wed, 20 Dec 2017 19:00:00 +0000</pubDate>
+        <link>/neuronc_lab/2017/12/20/design.html</link>
+        <guid isPermaLink="true">/neuronc_lab/2017/12/20/design.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Making clinical research useful</title>
+        <description>&lt;p&gt;Clinical research should be useful, says John P. Ioannidis, a greek statistician that devoted his carrer to point out that most clinical research are really not so useful. This is the minimum that anyone should expect from clinical research. And what are the features that we can use to judge if a particular research and its results may really contribute to science and society? Dr. Ioannidis gives us eight proposed characteristics of useful clinical research in a recent opinion statement [1].&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;It must be problem-based:&lt;/strong&gt; one must summarize it in a very clear, objective question, clinically meaningful. &lt;em&gt;Could HDAC inhibitors be used to treat diffuse midline gliomas&lt;/em&gt; is an example, albeit a weak one (I shall elaborate further on this).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The problem must be placed into context:&lt;/strong&gt; prior knowledge has to be assessed in order to map possible holes in the evidence framework and contextualize the problem. For instance, &lt;em&gt;review of published evidence tells us that there is no known pharmacological treatment for diffuse midline glioma&lt;/em&gt; (again a weak example).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The study must be powerful enough&lt;/strong&gt; or, in other words, recruit so many patients and be sufficiently long as to have a practical chance of answering the proposed question. The design of a study may use statistical calculations to find its optimal recruit number and time length. A possible example: &lt;em&gt;using the available data of the patients already treated in our service as a pilot group, assuming an odds ratio of 0.05 and choosing a statistical power of 80% and alpha of 0.5%, the minimum number of patients in the experimental group (in a 1:2 design) will be 16 patients&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Aplicability in real life settings:&lt;/strong&gt; does the study design mirror real life situations? If there are differences, do these have an impact in the main outcome? Clinical trial that use real life treatment designs are called &lt;em&gt;pragmatic trials&lt;/em&gt;. This concept was introduced to identify trials aimed at answering questions that inform decision-makers (“practical or pragmatic questions”) in contrast to so-called &lt;em&gt;mechanistic trials&lt;/em&gt;, designed to explore mechanisms of disease [2].&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Usefulness for the patients&lt;/strong&gt; must be the core tenet of clinical research. It may sound too obvious however one would be surprised of how many research is done with minimal care (if at all) for patients’ quality of life issues. Patient-centered outcomes, as a matter of fact, are rather uncommon in clinical research. The majority of outcomes used are surrogate ones chosen for feasibility purposes. For example, one may study not the time to death (overall survival), an outcome meaningfull for patients, but instead the survival 6 months after treatment (much easier to perform although its relation to overall survival may not be easily predictable).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Cost benefit:&lt;/strong&gt; really nothing new here. Plainly, is the research worth the money society will spend on it? The answer may ve viewed as a result of the compliance to the other characteristics of a useful research.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Is it within our reach?&lt;/strong&gt; Do one have the resources to perform the research in a way that maximizes its usefulness? If not, why bother? Again, it should be common sense but the sad reality is that most clinical research &lt;strong&gt;never get published&lt;/strong&gt; [3]. Some of them may fail for lack of resources, which is then an avoidable cause of wasting time and money.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Transparency:&lt;/strong&gt; this is the most difficult goal to attain in clinical research, and probably is the most important of all. Reporting all information from the idea inception until the final results of a project may not be  realistic nowadays. However, it should be a major target of the efforts to further research usefulness.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This is what this project is about.&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References:&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Ioannidis JPA (2016) Why Most Clinical Research Is Not Useful. PLoS Med 13(6): e1002049. https://doi.org/10.1371/journal.pmed.1002049&lt;/li&gt;
+  &lt;li&gt;Tunis SR, Stryer DB, Clancy CM. Practical Clinical TrialsIncreasing the Value of Clinical Research for Decision Making in Clinical and Health Policy. JAMA. 2003;290(12):1624–1632. doi:10.1001/jama.290.12.1624&lt;/li&gt;
+  &lt;li&gt;Riveros C, Dechartres A, Perrodeau E, Haneef R, Boutron I, Ravaud P (2013) Timing and Completeness of Trial Results Posted at ClinicalTrials.gov and Published in Journals. PLoS Med 10(12): e1001566. https://doi.org/10.1371/journal.pmed.1001566&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Tue, 21 Nov 2017 19:00:00 +0000</pubDate>
+        <link>/neuronc_lab/2017/11/21/useful.html</link>
+        <guid isPermaLink="true">/neuronc_lab/2017/11/21/useful.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>That's why you should do clinical research</title>
+        <description>&lt;h2 id=&quot;reasons-to-do-research&quot;&gt;Reasons to do research:&lt;/h2&gt;
+
+&lt;p&gt;It is a futile exercise to list all good reasons to do scientific research, and such a “whitelist” will always leave out some good reasons creative people can come about to do research. Not a good idea. Let people be smart. However, there is a short list of non-obvious &lt;strong&gt;bad reasons&lt;/strong&gt; one should never use to justify doing research, and we can focus on those:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;I want to discover things.&lt;/strong&gt; Nonetheless this sounds as a particularly general feeling of all people that do research, it is a mark of all curious people, not only scientists. Want to learn? Good, go read, travel, talk to people different from you. This will be fun and informative. But this is not enough to set up to do science. Science is not fun most of the times. It is boring, tedious, difficult, prone to error and often frustating. Not what you expected, huh? So, although this is &lt;em&gt;one thing every scientist have in common&lt;/em&gt;, it fits not as the &lt;em&gt;one reason to do science&lt;/em&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;I want to work for the greater good.&lt;/strong&gt; Again, the same aplies here. Often, scientists believe that their contributions help to create a better society, a just world. Some say this is a delusion or worse - that helps create a dystopic environment. Never mind, the one important thing is that this is not even a bad reason to do science. This is no reason at all! Science creates knowledge that is essential to foster a better society if we want to, but knowledge cannot be morally judged. It is a tool. So, get rid of this kind of idea because it can bias science. Wanna do the good? Do it. If you use science wisely, it will help you. But do science for &lt;em&gt;scientific&lt;/em&gt;, not &lt;em&gt;moral&lt;/em&gt;, reasons.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;I want to write a monograph to get an academic title.&lt;/strong&gt; From one extreme to the other, this could be one of the most frequent reasons for anyone to join a scientific research. It is selfish, narrow minded, unfair, and, yet, in a manner it works! So many people has contributed for science just to fill in a CV, and so much more will do it. It is obvious that this is &lt;strong&gt;not&lt;/strong&gt; even close to a good reason to do science, but still the majority that chose research for this mundane reason gave a contribution. Not everybody in the science army is a captain or a knight, most are pawns and do not want anything more than a pedestrian achievement.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;I work so hard. I gather this huge amount of data. There must be something that can come from this stuff!&lt;/strong&gt; Seriously? In my profession and in my birth place I hear too often people say something like this. My advice: please, don’t. You cannot begin a research project without a question you must solve. That is the main reason to do research: to solve problems. You have a problem, an impossible one, and design some way of testing a solution (or many possible solutions) to see if it works. You harness data from experiments in order to solve the puzzle, to answer the riddle. You want to put order in a great amount of disordered stuff? Try cleaning up your bedroom. Aimless ships end up wrecked.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;I want recognition.&lt;/strong&gt; Ok, and the winner is… This may be &lt;strong&gt;the one&lt;/strong&gt; worst reason to become a scientist ever. And if you need me to explain that one, you’d better go for another career, not science.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;After many years of good work, I feel I deserve the honour to become a professor.&lt;/strong&gt; A variation of that last one. In this case, one takes the recognition that may come from science as a prize he/she deserves for the years of service. Make no mistake, that kind of recognition these people want is not really what most get in scientific research. Most scientists are anonimous as neutrinos, even after decades of very hard work. Doing science is not about oneself, it is about all the rest, all the world, all nature.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;I am better than anyone in doing this.&lt;/strong&gt; Red flag, here! The most dangerous reason one could invoke to become a scientist. Often the cause of great problems and misunderstandings, and a source of trouble for sure. Be good, do not think you are good. Make things the right way and come up with original ideas and you’re naturally be pro!&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;And so we end our little list of really awfull reasons to be a scientist. There are potentially infinite good reasons to do science, but some are more common. If one would ask me to briefly enumerate some examples of good reasons to become a clinical scientist, I personally would come up with these:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;I want to solve problems.&lt;/strong&gt; Like &lt;em&gt;I want to cure an incurable disease&lt;/em&gt;. Now, &lt;strong&gt;this&lt;/strong&gt; is what I call a big problem, worth of every scientific effort. However, a reality check is crucial here: big problems ask for really &lt;em&gt;huge&lt;/em&gt; efforts. So, “am I capable of tackling this particular problem?” is one of my favorite questions.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;How may I help my patients deal with their diseases?&lt;/strong&gt; There are almost infinite ways to help ameliorate suffering. Some creative ideas need little to become really important tools in the treatment of disease symptons and patient suffering.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;I want to connect better with colleagues in order to help people.&lt;/strong&gt; Well, need I say that these lines were born from this particular desire? So, please connect, comment, spread, share, help me to make something different and make yourself also a difference in the world!&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 24 Oct 2017 19:00:00 +0000</pubDate>
+        <link>/neuronc_lab/2017/10/24/why.html</link>
+        <guid isPermaLink="true">/neuronc_lab/2017/10/24/why.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

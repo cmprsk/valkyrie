@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CAPNO - Um caderno aberto de pesquisas de neuro-oncologia</title>
+    <description>Este é um modelo de caderno aberto de pesquisa para um projeto de ensaio clínico em neuro-oncologia pediátrica.</description>
+    <link>https://fhcflx.github.io/neuronc_lab/</link>
+    <atom:link href="/neuronc_lab/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 26 Oct 2019 01:21:56 +0000</pubDate>
+    <lastBuildDate>Sat, 26 Oct 2019 01:21:56 +0000</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+    
+      <item>
+        <title>Tornando a pesquisa clínica útil</title>
+        <description>&lt;p&gt;A pesquisa clínica precisa ser útil, diz John P. Ioannidis, um estatístico grego que dedicou sua carreira a investigar porque a maioria das pesquisas clínicas na verdade não são tão úteis. Este é o mínimo que alguém deve esperar da pesquisa Clinica. E quais são os recursos que podemos usar para julgar se uma pesquisa específica e seus resultados podem realmente contribuir para a ciência e a sociedade? Dr. Ioannidis nos dá oito características da pesquisa clínica útil em uma opinião recente [1].&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Deve ser baseada em problemas:&lt;/strong&gt; é preciso resumir o seu objetivo em uma questão muito clara e objetiva, clinicamente significativa. &lt;em&gt;Os inibidores de HDAC podem ser usados para tratar gliomas da linha média difusa?&lt;/em&gt; É um exemplo, embora seja fraco (eu vou detalhar um pouco mais depois).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;O problema deve ser colocado em contexto:&lt;/strong&gt; o conhecimento prévio deve ser avaliado para mapear possíveis lacunas na evidência e contextualizar o problema. Por exemplo, a revisão das evidências publicadas nos diz que &lt;em&gt;não existe um tratamento farmacológico conhecido para o glioma difuso da linha média&lt;/em&gt; (novamente um exemplo fraco).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;O estudo deve ter suficiente poder estatístico&lt;/strong&gt; ou, em outras palavras, recrutar tantos pacientes e ser suficientemente longo para ter uma chance prática de responder à pergunta proposta. O desenho de um estudo pode usar estatística para encontrar o número ótimo de pacientes a serem recrutados e seu tempo de duração. Um exemplo possível: &lt;em&gt;utilizando os dados disponíveis dos pacientes que já foram tratados em nosso serviço como grupo piloto, assumindo um &lt;strong&gt;odds ratio&lt;/strong&gt; de 0,05 e escolhendo um poder estatístico de 80% e alfa de 0,5%, o número mínimo de pacientes no grupo experimental (em um desenho 1:2) serão 16 pacientes&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Aplicabilidade em situações da vida real:&lt;/strong&gt; o desenho do estudo espelha situações da vida real? Se houver
+diferenças, estas têm um impacto no resultado principal? Ensaios clínicos que utilizam desenhos de estudo baseados na vida real são chamados ‘ensaios pragmáticos’. Este conceito foi introduzido para identificar ensaios destinados a responder perguntas que informam tomadores de decisão (“questões práticas ou pragmáticas”) em contraste com os chamados “ensaios mecanísticos”, destinados a explorar mecanismos de doença [2].&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Utilidade para os pacientes&lt;/strong&gt; deve ser o núcleo central da pesquisa clínica. Pode soar óbvio, no entanto é surpreendente a quantidade de pesquisas feitas com mínimo interesse com problemas relacionados à qualidade de vida dos pacientes. Os desfechos centrados no paciente, de fato, são bastante incomuns na pesquisa clínica. A maioria dos desfechos utilizados são substitutos escolhidos para fins de viabilidade. Por exemplo, pode-se estudar não o tempo até a morte (sobrevida global), um resultado significativo para os pacientes, mas sim a sobrevivência 6 meses após o tratamento (muito mais fácil de estudar, embora sua relação com a sobrevivência global possa não ser facilmente previsível).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Custo benefício:&lt;/strong&gt; nenhuma novidade. A pesquisa vale a pena o dinheiro que a sociedade gastará nela? A resposta pode ser vista como resultado da conformidade com as outras características de uma pesquisa útil.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Está ao nosso alcance?&lt;/strong&gt; A instituição de pesquisa tem os recursos necessários para realizar a pesquisa de forma a maximizar sua utilidade? Se não, por que iniciar? Novamente, deve parece ser bom senso, mas a triste realidade é que a maioria das pesquisas clínicas acaba &lt;strong&gt;nunca sendo publicada&lt;/strong&gt; [3]. Alguns projetos podem falhar por falta de recursos, o que seria então uma causa evitável de desperdício de tempo e dinheiro.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Transparência:&lt;/strong&gt; este é o objetivo mais difícil de atingir na pesquisa clínica, e provavelmente é o mais importante de todos. Disponibilizar todas as informações desde a concepção inicial até os resultados finais de um projeto não é realista hoje em dia. No entanto, deve ser um dos principais objetivos dos esforços para aumentar a utilidade da pesquisa.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;É disso que trata este projeto.&lt;/p&gt;
+
+&lt;h2 id=&quot;referências&quot;&gt;Referências:&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Ioannidis JPA (2016) Why Most Clinical Research Is Not Useful. PLoS Med 13(6): e1002049. https://doi.org/10.1371/journal.pmed.1002049&lt;/li&gt;
+  &lt;li&gt;Tunis SR, Stryer DB, Clancy CM. Practical Clinical TrialsIncreasing the Value of Clinical Research for Decision Making in Clinical and Health Policy. JAMA. 2003;290(12):1624-1632. doi:10.1001/jama.290.12.1624&lt;/li&gt;
+  &lt;li&gt;Riveros C, Dechartres A, Perrodeau E, Haneef R, Boutron I, Ravaud P (2013) Timing and Completeness of Trial Results Posted at ClinicalTrials.gov and Published in Journals. PLoS Med 10(12): e1001566. https://doi.org/10.1371/journal.pmed.1001566&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Tue, 21 Nov 2017 19:00:00 +0000</pubDate>
+        <link>/neuronc_lab/2017/11/21/useful-pt.html</link>
+        <guid isPermaLink="true">/neuronc_lab/2017/11/21/useful-pt.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Por que fazer pesquisa clínica</title>
+        <description>&lt;h2 id=&quot;razões-para-fazer-pesquisa&quot;&gt;Razões para fazer pesquisa:&lt;/h2&gt;
+
+&lt;p&gt;É um exercício fútil listar todas as boas razões para fazer pesquisa científica, e essa lista deixará de fora algumas boas razões de pessoas criativas. Não é uma boa ideia. Deixemos as pessoas serem inteligentes! No entanto, há uma pequena lista de &lt;strong&gt;razões ruins&lt;/strong&gt; não muito óbvias que nunca devem ser usadas para justificar a pesquisa e podemos nos concentrar nelas:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Eu quero descobrir coisas.&lt;/strong&gt; Isso pode ser um sentimento geral de todo pesquisador, porém é também uma característica de todos os curiosos, não só cientistas. Quer aprender? Ótimo, leia, viaje, fale com pessoas diferentes de você. Isso será divertido e informativo. Mas não será suficiente para criar ciência. A ciência não é divertida na maior parte do tempo. É chata, tediosa, difícil, propensa ao erro e muitas vezes frustante. Não é bem o que você esperava, hein? Então, embora esta seja uma coisa que todos os cientistas tenham em comum, não cabe como uma &lt;em&gt;boa&lt;/em&gt; razão para fazer ciência.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Eu quero trabalhar para o bem maior.&lt;/strong&gt; Novamente, o mesmo pode-se dizer aqui. Muitas vezes, os cientistas acreditam que suas contribuições ajudam a criar uma sociedade melhor, um mundo justo. Alguns dizem que isso é uma ilusão ou pior - que ajuda a criar um ambiente distópico. Não importa, o único fato importante é que isso não é nem mesmo uma razão ruim para fazer ciência! A ciência cria conhecimento essencial para promover uma sociedade melhor se quisermos, mas o conhecimento não pode ser julgado moralmente. É uma ferramenta. Então, é preciso se livrar desse tipo de idéia, porque pode prejudicar a ciência. Quer fazer o bem? Faça. Se você usa a ciência com sabedoria, isso irá ajudá-lo. Mas faça ciência por razões científicas, não &lt;em&gt;morais&lt;/em&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Eu quero escrever uma monografia para obter um título acadêmico.&lt;/strong&gt; De um extremo para o outro, esse pode ser um dos motivos mais freqüentes para que alguém participe de uma pesquisa científica. É egoísta, estreito, injusto e, ainda assim, de uma certa maneira funciona! Muitas pessoas contribuíram para a ciência apenas para preencher um CV, e muitos mais o farão. É óbvio que isso &lt;strong&gt;não&lt;/strong&gt; é mesmo uma boa razão para fazer ciência, mas ainda sim a maioria que escolheu a pesquisa por essa razão mundana dá uma contribuição. Nem todo mundo no exército da ciência é um capitão ou um cavaleiro, a maioria é peão e não quer nada além de uma conquista ordinária.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Eu trabalho tão duro. Eu reúno essa enorme quantidade de dados. Deve haver algo que possa sair disso!&lt;/strong&gt; Sério? Na minha profissão e na minha terra, ouço muitas vezes as pessoas dizerem algo assim. Meu conselho: por favor, não faça isso. Você não pode começar um projeto de pesquisa sem uma pergunta que você deve resolver. Essa é a principal razão para pesquisar: para resolver problemas. Você tem um problema, impossível às vezes, e cria uma maneira de testar uma solução (ou muitas soluções possíveis) para ver se funciona. Você aproveita os dados de experimentos para resolver o enigma, para responder à charada. Você quer colocar ordem em uma grande quantidade de coisas desordenadas? Tente limpar seu quarto. Navios sem rumo acabam afundando.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Eu quero reconhecimento.&lt;/strong&gt; Ok, e o vencedor é … Isso pode ser &lt;strong&gt;o pior&lt;/strong&gt; motivo de todos os tempos para se tornar um cientista. E se você precisar que eu explique essa, é melhor você procurar outra carreira que não a ciência.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Depois de muitos anos de bom trabalho, sinto que eu mereço a honra de me tornar um professor.&lt;/strong&gt; Uma variação do último. Neste caso, o reconhecimento que pode vir da ciência é visto como um prêmio merecido pelos anos de serviço. Não se engane, esse tipo de reconhecimento que essas pessoas querem não é realmente o que a maioria obtém na pesquisa científica. A maioria dos cientistas é anônima como neutrinos, mesmo depois de décadas de trabalho muito difícil. Fazer ciência não é sobre si mesmo, é sobre todo o resto, todo o mundo, toda a natureza.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Eu sou melhor do que qualquer um nisso.&lt;/strong&gt; Alerta vermelho, perigo! O motivo mais perigoso que se poderia invocar para se tornar um cientista. Muitas vezes, a causa de grandes problemas e mal-entendidos, e uma fonte de complicações com certeza. Seja bom, não pense que você é bom. Faça as coisas do jeito certo e tenha idéias originais e, naturalmente, seja reconhecido como profissional!&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;E então terminamos nossa pequena lista de razões realmente horríveis para ser cientista. Existem, potencialmente, infinitas boas razões para fazer ciência, mas algumas são mais comuns. Se alguém me pedisse para enumerar brevemente alguns exemplos de boas razões para me tornar um cientista clínico, eu pessoalmente apresentaria estas:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Eu quero resolver problemas.&lt;/strong&gt; Como em &lt;em&gt;Quero curar uma doença incurável.&lt;/em&gt; Agora, &lt;strong&gt;isso&lt;/strong&gt; é o que eu chamo de um grande problema, valendo todo esforço científico. No entanto, um choque de realidade é crucial aqui: grandes problemas pedem esforços realmente &lt;em&gt;enormes&lt;/em&gt;. Então, “sou capaz de enfrentar este problema específico?” é uma das minhas perguntas favoritas.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Como posso ajudar meus pacientes a lidar com suas doenças?&lt;/strong&gt; Existem maneiras quase infinitas de ajudar a diminuir o sofrimento. Algumas idéias criativas precisam de pouco para se tornar ferramentas realmente importantes no tratamento de sintomas de doenças e do sofrimento de pacientes.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Eu quero me conectar melhor com os colegas para ajudar as pessoas.&lt;/strong&gt; Bem, preciso dizer que essas linhas nasceram desse desejo particular? Então, conecte, comente, espalhe, compartilhe, ajude-me a fazer algo diferente e torne-se também uma diferença no mundo!&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 24 Oct 2017 19:00:00 +0000</pubDate>
+        <link>/neuronc_lab/2017/10/24/why-pt.html</link>
+        <guid isPermaLink="true">/neuronc_lab/2017/10/24/why-pt.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

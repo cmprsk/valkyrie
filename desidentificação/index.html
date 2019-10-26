@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<html lang="pt">
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-79731990-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Desidentificação - anonimização</title>
+  <meta name="description" content="Desidentificação, anonimização, pseudo-anonimização, re-identificaçãoA documentação do National Institute of Standards and Technology (NIST) americano inform...">
+
+  <link rel="stylesheet" href="/neuronc_lab/css/main.css">
+  <link rel="canonical" href="/neuronc_lab/desidentificação/">
+  
+  
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/neuronc_lab/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/neuronc_lab/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/neuronc_lab/favicon-16x16.png">
+  <link rel="manifest" href="/neuronc_lab/site.webmanifest">
+  <link rel="mask-icon" href="/neuronc_lab/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/neuronc_lab/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/neuronc_lab/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="alternate" type="application/rss+xml" title="CAPNO - Um caderno aberto de pesquisas de neuro-oncologia" href="/neuronc_lab/feed-pt.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/neuronc_lab/index-pt.html">CAPNO - Um caderno aberto de pesquisas de neuro-oncologia</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+<style>
+.en:lang(en), .pt:lang(pt){
+    font-weight: bold;
+}
+</style>
+
+      <div class="trigger">
+        
+       
+         
+       
+         
+       
+         
+         <a class="page-link" href="/neuronc_lab/sobre/">Sobre</a>
+         
+       
+         
+         <a class="page-link" href="/neuronc_lab/valkyrie-pt.html">VALQUIRIA</a>
+         
+       
+      </div>
+      <div class="wrapper" style="text-align: right; line-height: 2em">
+      
+      
+
+      
+      
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Desidentificação - anonimização</h1>
+    <p class="post-meta"><time datetime="2016-06-15T19:03:45+00:00" itemprop="datePublished">
+      Jun 15, 2016</time></p>
+  </header>
+  
+  <div class="post-categories">
+    
+    
+    <a href="/neuronc_lab/categories/#metodologia">metodologia</a>
+    
+    
+  </div>
+
+  <div class="post-content" itemprop="articleBody">
+    <h3 id="desidentificação-anonimização-pseudo-anonimização-re-identificação">Desidentificação, anonimização, pseudo-anonimização, re-identificação</h3>
+
+<p>A documentação do National Institute of Standards and Technology (NIST) americano informa que a nomenclatura utilizada nesta área ainda contem ambiguidades. Os termos (em inglês) <em>de-identification</em>, <em>anonymization</em> e <em>pseudoanonymization</em> são usados por vezes como sinônimos, por vezes como variações de processos semelhantes. Para diminuir a ambiguidade, o NIST usa as definições da <a href="http://www.iso.org/iso/catalogue_detail?csnumber=42807">ISO/TS 25237:2008</a>:</p>
+
+<blockquote>
+  <p>de-identification: “general term for any process of removing the association between a set of identifying data and the data subject.” [p. 3]<br />
+anonymization: “process that removes the association between the identifying dataset and the data subject.” [p. 2]<br />
+pseudonymization: “particular type of anonymization that both removes the association with a data subject and adds an association between a particular set of characteristics relating to the data subject and one or more pseudonyms.”1 [p. 5]</p>
+</blockquote>
+
+<p>Estes termos não são muito encontrados na literatura em português brasileiro, sendo mais próprios do âmbito do direito e da tecnologia da informação. Sua utilização no universo da pesquisa clínica adota conceituações diversas das de outras áreas. Nos EUA, a <a href="https://privacyruleandresearch.nih.gov/pr_04.asp">HIPAA (Health Insurance Portability and Accountability Act)</a>, legislação específica sobre a proteção da identidade e informações pessoais na área da saúde, estabelece padrões para a proteção das informações individuais (<em>protected health information - PHI</em>) dos pacientes pelas empresas prestadoras de serviços de saúde e na pesquisa clínica.</p>
+
+<p>De acordo com a HIPAA, uma entidade de pesquisa pode disponibilizar (tornar público) as PHI de pacientes, desde que os seguintes requisitos sejam obedecidos:</p>
+<ol>
+  <li>Autorização pelo indivíduo de acordo com a lei em vigor.</li>
+  <li>Documentação adequada de um comitê de ética em pesquisa institucional ou equivalente, ou ainda uma declaração de dispensa ética por motivo legalmente estabelecido.</li>
+  <li>Uso ou publicação de PHI em anteprojetos, revisões, relatórios, publicações acadêmicas, etc, desde que sob a responsabilidade dos pesquisadores e obedecendo à lei em vigor.</li>
+  <li>Disponibilização de um conjunto de dados limitado, sob um termo de uso de informações que deve ser celebrado com os usuários ou audiência do trabalho.</li>
+  <li>Uso ou publicação da informação de forma <em>desidentificada</em>, neste caso não configurando mais uso de PHI.</li>
+</ol>
+
+<p>Ainda de acordo com a HIPAA, as formas de desidentificar as PHI envolvem o método de “repositório seguro” (<a href="http://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification/index.html#safeharborguidance"><em>safe-harbor</em></a>), no qual um conjunto pré-definido de identificadores é removido das PHI, ou ainda o tratamento estatístico por profissional experiente a fim de reduzir a um mínimo aceitável o risco de que um observador possa chegar à identidade dos pacientes através das informações (<em>re-identificação</em>). Os identificadores a serem removidos pelo método de “repositório seguro” incluem:</p>
+<ol>
+  <li>Nomes próprios</li>
+  <li>Subdivisões geográficas menores que um “estado”, incluindo códigos de endeçamento postal (CEP).</li>
+  <li>Todas as datas (exceto ano).</li>
+  <li>Números de telefone.</li>
+  <li>Identificação de veículos (placas, números de série de chassi, etc).</li>
+  <li>Números de fax.</li>
+  <li>Identificadores de dispositivos (números seriais, IMEI, etc).</li>
+  <li>Endereços de correio eletrônico.</li>
+  <li>URLs de páginas que possam localizar/identificar o indivíduo.</li>
+  <li>Números de identidade (<em>social security number</em> nos EUA).</li>
+  <li>Endereços IP.</li>
+  <li>Números de registros médicos (prontuários).</li>
+  <li>Identificadores biométricos, incluindo digital e identificação por voz.</li>
+  <li>Números de cliente de empresas de saúde.</li>
+  <li>Fotografias de face inteira (ou equivalentes).</li>
+  <li>Números de contas bancárias.</li>
+  <li>Quaisquer outros identificadores pessoais, exceto os expressamente permitidos por lei.</li>
+  <li>Números de certificados ou licenças.</li>
+</ol>
+
+<p>A HIPAA ainda exige uma declaração da entidade de saúde ou de pesquisa de que desconhece quaisquer métodos que possam usar combinações dos dados remanescentes para identificar os indivíduos. No entanto,  a HIPAA explicitamente indica que o uso de dados corretamente desidentificados prescinde de autorização, uma vez que estes dados não constituem mais PHI.</p>
+
+<p>Já de acordo com o <a href="http://www.nhmrc.gov.au/guidelines/publications/e72">National Health and Medical Research Council</a> australiano, o uso do termo (em inglês) “non-identifiable” é preferível, a fim de evitar a ambiguidade inerente aos outros termos. As técnicas de remoção de identificadores lá seguidas são descritas em <a href="http://dx.doi.org/10.1136/bmj.c181">Iain, 2010</a>. Estas recomendações incluem a autorização específica para publicação de dados “anonimizados” de pacientes individuais. Iain e cols. citam uma lista de 28 identificadores, baseada na política de documentação para pesquisa dos EUA e do Reino Unido. Essa lista é subdividida, ainda, em <em>identificadores diretos</em> e <em>identificadores indiretos</em>. Um exemplo de identificadores indiretos cuja remoção é advogada:</p>
+<ol>
+  <li>Local de tratamento e/ou profissional responsável pelo tratamento.</li>
+  <li>Dados socioeconômicos: ocupação, educação, etc.</li>
+  <li>Idade ou ano de nascimento (pode permitir a re-identificação em ensaios pequenos de período de estudo curto).</li>
+  <li>Respostas transcritas <em>ad verbum</em>.</li>
+</ol>
+
+<p>Este documento ainda sugere que a publicação dos dados em forma “bruta”, ou não analisados (raw data), seja acomapanhada de uma das três declarações a seguir:</p>
+
+<blockquote>
+  <p>Consent for publication of raw data obtained from study participants<br />
+Consent for publication of raw data not obtained but dataset is fully anonymous in a manner that can easily be verified by any user of the dataset. Publication of the dataset clearly and obviously presents minimal risk to confidentiality of study participants<br />
+Consent for publication of raw data not obtained and dataset could in theory pose a threat to confidentiality.</p>
+</blockquote>
+
+<h3 id="ética-de-ensaios-clínicos">Ética de ensaios clínicos</h3>
+
+<p>Apesar da Constituição Federal Brasileira (Cap. I, art. 5o, item XIV) declarar que “é assegurado a todos o acesso à informação e resguardado o sigilo da fonte, quando necessário ao exercício profissional”, a lei brasileira ainda não é clara sobre o direito à livre consulta de informações sobre pesquisa clínica. A <a href="http://www.planalto.gov.br/ccivil_03/leis/2002/L10603.htm">lei 10603</a>, de 2002, por exemplo, protege informações obtidas por meio de pesquisa clínica para o desenvolvimento de medicamentos por empresas, com o fim de evitar “uso comercial desleal”. A importância da privacidade e da confidencialidade de pessoas em contato com sistemas de saúde é uma preocupação antiga, desde os tempos hipocráticos, e defendida com uma obrigação <em>prima facie</em> de profissionais e instituições por vários códigos legais (<a href="http://www.portalmedico.org.br/biblioteca_virtual/bioetica/indice.htm">Francisconi, 1998</a>). Dessa forma, a divulgação de informações na área da saúde, incluindo na pesquisa clínica, permanece um acordo tácito entre o direito constitucional do cidadão ao acesso à informação e os direitos dos pacientes e agentes da saúde. Torna-se importante, neste contexto, definir qual informação deve ser protegida. De acordo com a <a href="http://bvsms.saude.gov.br/bvs/saudelegis/gm/2010/prt3207_20_10_2010.html">Política de Segurança da Informação e Comunicações do Ministério da Saúde (POSIC)</a>, ‘dados confidenciais’ são:</p>
+
+<blockquote>
+  <p>(…) dados pessoais que permitam a identificação da pessoa e possam ser associados a outros dados referentes ao endereço, idade, raça, opiniões políticas e religiosas, crenças, ideologia, saúde física, saúde mental, vida sexual, registros policiais, assuntos familiares, profissão e outros que a lei assim o definir, não podendo ser divulgados ou utilizados para finalidade distinta da que motivou a estruturação do banco de dados, salvo por ordem judicial ou com anuência expressa do titular ou de seu representante legal</p>
+</blockquote>
+
+<p>A anuência expressa é denominada “consentimento informado” e, a seu respeito, o <a href="http://www.anvisa.gov.br/medicamentos/pesquisa/boaspraticas_americas.pdf">Documento das Américas</a>, um conjunto de recomendações de boas práticas para pesquisa clínica elaborado pela Organização Panamericana de Saúde em 2005, declara que:</p>
+
+<blockquote>
+  <p>A privacidade dos registros que identificam o sujeito permanecerá inviolada e, à medida que as leis aplicáveis e/ou os regulamentos permitirem, os registros não serão divulgados ao público. Se os resultados do estudo forem publicados, a identidade do sujeito permanecerá confidencial;</p>
+</blockquote>
+
+<p>De acordo com a <a href="http://bvsms.saude.gov.br/bvs/saudelegis/cns/2013/res0466_12_12_2012.html">Resolução CNS N° 466 de 2012</a>, item III.2.i, as pesquisas devem</p>
+
+<blockquote>
+  <p>(…) “prever procedimentos que assegurem a confidencialidade e a privacidade, a proteção da imagem e a não estigmatização dos participantes da pesquisa, garantindo a não utilização das informações em prejuízo das pessoas e/ou das comunidades, inclusive em termos de autoestima, de prestígio e/ou de aspectos econômico-financeiros”.</p>
+</blockquote>
+
+<p>A mesma Resolução, no item IV.3.e, ainda define que o Termo de Consentimento Livre e Esclarecido (TCLE) deve conter a</p>
+
+<blockquote>
+  <p>“garantia de manutenção do sigilo e da privacidade dos participantes da pesquisa durante todas as fases da pesquisa”.</p>
+</blockquote>
+
+<p>Ainda sobre o TCLE, a mesma norma expõe que a eticidade da pesquisa implica em:</p>
+
+<blockquote>
+  <p>obter consentimento livre e esclarecido do participante da pesquisa e/ou seu representante legal, inclusive nos casos das pesquisas que, por sua natureza, impliquem justificadamente, em consentimento <em>a posteriori</em>; <br />
+utilizar o material e os dados obtidos na pesquisa exclusivamente para a finalidade prevista no seu protocolo, ou conforme o consentimento do participante;</p>
+</blockquote>
+
+<p>Dito isto, depreende-se que, em nosso país, a norma vigente torna obrigatório o consentimento informado do paciente ou seu representante legal mesmo em estudos retrospectivos que envolvam a coleta de dados em prontuários e documentos (dados secundários) e não a pesquisa de dados face ao paciente em si (dados primários). Esta situação nos aproxima mais dos países do Reinuo Unido e <em>Commonwealth</em> (caso da Austrália) do que dos EUA. Embora não exista, no Brasil, uma lei ou norma detalhada sobre como proceder à desidentificação dos dados, existe a injunção difusa de proteger a confidencialidade dos pacientes em várias legislações. Infelizmente, quais dados são considerados sigilosos e não podem ser nunca divulgados e quais aqueles que poderiam ser publicados numa forma limitada. Tal conceituação ainda fica a critério do pesquisador ou coordenador de cada estudo.</p>
+
+<h3 id="identificadores-em-bancos-de-dados-de-estudos-clínicos">Identificadores em bancos de dados de estudos clínicos</h3>
+
+<p>Todas as informações sobre pacientes que participam de algum estudo clínico são colhidas originalmente junto aos próprios pacientes, a seus familiares ou através da documentação de atendimento do paciente (prontuário). Essas informações são sempre identificadas por padrão. Quando são analisadas, normalmente “perdem” os identificadores e são avaliados por um estatístico sem informações sobre quem são os pacientes. Igualmente, quando uma meta-análise de dados de pacientes individuais é realizada, os pesquisadores responsáveis pela revisão dos dados os recebem de forma “desidentificada”. Hoje em dia, também, várias publicações científicas pedem aos autores de manuscritos submetidos para publicação os dados individuais dos pacientes, de forma tabulada. Normalmente, na forma de anexos ou dados complementares ao artigo. Assim, compartilhar informações de pacientes a nível individual não é uma coisa nova, nem tão difícil. Porém, cuidados devem ser tomados para não fornecer pistas que possam levar a algum observador a identificar os pacientes.</p>
+
+<p>Dois tipos de identificadores podem ser extraídos dos meta-dados e dos dados de um estudo clínico. <em>Identificadores primários</em> permitem a discriminação entre os pacientes sem necessitar de outros dados. É o caso, por exemplo, do número de registro do prontuário na unidade de atendimento e do nome (ou parte dele) do paciente. Por exemplo, se eu compartilho as iniciais ou o sobrenome, ou uma combinação deles, por exemplo, <em>J.J.Abrams</em>, torna-se fácil identificar o paciente mesmo sem saber seu nome completo. Quantos <em>J.J.Abrams</em> diferentes poderiam ser recrutados para o mesmo estudo clínico?
+<em>Identificadores secundários</em> permitem a discriminação entre os pacientes se associados a outras informações. É o caso, por exemplo, da <em>procedência</em>. Digamos que os dados de um paciente mostrem que ele veio do distrito de <em>Monte Nebo</em>. Ora, o número de habitantes do mesmo lugar num determinado estudo pode ser bem limitado e essa informação, aliada à, por exemplo, a idade e o sexo, poderiam permitir sua identificação provável.</p>
+
+<h3 id="tornando-os-estudos-clínicos-mais-transparentes">Tornando os estudos clínicos mais transparentes</h3>
+
+<p>No entanto, se absolutamente <strong>todos</strong> os identificadores primários e secundários forem extraídos de um banco de dados, sua análise pode ser comprometida de forma importante. Alguns identificadores precisam ser mantidos por serem de interesse clínico. Nesse caso, ou eles seriam publicados separadamente, sem correspondência ordinal entre si, ou apenas suas medidas de tendência central (média, mediana) e de dispersão (desvio padrão, IC95%) seriam divulgadas. É o que ocorre algumas vezes. Dessa forma, a transparência de uma pesquisa clínica raramente pode ser completa, com dados primários 100% públicos e análises totalmente divulgadas, idealmente em tempo real. O compromisso com a transparência dos resultados e a proteção à confidencialidade dos pacientes precisa chegar a um meio-termo razoável.</p>
+
+<p>Mesmo assim, ainda existe a possibilidade de melhorar enormemente o modo como os estudos clínicos são divulgados. Atualmente, os ensaios clínicos, em sua maioria, ficam em “caixas pretas”, sem nenhuma divulgação de seu desenho experimental, seu problema clínico de partida, do processo de seleção dos pacientes envolvidos nele e, muito menos, das análises realizadas ao longo de seu desenrolar (<a href="http://dx.doi.org/10.1136/bmj.d8158">Lehman &amp; Loder, 2012</a>). Apenas o resultado final, na forma de uma publicação científica é mostrado. Via de regra, sem nenhuma menção aos dados individuais de pacientes. O número de trabalhos clínicos que publicam de forma menos “opaca” é tão pequeno que chega a ser irrisório, e não tem impacto na pesquisa clínica como um todo. Pior ainda, o número de estudos que são realizados mas seus dados nunca são publicados em nenhum formato, pois os resultados não são o que se esperava ou apenas são negativos parece ser significativo (<a href="http://dx.doi.org/10.1136/bmj.d7292">Ross,2012</a>). Existe uma enorme demanda reprimida por maior transparência tanto para especialistas quanto para o público nessa área.</p>
+
+<p>Um rápido guia do que poderia ser publicizado sem prejuízo da confidencialidade dos pacientes:</p>
+
+<ol>
+  <li><strong>Problema clínico de partida</strong>: a motivação para o estudo. Muitas vezes esta informação é simplesmente omitida, mesmo na publicação dos resultados finais de um ensaio clínico, quando deveria ser fundamental que tal informação viesse a público ainda na fase de projeto.</li>
+  <li><strong>Desenho experimental</strong>: é fundamental demonstrar que um projeto pode responder a pergunta que se faz no seu início. O desenho experimental, embora fundamental para se compreender as virtudes e as fraquezas de um projeto, é solenemente ignorado tanto por observadores quanto pelos patrocinadores de um estudo. O mecanismo interno dos ensaios, a razão porque eles podem nos dar informações confiáveis, normalmente são alvo apenas de arcanas e obscuras discussões de estatística. Deveria ser objeto de publicidade ativa desde o início do projeto, para especialistas e leigos, a fim de evitar gasto desnecessário de recursos e experimentação antiética com os pacientes.</li>
+  <li><strong>População alvo e processo de recrutamento</strong>: em geral, o item mais bem publicizado dos ensaios, pois depende disso que o projeto decole. Uma perspectiva dada pelo desenho experimental, raramente explicado de forma transparente, seria o ideal.</li>
+  <li><strong>Intervenções</strong>: de forma clara e pública, com possíveis efeitos adversos e as medidas tomadas para mitigação destes eventos indesejados.</li>
+  <li><strong>Dados de pacientes individuais <em>desidentificados</em></strong>, sem informação nem mesmo sobre sua ordem de entrada do estudo, o que forçaria a divulgação apenas após o recrutamento, idealmente. Num estudo multicêntrico, haveria a possibilidade da divulgação incremental, em lotes, sem prejuízo da confidencialidade dos pacientes, desde que seu centro de tratamento não fosse divulgado ao mesmo tempo.</li>
+  <li><strong>Análises estatísticas e suas interpretações</strong>: idealmente, nesta fase, os dados deveriam vir a público, na forma de preprint ou auto-publicação, permitindo a análise crítica por parte da comunidade científica. Caso os resultados fossem negativos, isso ficaria imediatamente patente e seria divulgado. As análises devem ser divulgadas de forma completamente reprodutível.</li>
+</ol>
+
+<p>Estas medidas tornariam o processo dos ensaios clínicos sem problemas ou falhas? Claro que essa é uma visão ingênua. No entanto, poderiam diminuir muito as incertezas quanto às informações clínicas, além de reduzir os custos com pesquisas redundantes e coibir os abusos e as fraudes.</p>
+
+<h3 id="referências">Referências:</h3>
+
+<ul>
+  <li><a href="http://dx.doi.org/10.6028/NIST.IR.8053">Garfinkel, SL. De-identification of personal information, NISTIR 8053</a></li>
+  <li><a href="http://www.iso.org/iso/catalogue_detail?csnumber=42807">ISO/TS 25237:2008 Health informatics – PseudonymizationI</a></li>
+  <li><a href="https://privacyruleandresearch.nih.gov/pr_04.asp">HIPAA Privacy Rule, What Are the Purpose and Background of the Privacy Rule?</a></li>
+  <li><a href="http://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification/index.html#safeharborguidance">HHS.gov, Guidance Regarding Methods for De-identification of Protected Health Information in Accordance with the Health Insurance Portability and Accountability Act (HIPAA) Privacy Rule</a></li>
+  <li><a href="http://www.nhmrc.gov.au/guidelines/publications/e72">National Statement on Ethical Conduct in Human Research</a></li>
+  <li><a href="http://dx.doi.org/10.1136/bmj.c181">Iain Hrynaszkiewicz, Melissa L Norton, Andrew J Vickers, Douglas G Altman, ‘Preparing raw clinical data for publication: guidance for journal editors, authors, and peer reviewers’, British Medical Journal, 29 January 2010</a></li>
+  <li><a href="http://www.planalto.gov.br/ccivil_03/leis/2002/L10603.htm">Lei 10603, de 17 de dezembro de 2002</a></li>
+  <li><a href="http://www.portalmedico.org.br/biblioteca_virtual/bioetica/indice.htm">Francisconi, CF &amp; Gondim, JR. Aspectos bioéticos da confidencialidade e privacidade, <em>in</em> Iniciação à Bioética, 1998</a></li>
+  <li><a href="http://bvsms.saude.gov.br/bvs/saudelegis/gm/2010/prt3207_20_10_2010.html">Portaria 3207 de 20 de outubro de 2010. Institui a <em>POSIC</em></a></li>
+  <li><a href="http://www.anvisa.gov.br/medicamentos/pesquisa/boaspraticas_americas.pdf">Boas Práticas Clínicas: Documento das Américas, 2005</a></li>
+  <li><a href="http://bvsms.saude.gov.br/bvs/saudelegis/cns/2013/res0466_12_12_2012.html">RESOLUÇÃO Nº 466, DE 12 DE DEZEMBRO DE 2012</a></li>
+  <li><a href="http://dx.doi.org/10.1136/bmj.d8158">Lehman R, Loder E. Missing clinical trial data. BMJ. 2012;344:d8158</a></li>
+  <li><a href="http://dx.doi.org/10.1136/bmj.d7292">Ross JS, Tse T, Zarin DA, Xu H, Zhou L, Krumholz HM. Publication of NIH funded trials registered in ClinicalTrials.gov: cross sectional analysis. BMJ. 2012;344:d7292</a></li>
+</ul>
+
+
+  </div>
+
+</article>
+    
+    
+
+    
+
+    
+<div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    /*
+    var disqus_config = function () {
+        this.page.url = /desidentificação/;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = /desidentificação/; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+
+        s.src = '//fhcflx.disqus.com/embed.js';
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">CAPNO - Um caderno aberto de pesquisas de neuro-oncologia</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li><a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+<img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/>
+</a>
+<br/>
+<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Author: </span><span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Francisco H C Felix</span> 
+LICENSE: <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons - Attribution 4.0 International</a>
+</li>
+          <li><a href="mailto:neuronc.lab@outlook.com">neuronc.lab@outlook.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/fhcflx/neuronc_lab"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">fhcflx/neuronc_lab</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/neuronc_lab"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">neuronc_lab</span></a>
+
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Este é um modelo de caderno aberto de pesquisa para um projeto de ensaio clínico em neuro-oncologia pediátrica.</p>
+        <P></p>
+        <a href="https://travis-ci.org/fhcflx/neuronc_lab"><img alt="build" src="https://img.shields.io/travis/fhcflx/neuronc_lab.svg?color=0058b1"></a>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

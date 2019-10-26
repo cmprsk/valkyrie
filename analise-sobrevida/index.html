@@ -1,0 +1,2427 @@
+<!DOCTYPE html>
+<html>
+<html lang="pt">
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-79731990-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Análise de sobrevida em duas versões do mesmo banco de dados</title>
+  <meta name="description" content="Abstract:">
+
+  <link rel="stylesheet" href="/neuronc_lab/css/main.css">
+  <link rel="canonical" href="/neuronc_lab/analise-sobrevida/">
+  
+  
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/neuronc_lab/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/neuronc_lab/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/neuronc_lab/favicon-16x16.png">
+  <link rel="manifest" href="/neuronc_lab/site.webmanifest">
+  <link rel="mask-icon" href="/neuronc_lab/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/neuronc_lab/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/neuronc_lab/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="alternate" type="application/rss+xml" title="CAPNO - Um caderno aberto de pesquisas de neuro-oncologia" href="/neuronc_lab/feed-pt.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/neuronc_lab/index-pt.html">CAPNO - Um caderno aberto de pesquisas de neuro-oncologia</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+<style>
+.en:lang(en), .pt:lang(pt){
+    font-weight: bold;
+}
+</style>
+
+      <div class="trigger">
+        
+       
+         
+       
+         
+       
+         
+         <a class="page-link" href="/neuronc_lab/sobre/">Sobre</a>
+         
+       
+         
+         <a class="page-link" href="/neuronc_lab/valkyrie-pt.html">VALQUIRIA</a>
+         
+       
+      </div>
+      <div class="wrapper" style="text-align: right; line-height: 2em">
+      
+      
+
+      
+      
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Análise de sobrevida em duas versões do mesmo banco de dados</h1>
+    <p class="post-meta"><time datetime="2016-07-27T19:03:45+00:00" itemprop="datePublished">
+      Jul 27, 2016</time></p>
+  </header>
+  
+  <div class="post-categories">
+    
+    
+    <a href="/neuronc_lab/categories/#metodologia">metodologia</a>
+    
+    
+  </div>
+
+  <div class="post-content" itemprop="articleBody">
+    <h3 id="abstract">Abstract:</h3>
+
+<p>Diffuse intrinsic pontine tumors (DIPG) are the brain tumors that have the highest mortality in the age group of children and adolescents (0-18 years). Children with a median age of 7 years are the most affected, with no difference of gender. There is no effective curative treatment. Our research group actively studies this disease. We have been mounting cloud-based  database of DIPG patients since 2009. Two different versions at different times, giving rise to two sets of data, like two different snapshots, each showing the aspect of the database at a particular time were deposited in the repository of this project. We wanted to compare these two snapshots through survival analysis. That is, we have done the same retrospective analysis in two different versions of the database. We demonstrated an important difference in the retrospective analysis results just because we used two different snapshots of the same dataset. Because all files can be publicly accessed, the scientific information is thus completely reproducible by third parties. This retrospective analysis is part of a clinical trial project that aims to be an open clinical research model.</p>
+
+<h3 id="introdução">Introdução:</h3>
+
+<p>Tumores pontinos intrínsecos difusos (<em>diffuse intrinsic pontine gliomas</em>, DIPG) são os tumores cerebrais de maior mortalidade na faixa etária de crianças e adolescentes (0-18 anos). Crianças com mediana de idade de 7 anos são as mais acometidas, sem diferença de <a href="http://dx.doi.org/10.6084/m9.figshare.3489917.v1">gênero</a>. [1] Não existe tratamento curativo eficaz. Em sua maioria, são gliomas da região ventral da ponte cujo padrão de crescimento principal é infiltrativo, acometendo a maior parte ou virtualmente todo o diâmetro seccional da ponte. Via de regra, não forma uma massa tumoral captante de contraste e não tem limites precisos na <a href="http://dx.doi.org/10.6084/m9.figshare.3489941.v1">imagem por ressonância magnética</a>. [2]</p>
+
+<p>Nosso grupo de pesquisa estuda ativamente esta doença. As informações que temos sobre pacientes com DIPG vêm da base de dados que estamos montando desde 2009. Esta base de dados, atualmente, é totalmente digital e baseada num servidor na nuvem. Várias versões dela já existiram, mais ou menos bem documentadas ao longo do tempo. Duas versões diferentes, em momentos diferentes, deram origem aos dois conjuntos de dados publicados neste projeto. São como dois instantâneos diferentes, cada um mostrando o aspecto de parte da base de dados num momento específico. Esta postagem tem por objetivo a comparação destes dois instantâneos através da análise de sobrevida. Ou seja, faremos a mesma análise retrospectiva nas duas bases de dados diferentes.</p>
+
+<p>A primeira versão tenta recapitular o momento exato do conjunto de dados quando o projeto VALQUIRIA foi escrito, em 2014. Infelizmente, essa versão exata do banco de dados não foi salva, apenas uma versão próxima. Então, utilizei a versão que havia sido armazenada em 2014, fazendo uma única modificação (inclusão do paciente 56). Os dados foram desidentificados como já descrevi <a href="http://dx.doi.org/10.6084/m9.figshare.3489956.v2">anteriormente</a> [3] e a base de dados foi salva num arquivo <a href="https://github.com/fhcflx/valkyrie/tree/master/data/">.csv</a> [4] armazenado no repositório do projeto. O arquivo inclui todos os pacientes com diagnóstico de DIPG entre 2000-2013, independente do tratamento realizado.</p>
+
+<p>A segunda versão é da base de dados de 2015 (os instantâneos são sempre gravados no fim do ano) e inclui pacientes diagnosticados com tumores de tronco cerebral entre 2000-2015, difusos ou focais, tratados ou não. Igualmente, apenas uma mudança foi realizada (troca do rótulo de <strong>topografia</strong> do paciente 64 de <em>ponte focal</em> para <em>DIPG</em>). Ela também está armazenada no mesmo servidor em formato <a href="https://github.com/fhcflx/valkyrie/tree/master/data/">.csv</a>. [4]</p>
+
+<p>A análise de sobrevida que foi usada para <a href="http://dx.doi.org/10.6084/m9.figshare.3489947.v1">desenhar</a> o estudo VALQUIRIA [5] foi uma análise retrospectiva na qual comparamos o desfecho (sobrevida global) de pacientes com DIPG diagnosticados entre 2000-2013 tratados com pelo menos 40 Gy de RT e dois tipos diferentes de quimioterapia (QT): tratados de acordo com um protocolo <a href="http://dx.doi.org/10.7490/f1000research.1111018.1">HIT do GPOH</a> [6] <em>versus</em> tratados com outros protocolos de QT (ou sem QT). É essa análise que será repetida nas duas versões da base de dados.</p>
+
+<h3 id="metodologia">Metodologia:</h3>
+
+<p>As bases de dados estão armazenadas num repositório do Github, publicamente acessíveis. Elas não contem elementos que possam identificar os pacientes, muito embora mostrem dados individuais dos pacientes (foram <a href="http://dx.doi.org/10.6084/m9.figshare.3545471.v1">desidentificadas</a> [7]). Suas informações foram adquiridas através do pacote <a href="https://CRAN.R-project.org/package=RCurl"><em>RCurl</em></a> [8] da linguagem de programação R [9]. Utilizando o pacote <a href="https://yihui.name/knitr/"><em>knitr</em></a> [10], um script escrito na linguagem R foi executado para realizar a análise de sobrevida usando o pacote <a href="https://CRAN.R-project.org/package=survival"><em>survival</em></a> [11] e as informações capturadas a partir dos arquivos das bases de dados. Os cálculos realizados foram: computação de estimativa de curva de sobrevida com o método de Kaplan-Meier (KM) [12], teste de log-rank ou de Mantel-Haenszel para comparação entre duas curvas de sobrevida obtidas pelo método de KM [13], e cálculo do tempo de seguimento (calculado a partir dos sobreviventes, quando os houvesse). Apenas as informações dos pacientes portadores de DIPG e que receberasm pelo menos 40 Gy de radioterapia (RT) foram utilizadas, em ambas as versões da base de dados. As comparações realizadas foram feitas entre pacientes tratados de acordo com protocolos do HIT [6] e pacientes tratados apenas com RT ou também de acordo com protocolos do COG [14]. O script foi gravado num arquivo <a href="https://github.com/fhcflx/valkyrie/blob/gh-pages/_source/2016-07-27-Análise-de-sobrevida-em-duas-versões-do-mesmo-banco-de-dados.Rmd">.Rmd</a> [15] armazenado no Github, o qual foi, a um só tempo, analisado e implementado, dando origem a uma versão escrita em formato <a href="https://daringfireball.net/projects/markdown/">Markdown</a> [16], utilizando o pacote <a href="https://CRAN.R-project.org/package=servr"><em>servr</em></a> [17] e o programa <a href="https://jekyllrb.com">Jekyll 3.2.1</a> [18]. O arquivo .md foi salvo num repositório local e, em seguida, comitado (sincronizado) para o GitHub Pages, ficando à disposição na internet. Todos os arquivos podem ser publicamente acessados. O texto atual constitui, então, informação científica completamente reprodutível por terceiros.</p>
+
+<h3 id="resultados-e-discussão">Resultados e discussão:</h3>
+
+<p>Os dados tabulados (tabelas 1 e 2) mostram apenas os pacientes com DIPG tratados com RT de ambas as versões da base de dados. A diferença entre as duas versões é um número maior de casos na segunda versão (6 casos a mais, principalmente no grupo tratado com esquemas do COG) e maior tempo de seguimento dos casos (maior impacto nos casos tratados com esquemas do HIT, pois eram casos mais novos). Embora o tempo de seguimento tenda a não afetar o estimador de Kaplan-Meier, nesse caso ocorreu um impacto diferencial importante em apenas um dos grupos comparados. Isso modificou sobremaneira os resultados da análise de sobrevida, como veremos a seguir.</p>
+
+<p><strong>Tabela 1: pacientes com diagnóstico de DIPG, diagnosticados entre 2000-2013, tratados com RT (dose total mínima de 40 Gy)</strong></p>
+
+<hr />
+<p><em>1-A.Tratados com QT as per protocolos do COG, ou sem QT</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"> </th>
+      <th style="text-align: right">sex</th>
+      <th style="text-align: right">age</th>
+      <th style="text-align: right">os</th>
+      <th style="text-align: right">status</th>
+      <th style="text-align: right">ecog</th>
+      <th style="text-align: right">chemo</th>
+      <th style="text-align: right">tt.chemo</th>
+      <th style="text-align: right">cycles1</th>
+      <th style="text-align: right">rt</th>
+      <th style="text-align: right">tt.rt</th>
+      <th style="text-align: right">ttp</th>
+      <th style="text-align: right">os2</th>
+      <th style="text-align: right">vpa</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">4</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">11.6</td>
+      <td style="text-align: right">9.0</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">259</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">153</td>
+      <td style="text-align: right">6.9</td>
+      <td style="text-align: right">63</td>
+      <td style="text-align: right">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">5</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">5.9</td>
+      <td style="text-align: right">8.1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">226</td>
+      <td style="text-align: right">4</td>
+      <td style="text-align: right">5040</td>
+      <td style="text-align: right">16</td>
+      <td style="text-align: right">6.2</td>
+      <td style="text-align: right">56</td>
+      <td style="text-align: right">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">6</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">9.9</td>
+      <td style="text-align: right">7.5</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">2.5</td>
+      <td style="text-align: right">150</td>
+      <td style="text-align: right">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">7</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">7.7</td>
+      <td style="text-align: right">23.3</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">15</td>
+      <td style="text-align: right">28</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">389</td>
+      <td style="text-align: right">10.5</td>
+      <td style="text-align: right">389</td>
+      <td style="text-align: right">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">9</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">6.1</td>
+      <td style="text-align: right">7.3</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">216</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">35</td>
+      <td style="text-align: right">6.8</td>
+      <td style="text-align: right">17</td>
+      <td style="text-align: right">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">10</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">6.7</td>
+      <td style="text-align: right">3.9</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">2.2</td>
+      <td style="text-align: right">52</td>
+      <td style="text-align: right">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">13</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">2.8</td>
+      <td style="text-align: right">4.9</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">122</td>
+      <td style="text-align: right">4</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">4.0</td>
+      <td style="text-align: right">27</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">14</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">11.0</td>
+      <td style="text-align: right">30.1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">65</td>
+      <td style="text-align: right">50</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">141</td>
+      <td style="text-align: right">26.3</td>
+      <td style="text-align: right">116</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">15</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">8.5</td>
+      <td style="text-align: right">5.3</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">24</td>
+      <td style="text-align: right">14</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">32</td>
+      <td style="text-align: right">5.1</td>
+      <td style="text-align: right">8</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">16</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">13.4</td>
+      <td style="text-align: right">10.1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">8.2</td>
+      <td style="text-align: right">58</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">17</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">12.8</td>
+      <td style="text-align: right">46.2</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">11</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">21.5</td>
+      <td style="text-align: right">753</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">19</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">5.1</td>
+      <td style="text-align: right">7.3</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">24</td>
+      <td style="text-align: right">16</td>
+      <td style="text-align: right">5040</td>
+      <td style="text-align: right">88</td>
+      <td style="text-align: right">6.0</td>
+      <td style="text-align: right">39</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">21</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">3.3</td>
+      <td style="text-align: right">13.4</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">47</td>
+      <td style="text-align: right">26</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">98</td>
+      <td style="text-align: right">10.6</td>
+      <td style="text-align: right">84</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">22</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">7.4</td>
+      <td style="text-align: right">17.4</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">43</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">61</td>
+      <td style="text-align: right">15.2</td>
+      <td style="text-align: right">69</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">23</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">8.4</td>
+      <td style="text-align: right">14.0</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">4</td>
+      <td style="text-align: right">22</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">11</td>
+      <td style="text-align: right">11.6</td>
+      <td style="text-align: right">74</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">24</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">7.5</td>
+      <td style="text-align: right">16.2</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">45</td>
+      <td style="text-align: right">45</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">86</td>
+      <td style="text-align: right">12.0</td>
+      <td style="text-align: right">128</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">27</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">6.7</td>
+      <td style="text-align: right">9.5</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">4</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">9.5</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">28</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">15.8</td>
+      <td style="text-align: right">11.9</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">9.1</td>
+      <td style="text-align: right">87</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">30</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">8.6</td>
+      <td style="text-align: right">15.6</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">15</td>
+      <td style="text-align: right">27</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">122</td>
+      <td style="text-align: right">7.0</td>
+      <td style="text-align: right">263</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">31</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">8.6</td>
+      <td style="text-align: right">13.8</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">22</td>
+      <td style="text-align: right">8</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">28</td>
+      <td style="text-align: right">7.0</td>
+      <td style="text-align: right">207</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">32</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">5.9</td>
+      <td style="text-align: right">4.8</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">4</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">33</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">3.6</td>
+      <td style="text-align: right">12.5</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">18</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">31</td>
+      <td style="text-align: right">9.5</td>
+      <td style="text-align: right">90</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">34</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">6.2</td>
+      <td style="text-align: right">11.4</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">10</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">18</td>
+      <td style="text-align: right">7.8</td>
+      <td style="text-align: right">110</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">36</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">14.1</td>
+      <td style="text-align: right">3.8</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">2.3</td>
+      <td style="text-align: right">46</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">38</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">12.0</td>
+      <td style="text-align: right">21.0</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">22</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">29</td>
+      <td style="text-align: right">15.1</td>
+      <td style="text-align: right">180</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">39</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">6.5</td>
+      <td style="text-align: right">5.0</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">40</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">3.7</td>
+      <td style="text-align: right">16.9</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">9</td>
+      <td style="text-align: right">35</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">26</td>
+      <td style="text-align: right">10.3</td>
+      <td style="text-align: right">199</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">42</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">5.2</td>
+      <td style="text-align: right">13.8</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">7</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">220</td>
+      <td style="text-align: right">6.7</td>
+      <td style="text-align: right">216</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">46</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">8.8</td>
+      <td style="text-align: right">10.2</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">9</td>
+      <td style="text-align: right">78</td>
+      <td style="text-align: right">7</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">27</td>
+      <td style="text-align: right">7.9</td>
+      <td style="text-align: right">71</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">47</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">6.2</td>
+      <td style="text-align: right">8.0</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">9</td>
+      <td style="text-align: right">98</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">20</td>
+      <td style="text-align: right">4.8</td>
+      <td style="text-align: right">96</td>
+      <td style="text-align: right">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">49</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">4.3</td>
+      <td style="text-align: right">10.4</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">9</td>
+      <td style="text-align: right">102</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">40</td>
+      <td style="text-align: right">9.3</td>
+      <td style="text-align: right">35</td>
+      <td style="text-align: right">1</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+<p><br />
+<em>1-B.Tratados com QT as per protocolos do HIT</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"> </th>
+      <th style="text-align: right">sex</th>
+      <th style="text-align: right">age</th>
+      <th style="text-align: right">os</th>
+      <th style="text-align: right">status</th>
+      <th style="text-align: right">ecog</th>
+      <th style="text-align: right">chemo</th>
+      <th style="text-align: right">tt.chemo</th>
+      <th style="text-align: right">cycles1</th>
+      <th style="text-align: right">rt</th>
+      <th style="text-align: right">tt.rt</th>
+      <th style="text-align: right">ttp</th>
+      <th style="text-align: right">os2</th>
+      <th style="text-align: right">vpa</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">43</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">6.9</td>
+      <td style="text-align: right">15.8</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">10</td>
+      <td style="text-align: right">5</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">32</td>
+      <td style="text-align: right">5.0</td>
+      <td style="text-align: right">330</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">44</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">5.7</td>
+      <td style="text-align: right">5.2</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">10</td>
+      <td style="text-align: right">34</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">30</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">45</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">8.3</td>
+      <td style="text-align: right">12.9</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">10</td>
+      <td style="text-align: right">22</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">28</td>
+      <td style="text-align: right">12.1</td>
+      <td style="text-align: right">26</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">48</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">7.3</td>
+      <td style="text-align: right">11.4</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">10</td>
+      <td style="text-align: right">235</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">226</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">50</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">3.5</td>
+      <td style="text-align: right">6.7</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">10</td>
+      <td style="text-align: right">100</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">19</td>
+      <td style="text-align: right">6.7</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">51</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">3.7</td>
+      <td style="text-align: right">5.6</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">10</td>
+      <td style="text-align: right">68</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">22</td>
+      <td style="text-align: right">5.5</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">52</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">6.0</td>
+      <td style="text-align: right">4.0</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">4</td>
+      <td style="text-align: right">10</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">76</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">53</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">9.4</td>
+      <td style="text-align: right">3.3</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">10</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">52</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">54</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">5.7</td>
+      <td style="text-align: right">1.4</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">10</td>
+      <td style="text-align: right">19</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">55</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">5.7</td>
+      <td style="text-align: right">0.6</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">10</td>
+      <td style="text-align: right">23</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">56</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">4.0</td>
+      <td style="text-align: right">25.0</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">10</td>
+      <td style="text-align: right">71</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">36</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">0</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+<hr />
+<p><br /></p>
+
+<p><strong>Tabela 2: pacientes com diagnóstico de DIPG, diagnosticados entre 2000-2015, tratados com RT (dose total mínima de 40 Gy)</strong></p>
+
+<hr />
+<p><em>2-A.Tratados com QT as per protocolos do COG, ou sem QT</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"> </th>
+      <th style="text-align: right">sex</th>
+      <th style="text-align: right">age</th>
+      <th style="text-align: right">os</th>
+      <th style="text-align: right">status</th>
+      <th style="text-align: right">ecog</th>
+      <th style="text-align: right">lpps</th>
+      <th style="text-align: right">chemo</th>
+      <th style="text-align: right">tt.chemo</th>
+      <th style="text-align: right">cycles</th>
+      <th style="text-align: right">delta.chemo</th>
+      <th style="text-align: right">rt</th>
+      <th style="text-align: right">ttp</th>
+      <th style="text-align: right">ttp2</th>
+      <th style="text-align: right">vpa</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">8</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">11.6</td>
+      <td style="text-align: right">9.0</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">259</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">14</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">211</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">9</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">5.9</td>
+      <td style="text-align: right">8.1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">226</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">15</td>
+      <td style="text-align: right">5040</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">10</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">9.9</td>
+      <td style="text-align: right">7.4</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">77</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">11</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">7.7</td>
+      <td style="text-align: right">23.2</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">15</td>
+      <td style="text-align: right">28</td>
+      <td style="text-align: right">297</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">319</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">14</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">6.1</td>
+      <td style="text-align: right">7.3</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">216</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">7</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">206</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">16</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">6.7</td>
+      <td style="text-align: right">3.9</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">68</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">22</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">2.8</td>
+      <td style="text-align: right">4.9</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">122</td>
+      <td style="text-align: right">4</td>
+      <td style="text-align: right">28</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">122</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">24</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">11.0</td>
+      <td style="text-align: right">30.1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">65</td>
+      <td style="text-align: right">50</td>
+      <td style="text-align: right">531</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">801</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">26</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">8.5</td>
+      <td style="text-align: right">5.3</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">24</td>
+      <td style="text-align: right">14</td>
+      <td style="text-align: right">128</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">154</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">27</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">13.4</td>
+      <td style="text-align: right">10.1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">249</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">29</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">12.8</td>
+      <td style="text-align: right">46.1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">11</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">962</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">653</td>
+      <td style="text-align: right">429</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">33</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">5.1</td>
+      <td style="text-align: right">7.3</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">24</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">159</td>
+      <td style="text-align: right">5040</td>
+      <td style="text-align: right">184</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">35</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">3.3</td>
+      <td style="text-align: right">13.4</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">47</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">277</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">338</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">36</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">7.4</td>
+      <td style="text-align: right">17.4</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">40</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">43</td>
+      <td style="text-align: right">500</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">462</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">37</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">8.4</td>
+      <td style="text-align: right">14.0</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">4</td>
+      <td style="text-align: right">22</td>
+      <td style="text-align: right">336</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">353</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">39</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">7.6</td>
+      <td style="text-align: right">15.1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">14</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">328</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">43</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">6.7</td>
+      <td style="text-align: right">9.4</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">4</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">288</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">44</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">15.8</td>
+      <td style="text-align: right">11.9</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">276</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">46</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">8.6</td>
+      <td style="text-align: right">15.6</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">15</td>
+      <td style="text-align: right">27</td>
+      <td style="text-align: right">197</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">212</td>
+      <td style="text-align: right">163</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">49</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">8.6</td>
+      <td style="text-align: right">13.7</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">22</td>
+      <td style="text-align: right">8</td>
+      <td style="text-align: right">111</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">212</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">50</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">5.9</td>
+      <td style="text-align: right">4.8</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">4</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">51</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">3.6</td>
+      <td style="text-align: right">12.4</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">18</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">289</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">52</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">6.2</td>
+      <td style="text-align: right">11.4</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">60</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">12</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">234</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">239</td>
+      <td style="text-align: right">78</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">55</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">14.1</td>
+      <td style="text-align: right">3.8</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">71</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">58</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">12.0</td>
+      <td style="text-align: right">21.0</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">60</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">22</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">453</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">460</td>
+      <td style="text-align: right">136</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">59</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">6.5</td>
+      <td style="text-align: right">5.0</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">70</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">88</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">60</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">3.7</td>
+      <td style="text-align: right">16.8</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">80</td>
+      <td style="text-align: right">9</td>
+      <td style="text-align: right">35</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">287</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">314</td>
+      <td style="text-align: right">160</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">62</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">5.2</td>
+      <td style="text-align: right">17.4</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">90</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">7</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">203</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">204</td>
+      <td style="text-align: right">194</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">67</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">8.8</td>
+      <td style="text-align: right">10.2</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">80</td>
+      <td style="text-align: right">9</td>
+      <td style="text-align: right">78</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">195</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">239</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">68</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">6.2</td>
+      <td style="text-align: right">8.0</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">9</td>
+      <td style="text-align: right">98</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">63</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">147</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">70</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">4.3</td>
+      <td style="text-align: right">24.8</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">40</td>
+      <td style="text-align: right">9</td>
+      <td style="text-align: right">102</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">357</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">583</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">81</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">17.6</td>
+      <td style="text-align: right">14.2</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">100</td>
+      <td style="text-align: right">9</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">83</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">3.5</td>
+      <td style="text-align: right">11.0</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">90</td>
+      <td style="text-align: right">9</td>
+      <td style="text-align: right">47</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">84</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">11.0</td>
+      <td style="text-align: right">9.7</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">70</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">86</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">6.0</td>
+      <td style="text-align: right">6.8</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">40</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">87</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">8.5</td>
+      <td style="text-align: right">0.9</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">80</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">0</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+<p><br />
+<em>2-B.Tratados com QT as per protocolos do HIT</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"> </th>
+      <th style="text-align: right">sex</th>
+      <th style="text-align: right">age</th>
+      <th style="text-align: right">os</th>
+      <th style="text-align: right">status</th>
+      <th style="text-align: right">ecog</th>
+      <th style="text-align: right">lpps</th>
+      <th style="text-align: right">chemo</th>
+      <th style="text-align: right">tt.chemo</th>
+      <th style="text-align: right">cycles</th>
+      <th style="text-align: right">delta.chemo</th>
+      <th style="text-align: right">rt</th>
+      <th style="text-align: right">ttp</th>
+      <th style="text-align: right">vpa</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">48</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">4.4</td>
+      <td style="text-align: right">12.1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">10</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">10</td>
+      <td style="text-align: right">113</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">170</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">63</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">6.9</td>
+      <td style="text-align: right">20.6</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">70</td>
+      <td style="text-align: right">10</td>
+      <td style="text-align: right">5</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">147</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">152</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">64</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">4.0</td>
+      <td style="text-align: right">25.0</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">100</td>
+      <td style="text-align: right">10</td>
+      <td style="text-align: right">71</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">66</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">8.3</td>
+      <td style="text-align: right">15.7</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">80</td>
+      <td style="text-align: right">10</td>
+      <td style="text-align: right">22</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">342</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">368</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">69</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">7.3</td>
+      <td style="text-align: right">15.4</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">40</td>
+      <td style="text-align: right">10</td>
+      <td style="text-align: right">235</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">182</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">71</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">3.5</td>
+      <td style="text-align: right">7.2</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">10</td>
+      <td style="text-align: right">100</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">203</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">72</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">3.7</td>
+      <td style="text-align: right">12.4</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">60</td>
+      <td style="text-align: right">10</td>
+      <td style="text-align: right">68</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">168</td>
+      <td style="text-align: right">0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">73</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">6.0</td>
+      <td style="text-align: right">11.6</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">4</td>
+      <td style="text-align: right">20</td>
+      <td style="text-align: right">10</td>
+      <td style="text-align: right">150</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">74</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">9.4</td>
+      <td style="text-align: right">9.2</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">40</td>
+      <td style="text-align: right">10</td>
+      <td style="text-align: right">122</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">262</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">76</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">5.7</td>
+      <td style="text-align: right">16.5</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">40</td>
+      <td style="text-align: right">10</td>
+      <td style="text-align: right">19</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">275</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">304</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">77</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">5.7</td>
+      <td style="text-align: right">8.8</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">80</td>
+      <td style="text-align: right">10</td>
+      <td style="text-align: right">23</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">199</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">199</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">79</td>
+      <td style="text-align: right">0</td>
+      <td style="text-align: right">5.6</td>
+      <td style="text-align: right">15.2</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">80</td>
+      <td style="text-align: right">10</td>
+      <td style="text-align: right">26</td>
+      <td style="text-align: right">NA</td>
+      <td style="text-align: right">226</td>
+      <td style="text-align: right">5400</td>
+      <td style="text-align: right">236</td>
+      <td style="text-align: right">0</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+<hr />
+<p><br /></p>
+
+<h4 id="análise-de-sobrevida">Análise de sobrevida:</h4>
+
+<p>Ambas as versões da base de dados mostram um grupo maior de pacientes com DIPG que foram tratados ou apenas com RT, ou também com esquemas de QT de acordo com protocolos do COG. Na segunda versão, este grupo tem 5 pacientes a mais (20%). Resumo da variável de sobrevida, além da sobrevida em 12 meses, ilustrando que essas variáveis praticamente não mudaram:</p>
+
+<p><code class="highlighter-rouge">Primeira versão do banco de dados - apenas RT/ RT+COG</code></p>
+
+<blockquote>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align: center">records</th>
+        <th style="text-align: center">n.max</th>
+        <th style="text-align: center">n.start</th>
+        <th style="text-align: center">events</th>
+        <th style="text-align: center">median</th>
+        <th style="text-align: center">0.95LCL</th>
+        <th style="text-align: center">0.95UCL</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: center">31</td>
+        <td style="text-align: center">31</td>
+        <td style="text-align: center">31</td>
+        <td style="text-align: center">29</td>
+        <td style="text-align: center">11.4</td>
+        <td style="text-align: center">8.1</td>
+        <td style="text-align: center">15.6</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## Call: survfit(formula = Surv(os, status) ~ 1, data = dipg, subset = (rt &gt;
+##     4000 &amp; chemo != 10))
+##
+##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
+##    12     13      17    0.447    0.09        0.302        0.664
+</code></pre></div></div>
+
+<p><code class="highlighter-rouge">Segunda versão do banco de dados - apenas RT/ RT+COG</code></p>
+
+<blockquote>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align: center">records</th>
+        <th style="text-align: center">n.max</th>
+        <th style="text-align: center">n.start</th>
+        <th style="text-align: center">events</th>
+        <th style="text-align: center">median</th>
+        <th style="text-align: center">0.95LCL</th>
+        <th style="text-align: center">0.95UCL</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: center">36</td>
+        <td style="text-align: center">36</td>
+        <td style="text-align: center">36</td>
+        <td style="text-align: center">31</td>
+        <td style="text-align: center">11.9</td>
+        <td style="text-align: center">9.4</td>
+        <td style="text-align: center">16.8</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## Call: survfit(formula = Surv(os, status) ~ 1, data = brainstem, subset = (topo ==
+##     "DIPG" &amp; rt &gt; 4000 &amp; chemo != 10))
+##
+##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
+##    12     15      17    0.493  0.0872        0.349        0.698
+</code></pre></div></div>
+
+<p>O tempo de seguimento (<em>follow-up</em>) também praticamente não se modificou.
+Resumo do tempo de seguimento (obtido pelo método clássico de calcular o seguimento dos sobreviventes):</p>
+
+<p><code class="highlighter-rouge">Primeira versão do banco de dados - apenas RT/ RT+COG</code></p>
+
+<blockquote>
+
+  <ul>
+    <li>29 observations deleted due to missingness</li>
+  </ul>
+
+  <!-- end of list -->
+
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align: center">records</th>
+        <th style="text-align: center">n.max</th>
+        <th style="text-align: center">n.start</th>
+        <th style="text-align: center">events</th>
+        <th style="text-align: center">median</th>
+        <th style="text-align: center">0.95LCL</th>
+        <th style="text-align: center">0.95UCL</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: center">2</td>
+        <td style="text-align: center">2</td>
+        <td style="text-align: center">2</td>
+        <td style="text-align: center">2</td>
+        <td style="text-align: center">12.1</td>
+        <td style="text-align: center">10.4</td>
+        <td style="text-align: center">NA</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<p><code class="highlighter-rouge">Segunda versão do banco de dados - apenas RT/ RT+COG</code></p>
+
+<blockquote>
+
+  <ul>
+    <li>31 observations deleted due to missingness</li>
+  </ul>
+
+  <!-- end of list -->
+
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align: center">records</th>
+        <th style="text-align: center">n.max</th>
+        <th style="text-align: center">n.start</th>
+        <th style="text-align: center">events</th>
+        <th style="text-align: center">median</th>
+        <th style="text-align: center">0.95LCL</th>
+        <th style="text-align: center">0.95UCL</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: center">5</td>
+        <td style="text-align: center">5</td>
+        <td style="text-align: center">5</td>
+        <td style="text-align: center">5</td>
+        <td style="text-align: center">9.7</td>
+        <td style="text-align: center">6.8</td>
+        <td style="text-align: center">NA</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<p>Como pode ser visto nas tabelas 1 e 2, uma quantidade considerável de pacientes deste grupo, em ambas as versões da base de dados, recebeu ácido valpróico (VPA) concomitante ao tratamento. Assim, a comparação entre os tipos diferentes de tratamento com QT ficou contaminado, pois também faz parte da hipótese do projeto que o tratamento com VPA talvez modifique a sobrevida. Para tentar reduzir este viés, foi necessário refazer os cálculos, levando em consideração apenas os pacientes que NÃO foram tratados com VPA.
+Resumo da variável de sobrevida, além da sobrevida em 12 meses:</p>
+
+<p><code class="highlighter-rouge">Primeira versão do banco de dados - apenas RT/ RT+COG, sem VPA</code></p>
+
+<blockquote>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align: center">records</th>
+        <th style="text-align: center">n.max</th>
+        <th style="text-align: center">n.start</th>
+        <th style="text-align: center">events</th>
+        <th style="text-align: center">median</th>
+        <th style="text-align: center">0.95LCL</th>
+        <th style="text-align: center">0.95UCL</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: center">7</td>
+        <td style="text-align: center">7</td>
+        <td style="text-align: center">7</td>
+        <td style="text-align: center">7</td>
+        <td style="text-align: center">8</td>
+        <td style="text-align: center">7.3</td>
+        <td style="text-align: center">NA</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## Call: survfit(formula = Surv(os, status) ~ 1, data = dipg, subset = (rt &gt;
+##     4000 &amp; chemo != 10 &amp; vpa == 0))
+##
+##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
+##    12      1       6    0.143   0.132       0.0233        0.877
+</code></pre></div></div>
+
+<p><code class="highlighter-rouge">Segunda versão do banco de dados - apenas RT/ RT+COG, sem VPA</code></p>
+
+<blockquote>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align: center">records</th>
+        <th style="text-align: center">n.max</th>
+        <th style="text-align: center">n.start</th>
+        <th style="text-align: center">events</th>
+        <th style="text-align: center">median</th>
+        <th style="text-align: center">0.95LCL</th>
+        <th style="text-align: center">0.95UCL</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: center">12</td>
+        <td style="text-align: center">12</td>
+        <td style="text-align: center">12</td>
+        <td style="text-align: center">7</td>
+        <td style="text-align: center">9</td>
+        <td style="text-align: center">7.4</td>
+        <td style="text-align: center">NA</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## Call: survfit(formula = Surv(os, status) ~ 1, data = brainstem, subset = (topo ==
+##     "DIPG" &amp; rt &gt; 4000 &amp; chemo != 10 &amp; vpa == 0))
+##
+##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
+##    12      2       6    0.404   0.155         0.19        0.859
+</code></pre></div></div>
+
+<p>Tempo de seguimento:</p>
+
+<p><code class="highlighter-rouge">Primeira versão do banco de dados - apenas RT/ RT+COG, sem VPA</code></p>
+
+<blockquote>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align: center">records</th>
+        <th style="text-align: center">n.max</th>
+        <th style="text-align: center">n.start</th>
+        <th style="text-align: center">events</th>
+        <th style="text-align: center">median</th>
+        <th style="text-align: center">0.95LCL</th>
+        <th style="text-align: center">0.95UCL</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: center">7</td>
+        <td style="text-align: center">7</td>
+        <td style="text-align: center">7</td>
+        <td style="text-align: center">7</td>
+        <td style="text-align: center">8</td>
+        <td style="text-align: center">7.3</td>
+        <td style="text-align: center">NA</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<p>O tempo de seguimento da primeira versão da base de dados (pacientes tratados com esquemas diferentes dos HIT), excluindo os pacientes que receberam VPA, não é diferente da própria mediana de sobrevida, uma vez que todos os pacientes incluídos alcançaram o evento (óbito), ou seja, não existem sobreviventes neste subgrupo.</p>
+
+<p><code class="highlighter-rouge">Segunda versão do banco de dados - apenas RT/ RT+COG, sem VPA</code></p>
+
+<blockquote>
+
+  <ul>
+    <li>7 observations deleted due to missingness</li>
+  </ul>
+
+  <!-- end of list -->
+
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align: center">records</th>
+        <th style="text-align: center">n.max</th>
+        <th style="text-align: center">n.start</th>
+        <th style="text-align: center">events</th>
+        <th style="text-align: center">median</th>
+        <th style="text-align: center">0.95LCL</th>
+        <th style="text-align: center">0.95UCL</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: center">5</td>
+        <td style="text-align: center">5</td>
+        <td style="text-align: center">5</td>
+        <td style="text-align: center">5</td>
+        <td style="text-align: center">9.7</td>
+        <td style="text-align: center">6.8</td>
+        <td style="text-align: center">NA</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<p>Nas duas versões da base de dados, os grupos tratados com QT segundo protocolos HIT são menores. No entanto, ocorre uma diferença importante de tempo de seguimento entre as duas versões. Isso se reflete numa diferença também grande no número de pacientes censurados, o que implica, em última análise, numa mudança de desfechos e, logo, de resultado final.
+Resumo da variável de sobrevida, além da sobrevida em 12 meses:</p>
+
+<p><code class="highlighter-rouge">Primeira versão do banco de dados - apenas RT+HIT</code></p>
+
+<blockquote>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align: center">records</th>
+        <th style="text-align: center">n.max</th>
+        <th style="text-align: center">n.start</th>
+        <th style="text-align: center">events</th>
+        <th style="text-align: center">median</th>
+        <th style="text-align: center">0.95LCL</th>
+        <th style="text-align: center">0.95UCL</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: center">11</td>
+        <td style="text-align: center">11</td>
+        <td style="text-align: center">11</td>
+        <td style="text-align: center">1</td>
+        <td style="text-align: center">NA</td>
+        <td style="text-align: center">NA</td>
+        <td style="text-align: center">NA</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## Call: survfit(formula = Surv(os, status) ~ 1, data = dipg, subset = (rt &gt;
+##     4000 &amp; chemo == 10))
+##
+##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
+##    12      3       1    0.857   0.132        0.633            1
+</code></pre></div></div>
+
+<p><code class="highlighter-rouge">Segunda versão do banco de dados - apenas RT+HIT</code></p>
+
+<blockquote>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align: center">records</th>
+        <th style="text-align: center">n.max</th>
+        <th style="text-align: center">n.start</th>
+        <th style="text-align: center">events</th>
+        <th style="text-align: center">median</th>
+        <th style="text-align: center">0.95LCL</th>
+        <th style="text-align: center">0.95UCL</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: center">12</td>
+        <td style="text-align: center">12</td>
+        <td style="text-align: center">12</td>
+        <td style="text-align: center">11</td>
+        <td style="text-align: center">13.8</td>
+        <td style="text-align: center">11.6</td>
+        <td style="text-align: center">NA</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## Call: survfit(formula = Surv(os, status) ~ 1, data = brainstem, subset = (topo ==
+##     "DIPG" &amp; rt &gt; 4000 &amp; chemo == 10))
+##
+##  time n.risk n.event survival std.err lower 95% CI upper 95% CI
+##    12      8       4    0.667   0.136        0.447        0.995
+</code></pre></div></div>
+
+<p>Diferença do tempo de seguimento (calculado na primeira versão do banco de dados pela função KM inversa, pois quase todos os pacientes ainda estavam vivos):</p>
+
+<p><code class="highlighter-rouge">Primeira versão do banco de dados - apenas RT+HIT</code></p>
+
+<blockquote>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align: center">records</th>
+        <th style="text-align: center">n.max</th>
+        <th style="text-align: center">n.start</th>
+        <th style="text-align: center">events</th>
+        <th style="text-align: center">median</th>
+        <th style="text-align: center">0.95LCL</th>
+        <th style="text-align: center">0.95UCL</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: center">11</td>
+        <td style="text-align: center">11</td>
+        <td style="text-align: center">11</td>
+        <td style="text-align: center">10</td>
+        <td style="text-align: center">6.7</td>
+        <td style="text-align: center">4</td>
+        <td style="text-align: center">NA</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<p><code class="highlighter-rouge">Segunda versão do banco de dados - apenas RT+HIT</code></p>
+
+<blockquote>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align: center">records</th>
+        <th style="text-align: center">n.max</th>
+        <th style="text-align: center">n.start</th>
+        <th style="text-align: center">events</th>
+        <th style="text-align: center">median</th>
+        <th style="text-align: center">0.95LCL</th>
+        <th style="text-align: center">0.95UCL</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: center">12</td>
+        <td style="text-align: center">12</td>
+        <td style="text-align: center">12</td>
+        <td style="text-align: center">11</td>
+        <td style="text-align: center">13.8</td>
+        <td style="text-align: center">11.6</td>
+        <td style="text-align: center">NA</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<p>Neste ponto, já é possível concluir que, apesar do tempo de seguimento usualmente não interferir sobremaneira na estimativa do método de Kaplan-Meier [19], o que realmente ocorreu foi uma grande mudança nos desfechos. Enquanto que, na primeira versão da base de dados, quase todos os pacientes tratados de acordo com esquema HIT foram censurados e quase nenhum experimentara o evento estudado (óbito), o contrário ocorreu na segunda versão da base de dados. Nessa segunda versão, com um tempo de seguimento pouco mais de 6 meses maior, a grande parte dos pacientes havia experimentado o evento e quase não haviam pacientes censurados. Isso ilustra a importância de assegurar que o tempo de seguimento dos pacientes seja pelo menos clinicamente significante, compatível com o tempo de evolução natural da doença estudada [20].</p>
+
+<p>Como um bônus final, a partir da segunda versão da base de dados é possível realizar uma nova análise de sobrevida retrospectiva, dessa vez comparando pacientes tratados com QT de acordo com protocolos HIT (associado com VPA), com pacientes tratados com outros esquemas (ou apenas RT) e, rigorosamente, SEM o uso de VPA. Os resultados são os que seguem:</p>
+
+<p><code class="highlighter-rouge">Primeira versão do banco de dados - RT/RT+COG versus RT+HIT</code></p>
+
+<blockquote>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align: center"> </th>
+        <th style="text-align: center">N</th>
+        <th style="text-align: center">Observed</th>
+        <th style="text-align: center">Expected</th>
+        <th style="text-align: center">(O-E)^2/E</th>
+        <th style="text-align: center">(O-E)^2/V</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: center"><strong>ifelse(chemo == 10, 0, 1)=0</strong></td>
+        <td style="text-align: center">11</td>
+        <td style="text-align: center">1</td>
+        <td style="text-align: center">5.004</td>
+        <td style="text-align: center">3.204</td>
+        <td style="text-align: center">3.931</td>
+      </tr>
+      <tr>
+        <td style="text-align: center"><strong>ifelse(chemo == 10, 0, 1)=1</strong></td>
+        <td style="text-align: center">31</td>
+        <td style="text-align: center">29</td>
+        <td style="text-align: center">25</td>
+        <td style="text-align: center">0.6413</td>
+        <td style="text-align: center">3.931</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>Table: Call: Surv(os, status) ~ ifelse(chemo == 10, 0, 1) Chisq = 3.931154
+on 1 degrees of freedom, p = 0.047399</p>
+</blockquote>
+
+<p><code class="highlighter-rouge">Segunda versão do banco de dados - RT/RT+COG versus RT+HIT</code></p>
+
+<blockquote>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align: center"> </th>
+        <th style="text-align: center">N</th>
+        <th style="text-align: center">Observed</th>
+        <th style="text-align: center">Expected</th>
+        <th style="text-align: center">(O-E)^2/E</th>
+        <th style="text-align: center">(O-E)^2/V</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: center"><strong>ifelse(chemo == 10, 0, 1)=0</strong></td>
+        <td style="text-align: center">12</td>
+        <td style="text-align: center">11</td>
+        <td style="text-align: center">11.83</td>
+        <td style="text-align: center">0.058</td>
+        <td style="text-align: center">0.08403</td>
+      </tr>
+      <tr>
+        <td style="text-align: center"><strong>ifelse(chemo == 10, 0, 1)=1</strong></td>
+        <td style="text-align: center">36</td>
+        <td style="text-align: center">31</td>
+        <td style="text-align: center">30.17</td>
+        <td style="text-align: center">0.02274</td>
+        <td style="text-align: center">0.08403</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>Table: Call: Surv(os, status) ~ ifelse(chemo == 10, 0, 1) Chisq = 0.084035
+on 1 degrees of freedom, p = 0.771903</p>
+</blockquote>
+
+<p><code class="highlighter-rouge">Segunda versão do banco de dados - RT/RT+COG (sem VPA) versus RT+HIT</code></p>
+
+<blockquote>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align: center"> </th>
+        <th style="text-align: center">N</th>
+        <th style="text-align: center">Observed</th>
+        <th style="text-align: center">Expected</th>
+        <th style="text-align: center">(O-E)^2/E</th>
+        <th style="text-align: center">(O-E)^2/V</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: center"><strong>g=1</strong></td>
+        <td style="text-align: center">12</td>
+        <td style="text-align: center">7</td>
+        <td style="text-align: center">5.648</td>
+        <td style="text-align: center">0.3236</td>
+        <td style="text-align: center">0.4999</td>
+      </tr>
+      <tr>
+        <td style="text-align: center"><strong>g=2</strong></td>
+        <td style="text-align: center">12</td>
+        <td style="text-align: center">11</td>
+        <td style="text-align: center">12.35</td>
+        <td style="text-align: center">0.148</td>
+        <td style="text-align: center">0.4999</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>Table: Call: Surv(os, status) ~ g Chisq = 0.499920
+on 1 degrees of freedom, p = 0.479535</p>
+</blockquote>
+
+<p>Um gráfico construído a partir da comparação dos grupos g1 e g2, cada um com 12 pacientes:</p>
+
+<p><img src="/neuronc_lab/figure/source/analise-sobrevida/Sobrevida-1.png" alt="Sobrevida de pacientes com DIPG" /></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## Call: survfit(formula = Surv(os, status) ~ g, data = brainstem, subset = (topo ==
+##     "DIPG" &amp; rt &gt; 4000))
+##
+##    24 observations deleted due to missingness
+##      n events median 0.95LCL 0.95UCL
+## g=1 12      7    9.0     7.4      NA
+## g=2 12     11   13.8    11.6      NA
+</code></pre></div></div>
+<p>É bem evidente que não parece existir diferença entre as curvas. Isso indicaria que o tratamento proposto no nosso projeto de ensaio clínico não correlaciona-se com modificação de sobrevida, em especial que o uso de ácido valpróico não parece ter efeito? Guardadas as limitações da análise retrospectiva e o número limitado de pacientes nesta comparação, esta é uma conclusão possível.</p>
+
+<h3 id="referências">Referências:</h3>
+
+<ol>
+  <li>Felix FHC. Diagnostic criteria for DIPG (2016). Figshare, doi:<a href="http://dx.doi.org/10.6084/m9.figshare.3489941.v1">10.6084/m9.figshare.3489941.v1</a></li>
+  <li>Felix FHC. A little about the trial’s rational (2016). Figshare, doi:<a href="http://dx.doi.org/10.6084/m9.figshare.3489917.v1">10.6084/m9.figshare.3489917.v1</a></li>
+  <li>Felix FHC. Historical control group (2016). Figshare, doi:<a href="http://dx.doi.org/10.6084/m9.figshare.3489956.v2">10.6084/m9.figshare.3489956.v2</a></li>
+  <li>Felix FHC. Banco de dados de pacientes portadores de tumor pontino intrínseco difuso (2016). Repositório do Github, disponível em: <a href="https://github.com/fhcflx/valkyrie/tree/master/data/">https://github.com/fhcflx/valkyrie/tree/master/data</a></li>
+  <li>Felix FHC. Estimate of the number of patients (2016). Figshare, doi:<a href="http://dx.doi.org/10.6084/m9.figshare.3489947.v1">10.6084/m9.figshare.3489947.v1</a></li>
+  <li>Felix F and Fontenele J. Chemoradiotherapy with etoposide, cisplatin, and ifosfamide associated with valproic acid for patients with diffuse intrinsic pontine glioma [v1; not peer reviewed]. F1000Research 2015, 4:1301 (poster) [Portuguese] (doi:<a href="http://dx.doi.org/10.7490/f1000research.1111018.1">10.7490/f1000research.1111018.1</a>)</li>
+  <li>Felix FHC. De-identification - anonymization (2016). Figshare, doi:<a href="http://dx.doi.org/10.6084/m9.figshare.3545471.v1">10.6084/m9.figshare.3545471.v1</a></li>
+  <li>Duncan Temple Lang, the CRAN team (2016). RCurl: General Network (HTTP/FTP/…) Client Interface for R, <a href="https://CRAN.R-project.org/package=RCurl">https://CRAN.R-project.org/package=RCurl</a></li>
+  <li>R Core Team. R: A Language and Environment for Statistical Computing, 2017, <a href="https://www.R-project.org/">https://www.R-project.org/</a></li>
+  <li>Yihui Xie (2017). knitr: A General-Purpose Package for Dynamic Report Generation in R, <a href="https://yihui.name/knitr/">https://yihui.name/knitr/</a></li>
+  <li>Terry M Therneau (2015). A Package for Survival Analysis in S, <a href="https://CRAN.R-project.org/package=survival">https://CRAN.R-project.org/package=survival</a></li>
+  <li>Kablfleisch, J. D. and Prentice, R. L. (1980). The Statistical Analysis of Failure Time Data. New York:Wiley.</li>
+  <li>Harrington, D. P. and Fleming, T. R. (1982). A class of rank test procedures for censored survival data. Biometrika 69, 553-566.</li>
+  <li>Felix FH, de Araujo OL, da Trindade KM, Trompieri NM, Fontenele JB (2014).
+Retrospective evaluation of the outcomes of children with diffuse intrinsic
+pontine glioma treated with radiochemotherapy and valproic acid in a single
+center. J Neurooncol. 116(2):261-6. doi:<a href="http://dx.doi.org/10.1007/s11060-013-1280-6">10.1007/s11060-013-1280-6</a>.</li>
+  <li>Felix FHC (2016). Análise de sobrevida em duas versões do mesmo banco de dados. Arquivo .Rmd armazenado em repositório do GitHub. <a href="https://github.com/fhcflx/valkyrie/blob/gh-pages/_source/2016-07-27-Análise-de-sobrevida-em-duas-versões-do-mesmo-banco-de-dados.Rmd">https://github.com/fhcflx/valkyrie/blob/gh-pages/_source/2016-07-27-Análise-de-sobrevida-em-duas-versões-do-mesmo-banco-de-dados.Rmd</a></li>
+  <li>John Gruber (2004). <a href="https://daringfireball.net/projects/markdown/">Markdown</a>, © 2002–2016 The Daring Fireball Company LLC.</li>
+  <li>Yihui Xie (2017). servr: A Simple HTTP Server to Serve Static Files or Dynamic Documents, <a href="https://CRAN.R-project.org/package=servr">https://CRAN.R-project.org/package=servr</a></li>
+  <li>GitHub (2016). <a href="https://jekyllrb.com">Jekyll, a blog-aware, static site generator in Ruby.</a> @ MIT License.</li>
+  <li>Shuster J. (1991). Median follow up in clinical trials. <a href="http://jco.ascopubs.org/content/9/1/191.long">J. Clin. Oncol.</a>, 9, 191-192.</li>
+  <li>Altman DG, De Stavola BL, Love SB, Stepniewska KA (1995). Review of survival analyses published in cancer journals. <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2033978/pdf/brjcancer00042-0259.pdf">Br J Cancer</a> 72:511–518</li>
+</ol>
+
+
+  </div>
+
+</article>
+    
+    
+
+    
+
+    
+<div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    /*
+    var disqus_config = function () {
+        this.page.url = /analise-sobrevida/;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = /analise-sobrevida/; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+
+        s.src = '//fhcflx.disqus.com/embed.js';
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">CAPNO - Um caderno aberto de pesquisas de neuro-oncologia</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li><a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+<img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/>
+</a>
+<br/>
+<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Author: </span><span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Francisco H C Felix</span> 
+LICENSE: <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons - Attribution 4.0 International</a>
+</li>
+          <li><a href="mailto:neuronc.lab@outlook.com">neuronc.lab@outlook.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/fhcflx/neuronc_lab"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">fhcflx/neuronc_lab</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/neuronc_lab"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">neuronc_lab</span></a>
+
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Este é um modelo de caderno aberto de pesquisa para um projeto de ensaio clínico em neuro-oncologia pediátrica.</p>
+        <P></p>
+        <a href="https://travis-ci.org/fhcflx/neuronc_lab"><img alt="build" src="https://img.shields.io/travis/fhcflx/neuronc_lab.svg?color=0058b1"></a>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

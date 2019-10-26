@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-79731990-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Making of Project VALKYRIE&#39;s homepage</title>
+  <meta name="description" content="To start this site, I used Jekyll, a markdown to HTML parser that generates static web pages. For starters, there is no secret in a static web page. Most of ...">
+
+  <link rel="stylesheet" href="/neuronc_lab/css/main.css">
+  <link rel="canonical" href="/neuronc_lab/valkyrie/2016-06-20-Making-of-VALKYRIE.html">
+  
+  
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/neuronc_lab/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/neuronc_lab/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/neuronc_lab/favicon-16x16.png">
+  <link rel="manifest" href="/neuronc_lab/site.webmanifest">
+  <link rel="mask-icon" href="/neuronc_lab/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/neuronc_lab/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/neuronc_lab/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="alternate" type="application/rss+xml" title="NOOLN - an open lab notebook for neuro-oncology" href="/neuronc_lab/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/neuronc_lab/index.html">NOOLN - an open lab notebook for neuro-oncology</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+<style>
+.en:lang(en), .pt:lang(pt){
+    font-weight: bold;
+}
+</style>
+
+      <div class="trigger">
+        
+       
+         
+         <a class="page-link" href="/neuronc_lab/about/">About</a>
+         
+       
+         
+         <a class="page-link" href="/neuronc_lab/categories/">Categories</a>
+         
+       
+         
+       
+         
+       
+         
+         <a class="page-link" href="/neuronc_lab/valkyrie.html">VALKYRIE</a>
+         
+       
+      </div>
+      <div class="wrapper" style="text-align: right; line-height: 2em">
+      
+      
+
+      
+      
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Making of Project VALKYRIE's homepage</h1>
+    <p class="post-meta"><time datetime="2016-06-20T19:03:45+00:00" itemprop="datePublished">
+      Jun 20, 2016</time></p>
+  </header>
+  
+  <div class="post-categories">
+    
+    
+    <a href="/neuronc_lab/categories/#valquiria">valquiria</a>
+    
+    
+  </div>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>To start this site, I used <a href="https://jekyllrb.com">Jekyll</a>, a markdown to <a href="https://en.wikipedia.org/wiki/HTML">HTML</a> parser that generates static web pages. For starters, there is no secret in a static web page. Most of the pages you surf in the web are dynamic, containing elements that are generated during the rendering of the page, requiring server-side processing. Any of the popular blogging providers like <a href="https://www.blogger.com">Blogger</a> and <a href="https://wordpress.com">Wordpress</a> serves dynamic pages. Dynamic pages are customizable and have a huge number of <em>gadgets</em>, <em>plugins</em> and possible <em>hackings</em>. They really have awesome real-time effects and fantastic complexity. However, their price is a greater time to load the page (no problem in high-quality broadband, but this is not quite the rule everywhere) and greater chance of compatibility issues with browsers or mobile platforms. Nowadays, a high priority has been given to mobile platforms.</p>
+
+<p>Static pages, in contrast, are nothing more than HTML code virtually devoid of any other type of additional code (especially <a href="https://en.wikipedia.org/wiki/PHP">PHP</a>). In the beginning of the Web, it was full of static pages. The server renders the page without processing additional codes. This makes them faster  (the speed difference is noticeable even on a broadband), simple and resources sparing. The current emphasis on minimalist and responsive sites (which adapt easily to different types of mobile devices) came with the plurality of mobile machines that access the internet today, with thousands of different specifications of size and screen resolutions. This is driving crazy developers working with dynamic pages. It has been a “smart trade-off” from the dynamic code server-side complexity (mainly PHP) to the universality and simplicity of “almost pure” HTML in modern static pages. New tricks and the use of modern programs are making the choice for static pages not to look like a “step backwards”. In fact, today is very <em>cool</em> to make your own static website.</p>
+
+<p>That said, Jekyll is a program created by the founder of <a href="https://github.com/">GitHub</a>, <a href="https://github.com/mojombo">Tom Preston-Werner</a>, written in <a href="https://en.wikipedia.org/wiki/Ruby_(programming_language)">Ruby</a>, which automatically generates static websites. It has a minimalist highly customizable basic theme. One of its main attractions is the fact that it parses <a href="https://daringfireball.net/projects/markdown/">Markdown</a>, a simplified form of HTML that exists in different formats or “flavors”, originally created as a simple text to HTML converter by John Gruber. For those who have tried to write in HTML or even for those who only use popular word processors, markdown is an exceptional tool to format text on the web (or even beyond). Markdown has been very popular, justifiably, and the fact Jekyll pages are written in this language greatly facilitates its use. A note here: writing posts on blog dynamic providers is as simple as using a word processor, and it may seem easier at first sight. Then you realize that markdown allows you to write only in plain text and automatically formats text beautifully, and gives you a lot of saved time.</p>
+
+<p>For those who dislike coding, the use of Jekyll can really be a bit of a challenge in the beginning. There will always be popular blog servers around, and they are now offering <a href="https://en.support.wordpress.com/pages/front-page/">static pages</a>. But for those who have interest in a static page highly customizable and have minimal experience with programming language, Jekyll is a good option. The best option to serve the web page is <a href="https://pages.github.com/">Github Pages</a>, which is <a href="https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/">integrated</a> to Jekyll. Therefore, you must use <a href="https://git-scm.com/">Git</a> a <a href="https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control">distributed version control system</a> developed and used by the Linux developer community. A version control system logs all changes to files or filesets, providing access to all previous versions at any time of a project. Git locally manages the changes in a project and assigns a <a href="https://en.wikipedia.org/wiki/Secure_Hash_Algorithm">SHA</a> code to each registered version. Thus, it ensures reliability and security to systems development. Git and GitHub have been increasingly used by scientists in the field of quantitative biology, especially in projects that implement <a href="https://en.wikipedia.org/wiki/Open_science">open science</a> and <a href="http://www.carlboettiger.info/2010/11/08/welcome-to-my-lab-notebook.html">open research notebooks</a>.</p>
+
+<p>So I chose to use Jekyll to create the VALKYRIE site and write my posts in markdown format. I  installed Git locally, pushed content to GitHub remotely, and served it from GitHub Pages. This solved the part of the implementation of this  <a href="http://dx.doi.org/10.1056/NEJMe0706501">open clinical trial</a> project.</p>
+
+<h3 id="references">References:</h3>
+
+<ul>
+  <li><a href="https://jekyllrb.com">Jekyll</a></li>
+  <li><a href="https://www.blogger.com">Blogger</a></li>
+  <li><a href="https://wordpress.com">Wordpress</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/HTML">HTML - HyperText Markup Language</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/PHP">PHP: Hypertext Preprocessor</a></li>
+  <li><a href="https://github.com/">GitHub</a></li>
+  <li><a href="https://github.com/mojombo">Tom Preston-Werner at Github</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Ruby_(programming_language)">Ruby (programming language)</a></li>
+  <li><a href="https://daringfireball.net/projects/markdown/">Daring fireball - Markdown, by John Gruber</a></li>
+  <li><a href="https://en.support.wordpress.com/pages/front-page/">Wordpress.com Support - Set a Static “Home” Page (Front Page)</a></li>
+  <li><a href="https://pages.github.com/">GitHub Pages</a></li>
+  <li><a href="https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/">Using Jekyll as a static site generator with GitHub Pages</a></li>
+  <li><a href="https://git-scm.com/">Git - distributed is the new centralized</a></li>
+  <li><a href="https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control">Git, Primeiros passos - Sobre Controle de Versão</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Secure_Hash_Algorithm">Secure Hash Algorithm</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Open_science">Open Science</a></li>
+  <li><a href="http://www.carlboettiger.info/2010/11/08/welcome-to-my-lab-notebook.html">Wellcome to my Lab Notebook - Carl Boettiger</a></li>
+  <li><a href="http://dx.doi.org/10.1056/NEJMe0706501">Open clinical trials. Jeffrey M. Drazen, M.D., Stephen Morrissey, Ph.D., and Gregory D. Curfman, M.D. N Engl J Med 2007; 357:1756-1757 DOI: 10.1056/NEJMe0706501</a></li>
+</ul>
+
+
+  </div>
+
+</article>
+    
+    
+
+    
+
+    
+<div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    /*
+    var disqus_config = function () {
+        this.page.url = ;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = ; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+
+        s.src = '//fhcflx.disqus.com/embed.js';
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">NOOLN - an open lab notebook for neuro-oncology</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li><a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+<img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/>
+</a>
+<br/>
+<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Author: </span><span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Francisco H C Felix</span> 
+LICENSE: <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons - Attribution 4.0 International</a>
+</li>
+          <li><a href="mailto:neuronc.lab@outlook.com">neuronc.lab@outlook.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/fhcflx/neuronc_lab"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">fhcflx/neuronc_lab</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/neuronc_lab"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">neuronc_lab</span></a>
+
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>This is a model for an open science notebook to a neuro-oncology clinical trial project.</p>
+        <P></p>
+        <a href="https://travis-ci.org/fhcflx/neuronc_lab"><img alt="build" src="https://img.shields.io/travis/fhcflx/neuronc_lab.svg?color=0058b1"></a>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

@@ -1,0 +1,49 @@
+<p>A partir de hoje, configurei o sistema de comentários nas postagens do ensaio VALQUIRIA. Usando as instruções encontradas <a href="https://help.disqus.com/customer/portal/articles/472138-jekyll-installation-instructions">aqui</a> e também <a href="http://sgeos.github.io/jekyll/disqus/2016/02/14/adding-disqus-to-a-jekyll-blog.html">aqui</a>, criei e configurei uma conta no <a href="https://disqus.com">Disqus</a> e acrescentei o seguinte código num arquivo <em>disqus.html</em>, salvo na pasta <strong>_includes</strong>:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">  {% if page.comments %}
+  
+<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"disqus_thread"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;script&gt;</span>
+    <span class="cm">/**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */</span>
+    <span class="cm">/*
+    var disqus_config = function () {
+        this.page.url = /figshare/;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = /figshare/; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */</span>
+    <span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>  <span class="c1">// DON'T EDIT BELOW THIS LINE
+</span>
+        <span class="kd">var</span> <span class="nx">d</span> <span class="o">=</span> <span class="nb">document</span><span class="p">,</span> <span class="nx">s</span> <span class="o">=</span> <span class="nx">d</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="dl">'</span><span class="s1">script</span><span class="dl">'</span><span class="p">);</span>
+
+        <span class="nx">s</span><span class="p">.</span><span class="nx">src</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">//fhcflx.disqus.com/embed.js</span><span class="dl">'</span><span class="p">;</span>
+
+        <span class="nx">s</span><span class="p">.</span><span class="nx">setAttribute</span><span class="p">(</span><span class="dl">'</span><span class="s1">data-timestamp</span><span class="dl">'</span><span class="p">,</span> <span class="o">+</span><span class="k">new</span> <span class="nb">Date</span><span class="p">());</span>
+        <span class="p">(</span><span class="nx">d</span><span class="p">.</span><span class="nx">head</span> <span class="o">||</span> <span class="nx">d</span><span class="p">.</span><span class="nx">body</span><span class="p">).</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">s</span><span class="p">);</span>
+    <span class="p">})();</span>
+<span class="nt">&lt;/script&gt;</span>
+<span class="nt">&lt;noscript&gt;</span>Please enable JavaScript to view the <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://disqus.com/?ref_noscript"</span> <span class="na">rel=</span><span class="s">"nofollow"</span><span class="nt">&gt;</span>comments powered by Disqus.<span class="nt">&lt;/a&gt;&lt;/noscript&gt;</span>
+
+
+  {% endif %}</code></pre></figure>
+
+<p>E adicionando a seguinte <em>tag</em> <a href="https://github.com/Shopify/liquid/wiki/liquid-for-designers">Liquid</a> no modelo <em>post.html</em>:</p>
+
+<figure class="highlight"><pre><code class="language-liquid" data-lang="liquid">  <span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w">  </span><span class="nx">disqus.html</span><span class="w"> </span><span class="p">%}</span></code></pre></figure>
+
+<p>Para adicionar os comentários do Disqus a um outro blog <a href="https://jekyllrb.com">Jekyll</a>, sugiro utilizar o <a href="https://disqus.com/admin/universalcode/">código universal</a> fornecido por ele.
+Os comentários podem ser moderados, respondidos e curados no Disqus, e o histórico de comentários vai ficar na página da postagem. Todos os leitores da página do VALQUIRIA são convidados a opinar, criticar, sugerir ou apenas comentar e acrescentar sua experiência e idéias. Todas as contribuições são bem-vindas!</p>
+
+<h3 id="referências">Referências:</h3>
+
+<ul>
+  <li><a href="https://jekyllrb.com">Jekyll</a></li>
+  <li><a href="https://disqus.com">Disqus</a></li>
+  <li><a href="https://disqus.com/admin/universalcode/">Disqus, Universal Embed Code</a></li>
+  <li><a href="https://help.disqus.com/customer/portal/articles/472138-jekyll-installation-instructions">Disqus, Jekyll Installation Instructions</a></li>
+  <li><a href="http://sgeos.github.io/jekyll/disqus/2016/02/14/adding-disqus-to-a-jekyll-blog.html">Disqus, Adding Disqus to a Jekyll blog</a></li>
+  <li><a href="https://github.com/Shopify/liquid/wiki/liquid-for-designers">Liquid, Liquid for designers</a></li>
+</ul>
+
